@@ -1,0 +1,538 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+textarea {
+    max-width: 280px;
+}
+
+/* Layout */
+
+.grayColor {
+    color: gray !important;
+    font-weight: bold;
+}
+
+.blueColor {
+    color: #061D33 !important;
+    font-weight: bold;
+}
+
+.btn-brand {
+    background-color: #061D33;
+}
+
+.mainLogo {
+    width: 100%;
+}
+
+.mainButton {
+    background-color: #061D33;
+    color: white;
+}
+
+    .mainButton:hover {
+        opacity: .9;
+        color: white;
+    }
+
+.secondaryButton {
+    background-color: #EDAA0F;
+    color: black;
+}
+
+.mainNav {
+    background-color: #061D33;
+    color: #222222;
+}
+
+.icon-bar {
+    background-color: white !important;
+}
+
+.nav li.dropdown {
+    text-align: center;
+    font-size: 13px;
+    background-color: #061D33;
+    font-weight: bold;
+    padding: 0px !important;
+    font-weight: 600;
+}
+
+.navbar-nav > li a {
+    line-height: 20px;
+}
+
+.nav > li > a {
+    padding: 10px 23px;
+}
+
+/*.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+}*/
+
+.nav li.dropdown a:hover {
+    background-color: #EEEEEE !important;
+    opacity: .9;
+    transition: 1s;
+    color: #061D33 !important;
+}
+
+.nav li.dropdown ul.dropdown-menu {
+    background-color: #061D33 !important;
+    box-shadow: none !important;
+    background-clip: initial !important;
+    min-width: 200px !important;
+}
+
+.navbar-collapse.mobile.in .nav li.open a, .navbar-collapse.mobile.in .nav > li > a:hover, .navbar-collapse.mobile.in .nav > li > a:focus {
+    background-color: #061D33 !important;
+}
+
+.navbar-collapse.mobile.in .nav li a:hover {
+    transition: 1s;
+    background-color: #EEEEEE !important;
+    color: #061D33 !important;
+}
+
+.navbar-collapse.mobile.in .nav .open .dropdown-menu li {
+    padding-left: 25px;
+}
+
+    .navbar-collapse.mobile.in .nav .open .dropdown-menu li a:hover {
+        background-color: #EEEEEE !important;
+        color: black !important;
+        padding-left: 10px !important;
+        transition: 1s;
+    }
+
+.navbar-collapse.mobile.in .nav li.open a:hover {
+    color: white !important;
+}
+
+.secondaryNav .nav li.dropdown a:hover {
+    color: black;
+}
+
+.nav li a {
+    color: white;
+}
+
+.navPanel {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav li.secondary {
+    background-color: #EEEEEE;
+}
+
+    .nav li.secondary a {
+        color: black !important;
+    }
+
+        .navPanel li a, .nav li.secondary a:hover {
+            background-color: #061D33 !important;
+            color: white !important;
+        }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-collapse.mobile {
+    overflow-y: visible;
+    max-height: none;
+}
+
+.dropdown-menu {
+    min-width: 150px !important;
+    padding: 0px !important;
+}
+
+    .dropdown-menu li a {
+        white-space: normal;
+        padding: 5px !important;
+    }
+
+        .dropdown-menu li a:hover {
+            background-color: #EEEEEE !important;
+            color: black !important;
+        }
+
+    .dropdown-menu li {
+        text-align: left;
+    }
+
+.navbar-collapse.in {
+    background-color: #061D33 !important;
+}
+
+footer {
+    background-color: #444444;
+    color: white;
+    margin-top: 10px;
+}
+
+    footer ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    footer li {
+        list-style-type: none;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+        line-height: 1.6;
+    }
+
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+.footer-banner {
+    background-color: #061e32;
+    overflow: auto;
+    padding: 10px;
+}
+
+.footer-banner-logo {
+    float: left;
+}
+
+.footer-banner p {
+    float: left;
+}
+
+.linkOptionsWrapper {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.linkOptions {
+    background-color: #061D33;
+    color: white;
+    cursor: pointer;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+    .linkOptions:hover {
+        opacity: .9;
+    }
+
+.leftMenuWrapper {
+    width: 250px;
+}
+
+.leftMenu li a {
+    color: #061D33 !important;
+    font-weight: bold;
+    width: 100%;
+}
+
+    .leftMenu li a:hover {
+        text-decoration: none;
+    }
+
+.leftMenu li {
+    padding: 5px;
+    color: #061D33 !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    .leftMenu li:hover {
+        background-color: lightgray;
+    }
+
+    .leftMenu li.header {
+        color: white !important;
+        background-color: #061D33;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+.contentHeader {
+    background-color: #061D33;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contentBody {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.contentBodyHeader {
+    font-size: 15px;
+    font-weight: 800;
+    color: #061D33;
+}
+
+.socialMediaList {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #061D33;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Carousel */
+
+.carousel-caption {
+    background-color: white;
+    background-color: rgba(255,255,255,0.7);
+    right: 50% !important;
+}
+
+    .carousel-caption h3 {
+        color: gray;
+    }
+
+    .carousel-caption h4 {
+        color: #061D33;
+    }
+
+.carousel-caption-options {
+    background-color: rgba(6, 29, 51, 0.7);
+    right: 10% !important;
+    position: absolute;
+    width: 300px;
+    bottom: 20px;
+    z-index: 10;
+    padding: 20px;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.programList {
+    width: 100%;
+}
+
+.imageWrapper {
+    height: 450px;
+}
+
+/* HOME */
+.linkOptions.home {
+    width: 24%;
+    margin-right: 1%;
+}
+
+.promoContent {
+    position: absolute;
+}
+
+.promoWrapper .promoHeader {
+    position: absolute;
+    width: 600px;
+    font-size: 35px;
+    opacity: .75;
+    color: white;
+    z-index: 99999;
+}
+
+.promoWrapper button {
+    position: absolute;
+    z-index: 99999;
+    opacity: .75;
+}
+
+video {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.videoWrapper {
+    margin-top: 10px;
+}
+
+.videoIFrame {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+}
+
+.videoItem {
+    width: 100%;
+    background-color: #eee;
+    height: 350px;
+    padding: 10px;
+}
+
+    .videoItem label {
+        color: #061D33;
+        font-weight: bold;
+    }
+
+.graduatesHiredWrapper {
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+    .graduatesHiredWrapper label {
+        font-size: 30px;
+        color: #061D33;
+        font-weight: 800;
+    }
+
+#graduatesImageScroller {
+    width: 100%;
+    height: 125px;
+    position: relative;
+}
+
+    #graduatesImageScroller div.scrollableArea img {
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+        /* If you don't want the images in the scroller to be selectable, try the following
+			   block of code. It's just a nice feature that prevent the images from
+			   accidentally becoming selected/inverted when the user interacts with the scroller. */
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+.contactUsWrapper {
+    margin-top: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+    .contactUsWrapper span {
+        color: #061D33;
+        font-weight: bold;
+    }
+
+.listLink {
+    background-color: #061D33;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+    .listLink:hover {
+        opacity: .9;
+    }
+
+.linkOptions i {
+    font-size: 60px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block !important;
+    padding: 25px;
+}
+
+/* Popup Form */
+.form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #061D33;
+    z-index: 999999999999;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+    .form-overlay .close {
+        color: white !important;
+        opacity: .5;
+        float: right;
+        margin-top: 10px;
+    }
+
+.popup-form-header {
+    color: white;
+    font-size:30px;
+    font-weight: 800;
+}
+
+.popup-form {
+    padding-top: 100px;
+}
+
+    .popup-form label {
+        color: white !important;
+    }
+
+    .popup-form .input-group {
+        width: 100%;
+    }
+
+        .popup-form .input-group input, .popup-form .input-group select {
+            width: 280px;
+        }
+
+.spacer-top {
+    margin-top: 10px;
+}
+
+.small-text {
+    font-size: 10px;
+    font-style: italic;
+    color: white !important;
+}
+
+.popup-form-button {
+    background-color: #EDAA0F;
+}
+
+    .popup-form-button:hover {
+        opacity: .9;
+    }

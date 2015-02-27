@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@ViewBag.PageDescription" />
+    <title>Medix College - @ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="col-lg-4">
+                <img src="~/Content/images/medixCollegeHeader.gif" class="mainLogo" />
+            </div>
+            <div class="col-lg-8">
+                <div class="pull-right"><span class="grayColor">CALL US:</span> <span class="blueColor">1(866) 962-7685</span></div>
+                <div class="clearfix"></div>
+                <div class="pull-right">
+                    <input type="text" placeholder="Keyword search" />
+                    <button class="btn mainButton">search</button>
+                </div>
+                <div class="clearfix"></div>
+                <div class="pull-right socialMediaList">
+                    <a href="#"><img src="~/Content/images/facebook.gif" height="25" width="25" /></a>
+                    <a href="#"><img src="~/Content/images/googleplus.gif" height="25" width="25" /></a>
+                    <a href="#"><img src="~/Content/images/youtube.gif" height="25" width="25" /></a>
+                    <a href="#"><img src="~/Content/images/twitter.gif" height="25" width="25" /></a>
+                    <a href="#"><img src="~/Content/images/instagram.gif" height="25" width="25" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="navbar-header mainNav">
+                <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-collapse.mobile">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse mobile">
+                <ul class="nav navbar-nav pull-left hidden-lg hidden-md hidden-sm">
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HOME <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("News Directory", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Referral Program", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Success Stories", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Medix Hires", "Index", "Home")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DISCOVER MEDIX <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("About Medix", "Index", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Medix History", "History", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Virtual Tours", "Index", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Laptop Initiative", "LaptopInitiative", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Transcript Request", "TranscriptRequest", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Careers at Medix", "Index", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Online Store", "Index", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Medix Photos", "Index", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Medix Videos", "Index", "DiscoverMedix")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PROGRAMS <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("All Programs", "AllPrograms", "Programs")</li>
+                            <li>@Html.ActionLink("Community Service Worker", "CommunityServiceWorker", "Programs")</li>
+                            <li>@Html.ActionLink("Child & Youth Addictions", "ChildYouthAddictionsWorker", "Programs")</li>
+                            <li>@Html.ActionLink("Dental Assistant II", "DentalAssistantII", "Programs")</li>
+                            <li>@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
+                            <li>@Html.ActionLink("Early Childcare Assistant", "EarlyChildCareAssistant", "Programs")</li>
+                            <li>@Html.ActionLink("Intra-Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
+                            <li>@Html.ActionLink("Message Therapy", "MassageTherapy", "Programs")</li>
+                            <li>@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
+                            <li>@Html.ActionLink("Medical Lab Assitant/Tech", "MedicalLabAssistantTechnician", "Programs")</li>
+                            <li>@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
+                            <li>@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
+                            <li>@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
+                            <li>@Html.ActionLink("Fitness and Health Promotion", "FitnessHealthPromotion", "Programs")</li>
+                            <li>@Html.ActionLink("Medix Online Programs", "MedixOnline", "Programs")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CERTIFICATES <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+                            <li>@Html.ActionLink("Abel-Dent", "AbelDent", "Certificates")</li>
+                            <li>@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</li>
+                            <li>@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</li>
+                            <li>@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
+                            <li>@Html.ActionLink("English as a Second Language", "EnglishSecondLanguage", "Certificates")</li>
+                            <li>@Html.ActionLink("English Skills for Healthcare Workers", "EnglishSkillsHealthcareWorkers", "Certificates")</li>
+                            <li>@Html.ActionLink("Emotional First Aid", "EmotionalFirstAid", "Certificates")</li>
+                            <li>@Html.ActionLink("First Aid and CPR", "FirstAidCPR", "Certificates")</li>
+                            <li>@Html.ActionLink("Food Handler Safety", "FoodHandlerSafety", "Certificates")</li>
+                            <li>@Html.ActionLink("Home Child Care Management", "HomeChildCareManagement", "Certificates")</li>
+                            <li>@Html.ActionLink("Intramuscular Injections", "IntramuscularInjections", "Certificates")</li>
+                            <li>@Html.ActionLink("Developmental Disabilities & Services", "IntroductionDevelopmentalDisabilitiesServices", "Certificates")</li>
+                            <li>@Html.ActionLink("Intro to Swedish Massage", "IntroductionSwedishMassage", "Certificates")</li>
+                            <li>@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</li>
+                            <li>@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</li>
+                            <li>@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</li>
+                            <li>@Html.ActionLink("Medix Online Certificates", "MedixOnline", "Certificates")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ADMISSIONS <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Admissions Index", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Financial Options", "Index", "Home")</li>
+                            <li>@Html.ActionLink("OSAP", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Second Career", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Out of Province Options", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Student Lines of Credit", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Lifelong Learning Plan", "Index", "Home")</li>
+                            <li>@Html.ActionLink("RESP", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Employment Ontario", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Monthly Payment Plan", "Index", "Home")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CAREER SERVICES <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Career Services Home", "Index", "CareerServices")</li>
+                            <li>@Html.ActionLink("Hire a Grad", "Index", "CareerServices")</li>
+                            <li>@Html.ActionLink("Medix Advantage", "MedixAdvantage", "CareerServices")</li>
+                            <li>@Html.ActionLink("Job Search Tips", "Index", "CareerServices")</li>
+                            <li>@Html.ActionLink("Resume Tips", "Index", "CareerServices")</li>
+                            <li>@Html.ActionLink("Interview Tips", "Index", "CareerServices")</li>
+                            <li>@Html.ActionLink("Professional Tips", "Index", "CareerServices")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CAMPUSES <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("All Campuses", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Brampton", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Brantford", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Kitchener", "Index", "Home")</li>
+                            <li>@Html.ActionLink("London", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Scarborough", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Toronto", "Index", "Home")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CONTACT <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("All Campuses", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Brampton", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Brantford", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Kitchener", "Index", "Home")</li>
+                            <li>@Html.ActionLink("London", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Scarborough", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Toronto", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Medix Online", "Index", "Home")</li>
+                        </ul>
+                    </li>
+                    <li>@Html.ActionLink("Contact", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Campuses", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Request Info", "Index", "Home")</li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse mainNav">
+                <div class="container hidden-xs hidden-sm">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HOME <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                <li>@Html.ActionLink("News Directory", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Referral Program", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Success Stories", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Medix Hires", "Index", "Home")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DISCOVER MEDIX <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("About Medix", "Index", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Medix History", "History", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Virtual Tours", "Index", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Laptop Initiative", "LaptopInitiative", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Transcript Request", "TranscriptRequest", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Careers at Medix", "Index", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Online Store", "Index", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Medix Photos", "Index", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Medix Videos", "Index", "DiscoverMedix")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PROGRAMS <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("All Programs", "AllPrograms", "Programs")</li>
+                                <li>@Html.ActionLink("Community Service Worker", "CommunityServiceWorker", "Programs")</li>
+                                <li>@Html.ActionLink("Child & Youth Addictions", "ChildYouthAddictionsWorker", "Programs")</li>
+                                <li>@Html.ActionLink("Dental Assistant II", "DentalAssistantII", "Programs")</li>
+                                <li>@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
+                                <li>@Html.ActionLink("Early Childcare Assistant", "EarlyChildCareAssistant", "Programs")</li>
+                                <li>@Html.ActionLink("Intra-Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
+                                <li>@Html.ActionLink("Message Therapy", "MassageTherapy", "Programs")</li>
+                                <li>@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
+                                <li>@Html.ActionLink("Medical Lab Assitant/Tech", "MedicalLabAssistantTechnician", "Programs")</li>
+                                <li>@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
+                                <li>@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
+                                <li>@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
+                                <li>@Html.ActionLink("Fitness and Health Promotion", "FitnessHealthPromotion", "Programs")</li>
+                                <li>@Html.ActionLink("Medix Online Programs", "MedixOnline", "Programs")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CERTIFICATES <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+                                <li>@Html.ActionLink("Abel-Dent", "AbelDent", "Certificates")</li>
+                                <li>@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</li>
+                                <li>@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</li>
+                                <li>@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
+                                <li>@Html.ActionLink("English as a Second Language", "EnglishSecondLanguage", "Certificates")</li>
+                                <li>@Html.ActionLink("English Skills for Healthcare Workers", "EnglishSkillsHealthcareWorkers", "Certificates")</li>
+                                <li>@Html.ActionLink("Emotional First Aid", "EmotionalFirstAid", "Certificates")</li>
+                                <li>@Html.ActionLink("First Aid and CPR", "FirstAidCPR", "Certificates")</li>
+                                <li>@Html.ActionLink("Food Handler Safety", "FoodHandlerSafety", "Certificates")</li>
+                                <li>@Html.ActionLink("Home Child Care Management", "HomeChildCareManagement", "Certificates")</li>
+                                <li>@Html.ActionLink("Intramuscular Injections", "IntramuscularInjections", "Certificates")</li>
+                                <li>@Html.ActionLink("Developmental Disabilities & Services", "IntroductionDevelopmentalDisabilitiesServices", "Certificates")</li>
+                                <li>@Html.ActionLink("Intro to Swedish Massage", "IntroductionSwedishMassage", "Certificates")</li>
+                                <li>@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</li>
+                                <li>@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</li>
+                                <li>@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</li>
+                                <li>@Html.ActionLink("Medix Online Certificates", "MedixOnline", "Certificates")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ADMISSIONS <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("Admissions Index", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Financial Options", "Index", "Home")</li>
+                                <li>@Html.ActionLink("OSAP", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Second Career", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Out of Province Options", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Student Lines of Credit", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Lifelong Learning Plan", "Index", "Home")</li>
+                                <li>@Html.ActionLink("RESP", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Employment Ontario", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Monthly Payment Plan", "Index", "Home")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CAREER SERVICES <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("Career Services Home", "Index", "CareerServices")</li>
+                                <li>@Html.ActionLink("Hire a Grad", "Index", "CareerServices")</li>
+                                <li>@Html.ActionLink("Medix Advantage", "MedixAdvantage", "CareerServices")</li>
+                                <li>@Html.ActionLink("Job Search Tips", "Index", "CareerServices")</li>
+                                <li>@Html.ActionLink("Resume Tips", "Index", "CareerServices")</li>
+                                <li>@Html.ActionLink("Interview Tips", "Index", "CareerServices")</li>
+                                <li>@Html.ActionLink("Professional Tips", "Index", "CareerServices")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CAMPUSES <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("All Campuses", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Brampton", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Brantford", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Kitchener", "Index", "Home")</li>
+                                <li>@Html.ActionLink("London", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Scarborough", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Toronto", "Index", "Home")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CONTACT <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("All Campuses", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Brampton", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Brantford", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Kitchener", "Index", "Home")</li>
+                                <li>@Html.ActionLink("London", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Scarborough", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Toronto", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Medix Online", "Index", "Home")</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <footer>
+        <div class="container-fluid bottom-nav">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <h4>ABOUT MEDIX</h4>
+                        <p>For over 40 years Medix College has been providing industry leading Health Care career training for those looking to become medical professionals. Currently Medix College has six campuses across Ontario with each of the featuring state-of-the-art facilities. Medix college believes in helping students to achieve quality education quickly.</p>
+                        <p>Every year hundreds of Medix graduates are added to the Canadian healthcare workforce. Medix is the clear choice for those looking to change their life today.</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5>PROGRAMS</h5>
+                        <ul>
+                            <li><a href="#">Community Service Worker</a></li>
+                            <li><a href="#">Dental Assistant Level II</a></li>
+                            <li><a href="#">Developmental Service Worker</a></li>
+                            <li><a href="#">Early Childcare Assistant</a></li>
+                            <li><a href="#">Fitness and Health Promotion</a></li>
+                            <li><a href="#">Intra-Oral Dental Assistant</a></li>
+                            <li><a href="#">Massage Therapy</a></li>
+                            <li><a href="#">Massage Therapy Adv. Standing</a></li>
+                            <li><a href="#">Medical Lab Assistant / Tech</a></li>
+                            <li><a href="#">Medical Office Administrator</a></li>
+                            <li><a href="#">Personal Support Worker</a></li>
+                            <li><a href="#">Pharmacy Assistant</a></li>
+                            <li><a href="#">PSW Bridging Program</a></li>
+                            <li><a href="#">Child and Youth Care with Addictions Support Worker</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5>CERTIFICATES</h5>
+                        <ul>
+                            <li><a href="#">Abel-Dent</a></li>
+                            <li><a href="#">Addictions and Special Populations</a></li>
+                            <li><a href="#">Basic Wound Treatment</a></li>
+                            <li><a href="#">Electrocardiogram (ECG)</a></li>
+                            <li><a href="#">English as a Second Language</a></li>
+                            <li><a href="#">English Skills for Healthcare</a></li>
+                            <li><a href="#">Workers</a></li>
+                            <li><a href="#">Emotional First Aid</a></li>
+                            <li><a href="#">First Aid and CPR</a></li>
+                            <li><a href="#">Food Handler Safety</a></li>
+                            <li><a href="#">Home Childcare Management</a></li>
+                            <li><a href="#">Intramuscular Injections</a></li>
+                            <li><a href="#">Intro to Developmental Disabilities & Services</a></li>
+                            <li><a href="#">Intro to Swedish Massage</a></li>
+                            <li><a href="#">Phlebotomy</a></li>
+                            <li><a href="#">Soft Tissue Back Injury Prevention</a></li>
+                            <li><a href="#">Urinalysis</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5>LOCATIONS</h5>
+                        <ul>
+                            <li><a href="#">London</a></li>
+                            <li><a href="#">Kitchener</a></li>
+                            <li><a href="#">Brantford</a></li>
+                            <li><a href="#">Brampton</a></li>
+                            <li><a href="#">Toronto</a></li>
+                            <li><a href="#">Scarborough</a></li>
+                        </ul>
+                        <h5>QUICK LINKS</h5>
+                        <ul>
+                            <li><a href="#">Site Map</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Accessibility Policy</a></li>
+                            <li><a href="#">Contact Medix College</a></li>
+                            <li><a href="#">Careers at Medix College</a></li>
+                            <li><a href="#">Hire a Medix Grad</a></li>
+                            <li><a href="#">Virtual Tours</a></li>
+                            <li><a href="#">Medix Store</a></li>
+                            <li><a href="#">Social Media</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.bottom-nav -->
+
+        <div class="footer-banner">
+            <div class="container">
+                <img class="footer-banner-logo" src="~/Content/images/CCGLogo.png" alt="The Career College Group logo.">
+                <p>Medix College is a division of<br>the Career College Group</p>
+            </div>
+        </div>
+
+    </footer> <!-- /footer -->
+</body>
+</html>

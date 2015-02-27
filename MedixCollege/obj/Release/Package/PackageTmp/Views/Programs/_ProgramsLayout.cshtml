@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Programs";
+}
+
+<div class="leftMenuWrapper col-lg-3">
+    <ul class="leftMenu list-unstyled">
+        <li class="header">PROGRAMS</li>
+        <li class="item">@Html.ActionLink("Child Youth Addictions Worker", "ChildYouthAddictionsWorker", "Programs")</li>
+        <li class="item">@Html.ActionLink("Community Service Worker", "CommunityServiceWorker", "Programs")</li>
+        <li class="item">@Html.ActionLink("Dental Assistant II", "DentalAssistantII", "Programs")</li>
+        <li class="item">@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
+        <li class="item">@Html.ActionLink("Early Child Care Assistant", "EarlyChildCareAssistant", "Programs")</li>
+        <li class="item">@Html.ActionLink("Fitness Health Promotion", "FitnessHealthPromotion", "Programs")</li>
+        <li class="item">@Html.ActionLink("Intra Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
+        <li class="item">@Html.ActionLink("Massage Therapy", "MassageTherapy", "Programs")</li>
+        <li class="item">@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
+        <li class="item">@Html.ActionLink("Medical Lab Assistant Technician", "MedicalLabAssistantTechnician", "Programs")</li>
+        <li class="item">@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
+        <li class="item">@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
+        <li class="item">@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
+    </ul>
+    <ul class="leftMenu list-unstyled">
+        <li class="header">CONTACT MEDIX</li>
+        <li class="item">ASK A QUESTION</li>
+        <li class="item">REQUEST INFORMATION</li>
+        <li class="item">APPLY ONLINE</li>
+    </ul>
+    <ul class="leftMenu list-unstyled">
+        <li class="header">FAQ</li>
+        <li class="item">HOW DO I BECOME A STUDENT?</li>
+        <li class="item">HOW DO I FINANCE MY EDUCATION</li>
+        <li class="item">WHY SHOULD I CHOOSE MEDIX?</li>
+    </ul>
+    <ul class="leftMenu list-unstyled">
+        <li class="header">CAMPUSES</li>
+        <li class="item">BRANTFORD</li>
+        <li class="item">BRAMPTON</li>
+        <li class="item">KITCHENER</li>
+        <li class="item">LONDON</li>
+        <li class="item">SCARBOROUGH</li>
+        <li class="item">TORONTO</li>
+        <li class="item">MEDIX ONLINE</li>
+    </ul>
+</div>
+<div class="col-lg-9">
+    <div class="contentHeader">
+        PROGRAMS
+    </div>
+    <div class="contentBody">
+        @RenderBody()
+    </div>
+</div>
+<div class="clearfix"></div>

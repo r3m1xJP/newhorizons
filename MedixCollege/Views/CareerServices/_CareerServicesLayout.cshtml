@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Career Services";
+}
+
+<div class="leftMenuWrapper col-lg-3">
+    <ul class="leftMenu list-unstyled">
+        <li class="header">CAREER SERVICES</li>
+        <li class="item">@Html.ActionLink("CAREERS HOME", "Index", "CareerServices")</li>
+        <li class="item">@Html.ActionLink("HIRE A GRAD", "Index", "CareerServices")</li>
+        <li class="item">@Html.ActionLink("Medix Advantage", "MedixAdvantage", "CareerServices")</li>
+        <li class="item">@Html.ActionLink("JOB SEARCH TIPS", "Index", "CareerServices")</li>
+        <li class="item">@Html.ActionLink("RESUME TIPS", "Index", "CareerServices")</li>
+        <li class="item">@Html.ActionLink("INTERVIEW TIPS", "Index", "CareerServices")</li>
+        <li class="item">@Html.ActionLink("PROFESSIONAL TIPS", "Index", "CareerServices")</li>
+    </ul>
+    <ul class="leftMenu list-unstyled">
+        <li class="header">CONTACT MEDIX</li>
+        <li class="item">ASK A QUESTION</li>
+        <li class="item">REQUEST INFORMATION</li>
+        <li class="item">APPLY ONLINE</li>
+    </ul>
+    <ul class="leftMenu list-unstyled">
+        <li class="header">FAQ</li>
+        <li class="item">HOW DO I BECOME A STUDENT?</li>
+        <li class="item">HOW DO I FINANCE MY EDUCATION</li>
+        <li class="item">WHY SHOULD I CHOOSE MEDIX?</li>
+    </ul>
+    <ul class="leftMenu list-unstyled">
+        <li class="header">CAMPUSES</li>
+        <li class="item">BRANTFORD</li>
+        <li class="item">BRAMPTON</li>
+        <li class="item">KITCHENER</li>
+        <li class="item">LONDON</li>
+        <li class="item">SCARBOROUGH</li>
+        <li class="item">TORONTO</li>
+        <li class="item">MEDIX ONLINE</li>
+    </ul>
+</div>
+<div class="col-lg-9">
+    <div class="contentHeader">
+            CAREER SERVICES
+    </div>
+    <div class="contentBody">
+        @RenderBody()
+    </div>
+</div>
+<div class="clearfix"></div>
