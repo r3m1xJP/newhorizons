@@ -23,7 +23,6 @@ textarea {
 }
 
 /* Layout */
-
 .grayColor {
     color: gray !important;
     font-weight: bold;
@@ -381,10 +380,17 @@ footer {
     opacity: .75;
 }
 
-video {
+.promoWrapper {
     position: relative;
+}
+
+video {
+    top: 0;
+    left: 0;
     width: 100%;
     max-width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .videoWrapper {
@@ -395,6 +401,21 @@ video {
     max-width: 100%;
     width: 100%;
     height: 300px;
+    display: none;
+}
+
+    .videoIFrame.active {
+        display: block;
+    }
+
+.videoScrollerNav {
+    padding: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.videoScrollerNav:hover {
+    background-color: gray;
 }
 
 .videoItem {
@@ -499,7 +520,7 @@ video {
 
 .popup-form-header {
     color: white;
-    font-size:30px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -531,6 +552,9 @@ video {
 
 .popup-form-button {
     background-color: #EDAA0F;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
     .popup-form-button:hover {

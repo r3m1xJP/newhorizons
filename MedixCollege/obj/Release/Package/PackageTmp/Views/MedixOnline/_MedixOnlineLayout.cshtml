@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Medix Online";
+}
+
+<div class="leftMenuWrapper col-lg-3">
+    <ul class="leftMenu list-unstyled">
+        <li class="header">Medix Online</li>
+        <li class="item">@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
+        <li class="item">@Html.ActionLink("Medix Online Programs", "Index", "MedixOnline")</li>
+        <li class="item">@Html.ActionLink("Schedules and Fees", "SchedulesAndFees", "MedixOnline")</li>
+        <li class="item">@Html.ActionLink("E-Learning", "ELearning", "MedixOnline")</li>
+        <li class="item">@Html.ActionLink("Advantages", "Advantages", "MedixOnline")</li>
+        <li class="item">@Html.ActionLink("Contact Medix Online", "Index", "MedixOnline")</li>
+    </ul>
+</div>
+<div class="col-lg-9">
+    <div class="contentHeader">
+        Medix Online
+    </div>
+    <div class="contentBody">
+        @RenderBody()
+    </div>
+</div>
+<div class="clearfix"></div>

@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Campuses";
+}
+
+<div class="leftMenuWrapper col-lg-3">
+    <ul class="leftMenu list-unstyled">
+        <li class="header">Campuses</li>
+        <li class="item">@Html.ActionLink("ALL CAMPUSES", "Index", "Campuses")</li>
+        <li class="item">@Html.ActionLink("BRAMPTON", "Brampton", "Campuses")</li>
+        <li class="item">@Html.ActionLink("BRANTFORD", "Brantford", "Campuses")</li>
+        <li class="item">@Html.ActionLink("KITCHENER", "Kitchener", "Campuses")</li>
+        <li class="item">@Html.ActionLink("LONDON", "London", "Campuses")</li>
+    </ul>
+</div>
+<div class="col-lg-9">
+    <div class="contentHeader">
+        Campuses
+    </div>
+    <div class="contentBody">
+        @RenderBody()
+    </div>
+</div>
+<div class="clearfix"></div>

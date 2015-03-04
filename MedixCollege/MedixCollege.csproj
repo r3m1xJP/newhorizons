@@ -112,10 +112,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdmissionsController.cs" />
+    <Compile Include="Controllers\CampusesController.cs" />
     <Compile Include="Controllers\CareerServicesController.cs" />
     <Compile Include="Controllers\CertificatesController.cs" />
     <Compile Include="Controllers\DiscoverMedixController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MedixOnlineController.cs" />
     <Compile Include="Controllers\ProgramsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -170,6 +172,7 @@
     <Content Include="Content\images\mainBANNER-3-MLAT.jpg" />
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
     <Content Include="Content\images\medixCollegeHeader.gif" />
+    <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\smoothDivScroll.css" />
     <Content Include="Content\images\twitter.gif" />
     <Content Include="Content\images\youtube.gif" />
@@ -225,6 +228,7 @@
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\demo.pubxml" />
+    <None Include="Properties\PublishProfiles\ftp.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -303,6 +307,25 @@
     <Content Include="Views\Programs\MedixOnline.cshtml" />
     <Content Include="Views\Certificates\AllCertificates.cshtml" />
     <Content Include="Views\Certificates\MedixOnline.cshtml" />
+    <Content Include="Views\Admissions\OSAP.cshtml" />
+    <Content Include="Views\Admissions\SecondCareers.cshtml" />
+    <Content Include="Views\Admissions\OutOfProvinceStudents.cshtml" />
+    <Content Include="Views\Admissions\StudentLinesOfCredit.cshtml" />
+    <Content Include="Views\Admissions\LifelongLearningPlan.cshtml" />
+    <Content Include="Views\Admissions\RegisteredEducationSavingsPlans.cshtml" />
+    <Content Include="Views\Admissions\EmploymentOntario.cshtml" />
+    <Content Include="Views\Admissions\FinancialOptions.cshtml" />
+    <Content Include="Views\Campuses\_CampusesLayout.cshtml" />
+    <Content Include="Views\Campuses\Brampton.cshtml" />
+    <Content Include="Views\Campuses\Brantford.cshtml" />
+    <Content Include="Views\Campuses\Kitchener.cshtml" />
+    <Content Include="Views\Campuses\London.cshtml" />
+    <Content Include="Views\Campuses\Index.cshtml" />
+    <Content Include="Views\MedixOnline\_MedixOnlineLayout.cshtml" />
+    <Content Include="Views\MedixOnline\Index.cshtml" />
+    <Content Include="Views\MedixOnline\SchedulesAndFees.cshtml" />
+    <Content Include="Views\MedixOnline\Advantages.cshtml" />
+    <Content Include="Views\MedixOnline\ELearning.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
