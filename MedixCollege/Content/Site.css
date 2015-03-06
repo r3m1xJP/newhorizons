@@ -1,10 +1,9 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    margin-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -88,6 +87,11 @@ textarea {
     table-layout: fixed;
     float: none;
 }*/
+
+.navbar {
+    margin-bottom: 0px !important;
+    min-height: 0px !important;
+}
 
 .nav li.dropdown a:hover {
     background-color: #EEEEEE !important;
@@ -212,6 +216,12 @@ footer {
             color: white;
             text-decoration: underline;
         }
+
+    footer h4 {
+        color: #a4a4a4;
+        border-bottom: 1px solid white;
+        padding-bottom: 5px;
+    }
 
 .footer-banner {
     background-color: #061e32;
@@ -361,27 +371,55 @@ footer {
     margin-right: 1%;
 }
 
+.promoWrapper {
+    background: none repeat scroll 0% 0% transparent;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
 .promoContent {
     position: absolute;
-}
-
-.promoWrapper .promoHeader {
-    position: absolute;
-    width: 600px;
-    font-size: 35px;
-    opacity: .75;
     color: white;
     z-index: 99999;
+    text-transform: uppercase;
+    text-align: center;
+    bottom: 40%;
+    width: 100%;
 }
 
-.promoWrapper button {
-    position: absolute;
-    z-index: 99999;
-    opacity: .75;
+    .promoContent h1 {
+        display: inline;
+        font-size: 5em;
+        border-top: 1px solid rgba(255,255,255, 0.2);
+        border-bottom: 1px solid rgba(255,255,255, 0.2);
+    }
+
+    .promoContent .videoButtons {
+        z-index: 99999;
+        margin-top: 25px;
+    }
+
+.videoButtons .btn {
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255, 0.8);
+    color: rgba(255,255,255, 0.8);
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
 }
+
+    .videoButtons .btn:hover {
+        background-color: rgba(0,0,0,0.2);
+    }
 
 .promoWrapper {
     position: relative;
+    width: 100%;
+    min-width: 100%;
+    min-height: 700px;
+    background-color: black;
 }
 
 video {
@@ -393,7 +431,7 @@ video {
     position: absolute;
 }
 
-.videoWrapper {
+.videoWrapper, .socialWrapper {
     margin-top: 10px;
 }
 
@@ -414,9 +452,9 @@ video {
     cursor: pointer;
 }
 
-.videoScrollerNav:hover {
-    background-color: gray;
-}
+    .videoScrollerNav:hover {
+        background-color: gray;
+    }
 
 .videoItem {
     width: 100%;
@@ -463,6 +501,18 @@ video {
         -o-user-select: none;
         user-select: none;
     }
+
+.socialWrapper h3 {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #061D33;
+}
+
+.socialWrapper div.facebook, .socialWrapper div.twitter, .socialWrapper div.instagram {
+    border: 1px solid #061D33;
+    height: 500px;
+}
 
 .contactUsWrapper {
     margin-top: 10px;
