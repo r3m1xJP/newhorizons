@@ -328,6 +328,8 @@
     <Content Include="Views\MedixOnline\SchedulesAndFees.cshtml" />
     <Content Include="Views\MedixOnline\Advantages.cshtml" />
     <Content Include="Views\MedixOnline\ELearning.cshtml" />
+    <Content Include="Views\Campuses\Toronto.cshtml" />
+    <Content Include="Views\Campuses\Scarborough.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

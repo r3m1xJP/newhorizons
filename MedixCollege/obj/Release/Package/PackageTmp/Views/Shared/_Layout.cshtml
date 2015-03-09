@@ -299,7 +299,6 @@
         <div class="container-fluid bottom-nav">
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-3">
                         <h4>ABOUT MEDIX</h4>
                         <p>For over 40 years Medix College has been providing industry leading Health Care career training for those looking to become medical professionals. Currently Medix College has six campuses across Ontario with each of the featuring state-of-the-art facilities. Medix college believes in helping students to achieve quality education quickly.</p>
@@ -307,59 +306,61 @@
                     </div>
 
                     <div class="col-md-3">
-                        <h5>PROGRAMS</h5>
+                        <h4>PROGRAMS</h4>
                         <ul>
-                            <li><a href="#">Community Service Worker</a></li>
-                            <li><a href="#">Dental Assistant Level II</a></li>
-                            <li><a href="#">Developmental Service Worker</a></li>
-                            <li><a href="#">Early Childcare Assistant</a></li>
-                            <li><a href="#">Fitness and Health Promotion</a></li>
-                            <li><a href="#">Intra-Oral Dental Assistant</a></li>
-                            <li><a href="#">Massage Therapy</a></li>
-                            <li><a href="#">Massage Therapy Adv. Standing</a></li>
-                            <li><a href="#">Medical Lab Assistant / Tech</a></li>
-                            <li><a href="#">Medical Office Administrator</a></li>
-                            <li><a href="#">Personal Support Worker</a></li>
-                            <li><a href="#">Pharmacy Assistant</a></li>
-                            <li><a href="#">PSW Bridging Program</a></li>
-                            <li><a href="#">Child and Youth Care with Addictions Support Worker</a></li>
+                            <li>@Html.ActionLink("All Programs", "AllPrograms", "Programs")</li>
+                            <li>@Html.ActionLink("Community Service Worker", "CommunityServiceWorker", "Programs")</li>
+                            <li>@Html.ActionLink("Child & Youth Addictions", "ChildYouthAddictionsWorker", "Programs")</li>
+                            <li>@Html.ActionLink("Dental Assistant II", "DentalAssistantII", "Programs")</li>
+                            <li>@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
+                            <li>@Html.ActionLink("Early Childcare Assistant", "EarlyChildCareAssistant", "Programs")</li>
+                            <li>@Html.ActionLink("Intra-Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
+                            <li>@Html.ActionLink("Message Therapy", "MassageTherapy", "Programs")</li>
+                            <li>@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
+                            <li>@Html.ActionLink("Medical Lab Assitant/Tech", "MedicalLabAssistantTechnician", "Programs")</li>
+                            <li>@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
+                            <li>@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
+                            <li>@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
+                            <li>@Html.ActionLink("Fitness and Health Promotion", "FitnessHealthPromotion", "Programs")</li>
+                            <li>@Html.ActionLink("Medix Online Programs", "MedixOnline", "Programs")</li>
                         </ul>
                     </div>
 
                     <div class="col-md-3">
-                        <h5>CERTIFICATES</h5>
+                        <h4>CERTIFICATES</h4>
                         <ul>
-                            <li><a href="#">Abel-Dent</a></li>
-                            <li><a href="#">Addictions and Special Populations</a></li>
-                            <li><a href="#">Basic Wound Treatment</a></li>
-                            <li><a href="#">Electrocardiogram (ECG)</a></li>
-                            <li><a href="#">English as a Second Language</a></li>
-                            <li><a href="#">English Skills for Healthcare</a></li>
-                            <li><a href="#">Workers</a></li>
-                            <li><a href="#">Emotional First Aid</a></li>
-                            <li><a href="#">First Aid and CPR</a></li>
-                            <li><a href="#">Food Handler Safety</a></li>
-                            <li><a href="#">Home Childcare Management</a></li>
-                            <li><a href="#">Intramuscular Injections</a></li>
-                            <li><a href="#">Intro to Developmental Disabilities & Services</a></li>
-                            <li><a href="#">Intro to Swedish Massage</a></li>
-                            <li><a href="#">Phlebotomy</a></li>
-                            <li><a href="#">Soft Tissue Back Injury Prevention</a></li>
-                            <li><a href="#">Urinalysis</a></li>
+                            <li>@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+                            <li>@Html.ActionLink("Abel-Dent", "AbelDent", "Certificates")</li>
+                            <li>@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</li>
+                            <li>@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</li>
+                            <li>@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
+                            <li>@Html.ActionLink("English as a Second Language", "EnglishSecondLanguage", "Certificates")</li>
+                            <li>@Html.ActionLink("English Skills for Healthcare Workers", "EnglishSkillsHealthcareWorkers", "Certificates")</li>
+                            <li>@Html.ActionLink("Emotional First Aid", "EmotionalFirstAid", "Certificates")</li>
+                            <li>@Html.ActionLink("First Aid and CPR", "FirstAidCPR", "Certificates")</li>
+                            <li>@Html.ActionLink("Food Handler Safety", "FoodHandlerSafety", "Certificates")</li>
+                            <li>@Html.ActionLink("Home Child Care Management", "HomeChildCareManagement", "Certificates")</li>
+                            <li>@Html.ActionLink("Intramuscular Injections", "IntramuscularInjections", "Certificates")</li>
+                            <li>@Html.ActionLink("Developmental Disabilities & Services", "IntroductionDevelopmentalDisabilitiesServices", "Certificates")</li>
+                            <li>@Html.ActionLink("Intro to Swedish Massage", "IntroductionSwedishMassage", "Certificates")</li>
+                            <li>@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</li>
+                            <li>@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</li>
+                            <li>@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</li>
+                            <li>@Html.ActionLink("Medix Online Certificates", "MedixOnline", "Certificates")</li>
                         </ul>
                     </div>
 
                     <div class="col-md-3">
-                        <h5>LOCATIONS</h5>
+                        <h4>LOCATIONS</h4>
                         <ul>
-                            <li><a href="#">London</a></li>
-                            <li><a href="#">Kitchener</a></li>
-                            <li><a href="#">Brantford</a></li>
-                            <li><a href="#">Brampton</a></li>
-                            <li><a href="#">Toronto</a></li>
-                            <li><a href="#">Scarborough</a></li>
+                            <li>@Html.ActionLink("Brampton", "Brampton", "Campuses")</li>
+                            <li>@Html.ActionLink("Brantford", "Brantford", "Campuses")</li>
+                            <li>@Html.ActionLink("Kitchener", "Kitchener", "Campuses")</li>
+                            <li>@Html.ActionLink("London", "London", "Campuses")</li>
+                            <li>@Html.ActionLink("Scarborough", "Index", "Campuses")</li>
+                            <li>@Html.ActionLink("Toronto", "Index", "Campuses")</li>
                         </ul>
-                        <h5>QUICK LINKS</h5>
+                        <h4>QUICK LINKS</h4>
                         <ul>
                             <li><a href="#">Site Map</a></li>
                             <li><a href="#">Privacy Policy</a></li>

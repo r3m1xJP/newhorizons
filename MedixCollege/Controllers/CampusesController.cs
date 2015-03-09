@@ -37,5 +37,17 @@ namespace MedixCollege.Controllers
         {
             return View();
         }
+
+        // GET: Scarborough
+        public ActionResult Scarborough()
+        {
+            return View();
+        }
+
+        // GET: Toronto
+        public ActionResult Toronto()
+        {
+            return View();
+        }
     }
 }

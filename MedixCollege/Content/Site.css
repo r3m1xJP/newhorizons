@@ -382,7 +382,7 @@ footer {
 .promoContent {
     position: absolute;
     color: white;
-    z-index: 99999;
+    z-index: 2;
     text-transform: uppercase;
     text-align: center;
     bottom: 40%;
@@ -510,7 +510,6 @@ video {
 }
 
 .socialWrapper div.facebook, .socialWrapper div.twitter, .socialWrapper div.instagram {
-    border: 1px solid #061D33;
     height: 500px;
 }
 

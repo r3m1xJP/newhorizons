@@ -1,4 +1,3 @@
-C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\MedixCollege.dll.config
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\MedixCollege.dll
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\MedixCollege.pdb
