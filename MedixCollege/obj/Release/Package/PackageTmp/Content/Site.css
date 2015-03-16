@@ -525,6 +525,7 @@ video {
     padding: 10px;
     color: white;
     background-color: #061D33;
+    text-align: center;
 }
 
 .socialWrapper div.facebook, .socialWrapper div.twitter, .socialWrapper div.instagram {
@@ -569,17 +570,12 @@ video {
 .videoWrapper .wrapper {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    width: 49%;
 }
 
 .socialWrapper .facebook, .socialWrapper .twitter, .socialWrapper .instagram {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    width: 32%;
-}
-
-.socialWrapper .twitter {
-    margin-left: 2%;
+    width: 33.33%;
 }
 
 /* Popup Form */
