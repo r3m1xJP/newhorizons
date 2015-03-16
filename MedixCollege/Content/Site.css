@@ -366,11 +366,6 @@ footer {
 }
 
 /* HOME */
-.linkOptions.home {
-    width: 24%;
-    margin-right: 1%;
-}
-
 .promoWrapper {
     background: none repeat scroll 0% 0% transparent;
     position: absolute;
@@ -457,7 +452,6 @@ video {
     }
 
 .videoItem {
-    width: 100%;
     background-color: #eee;
     height: 350px;
     padding: 10px;
@@ -546,6 +540,22 @@ video {
     margin-right: auto;
     display: block !important;
     padding: 25px;
+}
+
+.videoWrapper .wrapper {
+    padding-left: 0 !important; 
+    padding-right: 0 !important;
+    width: 49%;
+}
+
+.socialWrapper .facebook, .socialWrapper .twitter, .socialWrapper .instagram {
+    padding-left: 0 !important; 
+    padding-right: 0 !important;
+    width: 32%;
+}
+
+.socialWrapper .twitter {
+    margin-left: 2%;
 }
 
 /* Popup Form */
