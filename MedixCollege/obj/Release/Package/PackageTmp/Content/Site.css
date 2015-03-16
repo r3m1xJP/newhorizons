@@ -1,4 +1,25 @@
-﻿body {
+﻿@font-face {
+    font-family: 'texgyreheros-regular-webfont';
+    src: url('fonts/texgyreheros-regular-webfont.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'texgyreheros-regular-webfont';
+    src: url('fonts/texgyreheros-regular-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'texgyreheros-regular-webfont';
+    src: url('fonts/texgyreheros-regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'texgyreheros-regular-webfont';
+    src: url('fonts/texgyreheros-regular-webfont.woff') format('woff');
+}
+
+body {
+    font-family: 'texgyreheros-regular-webfont';
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -91,6 +112,7 @@ textarea {
 .navbar {
     margin-bottom: 0px !important;
     min-height: 0px !important;
+    font-family: "Helvetica Neue";
 }
 
 .nav li.dropdown a:hover {
@@ -366,11 +388,6 @@ footer {
 }
 
 /* HOME */
-.linkOptions.home {
-    width: 24%;
-    margin-right: 1%;
-}
-
 .promoWrapper {
     background: none repeat scroll 0% 0% transparent;
     position: absolute;
@@ -394,6 +411,7 @@ footer {
         font-size: 5em;
         border-top: 1px solid rgba(255,255,255, 0.2);
         border-bottom: 1px solid rgba(255,255,255, 0.2);
+        font-family: "Helvetica Neue" !important;
     }
 
     .promoContent .videoButtons {
@@ -408,6 +426,7 @@ footer {
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     border-radius: 3px;
+    font-family: "Helvetica Neue" !important;
 }
 
     .videoButtons .btn:hover {
@@ -457,7 +476,6 @@ video {
     }
 
 .videoItem {
-    width: 100%;
     background-color: #eee;
     height: 350px;
     padding: 10px;
@@ -546,6 +564,22 @@ video {
     margin-right: auto;
     display: block !important;
     padding: 25px;
+}
+
+.videoWrapper .wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 49%;
+}
+
+.socialWrapper .facebook, .socialWrapper .twitter, .socialWrapper .instagram {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 32%;
+}
+
+.socialWrapper .twitter {
+    margin-left: 2%;
 }
 
 /* Popup Form */
