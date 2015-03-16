@@ -11,6 +11,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
     </File>
+    <File Include="bin/MedixCollege.dll">
+      <publishTime>03/16/2015 16:54:17</publishTime>
+    </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
     </File>
@@ -80,6 +83,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/fonts/Roboto-Black-webfont.eot">
       <publishTime>03/16/2015 16:46:25</publishTime>
     </File>
+    <File Include="Content/fonts/Roboto-Black-webfont.svg">
+      <publishTime>03/16/2015 16:46:25</publishTime>
+    </File>
     <File Include="Content/fonts/Roboto-Black-webfont.ttf">
       <publishTime>03/16/2015 16:46:25</publishTime>
     </File>
@@ -146,6 +152,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/fonts/RobotoCondensed-Bold-webfont.woff">
       <publishTime>03/16/2015 16:46:25</publishTime>
     </File>
+    <File Include="Content/fonts/RobotoCondensed-Regular-webfont.eot">
+      <publishTime>03/16/2015 16:46:25</publishTime>
+    </File>
     <File Include="Content/fonts/RobotoCondensed-Regular-webfont.svg">
       <publishTime>03/16/2015 16:46:25</publishTime>
     </File>
@@ -201,6 +210,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Content/images/graduates/Grand Erie - BRF.jpg">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Content/images/graduates/Homeinstead.jpg">
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Content/images/graduates/Humber River - TOR.jpg">
@@ -508,6 +520,225 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Scripts/_references.js">
       <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/EmploymentOntario.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/FinancialOptions.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/Index.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/LifelongLearningPlan.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/OSAP.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/OutOfProvinceStudents.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/RegisteredEducationSavingsPlans.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/SecondCareers.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/StudentLinesOfCredit.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Admissions/_AdmissionsLayout.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Campuses/Brampton.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Campuses/Brantford.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Campuses/Index.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Campuses/Kitchener.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Campuses/London.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Campuses/Scarborough.cshtml">
+      <publishTime>03/10/2015 12:44:05</publishTime>
+    </File>
+    <File Include="Views/Campuses/Toronto.cshtml">
+      <publishTime>03/10/2015 12:44:05</publishTime>
+    </File>
+    <File Include="Views/Campuses/_CampusesLayout.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/CareerServices/Index.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/CareerServices/MedixAdvantage.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/CareerServices/_CareerServicesLayout.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/AbelDent.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/AllCertificates.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/BasicWoundTreatment.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/CertificatesContinuingEducation.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/Electrocardiogram.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/EmotionalFirstAid.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/EnglishSecondLanguage.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/EnglishSkillsHealthcareWorkers.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/FirstAidCPR.cshtml">
+      <publishTime>03/10/2015 12:43:55</publishTime>
+    </File>
+    <File Include="Views/Certificates/FoodHandlerSafety.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/HomeChildCareManagement.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/Index.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/IntramuscularInjections.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/IntroductionDevelopmentalDisabilitiesServices.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/IntroductionSwedishMassage.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/MedixOnline.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/MentalHealthAddictions.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/Phlebotomy.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/SoftTissueBackInjuryPrevention.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/Urinalysis.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Certificates/_CertificatesLayout.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/DiscoverMedix/History.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/DiscoverMedix/Index.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/DiscoverMedix/LaptopInitiative.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/DiscoverMedix/TranscriptRequest.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/DiscoverMedix/_DiscoverMedixLayout.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Home/ApplyNow.cshtml">
+      <publishTime>03/12/2015 11:50:37</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/16/2015 11:41:46</publishTime>
+    </File>
+    <File Include="Views/MedixOnline/Advantages.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/MedixOnline/ELearning.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/MedixOnline/Index.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/MedixOnline/SchedulesAndFees.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/MedixOnline/_MedixOnlineLayout.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/AllPrograms.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/CommunityServiceWorker.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/DentalAssistantII.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/DevelopmentalServiceWorker.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/EarlyChildCareAssistant.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/FitnessHealthPromotion.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/Index.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/IntraOralDentalAssistant.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/MassageTherapy.cshtml">
+      <publishTime>03/16/2015 16:38:16</publishTime>
+    </File>
+    <File Include="Views/Programs/MassageTherapyAdvancedStanding.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/MedicalLabAssistantTechnician.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/MedixOnline.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/PersonalSupportWorker.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Programs/PharmacyAssistant.cshtml">
+      <publishTime>03/16/2015 16:53:46</publishTime>
+    </File>
+    <File Include="Views/Programs/_ProgramsLayout.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/12/2015 11:50:37</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
