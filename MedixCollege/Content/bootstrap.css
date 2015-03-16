@@ -4620,20 +4620,25 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .breadcrumb {
-  padding: 8px 15px;
+  padding: 8px 0px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 4px;
 }
 
 .breadcrumb > li {
   display: inline-block;
+  color:  #061D33;
+}
+
+.breadcrumb > li a {
+  color:  #061D33;
 }
 
 .breadcrumb > li + li:before {
   padding: 0 5px;
-  color: #cccccc;
+  color:  #061D33;
   content: "/\00a0";
 }
 
