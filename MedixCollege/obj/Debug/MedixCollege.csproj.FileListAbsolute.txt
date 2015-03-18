@@ -49,4 +49,3 @@ C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\Newtons
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.dll
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.pdb
-C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
