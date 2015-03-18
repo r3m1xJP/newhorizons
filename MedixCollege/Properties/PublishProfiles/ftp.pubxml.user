@@ -15,7 +15,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/17/2015 09:41:25</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/18/2015 10:16:23</publishTime>
+      <publishTime>03/18/2015 10:32:59</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
