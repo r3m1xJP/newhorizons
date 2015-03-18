@@ -11,8 +11,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>03/06/2015 11:20:27</publishTime>
     </File>
+    <File Include="bin/Content/videos/All Programs - Cinescope LONG.mp4.mp4">
+      <publishTime>03/17/2015 09:41:25</publishTime>
+    </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/16/2015 17:21:23</publishTime>
+      <publishTime>03/17/2015 09:43:35</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/06/2015 11:20:27</publishTime>
@@ -324,7 +327,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/26/2015 19:50:27</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>03/16/2015 17:21:23</publishTime>
+      <publishTime>03/17/2015 09:39:08</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>02/27/2015 09:42:38</publishTime>
@@ -427,6 +430,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/themes/base/tooltip.css">
       <publishTime>02/27/2015 10:04:56</publishTime>
+    </File>
+    <File Include="Content/videos/All Programs - Cinescope LONG.mp4.mp4">
+      <publishTime>03/17/2015 09:41:25</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/04/2015 17:37:08</publishTime>
@@ -666,7 +672,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/09/2015 19:04:40</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>03/16/2015 11:08:57</publishTime>
+      <publishTime>03/17/2015 09:42:27</publishTime>
     </File>
     <File Include="Views/MedixOnline/Advantages.cshtml">
       <publishTime>03/04/2015 10:55:28</publishTime>
