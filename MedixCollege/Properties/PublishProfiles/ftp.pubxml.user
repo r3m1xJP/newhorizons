@@ -15,7 +15,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/17/2015 09:41:25</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/18/2015 08:39:44</publishTime>
+      <publishTime>03/18/2015 10:16:23</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
@@ -190,6 +190,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/fonts/texgyreheros-regular-webfont.woff">
       <publishTime>03/16/2015 11:41:46</publishTime>
+    </File>
+    <File Include="Content/images/Banner-Programs-Medical-Office-Administrator.jpg">
+      <publishTime>03/18/2015 10:13:50</publishTime>
     </File>
     <File Include="Content/images/Banner-Programs-Pharmacy-Assistant.jpg">
       <publishTime>03/16/2015 16:46:48</publishTime>
@@ -726,7 +729,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
-      <publishTime>03/18/2015 09:14:04</publishTime>
+      <publishTime>03/18/2015 10:16:07</publishTime>
     </File>
     <File Include="Views/Programs/MedixOnline.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -735,7 +738,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Programs/PharmacyAssistant.cshtml">
-      <publishTime>03/18/2015 08:36:36</publishTime>
+      <publishTime>03/18/2015 10:15:46</publishTime>
     </File>
     <File Include="Views/Programs/_ProgramsLayout.cshtml">
       <publishTime>03/18/2015 08:39:43</publishTime>
