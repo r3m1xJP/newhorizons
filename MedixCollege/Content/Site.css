@@ -850,3 +850,11 @@ video {
     color: white;
     margin-bottom: 10px;
 }
+
+.head1 {
+    font-size: 24px;
+}
+
+.head2 {
+    font-size: 20px;
+}
