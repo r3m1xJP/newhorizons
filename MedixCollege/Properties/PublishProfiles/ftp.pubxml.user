@@ -15,7 +15,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/17/2015 09:41:25</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/18/2015 10:16:23</publishTime>
+      <publishTime>03/18/2015 18:29:33</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
@@ -190,6 +190,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/fonts/texgyreheros-regular-webfont.woff">
       <publishTime>03/16/2015 11:41:46</publishTime>
+    </File>
+    <File Include="Content/images/Banner-Certificates-Main.jpg">
+      <publishTime>03/18/2015 18:16:40</publishTime>
+    </File>
+    <File Include="Content/images/Banner-Discover-Medix-History.jpg">
+      <publishTime>03/18/2015 17:26:33</publishTime>
+    </File>
+    <File Include="Content/images/Banner-Discover-Medix-Index.jpg">
+      <publishTime>03/18/2015 18:03:12</publishTime>
     </File>
     <File Include="Content/images/Banner-Programs-Medical-Office-Administrator.jpg">
       <publishTime>03/18/2015 10:13:50</publishTime>
@@ -597,7 +606,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Certificates/AllCertificates.cshtml">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>03/18/2015 18:17:46</publishTime>
     </File>
     <File Include="Views/Certificates/BasicWoundTreatment.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -627,7 +636,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Certificates/Index.cshtml">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>03/18/2015 18:23:08</publishTime>
     </File>
     <File Include="Views/Certificates/IntramuscularInjections.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -654,13 +663,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Certificates/_CertificatesLayout.cshtml">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>03/18/2015 18:21:30</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/History.cshtml">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>03/18/2015 17:29:00</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/Index.cshtml">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>03/18/2015 18:03:56</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/LaptopInitiative.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -669,7 +678,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/_DiscoverMedixLayout.cshtml">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>03/18/2015 18:05:55</publishTime>
     </File>
     <File Include="Views/Home/ApplyNow.cshtml">
       <publishTime>03/12/2015 11:50:37</publishTime>
@@ -741,13 +750,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/18/2015 10:15:46</publishTime>
     </File>
     <File Include="Views/Programs/_ProgramsLayout.cshtml">
-      <publishTime>03/18/2015 11:34:22</publishTime>
+      <publishTime>03/18/2015 11:42:10</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>03/12/2015 11:50:37</publishTime>
+      <publishTime>03/18/2015 18:27:46</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
