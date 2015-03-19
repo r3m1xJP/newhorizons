@@ -49,5 +49,4 @@ C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\Antlr3.Runtime.pdb
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\Newtonsoft.Json.xml
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Release\MedixCollege.dll
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Release\MedixCollege.pdb
-C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\Content\videos\All Programs - Cinescope LONG.mp4.mp4
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Release\MedixCollege.csprojResolveAssemblyReference.cache

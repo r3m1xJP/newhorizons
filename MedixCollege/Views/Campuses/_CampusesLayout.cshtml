@@ -6,14 +6,22 @@
     ViewBag.Title = "Campuses";
 }
 
-<div class="leftMenuWrapper col-lg-3">
-    <ul class="leftMenu list-unstyled">
+<div class="leftMenuWrapper col-lg-3 custom-collapse">
+    <button class="btn-brand collapse-toggle visible-xs" type="button" data-toggle="collapse" data-parent="custom-collapse" data-target="#side-menu-campuses">
+        <span class="">CAMPUSES</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <ul class="leftMenu list-unstyled collapse" id="side-menu-campuses">
         <li class="header">Campuses</li>
         <li class="item">@Html.ActionLink("ALL CAMPUSES", "Index", "Campuses")</li>
         <li class="item">@Html.ActionLink("BRAMPTON", "Brampton", "Campuses")</li>
         <li class="item">@Html.ActionLink("BRANTFORD", "Brantford", "Campuses")</li>
         <li class="item">@Html.ActionLink("KITCHENER", "Kitchener", "Campuses")</li>
         <li class="item">@Html.ActionLink("LONDON", "London", "Campuses")</li>
+        <li class="item">@Html.ActionLink("SCARBOROUGH", "Scarborough", "Campuses")</li>
+        <li class="item">@Html.ActionLink("TORONTO", "Toronto", "Campuses")</li>
     </ul>
 </div>
 <div class="col-lg-9">
