@@ -26,7 +26,7 @@
         <span class="icon-bar"></span>
     </button>
     <ul class="leftMenu list-unstyled collapse" id="side-menu-admissions">
-        <li class="header">ADMISSIONS</li>
+        <li class="header">Admissions</li>
         <li class="item">@Html.ActionLink("Admissions Home", "Index", "Admissions")</li>
         <li class="item">@Html.ActionLink("Financial Options", "FinancialOptions", "Admissions")</li>
         <li class="item">@Html.ActionLink("OSAP", "OSAP", "Admissions")</li>
@@ -46,13 +46,13 @@
     </ul>
     <ul class="leftMenu list-unstyled collapse" id="side-menu-campuses">
         <li class="header">Campuses</li>
-        <li class="item">Brantford</li>
-        <li class="item">Brampton</li>
-        <li class="item">Kitchener</li>
-        <li class="item">London</li>
-        <li class="item">Scarborough</li>
-        <li class="item">Toronto</li>
-        <li class="item">Medix Online</li>
+        <li class="item">@Html.ActionLink("All Campuses", "Index", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Brampton", "Brampton", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Brantford", "Brantford", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Kitchener", "Kitchener", "Campuses")</li>
+        <li class="item">@Html.ActionLink("London", "London", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Scarborough", "Scarborough", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Toronto", "Toronto", "Campuses")</li>
     </ul>
 </div>
 <div class="col-lg-9">
