@@ -57,6 +57,11 @@ textarea {
 
 .btn-brand {
     background-color: #061D33;
+    color: white !important;
+}
+
+.btn-brand:hover {
+    color: #061D33 !important;
 }
 
 .mainLogo {
@@ -299,7 +304,7 @@ footer {
 
 .leftMenu li {
     padding: 5px;
-    color: #061D33 !important;
+    color: #061D33;
     cursor: pointer;
     font-weight: bold;
 }

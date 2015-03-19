@@ -46,6 +46,5 @@ C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\System.
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\System.Web.WebPages.Razor.xml
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\Antlr3.Runtime.pdb
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\Newtonsoft.Json.xml
-C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.dll
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.pdb
