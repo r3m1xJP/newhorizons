@@ -81,39 +81,39 @@
     </div>
     <div class="graduatesHiredWrapper">
         <label>GRADUATES FROM MEDIX COLLEGE HAVE BEEN HIRED AT:</label>
-        <div id="graduatesImageScroller">
-            <img src="~/Content/images/graduates/Bayshore.jpg" />
-            <img src="~/Content/images/graduates/Canes.jpg" />
-            <img src="~/Content/images/graduates/Crest.jpg" />
-            <img src="~/Content/images/graduates/Grand Erie - BRF.jpg" />
-            <img src="~/Content/images/graduates/Homeinstead.jpg" />
-            <img src="~/Content/images/graduates/Humber River - TOR.jpg" />
-            <img src="~/Content/images/graduates/IDA - TOR.jpg" />
-            <img src="~/Content/images/graduates/Infomax.jpg" />
-            <img src="~/Content/images/graduates/Lchaim - TOR.jpg" />
-            <img src="~/Content/images/graduates/LifeLabs.jpg" />
-            <img src="~/Content/images/graduates/Medisystems.jpg" />
-            <img src="~/Content/images/graduates/NYCH.jpg" />
-            <img src="~/Content/images/graduates/Oaks.jpg" />
-            <img src="~/Content/images/graduates/Paramed - TOR.jpg" />
-            <img src="~/Content/images/graduates/Peekaboo - BRA.jpg" />
-            <img src="~/Content/images/graduates/PremierHomecare - BRA.jpg" />
-            <img src="~/Content/images/graduates/Red Cross.jpg" />
-            <img src="~/Content/images/graduates/Revera - BRF.jpg" />
-            <img src="~/Content/images/graduates/ROmanson.jpg" />
-            <img src="~/Content/images/graduates/Rutherford.jpg" />
-            <img src="~/Content/images/graduates/Sante.jpg" />
-            <img src="~/Content/images/graduates/Shoppers.jpg" />
-            <img src="~/Content/images/graduates/Solar Dental.jpg" />
-            <img src="~/Content/images/graduates/Spectrum.jpg" />
-            <img src="~/Content/images/graduates/steliza.jpg" />
-            <img src="~/Content/images/graduates/TGH.jpg" />
-            <img src="~/Content/images/graduates/Toronto Western.jpg" />
-            <img src="~/Content/images/graduates/UHN Prince Margaret.jpg" />
-            <img src="~/Content/images/graduates/UT - Scar.jpg" />
-            <img src="~/Content/images/graduates/VHA Home Healthcare.jpg" />
-            <img src="~/Content/images/graduates/VON.jpg" />
-        </div>
+        <ul id="graduatesImageScroller">
+            <li><img src="~/Content/images/graduates/Bayshore.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Canes.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Crest.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Grand Erie - BRF.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Homeinstead.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Humber River - TOR.jpg" /></li>
+            <li><img src="~/Content/images/graduates/IDA - TOR.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Infomax.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Lchaim - TOR.jpg" /></li>
+            <li><img src="~/Content/images/graduates/LifeLabs.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Medisystems.jpg" /></li>
+            <li><img src="~/Content/images/graduates/NYCH.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Oaks.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Paramed - TOR.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Peekaboo - BRA.jpg" /></li>
+            <li><img src="~/Content/images/graduates/PremierHomecare - BRA.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Red Cross.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Revera - BRF.jpg" /></li>
+            <li><img src="~/Content/images/graduates/ROmanson.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Rutherford.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Sante.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Shoppers.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Solar Dental.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Spectrum.jpg" /></li>
+            <li><img src="~/Content/images/graduates/steliza.jpg" /></li>
+            <li><img src="~/Content/images/graduates/TGH.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Toronto Western.jpg" /></li>
+            <li><img src="~/Content/images/graduates/UHN Prince Margaret.jpg" /></li>
+            <li><img src="~/Content/images/graduates/UT - Scar.jpg" /></li>
+            <li><img src="~/Content/images/graduates/VHA Home Healthcare.jpg" /></li>
+            <li><img src="~/Content/images/graduates/VON.jpg" /></li>
+        </ul>
         <div class="clearfix"></div>
     </div>
     <div class="contactUsWrapper">
@@ -181,12 +181,6 @@
             $('.form-overlay').slideDown()
         });
 
-        $("#graduatesImageScroller").smoothDivScroll({
-            mousewheelScrolling: "allDirections",
-            manualContinuousScrolling: true,
-            autoScrollingMode: "always"
-        });
-
         $('.videoScrollerNav.next').click(function () {
             var current = $(this).parent().parent().next(".video").children(".videoIFrame.active");
             var next = current.next(".videoIFrame");
@@ -215,6 +209,13 @@
 
                 first.addClass("active");
             }
+        });
+    });
+
+    $(window).load(function () {
+        $("#graduatesImageScroller").flexisel({
+            autoPlay: false,
+            visibleItems: 5
         });
     });
 </script>
