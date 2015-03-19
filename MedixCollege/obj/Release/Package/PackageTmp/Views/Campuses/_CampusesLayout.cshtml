@@ -6,15 +6,30 @@
     ViewBag.Title = "Campuses";
 }
 
-<div class="leftMenuWrapper col-lg-3">
-    <ul class="leftMenu list-unstyled">
+<div class="leftMenuWrapper col-lg-3 custom-collapse">
+    <button class="btn-brand collapse-toggle visible-xs" type="button" data-toggle="collapse" data-parent="custom-collapse" data-target="#side-menu-campuses">
+        <span class="">CAMPUSES</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <ul class="leftMenu list-unstyled collapse" id="side-menu-campuses">
         <li class="header">Campuses</li>
-        <li class="item">@Html.ActionLink("ALL CAMPUSES", "Index", "Campuses")</li>
-        <li class="item">@Html.ActionLink("BRAMPTON", "Brampton", "Campuses")</li>
-        <li class="item">@Html.ActionLink("BRANTFORD", "Brantford", "Campuses")</li>
-        <li class="item">@Html.ActionLink("KITCHENER", "Kitchener", "Campuses")</li>
-        <li class="item">@Html.ActionLink("LONDON", "London", "Campuses")</li>
+        <li class="item">@Html.ActionLink("All Campuses", "Index", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Brampton", "Brampton", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Brantford", "Brantford", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Kitchener", "Kitchener", "Campuses")</li>
+        <li class="item">@Html.ActionLink("London", "London", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Scarborough", "Scarborough", "Campuses")</li>
+        <li class="item">@Html.ActionLink("Toronto", "Toronto", "Campuses")</li>
     </ul>
+    <br />
+    <ul class="leftMenu list-unstyled collapse" id="side-menu-contact">
+        <li class="item btn btn-brand btn-block spacer-top" id="askQuestion">Ask a Question</li>
+        <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Information</li>
+        <li class="item btn btn-brand btn-block" id="applyOnline">Apply Online</li>
+    </ul>
+    <br />
 </div>
 <div class="col-lg-9">
     <div class="contentHeader">

@@ -6,42 +6,46 @@
     ViewBag.Title = "Admissions";
 }
 
-<div class="leftMenuWrapper col-lg-3">
-    <ul class="leftMenu list-unstyled">
-        <li class="header">ADMISSIONS</li>
-        <li class="item">@Html.ActionLink("ADMISSIONS HOME", "Index", "Admissions")</li>
-        <li class="item">@Html.ActionLink("FINANCIAL OPTIONS", "FinancialOptions", "Admissions")</li>
+<div class="leftMenuWrapper col-lg-3 custom-collapse">
+    <button class="btn-brand collapse-toggle visible-xs" type="button" data-toggle="collapse" data-parent="custom-collapse" data-target="#side-menu-admissions">
+        <span class="">PROGRAMS</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <button class="btn-brand collapse-toggle visible-xs" type="button" data-toggle="collapse" data-parent="custom-collapse" data-target="#side-menu-contact">
+        <span class="">Contact Us</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <button class="btn-brand collapse-toggle visible-xs" type="button" data-toggle="collapse" data-parent="custom-collapse" data-target="#side-menu-campuses">
+        <span class="">CAMPUSES</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <ul class="leftMenu list-unstyled collapse" id="side-menu-admissions">
+        <li class="header">Admissions</li>
+        <li class="item">@Html.ActionLink("Admissions Home", "Index", "Admissions")</li>
+        <li class="item">@Html.ActionLink("Financial Options", "FinancialOptions", "Admissions")</li>
         <li class="item">@Html.ActionLink("OSAP", "OSAP", "Admissions")</li>
-        <li class="item">@Html.ActionLink("SECOND CAREERS", "SecondCareers", "Admissions")</li>
-        <li class="item">@Html.ActionLink("OUT OF PROVINCE", "OutOfProvinceStudents", "Admissions")</li>
-        <li class="item">@Html.ActionLink("STUDENT LINES OF CREDIT", "StudentLinesOfCredit", "Admissions")</li>
-        <li class="item">@Html.ActionLink("LIFELONG LEARNING PLAN", "LifelongLearningPlan", "Admissions")</li>
+        <li class="item">@Html.ActionLink("Second Careers", "SecondCareers", "Admissions")</li>
+        <li class="item">@Html.ActionLink("Out of Province", "OutOfProvinceStudents", "Admissions")</li>
+        <li class="item">@Html.ActionLink("Student Lines of Credit", "StudentLinesOfCredit", "Admissions")</li>
+        <li class="item">@Html.ActionLink("Lifelong Learning Plan", "LifelongLearningPlan", "Admissions")</li>
         <li class="item">@Html.ActionLink("RESP", "RegisteredEducationSavingsPlans", "Admissions")</li>
-        <li class="item">@Html.ActionLink("EMPLOYMENT ONTARIO", "EmploymentOntario", "Admissions")</li>
-        <li class="item">@Html.ActionLink("MONTHLY PAYMENT PLAN", "Index", "Admissions")</li>
+        <li class="item">@Html.ActionLink("Employment Ontario", "EmploymentOntario", "Admissions")</li>
+        <li class="item">@Html.ActionLink("Monthly Payment Plan", "Index", "Admissions")</li>
     </ul>
-    <ul class="leftMenu list-unstyled">
-        <li class="header">CONTACT MEDIX</li>
-        <li class="item">ASK A QUESTION</li>
-        <li class="item">REQUEST INFORMATION</li>
-        <li class="item">APPLY ONLINE</li>
+    <br />
+    <ul class="leftMenu list-unstyled collapse" id="side-menu-contact">
+        <li class="item btn btn-brand btn-block spacer-top" id="askQuestion">Ask a Question</li>
+        <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Information</li>
+        <li class="item btn btn-brand btn-block" id="applyOnline">Apply Online</li>
     </ul>
-    <ul class="leftMenu list-unstyled">
-        <li class="header">FAQ</li>
-        <li class="item">HOW DO I BECOME A STUDENT?</li>
-        <li class="item">HOW DO I FINANCE MY EDUCATION</li>
-        <li class="item">WHY SHOULD I CHOOSE MEDIX?</li>
-    </ul>
-    <ul class="leftMenu list-unstyled">
-        <li class="header">CAMPUSES</li>
-        <li class="item">BRANTFORD</li>
-        <li class="item">BRAMPTON</li>
-        <li class="item">KITCHENER</li>
-        <li class="item">LONDON</li>
-        <li class="item">SCARBOROUGH</li>
-        <li class="item">TORONTO</li>
-        <li class="item">MEDIX ONLINE</li>
-    </ul>
+<br />
+
 </div>
 <div class="col-lg-9">
     <div class="contentHeader">
@@ -52,3 +56,25 @@
     </div>
 </div>
 <div class="clearfix"></div>
+
+<script>
+    $(document).ready(function () {
+        $('#applyOnline').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#applyNowWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+
+        $('#requestCatalogue').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#requestCatalogueWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+
+        $('#askQuestion').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#askQuestionWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+    });
+</script>
