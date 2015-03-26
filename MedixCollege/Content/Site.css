@@ -1,23 +1,4 @@
-﻿@font-face {
-    font-family: 'texgyreheros-regular-webfont';
-    src: url('fonts/texgyreheros-regular-webfont.eot') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: 'texgyreheros-regular-webfont';
-    src: url('fonts/texgyreheros-regular-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family: 'texgyreheros-regular-webfont';
-    src: url('fonts/texgyreheros-regular-webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'texgyreheros-regular-webfont';
-    src: url('fonts/texgyreheros-regular-webfont.woff') format('woff');
-}
-
+﻿
 body {
     font-family: "Helvetica Neue";
     padding-top: 10px;
@@ -940,3 +921,12 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 .cse .gsc-control-cse, .gsc-control-cse {
     padding: 0 !important;
 }
+
+/*Breadcrumb*/
+
+.breadcrumb {background: rgba(255, 255, 255, 1); border: 0px solid rgba(255, 255, 255, 1); border-radius: 0px; display: block;}
+.breadcrumb li {font-size: 14px;}
+.breadcrumb a {color: #061D33;}
+.breadcrumb a:hover {color: #061D33;}
+.breadcrumb>.active {color: rgba(102, 102, 102, 1);}
+.breadcrumb>li+li:before {color: rgba(184, 184, 184, 1); content: "\002F\00a0";}
