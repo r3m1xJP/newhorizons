@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "News Directory";
+}
+
+<div class="contentHeader">
+    News Directory
+</div>
+
+<div class="spacer-top">
+    <h2 class="date spacer-top">
+        March 2015
+    </h2>
+    <hr />
+    <ul class="list-unstyled newsList">
+        <li class="newsListItem">
+            <div><strong>Fran Welsh from Medix College Brantford wins the Woman of Excellence Award for Active Living and Wellness</strong></div>
+            <div class="date">March 2, 2015</div>
+            <div>Summary</div>
+        </li>
+        <li class="newsListItem">
+            <div>
+                <strong>Medix College graduates hired update for March - Part 1</strong>
+            </div>
+            <div class="date">March 14, 2015</div>
+            <div>Summary</div>
+        </li>
+        <li class="newsListItem">
+            <div>
+                <strong>Medix College weekly news articles</strong>
+            </div>
+            <div class="date">March 12, 2015</div>
+            <div>Summary</div>
+        </li>
+    </ul>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.newsListItem').click(function () {
+            window.location = "/home/newsarticle";
+        });
+    });
+</script>
+
+

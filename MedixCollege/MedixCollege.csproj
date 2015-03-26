@@ -376,6 +376,8 @@
     <Content Include="Views\Campuses\Scarborough.cshtml" />
     <Content Include="Views\Home\ApplyNow.cshtml" />
     <Content Include="Views\Home\Search.cshtml" />
+    <Content Include="Views\Home\NewsDirectory.cshtml" />
+    <Content Include="Views\Home\NewsArticle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
