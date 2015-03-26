@@ -60,9 +60,9 @@ textarea {
     color: white !important;
 }
 
-.btn-brand:hover {
-    color: #061D33 !important;
-}
+    .btn-brand:hover {
+        color: #061D33 !important;
+    }
 
 .mainLogo {
     width: 100%;
@@ -910,4 +910,33 @@ video {
 .nbs-flexisel-nav-right {
     right: 5px;
     background: url(images/button-next.png) no-repeat;
+}
+
+/* Google Custom Search */
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+    box-sizing: content-box;
+    line-height: normal;
+}
+
+.gsc-search-button {
+    background-color: #061D33;
+    border-radius: 5px;
+}
+
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+    background-color: #061D33 !important;
+    background-image: url("http://www.google.com/uds/css/v2/search_box_icon.png") !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 16px !important;
+    border-color: #061D33 !important;
+    filter: none;
+}
+
+.gsc-orderby-container {
+    display: none;
+}
+
+.cse .gsc-control-cse, .gsc-control-cse {
+    padding: 0 !important;
 }

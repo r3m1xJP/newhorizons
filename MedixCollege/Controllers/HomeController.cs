@@ -17,6 +17,11 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult Search()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<ActionResult> ApplyNow(FormCollection fc)
         {

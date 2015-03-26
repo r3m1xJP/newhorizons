@@ -228,7 +228,6 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
-    <Content Include="Content\videos\All Programs - Cinescope LONG.mp4.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -376,9 +375,11 @@
     <Content Include="Views\Campuses\Toronto.cshtml" />
     <Content Include="Views\Campuses\Scarborough.cshtml" />
     <Content Include="Views\Home\ApplyNow.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\videos\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

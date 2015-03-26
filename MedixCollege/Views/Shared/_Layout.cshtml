@@ -22,8 +22,9 @@
                 <div class="pull-right"><span class="grayColor">CALL US:</span> <span class="blueColor">1(866) 962-7685</span></div>
                 <div class="clearfix"></div>
                 <div class="pull-right">
-                    <input type="text" placeholder="Keyword search" />
-                    <button class="btn mainButton">search</button>
+                    <div>
+                        <gcse:search></gcse:search>
+                    </div>
                 </div>
                 <div class="clearfix"></div>
                 <div class="pull-right socialMediaList">
@@ -772,5 +773,17 @@
         $('.form-overlay-close').click(function () {
             $('.form-overlay').slideUp(600);
         });
+
+        (function () {
+            var cx = '011247400868099549512:9pvpjgvzs-0';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
     });
 </script>
+

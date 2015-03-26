@@ -9,7 +9,8 @@
             <button class="btn" id="findPrograms">Find Programs</button>
         </div>
     </div>
-    <video autoplay loop src="https://dl.dropbox.com/s/ui2rdsk54u4ejgp/All%20Programs%20-%20Cinescope%20LONG.mp4.mp4?dl=0" height="700" width="1170"></video>
+    @*<video autoplay loop src="https://dl.dropbox.com/s/ui2rdsk54u4ejgp/All%20Programs%20-%20Cinescope%20LONG.mp4.mp4?dl=0" height="700" width="1170"></video>*@
+    <video autoplay loop src="~/Content/videos/All%20Programs%20-%20Cinescope%20LONG.mp4.mp4" type="video/mp4" height="700" width="1170"></video>
 </div>
 <div class="container body-content">
     <div class="linkOptionsWrapper">
@@ -80,426 +81,45 @@
     </div>
     <div class="graduatesHiredWrapper">
         <label>GRADUATES FROM MEDIX COLLEGE HAVE BEEN HIRED AT:</label>
-        <div id="graduatesImageScroller">
-            <img src="~/Content/images/graduates/Bayshore.jpg" />
-            <img src="~/Content/images/graduates/Canes.jpg" />
-            <img src="~/Content/images/graduates/Crest.jpg" />
-            <img src="~/Content/images/graduates/Grand Erie - BRF.jpg" />
-            <img src="~/Content/images/graduates/Homeinstead.jpg" />
-            <img src="~/Content/images/graduates/Humber River - TOR.jpg" />
-            <img src="~/Content/images/graduates/IDA - TOR.jpg" />
-            <img src="~/Content/images/graduates/Infomax.jpg" />
-            <img src="~/Content/images/graduates/Lchaim - TOR.jpg" />
-            <img src="~/Content/images/graduates/LifeLabs.jpg" />
-            <img src="~/Content/images/graduates/Medisystems.jpg" />
-            <img src="~/Content/images/graduates/NYCH.jpg" />
-            <img src="~/Content/images/graduates/Oaks.jpg" />
-            <img src="~/Content/images/graduates/Paramed - TOR.jpg" />
-            <img src="~/Content/images/graduates/Peekaboo - BRA.jpg" />
-            <img src="~/Content/images/graduates/PremierHomecare - BRA.jpg" />
-            <img src="~/Content/images/graduates/Red Cross.jpg" />
-            <img src="~/Content/images/graduates/Revera - BRF.jpg" />
-            <img src="~/Content/images/graduates/ROmanson.jpg" />
-            <img src="~/Content/images/graduates/Rutherford.jpg" />
-            <img src="~/Content/images/graduates/Sante.jpg" />
-            <img src="~/Content/images/graduates/Shoppers.jpg" />
-            <img src="~/Content/images/graduates/Solar Dental.jpg" />
-            <img src="~/Content/images/graduates/Spectrum.jpg" />
-            <img src="~/Content/images/graduates/steliza.jpg" />
-            <img src="~/Content/images/graduates/TGH.jpg" />
-            <img src="~/Content/images/graduates/Toronto Western.jpg" />
-            <img src="~/Content/images/graduates/UHN Prince Margaret.jpg" />
-            <img src="~/Content/images/graduates/UT - Scar.jpg" />
-            <img src="~/Content/images/graduates/VHA Home Healthcare.jpg" />
-            <img src="~/Content/images/graduates/VON.jpg" />
-        </div>
+        <ul id="graduatesImageScroller">
+            <li><img src="~/Content/images/graduates/Bayshore.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Canes.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Crest.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Grand Erie - BRF.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Homeinstead.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Humber River - TOR.jpg" /></li>
+            <li><img src="~/Content/images/graduates/IDA - TOR.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Infomax.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Lchaim - TOR.jpg" /></li>
+            <li><img src="~/Content/images/graduates/LifeLabs.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Medisystems.jpg" /></li>
+            <li><img src="~/Content/images/graduates/NYCH.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Oaks.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Paramed - TOR.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Peekaboo - BRA.jpg" /></li>
+            <li><img src="~/Content/images/graduates/PremierHomecare - BRA.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Red Cross.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Revera - BRF.jpg" /></li>
+            <li><img src="~/Content/images/graduates/ROmanson.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Rutherford.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Sante.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Shoppers.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Solar Dental.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Spectrum.jpg" /></li>
+            <li><img src="~/Content/images/graduates/steliza.jpg" /></li>
+            <li><img src="~/Content/images/graduates/TGH.jpg" /></li>
+            <li><img src="~/Content/images/graduates/Toronto Western.jpg" /></li>
+            <li><img src="~/Content/images/graduates/UHN Prince Margaret.jpg" /></li>
+            <li><img src="~/Content/images/graduates/UT - Scar.jpg" /></li>
+            <li><img src="~/Content/images/graduates/VHA Home Healthcare.jpg" /></li>
+            <li><img src="~/Content/images/graduates/VON.jpg" /></li>
+        </ul>
         <div class="clearfix"></div>
     </div>
     <div class="contactUsWrapper">
         <span class="pull-left">CALL US AT: 1 (886) 962-7685</span>
         <span class="pull-right">FOLLOW US: </span>
         <div class="clearfix"></div>
-    </div>
-    <div class="form-overlay">
-        <div class="container">
-            <span class="close form-overlay-close"><i class="fa fa-close"></i></span>
-            <div id="applyNowWrapper" class="popup-form-wrapper">
-                <div class="spacer-top text-center">
-                    <label class="popup-form-header">APPLY NOW</label>
-                </div>
-                <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <form id="applyNowForm" name="applyNowForm" method="post" action="/home/applynow">
-                        <input type="hidden" name="ORGID" value="240" />
-                        <input type="hidden" name="MailListID" value="240001" />
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="FirstName">
-                        </div>
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Lastname">
-                        </div>
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Telephone1">
-                        </div>
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control pull-right" name="Email">
-                        </div>
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="CampusID">
-                                <option value="0">Select</option>
-                                <option value="246">Brampton</option>
-                                <option value="243">Brantford</option>
-                                <option value="242">Kitchener</option>
-                                <option value="244">London</option>
-                                <option value="241">Scarborough</option>
-                                <option value="240">Toronto</option>
-                            </select>
-                        </div>
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="ProgramID">
-                                <option value="0">Select</option>
-                                <option value="38882">Anatomy &amp; Physiology</option>
-                                <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                                <option value="632">Community Service Worker</option>
-                                <option value="39478">CPR &amp; First Aid</option>
-                                <option value="818">Dental Level 2</option>
-                                <option value="38883">Dental Office Procedures (abel dent)</option>
-                                <option value="634">Developmental Service Worker</option>
-                                <option value="38526">Early Childhood Assistant</option>
-                                <option value="642">ECG</option>
-                                <option value="37255">Fitness &amp; Health Promotion</option>
-                                <option value="39162">Intramuscular Injection</option>
-                                <option value="627">Intra-Oral Dental Assistant </option>
-                                <option value="629">Massage Therapy</option>
-                                <option value="633">Medical Laboratory Assistant / Technician</option>
-                                <option value="630">Medical Office Administrator</option>
-                                <option value="1170">Medical Terminology</option>
-                                <option value="38887">Medical Transcription</option>
-                                <option value="39415">Mental Health &amp; Addictions</option>
-                                <option value="1169">OHIP Billing</option>
-                                <option value="631">Personal Support Worker</option>
-                                <option value="628">Pharmacy Assistant</option>
-                                <option value="636">Phlebotomy</option>
-                                <option value="1167">Principles of Nutrition</option>
-                                <option value="643">PSW Upgrading</option>
-                                <option value="1171">Thought Patterns</option>
-
-                            </select>
-                        </div>
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="MediaGroupID">
-                                <option value="0">Select</option>
-                                <option value="91063">HIGH SCHOOL</option>
-                                <option value="90080">INTERNET</option>
-                                <option value="90081">NEWSPAPER</option>
-                                <option value="91092">OUTREACH</option>
-                                <option value="90213">RADIO</option>
-                                <option value="90083">REFERRAL</option>
-                                <option value="91044">SIGNS</option>
-                                <option value="91241">SUBWAY</option>
-                                <option value="90082">TELEVISION</option>
-                                <option value="90825">TRADE SHOWS</option>
-                            </select>
-                        </div>
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">Comments: </label>
-                            <textarea class="form-control pull-right" name="Comment2"></textarea>
-                        </div>
-                        <div class="small-text spacer-top text-center">
-                            Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                        </div>
-                        <div class="text-center">
-                            <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="requestCatalogueWrapper" class="popup-form-wrapper">
-                <div class="spacer-top text-center">
-                    <label class="popup-form-header">Request Catalogue</label>
-                </div>
-                <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="246">Brampton</option>
-                            <option value="243">Brantford</option>
-                            <option value="242">Kitchener</option>
-                            <option value="244">London</option>
-                            <option value="241">Scarborough</option>
-                            <option value="240">Toronto</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="38882">Anatomy &amp; Physiology</option>
-                            <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                            <option value="632">Community Service Worker</option>
-                            <option value="39478">CPR &amp; First Aid</option>
-                            <option value="818">Dental Level 2</option>
-                            <option value="38883">Dental Office Procedures (abel dent)</option>
-                            <option value="634">Developmental Service Worker</option>
-                            <option value="38526">Early Childhood Assistant</option>
-                            <option value="642">ECG</option>
-                            <option value="37255">Fitness &amp; Health Promotion</option>
-                            <option value="39162">Intramuscular Injection</option>
-                            <option value="627">Intra-Oral Dental Assistant </option>
-                            <option value="629">Massage Therapy</option>
-                            <option value="633">Medical Laboratory Assistant / Technician</option>
-                            <option value="630">Medical Office Administrator</option>
-                            <option value="1170">Medical Terminology</option>
-                            <option value="38887">Medical Transcription</option>
-                            <option value="39415">Mental Health &amp; Addictions</option>
-                            <option value="1169">OHIP Billing</option>
-                            <option value="631">Personal Support Worker</option>
-                            <option value="628">Pharmacy Assistant</option>
-                            <option value="636">Phlebotomy</option>
-                            <option value="1167">Principles of Nutrition</option>
-                            <option value="643">PSW Upgrading</option>
-                            <option value="1171">Thought Patterns</option>
-
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="91063">HIGH SCHOOL</option>
-                            <option value="90080">INTERNET</option>
-                            <option value="90081">NEWSPAPER</option>
-                            <option value="91092">OUTREACH</option>
-                            <option value="90213">RADIO</option>
-                            <option value="90083">REFERRAL</option>
-                            <option value="91044">SIGNS</option>
-                            <option value="91241">SUBWAY</option>
-                            <option value="90082">TELEVISION</option>
-                            <option value="90825">TRADE SHOWS</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Comments: </label>
-                        <textarea class="form-control pull-right"></textarea>
-                    </div>
-                    <div class="small-text spacer-top text-center">
-                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                    </div>
-                    <div class="text-center">
-                        <button class="btn popup-form-button spacer-top btn-block">Submit</button>
-                    </div>
-                </div>
-            </div>
-            <div id="askQuestionWrapper" class="popup-form-wrapper">
-                <div class="spacer-top text-center">
-                    <label class="popup-form-header">Ask a Question</label>
-                </div>
-                <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="246">Brampton</option>
-                            <option value="243">Brantford</option>
-                            <option value="242">Kitchener</option>
-                            <option value="244">London</option>
-                            <option value="241">Scarborough</option>
-                            <option value="240">Toronto</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="38882">Anatomy &amp; Physiology</option>
-                            <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                            <option value="632">Community Service Worker</option>
-                            <option value="39478">CPR &amp; First Aid</option>
-                            <option value="818">Dental Level 2</option>
-                            <option value="38883">Dental Office Procedures (abel dent)</option>
-                            <option value="634">Developmental Service Worker</option>
-                            <option value="38526">Early Childhood Assistant</option>
-                            <option value="642">ECG</option>
-                            <option value="37255">Fitness &amp; Health Promotion</option>
-                            <option value="39162">Intramuscular Injection</option>
-                            <option value="627">Intra-Oral Dental Assistant </option>
-                            <option value="629">Massage Therapy</option>
-                            <option value="633">Medical Laboratory Assistant / Technician</option>
-                            <option value="630">Medical Office Administrator</option>
-                            <option value="1170">Medical Terminology</option>
-                            <option value="38887">Medical Transcription</option>
-                            <option value="39415">Mental Health &amp; Addictions</option>
-                            <option value="1169">OHIP Billing</option>
-                            <option value="631">Personal Support Worker</option>
-                            <option value="628">Pharmacy Assistant</option>
-                            <option value="636">Phlebotomy</option>
-                            <option value="1167">Principles of Nutrition</option>
-                            <option value="643">PSW Upgrading</option>
-                            <option value="1171">Thought Patterns</option>
-
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="91063">HIGH SCHOOL</option>
-                            <option value="90080">INTERNET</option>
-                            <option value="90081">NEWSPAPER</option>
-                            <option value="91092">OUTREACH</option>
-                            <option value="90213">RADIO</option>
-                            <option value="90083">REFERRAL</option>
-                            <option value="91044">SIGNS</option>
-                            <option value="91241">SUBWAY</option>
-                            <option value="90082">TELEVISION</option>
-                            <option value="90825">TRADE SHOWS</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Comments: </label>
-                        <textarea class="form-control pull-right"></textarea>
-                    </div>
-                    <div class="small-text spacer-top text-center">
-                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                    </div>
-                    <div class="text-center">
-                        <button class="btn popup-form-button spacer-top btn-block">Submit</button>
-                    </div>
-                </div>
-            </div>
-            <div id="tourCampusWrapper" class="popup-form-wrapper">
-                <div class="spacer-top text-center">
-                    <label class="popup-form-header">Tour a Campus</label>
-                </div>
-                <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right">
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="246">Brampton</option>
-                            <option value="243">Brantford</option>
-                            <option value="242">Kitchener</option>
-                            <option value="244">London</option>
-                            <option value="241">Scarborough</option>
-                            <option value="240">Toronto</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="38882">Anatomy &amp; Physiology</option>
-                            <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                            <option value="632">Community Service Worker</option>
-                            <option value="39478">CPR &amp; First Aid</option>
-                            <option value="818">Dental Level 2</option>
-                            <option value="38883">Dental Office Procedures (abel dent)</option>
-                            <option value="634">Developmental Service Worker</option>
-                            <option value="38526">Early Childhood Assistant</option>
-                            <option value="642">ECG</option>
-                            <option value="37255">Fitness &amp; Health Promotion</option>
-                            <option value="39162">Intramuscular Injection</option>
-                            <option value="627">Intra-Oral Dental Assistant </option>
-                            <option value="629">Massage Therapy</option>
-                            <option value="633">Medical Laboratory Assistant / Technician</option>
-                            <option value="630">Medical Office Administrator</option>
-                            <option value="1170">Medical Terminology</option>
-                            <option value="38887">Medical Transcription</option>
-                            <option value="39415">Mental Health &amp; Addictions</option>
-                            <option value="1169">OHIP Billing</option>
-                            <option value="631">Personal Support Worker</option>
-                            <option value="628">Pharmacy Assistant</option>
-                            <option value="636">Phlebotomy</option>
-                            <option value="1167">Principles of Nutrition</option>
-                            <option value="643">PSW Upgrading</option>
-                            <option value="1171">Thought Patterns</option>
-
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="91063">HIGH SCHOOL</option>
-                            <option value="90080">INTERNET</option>
-                            <option value="90081">NEWSPAPER</option>
-                            <option value="91092">OUTREACH</option>
-                            <option value="90213">RADIO</option>
-                            <option value="90083">REFERRAL</option>
-                            <option value="91044">SIGNS</option>
-                            <option value="91241">SUBWAY</option>
-                            <option value="90082">TELEVISION</option>
-                            <option value="90825">TRADE SHOWS</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Comments: </label>
-                        <textarea class="form-control pull-right"></textarea>
-                    </div>
-                    <div class="small-text spacer-top text-center">
-                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                    </div>
-                    <div class="text-center">
-                        <button class="btn popup-form-button spacer-top btn-block">Submit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 <script>
@@ -561,16 +181,6 @@
             $('.form-overlay').slideDown()
         });
 
-        $('.form-overlay-close').click(function () {
-            $('.form-overlay').slideUp(600);
-        });
-
-        $("#graduatesImageScroller").smoothDivScroll({
-            mousewheelScrolling: "allDirections",
-            manualContinuousScrolling: true,
-            autoScrollingMode: "always"
-        });
-
         $('.videoScrollerNav.next').click(function () {
             var current = $(this).parent().parent().next(".video").children(".videoIFrame.active");
             var next = current.next(".videoIFrame");
@@ -599,6 +209,13 @@
 
                 first.addClass("active");
             }
+        });
+    });
+
+    $(window).load(function () {
+        $("#graduatesImageScroller").flexisel({
+            autoPlay: false,
+            visibleItems: 5
         });
     });
 </script>
