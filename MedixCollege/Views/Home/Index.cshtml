@@ -76,22 +76,13 @@
         <div class="col-lg-4 newsUpdates">
             <h3>News Updates</h3>
             <ul class="list-unstyled newsList">
-                <li class="newsListItem">
-                    <div>Fran Welsh from Medix College Brantford wins the Woman of Excellence Award for Active Living and Wellness</div>
-                    <div class="date">March 2, 2015</div>
-                </li>
-                <li class="newsListItem">
-                    <div>
-                        Medix College graduates hired update for March - Part 1
-                    </div>
-                    <div class="date">March 14, 2015</div>
-                </li>
-                <li class="newsListItem">
-                    <div>
-                        Medix College weekly news articles
-                    </div>
-                    <div class="date">March 12, 2015</div>
-                </li>
+                @foreach (MedixCollege.Models.NewsArticleDTO article in ViewBag.NewsArticles)
+                {
+                    <li class="newsListItem" id="@article.Id">
+                        <div>@article.Title</div>
+                        <div class="date">@article.Date</div>
+                    </li>
+                }
             </ul>
             <hr />
             <div class="pull-right link-unstyled">
@@ -203,7 +194,7 @@
         });
 
         $('.newsListItem').click(function () {
-            window.location = "/home/newsarticle";
+            window.location = "/Home/NewsArticle?id=" + $(this).attr("id");
         });
 
         $('.videoScrollerNav.next').click(function () {
