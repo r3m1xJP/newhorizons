@@ -44,6 +44,20 @@ textarea {
         color: #061D33 !important;
     }
 
+    .btn-brand-white {
+      
+    background-color: white;
+    color: #061D33 !important;
+    border-bottom-style:solid !important;
+    border-color: #061D33 !important;
+    padding: 5px 9px 5px 9px !important;
+    font-size: 22px !important;
+}
+
+    .btn-brand-white:hover {
+        color: #061D33 !important;
+    }
+
 .mainLogo {
     width: 100%;
 }
