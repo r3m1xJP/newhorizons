@@ -2,11 +2,17 @@
     Layout = "~/Views/Programs/_ProgramsLayout.cshtml";
 }
 
-<img src="/Content/images/MassageBanner.png" class="img-responsive" alt="massage therapy training program banner" />
 
 
-    <h1 class="contentPageH1">Massage Therapy Program</h1>
-    <br />
+<h1 class="contentPageH1">Massage Therapy <small class="contentH1-small">DIPLOMA PROGRAM</small></h1>
+<ol class="breadcrumb">
+    <li><a href="#" class="contentp">@Html.ActionLink("Home", "Index", "Home")</a></li>
+    <li><class ="contentp">@Html.ActionLink("Programs", "AllPrograms", "Programs")</a></li>
+    <li class="active contentp">Massage Therapy</li>
+</ol>
+<br />
+
+
 
     <h1 class="contentH1">
         PROGRAM SUMMARY

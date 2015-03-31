@@ -2,18 +2,13 @@
     Layout = "~/Views/Programs/_ProgramsLayout.cshtml";
 }
 
-<h1 class="contentPageH1">
-    Medical Office Administrator
-</h1>
-<br />
-
-<img src="/Content/images/Banner-Programs-Medical-Office-Administrator.jpg" class="img-responsive" alt="medical office administrator program banner" />
-
+<h1 class="contentPageH1">Medical Office Administrator <small class="contentH1-small">DIPLOMA PROGRAM</small></h1>
 <ol class="breadcrumb">
-    <li><a href="#" class="contentp">Home</a></li>
-    <li><a href="#" class="contentp">Programs</a></li>
+    <li><a href="#" class="contentp">@Html.ActionLink("Home", "Index", "Home")</a></li>
+    <li><class ="contentp">@Html.ActionLink("Programs", "AllPrograms", "Programs")</a></li>
     <li class="active contentp">Medical Office Administrator</li>
 </ol>
+<br />
 
 <h1 class="contentH1">PROGRAM SUMMARY</h1>
 
