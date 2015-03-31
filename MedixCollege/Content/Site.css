@@ -1054,8 +1054,49 @@ font-style: normal;
     font-weight: 600;
 }
 
+.contentH3-blue {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentH3 a {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentH3 a:hover {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 .contentp {
     font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
     color: #222222;
+}
+
+.contentp-light {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: white;
+}
+.contentp a {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+.contentp a:hover {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #222222;
+    text-decoration: underline;
+
 }
 
