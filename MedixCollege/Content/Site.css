@@ -38,10 +38,13 @@ textarea {
 .btn-brand {
     background-color: #061D33;
     color: white !important;
+     padding: 5px 9px 5px 9px !important;
+     font-family: "Neue Helvetica Condensed Regular", Arial, Helvetica, sans-serif;
 }
 
     .btn-brand:hover {
         color: #061D33 !important;
+         padding: 5px 9px 5px 9px !important;
     }
 
     .btn-brand-white {
@@ -1073,6 +1076,14 @@ font-style: normal;
     font-size: 26px;
     line-height: 26px;
     font-weight: 600;
+}
+
+.contentBlockquote  {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif !important;
+    color: #313131 !important;
+    font-size: 24px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
 }
 
 .contentH1 {
