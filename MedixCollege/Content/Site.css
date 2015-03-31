@@ -1027,3 +1027,35 @@ src:url("Fonts/ea95b44a-eab7-4bd1-861c-e73535e7f652.eot?#iefix") format("eot"),u
 font-weight: 400;
 font-style: normal;
 }
+
+
+/* Body Content Resets*/
+
+.contentH1 {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.contentH2 {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.contentH3 {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentp {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
