@@ -2,9 +2,14 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
-<p>
-    <label class="contentBodyHeader">Abel-Dent</label>
-</p>
+<h1 class="contentPageH1">ABELDent</h1>
+<ol class="breadcrumb">
+    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+    <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+    <li class="active contentp">Abel-Dent/li>
+</ol>
+<br />
+
 
 
 <h1 class="head1">Course Objective</h1>

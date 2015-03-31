@@ -1123,8 +1123,26 @@ font-style: normal;
     font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.contentH2 a {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
     line-height: 18px;
     font-weight: 400;
+    text-decoration: none;
+}
+
+.contentH2 a:hover {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 .contentH3 {
@@ -1137,6 +1155,22 @@ font-style: normal;
 }
 
 .contentH3-blue {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentH3-blue a {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentH3-blue a:hover {
     font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 16px;
@@ -1158,7 +1192,7 @@ font-style: normal;
     font-size: 16px;
     line-height: 18px;
     font-weight: 600;
-    text-decoration: underline;
+
 }
 
 .contentp {
@@ -1178,7 +1212,7 @@ font-style: normal;
 .contentp a:hover {
     font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
     color: #222222;
-    text-decoration: underline;
+
 
 }
 
@@ -1186,4 +1220,8 @@ font-style: normal;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
 }
