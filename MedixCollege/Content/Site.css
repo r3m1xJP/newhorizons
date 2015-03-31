@@ -91,9 +91,8 @@ textarea {
 
 .nav li.dropdown {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     background-color: #061D33;
-    font-weight: bold;
     padding: 0px !important;
     font-weight: 600;
 }
@@ -103,7 +102,7 @@ textarea {
 }
 
 .nav > li > a {
-    padding: 10px 23px;
+    padding: 10px 15px;
 }
 
 /*.navbar-nav {
