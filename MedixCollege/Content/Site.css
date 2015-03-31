@@ -1039,6 +1039,25 @@ font-style: normal;
     font-weight: 600;
 }
 
+.contentH1-white {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    border-bottom: solid;
+    border-bottom-color:#061D33;
+}
+
+
+.side-menu-h2 {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+}
+
 .contentH2 {
     font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
     color: #555;
