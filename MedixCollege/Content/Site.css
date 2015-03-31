@@ -1031,6 +1031,14 @@ font-style: normal;
 
 /* Body Content Resets*/
 
+.contentPageH1 {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
 .contentH1 {
     font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
     color: #061D33;
@@ -1059,10 +1067,11 @@ font-style: normal;
 }
 
 .contentH2 {
-    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
-    color: #555;
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
     font-size: 16px;
     line-height: 18px;
+    font-weight: 400;
 }
 
 .contentH3 {
@@ -1071,6 +1080,7 @@ font-style: normal;
     font-size: 16px;
     line-height: 18px;
     font-weight: 600;
+
 }
 
 .contentH3-blue {
