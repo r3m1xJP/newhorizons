@@ -166,7 +166,7 @@ namespace MedixCollege.Controllers
 
                         message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
 
-                        if (fc["CampusID"] == 246)
+                        if (fc["CampusID"].ToString() == "246")
                         {
                             message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
@@ -174,7 +174,7 @@ namespace MedixCollege.Controllers
                             message.To.Add(new MailAddress("cbrandt@medixcollege.ca"));
                         }
 
-                        if (fc["CampusID"] == 243)
+                        if (fc["CampusID"].ToString() == "243")
                         {
                             message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
@@ -183,7 +183,7 @@ namespace MedixCollege.Controllers
                             message.To.Add(new MailAddress("kharris@medixcollege.ca"));
                         }
 
-                        if (fc["CampusID"] == 242)
+                        if (fc["CampusID"].ToString() == "242")
                         {
                             message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
@@ -191,7 +191,7 @@ namespace MedixCollege.Controllers
                             message.To.Add(new MailAddress("kharris@medixcollege.ca"));
                         }
 
-                        if (fc["CampusID"] == 244)
+                        if (fc["CampusID"].ToString() == "244")
                         {
                             message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
@@ -200,7 +200,7 @@ namespace MedixCollege.Controllers
                             message.To.Add(new MailAddress("nicole@medixschool.ca"));
                         }
 
-                        if (fc["CampusID"] == 241)
+                        if (fc["CampusID"].ToString() == "241")
                         {
                             message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
@@ -208,7 +208,7 @@ namespace MedixCollege.Controllers
                             message.To.Add(new MailAddress("dickson@medixcollege.ca"));
                         }
 
-                        if (fc["CampusID"] == 240)
+                        if (fc["CampusID"].ToString() == "240")
                         {
                             message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
