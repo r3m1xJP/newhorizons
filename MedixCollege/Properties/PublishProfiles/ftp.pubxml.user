@@ -632,16 +632,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 02:18:57</publishTime>
     </File>
     <File Include="Views/Campuses/Brampton.cshtml">
-      <publishTime>04/01/2015 16:12:48</publishTime>
+      <publishTime>04/01/2015 16:45:33</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
-      <publishTime>04/01/2015 16:12:30</publishTime>
+      <publishTime>04/01/2015 16:50:53</publishTime>
     </File>
     <File Include="Views/Campuses/Index.cshtml">
-      <publishTime>04/01/2015 03:16:59</publishTime>
+      <publishTime>04/01/2015 16:50:14</publishTime>
     </File>
     <File Include="Views/Campuses/Kitchener.cshtml">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>04/01/2015 16:51:41</publishTime>
     </File>
     <File Include="Views/Campuses/London.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -875,7 +875,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/01/2015 14:43:20</publishTime>
+      <publishTime>04/01/2015 17:01:22</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
