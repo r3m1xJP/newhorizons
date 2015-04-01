@@ -415,6 +415,7 @@
     <Content Include="Views\DiscoverMedix\CareersAtMedix.cshtml" />
     <Content Include="Views\Home\ReferralProgram.cshtml" />
     <Content Include="Views\MedixOnline\ContactMedixOnline.cshtml" />
+    <Content Include="Views\Home\_HomeLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
