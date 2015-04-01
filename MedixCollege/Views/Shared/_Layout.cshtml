@@ -1,8 +1,9 @@
-﻿<!DOCTYPE html>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="@ViewBag.PageDescription" />
     <title>Medix College - @ViewBag.Title</title>
     @Styles.Render("~/Content/css")
@@ -28,7 +29,7 @@
     <header>
         <div class="container">
             <div class="col-lg-4">
-                <img src="~/Content/images/medixCollegeHeader.gif" class="mainLogo" />
+                <img src="~/Content/images/medixCollegeHeader.gif" class="mainLogo" alt="Medix College Logo" />
             </div>
             <div class="col-lg-8">
                 <div class="pull-right"><span class="grayColor">CALL US:</span> <span class="blueColor">1(866) 962-7685</span></div>
@@ -38,11 +39,11 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="pull-right socialMediaList">
-                    <a href="#"><img src="~/Content/images/facebook.gif" height="25" width="25" /></a>
-                    <a href="#"><img src="~/Content/images/googleplus.gif" height="25" width="25" /></a>
-                    <a href="#"><img src="~/Content/images/youtube.gif" height="25" width="25" /></a>
-                    <a href="#"><img src="~/Content/images/twitter.gif" height="25" width="25" /></a>
-                    <a href="#"><img src="~/Content/images/instagram.gif" height="25" width="25" /></a>
+                    <a href="https://www.facebook.com/MedixCollege?ref=hl"><img src="~/Content/images/facebook.gif" height="25" width="25" alt="Facebook logo" /></a>
+                    <a href="https://plus.google.com/+MedixcollegeCa/posts"><img src="~/Content/images/googleplus.gif" height="25" width="25" alt="Google+ Logo" /></a>
+                    <a href="https://www.youtube.com/user/medixcollegelondon"><img src="~/Content/images/youtube.gif" height="25" width="25" alt="Youtube logo" /></a>
+                    <a href="https://twitter.com/medix_college"><img src="~/Content/images/twitter.gif" height="25" width="25" alt="Twitter Logo" /></a>
+                    <a href="https://instagram.com/torontomedix/"><img src="~/Content/images/instagram.gif" height="25" width="25" alt="Instagram Logo" /></a>
                 </div>
             </div>
         </div>
@@ -61,7 +62,12 @@
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
                             <li>@Html.ActionLink("News Directory", "NewsDirectory", "Home")</li>
+<<<<<<< HEAD
                             <li>@Html.ActionLink("Referral Program", "ReferralProgram", "Home")</li>
+=======
+                            <li>@Html.ActionLink("Referral Program", "Index", "Home")</li>
+
+>>>>>>> da450d23e15208573f412e6a51bd622a0e026d7d
                         </ul>
                     </li>
                     <li>
@@ -72,8 +78,14 @@
                             <li>@Html.ActionLink("Virtual Tour", "VirtualTour", "DiscoverMedix")</li>
                             <li>@Html.ActionLink("Laptop Initiative", "LaptopInitiative", "DiscoverMedix")</li>
                             <li>@Html.ActionLink("Transcript Request", "TranscriptRequest", "DiscoverMedix")</li>
+<<<<<<< HEAD
                             <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "DiscoverMedix")</li>
                             <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm')">Online Store</a></li>
+=======
+                            <li>@Html.ActionLink("Careers at Medix", "Index", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Online Store", "Index", "DiscoverMedix")</li>
+
+>>>>>>> da450d23e15208573f412e6a51bd622a0e026d7d
                         </ul>
                     </li>
                     <li>
@@ -181,7 +193,11 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
                                 <li>@Html.ActionLink("News Directory", "NewsDirectory", "Home")</li>
+<<<<<<< HEAD
                                 <li>@Html.ActionLink("Referral Program", "ReferralProgram", "Home")</li>
+=======
+                                <li>@Html.ActionLink("Referral Program", "Index", "Home")</li>
+>>>>>>> da450d23e15208573f412e6a51bd622a0e026d7d
 
                             </ul>
                         </li>
@@ -193,8 +209,14 @@
                                 <li>@Html.ActionLink("Virtual Tour", "VirtualTour", "DiscoverMedix")</li>
                                 <li>@Html.ActionLink("Laptop Initiative", "LaptopInitiative", "DiscoverMedix")</li>
                                 <li>@Html.ActionLink("Transcript Request", "TranscriptRequest", "DiscoverMedix")</li>
+<<<<<<< HEAD
                                 <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "DiscoverMedix")</li>
                                 <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm')">Online Store</a></li>
+=======
+                                <li>@Html.ActionLink("Careers at Medix", "Index", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Online Store", "Index", "DiscoverMedix")</li>
+
+>>>>>>> da450d23e15208573f412e6a51bd622a0e026d7d
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -207,7 +229,7 @@
                                 <li>@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
                                 <li>@Html.ActionLink("Early Childcare Assistant", "EarlyChildCareAssistant", "Programs")</li>
                                 <li>@Html.ActionLink("Intra-Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
-                                <li>@Html.ActionLink("Message Therapy", "MassageTherapy", "Programs")</li>
+                                <li>@Html.ActionLink("Massage Therapy", "MassageTherapy", "Programs")</li>
                                 <li>@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
                                 <li>@Html.ActionLink("Medical Lab Assitant/Tech", "MedicalLabAssistantTechnician", "Programs")</li>
                                 <li>@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
@@ -312,19 +334,19 @@
                         <input type="hidden" name="MailListID" value="240001" />
                         <div class="input-group spacer-top">
                             <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="FirstName">
+                            <input type="text" class="form-control pull-right" name="FirstName" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Lastname">
+                            <input type="text" class="form-control pull-right" name="Lastname" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Telephone">
+                            <input type="text" class="form-control pull-right" name="Telephone" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control pull-right" name="Email">
+                            <input type="email" class="form-control pull-right" name="Email" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Location: <span class="text-danger">*</span></label>
@@ -406,19 +428,19 @@
                 <div class="popup-form col-lg-6 col-lg-offset-3">
                     <div class="input-group spacer-top">
                         <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right">
+                        <input type="email" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Location: <span class="text-danger">*</span></label>
@@ -499,19 +521,19 @@
                 <div class="popup-form col-lg-6 col-lg-offset-3">
                     <div class="input-group spacer-top">
                         <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right">
+                        <input type="email" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Location: <span class="text-danger">*</span></label>
@@ -592,19 +614,19 @@
                 <div class="popup-form col-lg-6 col-lg-offset-3">
                     <div class="input-group spacer-top">
                         <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right">
+                        <input type="text" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right">
+                        <input type="email" class="form-control pull-right" />
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Location: <span class="text-danger">*</span></label>
@@ -701,7 +723,7 @@
                             <li>@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
                             <li>@Html.ActionLink("Early Childcare Assistant", "EarlyChildCareAssistant", "Programs")</li>
                             <li>@Html.ActionLink("Intra-Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
-                            <li>@Html.ActionLink("Message Therapy", "MassageTherapy", "Programs")</li>
+                            <li>@Html.ActionLink("Massage Therapy", "MassageTherapy", "Programs")</li>
                             <li>@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
                             <li>@Html.ActionLink("Medical Lab Assitant/Tech", "MedicalLabAssistantTechnician", "Programs")</li>
                             <li>@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
@@ -716,7 +738,7 @@
                         <h2 class="contentH3-blue">CERTIFICATES</h2>
                         <ul>
                             <li>@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
-                            <li>@Html.ActionLink("Abel-Dent", "AbelDent", "Certificates")</li>
+                            <li>@Html.ActionLink("ABELDent", "AbelDent", "Certificates")</li>
                             <li>@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</li>
                             <li>@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</li>
                             <li>@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
@@ -732,7 +754,6 @@
                             <li>@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</li>
                             <li>@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</li>
                             <li>@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</li>
-                            <li>@Html.ActionLink("Medix Online Certificates", "MedixOnline", "Certificates")</li>
                         </ul>
                     </div>
 
@@ -745,6 +766,7 @@
                             <li>@Html.ActionLink("London", "London", "Campuses")</li>
                             <li>@Html.ActionLink("Scarborough", "Scarborough", "Campuses")</li>
                             <li>@Html.ActionLink("Toronto", "Toronto", "Campuses")</li>
+                            <li>@Html.ActionLink("Medix Online", "Index", "MedixOnline")</li>
                         </ul>
                         <h2 class="contentH3-blue">QUICK LINKS</h2>
                         <ul>
@@ -766,9 +788,17 @@
         <div class="footer-banner">
 
             <div class="container">
+<<<<<<< HEAD
                 <img class="footer-banner-logo centercontents" src="~/Content/images/CCGLogo.png" alt="The Career College Group logo.">
             </div>
         </div>
+=======
+                <img class="footer-banner-logo centercontents" src="~/Content/images/CCGLogo.png" alt="The Career College Group logo." />
+            </div>
+
+        </div>
+
+>>>>>>> da450d23e15208573f412e6a51bd622a0e026d7d
     </footer> <!-- /footer -->
 </body>
 </html>
@@ -804,3 +834,4 @@
     });
 </script>
 
+</html>
