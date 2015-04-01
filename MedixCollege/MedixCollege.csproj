@@ -175,6 +175,7 @@
     <Content Include="Content\images\graduates\Oaks.jpg" />
     <Content Include="Content\images\graduates\Paramed - TOR.jpg" />
     <Content Include="Content\images\graduates\Peekaboo - BRA.jpg" />
+    <Content Include="Content\images\graduates\pinterest.gif" />
     <Content Include="Content\images\graduates\PremierHomecare - BRA.jpg" />
     <Content Include="Content\images\graduates\Red Cross.jpg" />
     <Content Include="Content\images\graduates\Revera - BRF.jpg" />
@@ -198,6 +199,7 @@
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
     <Content Include="Content\images\medixCollegeHeader.gif" />
     <Content Include="Content\images\payments.jpg" />
+    <Content Include="Content\images\pinterest.gif" />
     <Content Include="Content\smoothDivScroll.css" />
     <Content Include="Content\images\twitter.gif" />
     <Content Include="Content\images\youtube.gif" />

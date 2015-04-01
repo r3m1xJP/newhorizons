@@ -28,11 +28,14 @@ textarea {
 .grayColor {
     color: gray !important;
     font-weight: bold;
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #555;
 }
 
 .blueColor {
     color: #061D33 !important;
     font-weight: bold;
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
 }
 
 .btn-brand {
@@ -966,6 +969,8 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     border: 0px solid rgba(255, 255, 255, 1);
     border-radius: 0px;
     display: block;
+    padding-left: 0px;
+    padding-top: 0px;
 }
 
     .breadcrumb li {

@@ -8,20 +8,17 @@
     ViewBag.HeaderTitle = "Medix Advantage";
 }
 
-<p>
-    <label class="contentBodyHeader">Medix Advantage</label>
-</p>
+<h1 class="contentPageH1">MEDIX ADVANTAGE</h1>
+<ol class="breadcrumb">
+    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+    <li class="contentp">@Html.ActionLink("Career Services Home", "Index", "CareerServices")</li>
+    <li class="active contentp">Medix Advantage</li>
+</ol>
 
-<p>
-    <iframe src="http://www.careeraim.com/CareerSite1/login.aspx" width="997" height="700"
-            border="0"></iframe>
-</p>
+    <h1 class="contentH1">What is the MEDIX Advantage?</h1>
 
-<p>
-    <label class="contentBodyHeader">What is the MEDIX Advantage?</label>
-</p>
 
-<ol>
+<ol class="contentp">
     <li>Powerful tools for identifying career opportunities</li>
 
     <li>
@@ -33,11 +30,9 @@
     <li>Web-based solution is integrated into the MEDIX web site</li>
 </ol>
 
-<p>
-    <label class="contentBodyHeader">What are the benefits to the MEDIX Advantage?</label>
-</p>
+    <h1 class="contentH1">What are the benefits to the MEDIX Advantage?</h1>
 
-<ol>
+<ol class="contentp">
     <li>Provides powerful tools for a targeted job search campaign</li>
 
     <li>MEDIX Advantage is designed for the job seeker—it is unlike employer-funded job sites</li>
@@ -58,4 +53,9 @@
         sponsored sites
     </li>
 </ol>
+<br />
+<p>
 
+    <iframe src="http://www.careeraim.com/CareerSite1/login.aspx" width="100%" height="600"
+            border="0"></iframe>
+</p>
