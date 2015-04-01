@@ -2,12 +2,16 @@
     Layout = "~/Views/Admissions/_AdmissionsLayout.cshtml";
 }
 
-<p>
-    <label class="contentBodyHeader">Registered Education Savings Plans</label>
-</p>
+<h1 class="contentPageH1">REGISTERED EDUCATION SAVINGS PLANS</h1>
+<ol class="breadcrumb">
+    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+    <li class="contentp">@Html.ActionLink("Admissions", "Index", "Admissions")</li>
+    <li class="active contentp">Registered Education Savings Plans</li>
+</ol>
 
-<p>
+
+<p class="contentp">
     Students who have been named a beneficiary under a family members Registered Education Savings Plan (RESP),
-
     may use funds from the RESP to finance their education.
 </p>
+<br />
