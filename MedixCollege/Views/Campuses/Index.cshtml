@@ -9,21 +9,39 @@
     <li class="active contentp">Campuses</li>
 </ol>
 
-<p>
-    <label class="contentBodyHeader">ALL CAMPUSES</label>
-</p>
-<p>
+
+<p class="contentp">
     Medix College is a registered private career college specializing in, and devoted to, the training of health
 
     care professionals. Medix College has six (6) campuses across Ontario with each of them featuring state-
 
     of-the-art facilities.
 </p>
+<br />
 
 <table class="table table-bordered">
     <tr>
-        <th>BRANTFORD</th>
-        <td>
+        <th width="35%" class="active"><h2 class="contentH2">CAMPUS</h2></th>
+        <th width="65%" class="active"><h2 class="contentH2">ADDRESS</h2></th>
+    </tr>
+
+    <tr>
+        <th class="contentH3-blue">@Html.ActionLink("Brampton", "Brampton", "Campuses")</th>
+        <td class="contentp">
+            499 Main St S Unit 60<br />
+
+            Brampton, Ontario<br />
+
+            L6Y 1N7<br />
+
+            Toll Free: 1-866-962-7685<br />
+
+            Fax: (905) 487-1162
+        </td>
+    </tr>
+    <tr>
+        <th class="contentH3-blue">@Html.ActionLink("Brantford", "Brantford", "Campuses")</th>
+        <td class="contentp">
             39 King George Road<br />
 
             Brantford, Ontario<br />
@@ -37,23 +55,10 @@
             Fax: (519) 752-2217
         </td>
     </tr>
+
     <tr>
-        <th>BRAMPTON</th>
-        <td>
-            499 Main St S Unit 60<br />
-
-            Brampton, Ontario<br />
-
-            L6Y 1N7<br />
-
-            Toll Free: 1-866-962-7685<br />
-
-            Fax: (905) 487-1162
-        </td>
-    </tr>
-    <tr>
-        <th>KITCHENER</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Kitchener", "Kitchener", "Campuses")</th>
+        <td class="contentp">
             248 Stirling Avenue #14<br />
 
             Kitchener, Ontario<br />
@@ -68,8 +73,8 @@
         </td>
     </tr>
     <tr>
-        <th>LONDON</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("London", "London", "Campuses")</th>
+        <td class="contentp">
             303 Richmond Street<br />
 
             London, Ontario,<br />
@@ -82,8 +87,8 @@
         </td>
     </tr>
     <tr>
-        <th>SCARBOROUGH</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Scarborough", "Scarborough", "Campuses")</th>
+        <td class="contentp">
             2130 Lawrence Ave. E. Suite 205<br />
 
             Scarborough, Ontario<br />
@@ -96,8 +101,8 @@
         </td>
     </tr>
     <tr>
-        <th>TORONTO</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Toronto", "Toronto", "Campuses")</th>
+        <td class="contentp">
             700 Lawrence Ave. W. Suite 300<br />
 
             Toronto, Ontario<br />
@@ -110,3 +115,4 @@
         </td>
     </tr>
 </table>
+<br />
