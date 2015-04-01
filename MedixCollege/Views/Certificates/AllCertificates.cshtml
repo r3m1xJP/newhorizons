@@ -2,32 +2,36 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
-<img src="/Content/images/Banner-Certificates-Main.jpg" class="img-responsive" alt="medix students working in a dental lab" />
+<h1 class="contentPageH1">ALL CERTIFICATES</h1>
+<ol class="breadcrumb">
+    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+    <li class="active contentp">Certificates</li>
+</ol>
+<br />
 
-<br /><br />
-
-<p>
+<p class="contentp">
     With part-time programs offered, plus a range of online courses, it's now easier than ever to develop
 
     new skills and interests without disrupting your home, work or family commitments.
-</p>
 
-<p>
+<br /><br />
+
     If you've ever wanted to develop additional skills and interests, but never had the time, Medix College's
 
     part-time programs are for you! Look through our Part-Time Programs for affordable courses that will fit
 
     right into your busy lifestyle, enhance your career and help you live life to the fullest.
 </p>
+<br />
 
-<table class="table table-bordered">
+<table class="table table-bordered table-responsive">
     <tr>
-        <th width="35%"><h3>Certificate</h3></th>
-        <th width="65%"><h3>Summary</h3></th>
+        <th width="35%" class="active"><h2 class="contentH2">CERTIFICATE</h2></th>
+        <th width="65%" class="active"><h2 class="contentH2">SUMMARY</h2></th>
     </tr>
     <tr>
-        <th>Abel-Dent</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Abel-Dent", "AbelDent", "Certificates")</th>
+        <td class="contentp">
             The objective of the Abel Dent course is to gain an
 
             understanding of the dental software through competencies in
@@ -38,16 +42,16 @@
         </td>
     </tr>
     <tr>
-        <th>Mental Health and Addictions</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</th>
+        <td class="contentp">
             This program is ideal for those who are already studying or
 
             working in the health care or the social work field.
         </td>
     </tr>
     <tr>
-        <th>Basic Wound Treatment</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</th>
+        <td class="contentp">
             This workshop has been designed for health care workers to
 
             undertake proper treatments and dressings related to wound
@@ -56,8 +60,8 @@
         </td>
     </tr>
     <tr>
-        <th>Electrocardiogram (ECG)</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</th>
+        <td class="contentp">
             The objective of the Electrocardiogram (ECG) Seminar is to
 
             understand the technical components of Electrocardiography,
@@ -68,8 +72,8 @@
         </td>
     </tr>
     <tr>
-        <th>English as a Second Language (ESL)</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("English Second Language", "EnglishSecondLanguage", "Certificates")</th>
+        <td class="contentp">
             The objective of the English as a Second Language (ESL)
 
             Workshop is to gain proficiency in both written and spoken
@@ -78,12 +82,9 @@
         </td>
     </tr>
     <tr>
-        <th>
-            English Skills for Healthcare
-
-            Workers
+        <th class="contentH3-blue">@Html.ActionLink("English Skills for Healthcare Workers", "EnglishSkillsHealthcareWorkers", "Certificates")
         </th>
-        <td>
+        <td class="contentp">
             The objective of the English Skills for Health Care Workers
 
             course is to gain proficiency in both written and spoken English
@@ -92,28 +93,28 @@
         </td>
     </tr>
     <tr>
-        <th>Emotional First Aid</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Emotional First Aid", "EmotionalFirstAid", "Certificates")</th>
+        <td class="contentp">
             The objective of the Emotional First Aid is to enhance the
 
             knowledge revolving around emotions and mental health.
         </td>
     </tr>
     <tr>
-        <th>First Aid and CPR</th>
-        <td></td>
+        <th class="contentH3-blue">@Html.ActionLink("First Aid and CPR", "FirstAidCPR", "Certificates")</th>
+        <td class="contentp"></td>
     </tr>
     <tr>
-        <th>Food Handler Safety</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Food Handler Safety", "FoodHandlerSafety", "Certificates")</th>
+        <td class="contentp">
             Completion of this course will help you attain the knowledge of basic food safety through the introduction and
 
             understanding of core concepts.
         </td>
     </tr>
     <tr>
-        <th>Home Child Care Management</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Home Child Care Management", "HomeChildCareManagement", "Certificates")</th>
+        <td class="contentp">
             The Home Child Care Management course is for people
 
             without formal training in early learning and child care and
@@ -122,8 +123,8 @@
         </td>
     </tr>
     <tr>
-        <th>Intramuscular Injections</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Intramuscular Injections", "IntramuscularInjections", "Certificates")</th>
+        <td class="contentp">
             The Intramuscular Injections course is designed to ensure that
 
             learners have the necessary knowledge and skills to administer
@@ -132,20 +133,17 @@
         </td>
     </tr>
     <tr>
-        <th>
-            Introduction to Developmental
-
-            Disabilities & Services
+        <th class="contentH3-blue">@Html.ActionLink("Developmental Disabilities & Services", "IntroductionDevelopmentalDisabilitiesServices", "Certificates")
         </th>
-        <td>
+        <td class="contentp">
             This course is designed as a general introduction for the public
 
             to the Developmental Services field.
         </td>
     </tr>
     <tr>
-        <th>Introduction to Swedish Massage</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Intro to Swedish Massage", "IntroductionSwedishMassage", "Certificates")</th>
+        <td class="contentp">
             This workshop is designed to introduce people of the general
 
             public to massage therapy, its benefits, risks, and how it feels
@@ -154,16 +152,16 @@
         </td>
     </tr>
     <tr>
-        <th>Phlebotomy</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</th>
+        <td class="contentp">
             The objective of the Phlebotomy Seminar is to learn the basics
 
             of phlebotomy and venipuncture as it relates to patient care.
         </td>
     </tr>
     <tr>
-        <th>Soft Tissue Back Injury Prevention</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</th>
+        <td class="contentp">
             This course was developed by Academy Canada in Nfld. and is
 
             designed to address soft tissue injuries with a focus on back
@@ -172,8 +170,8 @@
         </td>
     </tr>
     <tr>
-        <th>Urinalysis</th>
-        <td>
+        <th class="contentH3-blue">@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</th>
+        <td class="contentp">
             The Urinalysis course is designed to provide learners with
 
             information about the urinalysis test.

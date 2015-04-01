@@ -2,14 +2,17 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
-<p>
-    <label class="contentBodyHeader">Urinalysis</label>
-</p>
-<p>
-    <strong>Workshop Objective</strong>
-</p>
+<h1 class="contentPageH1">URINALYSIS<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
+<ol class="breadcrumb">
+    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+    <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+    <li class="active contentp">Urinalysis</li>
+</ol>
 
-<p>
+    <h1 class="contentH1">Workshop Objective</h1>
+
+
+<p class="contentp">
     The Urinalysis course is designed to provide learners with information about the urinalysis test. Course
 
     content emphasizes the purpose of the test, normal values, and interpretation of results by covering the
@@ -17,7 +20,7 @@
     following key areas:
 </p>
 
-<ul>
+<ul class="contentp">
     <li>Anatomy and physiology of the renal system</li>
 
     <li>Recognize the value of urinalysis as a screening examination for renal and nonrenal diseases</li>
@@ -32,33 +35,33 @@
 
     <li>Perform urinalysis in a practice lab</li>
 </ul>
+<br />
 
-<p>
-    <strong>Course Prerequisite</strong>
-</p>
-<ul>
+
+    <h1 class="contentH1">Course Prerequisite</h1>
+<ul class="contentp">
     <li>Degree or Diploma in a medical discipline OR a minimum of 1 year experience in a medical setting</li>
 
     <li>Current Medix students should be at least halfway through completion of their current program and be in good standing</li>
 
     <li>English Proficiency</li>
 </ul>
+<br />
 
-<p>
-    <strong>Course Duration and Schedule</strong>
-</p>
 
-<p>
-    Full Saturday, 9:00am-5:00pm
-</p>
+    <h1 class="contentH1">Course Duration and Schedule</h1>
 
-<p>
-    <strong>Tuition</strong>
+<p class="contentp">
+    Full Saturday - 9:00am-5:00pm
 </p>
-<ul>
+<br />
+
+
+    <h1 class="contentH1">Tuition</h1>
+<ul class="contentp">
     <li>
-        $225.00 (or $175.00 if you are a current Medix student)
-        <ul>
+        $225.00 CAD (or $175.00 CAD if you are a current Medix student)
+        <ul class="contentp">
             <li>8-hour training session</li>
 
             <li>
@@ -69,3 +72,4 @@
         </ul>
     </li>
 </ul>
+<br />

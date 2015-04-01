@@ -137,6 +137,9 @@
     <Content Include="Content\controls.svg" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\fonts\05ad458f-263b-413f-b054-6001a987ff3e.svg" />
+    <Content Include="Content\fonts\d17bc040-9e8b-4397-8356-8153f4a64edf.svg" />
+    <Content Include="Content\fonts\d90b3358-e1e2-4abb-ba96-356983a54c22.svg" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\Roboto-Black-webfont.svg" />
     <Content Include="Content\fonts\Roboto-Light-webfont.svg" />
@@ -172,6 +175,7 @@
     <Content Include="Content\images\graduates\Oaks.jpg" />
     <Content Include="Content\images\graduates\Paramed - TOR.jpg" />
     <Content Include="Content\images\graduates\Peekaboo - BRA.jpg" />
+    <Content Include="Content\images\graduates\pinterest.gif" />
     <Content Include="Content\images\graduates\PremierHomecare - BRA.jpg" />
     <Content Include="Content\images\graduates\Red Cross.jpg" />
     <Content Include="Content\images\graduates\Revera - BRF.jpg" />
@@ -195,6 +199,7 @@
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
     <Content Include="Content\images\medixCollegeHeader.gif" />
     <Content Include="Content\images\payments.jpg" />
+    <Content Include="Content\images\pinterest.gif" />
     <Content Include="Content\smoothDivScroll.css" />
     <Content Include="Content\images\twitter.gif" />
     <Content Include="Content\images\youtube.gif" />
@@ -276,6 +281,19 @@
     <Content Include="Content\fonts\RobotoCondensed-Regular-webfont.eot" />
     <Content Include="Content\fonts\RobotoCondensed-Regular-webfont.ttf" />
     <Content Include="Content\fonts\RobotoCondensed-Regular-webfont.woff" />
+    <Content Include="Content\fonts\medix-30032015.zip" />
+    <Content Include="Content\fonts\03805817-4611-4dbc-8c65-0f73031c3973.woff" />
+    <Content Include="Content\fonts\102ab74c-0e84-4fe5-a17a-b20fb643591a.woff" />
+    <Content Include="Content\fonts\1d146b29-55e2-485b-96aa-5cb628e7e9eb.ttf" />
+    <Content Include="Content\fonts\4021a3b9-f782-438b-aeb4-c008109a8b64.woff" />
+    <Content Include="Content\fonts\669f79ed-002c-4ff6-965c-9da453968504.ttf" />
+    <Content Include="Content\fonts\717f8140-20c9-4892-9815-38b48f14ce2b.eot" />
+    <Content Include="Content\fonts\83d5bc89-af33-46a9-8fe3-15d87784f50e.eot" />
+    <Content Include="Content\fonts\a20dd2d1-6128-4524-8924-74d22db44454.woff2" />
+    <Content Include="Content\fonts\ab23c239-fb66-406e-bce6-f0f260f5a217.woff2" />
+    <Content Include="Content\fonts\d5f9f72d-afb7-4c57-8348-b4bdac42edbb.ttf" />
+    <Content Include="Content\fonts\ea95b44a-eab7-4bd1-861c-e73535e7f652.eot" />
+    <Content Include="Content\fonts\fbb08c0c-6025-4224-8a7e-816d60913d93.woff2" />
     <None Include="Properties\PublishProfiles\demo.pubxml" />
     <None Include="Properties\PublishProfiles\ftp.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

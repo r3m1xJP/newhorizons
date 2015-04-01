@@ -1,8 +1,7 @@
 ﻿
 body {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Roman";
     padding-top: 10px;
-    font-weight: lighter;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -29,19 +28,39 @@ textarea {
 .grayColor {
     color: gray !important;
     font-weight: bold;
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #555;
 }
 
 .blueColor {
     color: #061D33 !important;
     font-weight: bold;
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
 }
 
 .btn-brand {
     background-color: #061D33;
     color: white !important;
+     padding: 5px 9px 5px 9px !important;
+     font-family: "Neue Helvetica Condensed Regular", Arial, Helvetica, sans-serif;
 }
 
     .btn-brand:hover {
+        color: #061D33 !important;
+         padding: 5px 9px 5px 9px !important;
+    }
+
+    .btn-brand-white {
+      
+    background-color: white;
+    color: #061D33 !important;
+    border-bottom-style:solid !important;
+    border-color: #061D33 !important;
+    padding: 5px 9px 5px 9px !important;
+    font-size: 22px !important;
+}
+
+    .btn-brand-white:hover {
         color: #061D33 !important;
     }
 
@@ -75,9 +94,8 @@ textarea {
 
 .nav li.dropdown {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     background-color: #061D33;
-    font-weight: bold;
     padding: 0px !important;
     font-weight: 600;
 }
@@ -87,7 +105,7 @@ textarea {
 }
 
 .nav > li > a {
-    padding: 10px 23px;
+    padding: 10px 15px;
 }
 
 /*.navbar-nav {
@@ -100,7 +118,7 @@ textarea {
 .navbar {
     margin-bottom: 0px !important;
     min-height: 0px !important;
-    font-family: "Helvetica Neue";
+    font-family: "Neue Helvetica Condensed Bold";
 }
 
 .nav li.dropdown a:hover {
@@ -263,6 +281,7 @@ footer {
     height: 150px;
     padding: 10px;
     text-align: center;
+    border: 1px solid white;
 }
 
     .linkOptions:hover {
@@ -415,7 +434,7 @@ footer {
         font-size: 1em;
         border-top: 1px solid rgba(255,255,255, 0.2);
         border-bottom: 1px solid rgba(255,255,255, 0.2);
-        font-family: "Helvetica Neue" !important;
+        font-family: "Neue Helvetica Condensed Bold" !important;
     }
 
     .promoContent .videoButtons {
@@ -459,7 +478,7 @@ footer {
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     border-radius: 3px;
-    font-family: "Helvetica Neue" !important;
+    font-family: "Neue Helvetica Condensed Bold" !important;
 }
 
     .videoButtons .btn:hover {
@@ -950,6 +969,8 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     border: 0px solid rgba(255, 255, 255, 1);
     border-radius: 0px;
     display: block;
+    padding-left: 0px;
+    padding-top: 0px;
 }
 
     .breadcrumb li {
@@ -993,4 +1014,229 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 .date {
     color: #9b2929;
     font-weight: bold;
+}
+
+@font-face{
+font-family:"Neue Helvetica W01_n6";
+src:url("Fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Neue Helvetica Condensed Bold";
+src:url("Fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix");
+src:url("Fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix") format("eot"),url("Fonts/ab23c239-fb66-406e-bce6-f0f260f5a217.woff2") format("woff2"),url("Fonts/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff"),url("Fonts/1d146b29-55e2-485b-96aa-5cb628e7e9eb.ttf") format("truetype"),url("Fonts/d90b3358-e1e2-4abb-ba96-356983a54c22.svg#d90b3358-e1e2-4abb-ba96-356983a54c22") format("svg");
+font-weight: 600;
+font-style: normal;
+}
+@font-face{
+font-family:"Helvetica W01_n2";
+src:url("Fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Helvetica Light";
+src:url("Fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot?#iefix");
+src:url("Fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot?#iefix") format("eot"),url("Fonts/fbb08c0c-6025-4224-8a7e-816d60913d93.woff2") format("woff2"),url("Fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff") format("woff"),url("Fonts/d5f9f72d-afb7-4c57-8348-b4bdac42edbb.ttf") format("truetype"),url("Fonts/05ad458f-263b-413f-b054-6001a987ff3e.svg#05ad458f-263b-413f-b054-6001a987ff3e") format("svg");
+font-weight: 200;
+font-style: normal;
+}
+@font-face{
+font-family:"Helvetica W01 Roman_n4";
+src:url("Fonts/ea95b44a-eab7-4bd1-861c-e73535e7f652.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Helvetica Roman";
+src:url("Fonts/ea95b44a-eab7-4bd1-861c-e73535e7f652.eot?#iefix");
+src:url("Fonts/ea95b44a-eab7-4bd1-861c-e73535e7f652.eot?#iefix") format("eot"),url("Fonts/a20dd2d1-6128-4524-8924-74d22db44454.woff2") format("woff2"),url("Fonts/4021a3b9-f782-438b-aeb4-c008109a8b64.woff") format("woff"),url("Fonts/669f79ed-002c-4ff6-965c-9da453968504.ttf") format("truetype"),url("Fonts/d17bc040-9e8b-4397-8356-8153f4a64edf.svg#d17bc040-9e8b-4397-8356-8153f4a64edf") format("svg");
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+font-family:"Neue Helvetica W01_n3";
+src:url("Fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Neue Helvetica Condensed Light";
+src:url("Fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix");
+src:url("Fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix") format("eot"),url("Fonts/b37ddbd9-24db-4864-9095-5084a5679dd2.woff2") format("woff2"),url("Fonts/42aacb2f-222e-46f5-a95a-1c22948ee0d1.woff") format("woff"),url("Fonts/217a2f81-1e65-4924-a0d4-05ac8576f883.ttf") format("truetype"),url("Fonts/5405647d-099e-47f7-9d4a-f8692e57a206.svg#5405647d-099e-47f7-9d4a-f8692e57a206") format("svg");
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face{
+font-family:"Neue Helvetica W01_n5";
+src:url("Fonts/3a605871-b94d-4161-a394-bb2cfc975df7.eot?#iefix") format("eot")
+}
+@font-face{
+font-family:"Neue Helvetica Condensed Regular";
+src:url("Fonts/3a605871-b94d-4161-a394-bb2cfc975df7.eot?#iefix");
+src:url("Fonts/3a605871-b94d-4161-a394-bb2cfc975df7.eot?#iefix") format("eot"),url("Fonts/423db818-6ba7-4789-995f-1f2d7f6018df.woff2") format("woff2"),url("Fonts/aef05e22-e1d4-4e59-bc2e-a71c13c26cca.woff") format("woff"),url("Fonts/b785b1cf-24fa-44c9-8c93-d8e2d6912c47.ttf") format("truetype"),url("Fonts/5ab0c585-fb4b-43d9-abb0-b92f452b1284.svg#5ab0c585-fb4b-43d9-abb0-b92f452b1284") format("svg");
+font-weight: 500;
+font-style: normal;
+}
+
+/* Body Content Resets*/
+
+.contentPageH1 {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.contentBlockquote  {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif !important;
+    color: #313131 !important;
+    font-size: 24px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+}
+
+.contentH1 {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.contentH1-small {
+    font-family: "Neue Helvetica Condensed Regular", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.contentH1-white {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    border-bottom: solid;
+    border-bottom-color:#061D33;
+}
+
+
+.side-menu-h2 {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+}
+
+.contentH2 {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.contentH2 a {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.contentH2 a:hover {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.contentH3 {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+
+}
+
+.contentH3-white {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+
+}
+
+.contentH3-blue {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentH3-blue a {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentH3-blue a:hover {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #061D33;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentH3 a {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.contentH3 a:hover {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+
+}
+
+.contentp {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+.contentp-light {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: white;
+}
+.contentp a {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+.contentp a:hover {
+    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    color: #313131;
+    text-decoration: underline;
+
+
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
 }

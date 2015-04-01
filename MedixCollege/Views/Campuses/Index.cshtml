@@ -2,6 +2,13 @@
     Layout = "~/Views/Campuses/_CampusesLayout.cshtml";
 }
 
+<h1 class="contentPageH1">CAMPUSES</h1>
+<ol class="breadcrumb">
+    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+    <li class="contentp">@Html.ActionLink("All Campuses", "Index", "Campuses")</li>
+    <li class="active contentp">Campuses</li>
+</ol>
+
 <p>
     <label class="contentBodyHeader">ALL CAMPUSES</label>
 </p>
