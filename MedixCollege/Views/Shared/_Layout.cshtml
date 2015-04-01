@@ -11,6 +11,18 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        function popup(url) {
+            params = 'width=' + screen.width;
+            params += ', height=' + screen.height;
+            params += ', top=0, left=0'
+            params += ', fullscreen=yes';
+
+            newwin = window.open(url, 'Medix Store', params);
+            if (window.focus) { newwin.focus() }
+            return false;
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -43,31 +55,29 @@
                 </button>
             </div>
             <div class="navbar-collapse collapse mobile">
-                <ul class="nav navbar-nav pull-left hidden-lg hidden-md hidden-sm">
+                <ul class="nav navbar-nav pull-left visible-xs">
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HOME <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HOME <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
                             <li>@Html.ActionLink("News Directory", "NewsDirectory", "Home")</li>
-                            <li>@Html.ActionLink("Referral Program", "Index", "Home")</li>
-                            
+                            <li>@Html.ActionLink("Referral Program", "ReferralProgram", "Home")</li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DISCOVER MEDIX <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DISCOVER MEDIX <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("About Medix", "Index", "DiscoverMedix")</li>
                             <li>@Html.ActionLink("Medix History", "History", "DiscoverMedix")</li>
-                            <li>@Html.ActionLink("Virtual Tours", "Index", "DiscoverMedix")</li>
+                            <li>@Html.ActionLink("Virtual Tour", "VirtualTour", "DiscoverMedix")</li>
                             <li>@Html.ActionLink("Laptop Initiative", "LaptopInitiative", "DiscoverMedix")</li>
                             <li>@Html.ActionLink("Transcript Request", "TranscriptRequest", "DiscoverMedix")</li>
-                            <li>@Html.ActionLink("Careers at Medix", "Index", "DiscoverMedix")</li>
-                            <li>@Html.ActionLink("Online Store", "Index", "DiscoverMedix")</li>
-                           
+                            <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "DiscoverMedix")</li>
+                            <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm')">Online Store</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PROGRAMS <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PROGRAMS <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("All Programs", "AllPrograms", "Programs")</li>
                             <li>@Html.ActionLink("Community Service Worker", "CommunityServiceWorker", "Programs")</li>
@@ -86,7 +96,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CERTIFICATES <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CERTIFICATES <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
                             <li>@Html.ActionLink("Abel-Dent", "AbelDent", "Certificates")</li>
@@ -96,7 +106,7 @@
                             <li>@Html.ActionLink("Emotional First Aid", "EmotionalFirstAid", "Certificates")</li>
                             <li>@Html.ActionLink("English as a Second Language", "EnglishSecondLanguage", "Certificates")</li>
                             <li>@Html.ActionLink("English Skills for Healthcare Workers", "EnglishSkillsHealthcareWorkers", "Certificates")</li>
-                          
+
                             <li>@Html.ActionLink("First Aid and CPR", "FirstAidCPR", "Certificates")</li>
                             <li>@Html.ActionLink("Food Handler Safety", "FoodHandlerSafety", "Certificates")</li>
                             <li>@Html.ActionLink("Home Child Care Management", "HomeChildCareManagement", "Certificates")</li>
@@ -109,7 +119,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ADMISSIONS <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ADMISSIONS <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("Admissions Home", "Index", "Admissions")</li>
                             <li>@Html.ActionLink("Financial Options", "FinancialOptions", "Admissions")</li>
@@ -124,19 +134,19 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CAREER SERVICES <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CAREER SERVICES <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("Career Services Home", "Index", "CareerServices")</li>
                             <li>@Html.ActionLink("Hire a Grad", "Index", "CareerServices")</li>
                             <li>@Html.ActionLink("Medix Advantage", "MedixAdvantage", "CareerServices")</li>
-                            <li>@Html.ActionLink("Job Search Tips", "Index", "CareerServices")</li>
-                            <li>@Html.ActionLink("Resume Tips", "Index", "CareerServices")</li>
-                            <li>@Html.ActionLink("Interview Tips", "Index", "CareerServices")</li>
-                            <li>@Html.ActionLink("Professional Tips", "Index", "CareerServices")</li>
+                            <li>@Html.ActionLink("Job Search Tips", "JobSearchTips", "CareerServices")</li>
+                            <li>@Html.ActionLink("Resume Tips", "ResumeTips", "CareerServices")</li>
+                            <li>@Html.ActionLink("Interview Tips", "InterviewTips", "CareerServices")</li>
+                            <li>@Html.ActionLink("Professional Tips", "ProfessionalTips", "CareerServices")</li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CAMPUSES <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CAMPUSES <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("All Campuses", "Index", "Campuses")</li>
                             <li>@Html.ActionLink("Brampton", "Brampton", "Campuses")</li>
@@ -148,7 +158,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MEDIX ONLINE <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MEDIX ONLINE <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
                             <li>@Html.ActionLink("Medix Online Programs", "Index", "MedixOnline")</li>
@@ -164,15 +174,15 @@
                 </ul>
             </div>
             <div class="navbar-collapse collapse mainNav">
-                <div class="container hidden-xs hidden-sm">
+                <div class="container hidden-xs">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HOME <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
                                 <li>@Html.ActionLink("News Directory", "NewsDirectory", "Home")</li>
-                                <li>@Html.ActionLink("Referral Program", "Index", "Home")</li>
-                                
+                                <li>@Html.ActionLink("Referral Program", "ReferralProgram", "Home")</li>
+
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -180,12 +190,11 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li>@Html.ActionLink("About Medix", "Index", "DiscoverMedix")</li>
                                 <li>@Html.ActionLink("Medix History", "History", "DiscoverMedix")</li>
-                                <li>@Html.ActionLink("Virtual Tours", "Index", "DiscoverMedix")</li>
+                                <li>@Html.ActionLink("Virtual Tour", "VirtualTour", "DiscoverMedix")</li>
                                 <li>@Html.ActionLink("Laptop Initiative", "LaptopInitiative", "DiscoverMedix")</li>
                                 <li>@Html.ActionLink("Transcript Request", "TranscriptRequest", "DiscoverMedix")</li>
-                                <li>@Html.ActionLink("Careers at Medix", "Index", "DiscoverMedix")</li>
-                                <li>@Html.ActionLink("Online Store", "Index", "DiscoverMedix")</li>
-                         
+                                <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "DiscoverMedix")</li>
+                                <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm')">Online Store</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -205,7 +214,7 @@
                                 <li>@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
                                 <li>@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
                                 <li>@Html.ActionLink("Fitness and Health Promotion", "FitnessHealthPromotion", "Programs")</li>
-                               
+
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -229,7 +238,7 @@
                                 <li>@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</li>
                                 <li>@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</li>
                                 <li>@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</li>
-                              
+
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -253,10 +262,10 @@
                                 <li>@Html.ActionLink("Career Services Home", "Index", "CareerServices")</li>
                                 <li>@Html.ActionLink("Hire a Grad", "Index", "CareerServices")</li>
                                 <li>@Html.ActionLink("Medix Advantage", "MedixAdvantage", "CareerServices")</li>
-                                <li>@Html.ActionLink("Job Search Tips", "Index", "CareerServices")</li>
-                                <li>@Html.ActionLink("Resume Tips", "Index", "CareerServices")</li>
-                                <li>@Html.ActionLink("Interview Tips", "Index", "CareerServices")</li>
-                                <li>@Html.ActionLink("Professional Tips", "Index", "CareerServices")</li>
+                                <li>@Html.ActionLink("Job Search Tips", "JobSearchTips", "CareerServices")</li>
+                                <li>@Html.ActionLink("Resume Tips", "ResumeTips", "CareerServices")</li>
+                                <li>@Html.ActionLink("Interview Tips", "InterviewTips", "CareerServices")</li>
+                                <li>@Html.ActionLink("Professional Tips", "ProfessionalTips", "CareerServices")</li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -319,7 +328,7 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="CampusID">
+                            <select class="form-control pull-right" name="CampusID" id="applyNowCampusList">
                                 <option value="0">Select</option>
                                 <option value="246">Brampton</option>
                                 <option value="243">Brantford</option>
@@ -331,33 +340,33 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="ProgramID">
-                                <option value="0">Select</option>
-                                <option value="38882">Anatomy &amp; Physiology</option>
-                                <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                                <option value="632">Community Service Worker</option>
-                                <option value="39478">CPR &amp; First Aid</option>
-                                <option value="818">Dental Level 2</option>
-                                <option value="38883">Dental Office Procedures (abel dent)</option>
-                                <option value="634">Developmental Service Worker</option>
-                                <option value="38526">Early Childhood Assistant</option>
-                                <option value="642">ECG</option>
-                                <option value="37255">Fitness &amp; Health Promotion</option>
-                                <option value="39162">Intramuscular Injection</option>
-                                <option value="627">Intra-Oral Dental Assistant </option>
-                                <option value="629">Massage Therapy</option>
-                                <option value="633">Medical Laboratory Assistant / Technician</option>
-                                <option value="630">Medical Office Administrator</option>
-                                <option value="1170">Medical Terminology</option>
-                                <option value="38887">Medical Transcription</option>
-                                <option value="39415">Mental Health &amp; Addictions</option>
-                                <option value="1169">OHIP Billing</option>
-                                <option value="631">Personal Support Worker</option>
-                                <option value="628">Pharmacy Assistant</option>
-                                <option value="636">Phlebotomy</option>
-                                <option value="1167">Principles of Nutrition</option>
-                                <option value="643">PSW Upgrading</option>
-                                <option value="1171">Thought Patterns</option>
+                            <select class="form-control pull-right" name="ProgramID" id="applyNowProgramList">
+                                <option class="0 246 243 242 244 241 240" value="0">Select</option>
+                                <option class="0" value="38882">Anatomy &amp; Physiology</option>
+                                <option class="0 243 241" value="39877">Child and Youth Care with Addictions Support Worker</option>
+                                <option class="0 246 243 242 244 241 240" value="632">Community Service Worker</option>
+                                <option class="0 246 243 241 240" value="39478">CPR &amp; First Aid</option>
+                                <option class="0 246 243 242 244 241 240" value="818">Dental Level 2</option>
+                                <option class="0 246 243 242 244 241 240" value="38883">Dental Office Procedures (abel dent)</option>
+                                <option class="0 246 243 242 244 241 240" value="634">Developmental Service Worker</option>
+                                <option class="0 246 243 241 240" value="38526">Early Childhood Assistant</option>
+                                <option class="0 246 243 242 244 241 240" value="642">ECG</option>
+                                <option class="0 246 244 241 240" value="37255">Fitness &amp; Health Promotion</option>
+                                <option class="0 246 244 241 240" value="39162">Intramuscular Injection</option>
+                                <option class="0 246 243 242 244 241 240" value="627">Intra-Oral Dental Assistant </option>
+                                <option class="0 246 242 244 241 240" value="629">Massage Therapy</option>
+                                <option class="0 246 242 244 241 240" value="633">Medical Laboratory Assistant / Technician</option>
+                                <option class="0 246 243 242 244 241 240" value="630">Medical Office Administrator</option>
+                                <option class="0" value="1170">Medical Terminology</option>
+                                <option class="0" value="38887">Medical Transcription</option>
+                                <option class="0 246 243 242 244 241 240" value="39415">Mental Health &amp; Addictions</option>
+                                <option class="0" value="1169">OHIP Billing</option>
+                                <option class="0 246 243 242 244 241 240" value="631">Personal Support Worker</option>
+                                <option class="0 246 243 242 244 241 240" value="628">Pharmacy Assistant</option>
+                                <option class="0 246 243 242 244 241 240" value="636">Phlebotomy</option>
+                                <option class="0" value="1167">Principles of Nutrition</option>
+                                <option class="0 246 243 242 244 241 240" value="643">PSW Upgrading</option>
+                                <option class="0" value="1171">Thought Patterns</option>
 
                             </select>
                         </div>
@@ -739,27 +748,27 @@
                         </ul>
                         <h2 class="contentH3-blue">QUICK LINKS</h2>
                         <ul>
-                            <li><a href="#">Site Map</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Accessibility Policy</a></li>
-                            <li><a href="#">Careers at Medix</a></li>
-                            <li><a href="#">Hire a Medix Grad</a></li>
-                            <li><a href="#">Virtual Tours</a></li>
-                            <li><a href="#">Medix Store</a></li>
-                            <li><a href="#">Social Media</a></li>
+                            <li>@Html.ActionLink("Site Map", "SiteMap", "Home")</li>
+                            <li>@Html.ActionLink("Privacy Policy", "PrivacyPolicy", "Home")</li>
+                            <li>@Html.ActionLink("Accessibility Policy", "AccessibilityPolicy", "Home")</li>
+                            <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "Home")</li>
+                            <li>@Html.ActionLink("Hire a Medix Grad", "HireAMedixGrad", "Home")</li>
+                            <li>@Html.ActionLink("Virtual Tours", "VirtualTours", "Home")</li>
+                            <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm')">Medix Store</a></li>
+                            <li>@Html.ActionLink("Social Media", "SocialMedia", "Home")</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        <br />
+            <br />
         </div> <!-- /.bottom-nav -->
 
         <div class="footer-banner">
 
             <div class="container">
-                    <img class="footer-banner-logo centercontents" src="~/Content/images/CCGLogo.png" alt="The Career College Group logo.">          
+                <img class="footer-banner-logo centercontents" src="~/Content/images/CCGLogo.png" alt="The Career College Group logo.">
             </div>
-
+        </div>
     </footer> <!-- /footer -->
 </body>
 </html>
@@ -768,6 +777,18 @@
     $(document).ready(function () {
         $('.form-overlay-close').click(function () {
             $('.form-overlay').slideUp(600);
+        });
+
+        $('#applyNowCampusList').change(function () {
+            var campusId = $('#applyNowCampusList option:selected').val();
+
+            $.each($("#applyNowProgramList option"), function (index, value) {
+                if ($(value).hasClass(campusId) !== true) {
+                    $(value).hide();
+                } else {
+                    $(value).show();
+                }
+            });
         });
 
         (function () {

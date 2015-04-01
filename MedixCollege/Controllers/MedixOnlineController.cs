@@ -32,5 +32,10 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult ContactMedixOnline()
+        {
+            return View();
+        }
+
     }
 }

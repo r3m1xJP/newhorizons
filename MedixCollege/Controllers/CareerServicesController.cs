@@ -19,5 +19,25 @@ namespace MedixCollege.Controllers
         {
             return View();
         }
+
+        public ActionResult JobSearchTips()
+        {
+            return View();
+        }
+
+        public ActionResult ResumeTips()
+        {
+            return View();
+        }
+
+        public ActionResult InterviewTips()
+        {
+            return View();
+        }
+
+        public ActionResult ProfessionalTips()
+        {
+            return View();
+        }
     }
 }

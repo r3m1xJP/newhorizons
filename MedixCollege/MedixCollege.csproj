@@ -400,6 +400,21 @@
     <Content Include="Views\Home\Search.cshtml" />
     <Content Include="Views\Home\NewsDirectory.cshtml" />
     <Content Include="Views\Home\NewsArticle.cshtml" />
+    <Content Include="Views\Home\SiteMap.cshtml" />
+    <Content Include="Views\Home\PrivacyPolicy.cshtml" />
+    <Content Include="Views\Home\AccessibilityPolicy.cshtml" />
+    <Content Include="Views\Home\CareersAtMedix.cshtml" />
+    <Content Include="Views\Home\HireAMedixGrad.cshtml" />
+    <Content Include="Views\Home\VirtualTours.cshtml" />
+    <Content Include="Views\Home\SocialMedia.cshtml" />
+    <Content Include="Views\CareerServices\JobSearchTips.cshtml" />
+    <Content Include="Views\CareerServices\ResumeTips.cshtml" />
+    <Content Include="Views\CareerServices\InterviewTips.cshtml" />
+    <Content Include="Views\CareerServices\ProfessionalTips.cshtml" />
+    <Content Include="Views\DiscoverMedix\VirtualTour.cshtml" />
+    <Content Include="Views\DiscoverMedix\CareersAtMedix.cshtml" />
+    <Content Include="Views\Home\ReferralProgram.cshtml" />
+    <Content Include="Views\MedixOnline\ContactMedixOnline.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

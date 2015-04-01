@@ -31,5 +31,15 @@ namespace MedixCollege.Controllers
         {
             return View();
         }
+
+        public ActionResult VirtualTour()
+        {
+            return View();
+        }
+
+        public ActionResult CareersAtMedix()
+        {
+            return View();
+        }
     }
 }
