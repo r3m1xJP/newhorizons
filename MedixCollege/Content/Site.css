@@ -278,6 +278,7 @@ footer {
     height: 150px;
     padding: 10px;
     text-align: center;
+    border: 1px solid white;
 }
 
     .linkOptions:hover {
@@ -1147,6 +1148,15 @@ font-style: normal;
 .contentH3 {
     font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
     color: #555;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+
+}
+
+.contentH3-white {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 16px;
     line-height: 18px;
     font-weight: 600;
