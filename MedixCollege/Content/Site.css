@@ -1091,6 +1091,12 @@ font-style: normal;
     font-weight: 600 !important;
 }
 
+.mainHEADER{
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
 .contentH1 {
     font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
     color: #061D33;
@@ -1113,6 +1119,14 @@ font-style: normal;
     font-weight: 600;
     border-bottom: solid;
     border-bottom-color:#061D33;
+}
+
+.contentH2-white-bluebg {
+    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #061d33;
+    font-size: 20px;
+    padding: 12px 12px 12px 12px;
 }
 
 

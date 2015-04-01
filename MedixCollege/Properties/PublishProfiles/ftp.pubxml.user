@@ -725,7 +725,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/31/2015 17:48:10</publishTime>
     </File>
     <File Include="Views/Certificates/_CertificatesLayout.cshtml">
-      <publishTime>03/31/2015 14:20:13</publishTime>
+      <publishTime>04/01/2015 10:46:14</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/History.cshtml">
       <publishTime>04/01/2015 02:47:14</publishTime>
@@ -827,7 +827,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/01/2015 03:55:04</publishTime>
+      <publishTime>04/01/2015 10:45:38</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
