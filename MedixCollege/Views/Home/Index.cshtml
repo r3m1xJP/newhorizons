@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<div class="promoWrapper">
+<div class="promoWrapper hidden-xs">
     <div class="promoContent">
         <h1 class="mainHEADER hidden-xs">Real People, Real Training, Real Jobs</h1>
         <div class="videoButtons visible-xs visible-sm visible-md visible-lg">
@@ -9,12 +9,20 @@
             <button class="btn contentH3-white" id="findPrograms">Find Programs</button>
         </div>
     </div>
-    <video autoplay loop src="https://dl.dropbox.com/s/2lu7n6lrv7uh6lq/Medix%20-%20CineScope%20-%20Shorter%20-%20LOW%20QUALITY.mp4?dl=0" height="700" width="1170"></video>
+    <video autoplay loop src="https://dl.dropbox.com/s/jz6oup3n69sfwwm/Website%20Backdrop%20Version%203.webmhd.webm?dl=0" height="700" width="1170"></video>
     @*<video autoplay loop src="~/Content/videos/All%20Programs%20-%20Cinescope%20LONG.mp4.mp4" type="video/mp4" height="700" width="1170"></video>*@
 </div>
-
+<div class="videoWrapperProgram visible-xs">
+    <iframe width="560"
+            height="315" src="https://www.youtube.com/embed/3HKU30j­fhc" frameborder="0"
+            allowfullscreen></iframe>
+</div>
 <div class="container body-content">
     <div class="linkOptionsWrapper">
+        <div class="linkOptions allPrograms visible-xs" id="allPrograms">
+            <i class="fa fa-search"></i>
+            <label class="contentH3-white">FIND PROGRAMS</label>
+        </div>
         <div class="linkOptions home col-lg-3" id="requestCatalogue">
             <i class="fa fa-book"></i>
             <label class="contentH3-white">REQUEST CATALOGUE</label>

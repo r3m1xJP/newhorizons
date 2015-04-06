@@ -134,6 +134,13 @@ textarea {
     min-width: 200px !important;
 }
 
+.hamburger-icon {
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
 .navbar-collapse.mobile, .navbar-collapse.mobile ul, .navbar-collapse.mobile ul li {
     width: 100%;
 }
@@ -282,6 +289,29 @@ footer {
     margin-top: 10px;
 }
 
+@media (max-width: 768px) {
+    .linkOptions {
+        height: 50px !important;
+        text-align: left !important;
+    }
+
+        .linkOptions i {
+            font-size: 25px !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            float: left !important;
+            width: 50px !important;
+        }
+
+        .linkOptions label {
+            padding-top: 5px !important;
+        }
+
+        .linkOptions.allPrograms {
+            background-color: #555;
+        }
+}
+
 .linkOptions {
     background-color: #061D33;
     color: white;
@@ -296,8 +326,10 @@ footer {
         opacity: .9;
     }
 
-.leftMenuWrapper {
-    width: 250px;
+@media (min-width: 768px) {
+    .leftMenuWrapper {
+        width: 250px;
+    }
 }
 
 .leftMenu li a {
@@ -379,6 +411,10 @@ footer {
     .link-unstyled a:hover {
         text-decoration: none;
     }
+
+.formWrapper {
+    margin-top: 100px;
+}
 
 /* Carousel */
 
@@ -525,9 +561,10 @@ video {
     }
 
 .videoScrollerNav {
-    padding: 5px;
+    padding: 5px 25px 5px 25px;
     background-color: lightgray;
     cursor: pointer;
+    font-size: 25px !important;
 }
 
     .videoScrollerNav:hover {
@@ -963,10 +1000,12 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     display: none;
 }
 
-.cse .gsc-control-cse, .gsc-control-cse {
-    padding: 0 !important;
-    width: 50% !important;
-    float: right;
+@media screen and (min-width: 768px) {
+    .cse .gsc-control-cse, .gsc-control-cse {
+        padding: 0 !important;
+        width: 50% !important;
+        float: right;
+    }
 }
 
 /*Breadcrumb*/
@@ -1107,7 +1146,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     font-weight: 600 !important;
 }
 
-.mainHEADER{
+.mainHEADER {
     font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 40px;
@@ -1153,8 +1192,8 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     font-size: 20px;
     padding: 12px 12px 12px 12px;
     text-align: center;
-  text-align: center;
-  border: 1px solid white;
+    text-align: center;
+    border: 1px solid white;
 }
 
 
