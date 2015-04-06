@@ -73,7 +73,7 @@
                             <li>@Html.ActionLink("Laptop Initiative", "LaptopInitiative", "DiscoverMedix")</li>
                             <li>@Html.ActionLink("Transcript Request", "TranscriptRequest", "DiscoverMedix")</li>
                             <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "DiscoverMedix")</li>
-                            <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm')">Online Store</a></li>
+                            <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm?CD=553')">Online Store</a></li>
                         </ul>
                     </li>
                     <li>
@@ -99,7 +99,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CERTIFICATES <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
-                            <li>@Html.ActionLink("Abel-Dent", "AbelDent", "Certificates")</li>
+                            <li>@Html.ActionLink("ABELDent", "AbelDent", "Certificates")</li>
                             <li>@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</li>
                             <li>@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</li>
                             <li>@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
@@ -221,7 +221,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CERTIFICATES <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
-                                <li>@Html.ActionLink("Abel-Dent", "AbelDent", "Certificates")</li>
+                                <li>@Html.ActionLink("ABELDent", "AbelDent", "Certificates")</li>
                                 <li>@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</li>
                                 <li>@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</li>
                                 <li>@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
@@ -299,6 +299,8 @@
     <div class="container body-content">
         @RenderBody()
     </div>
+
+
     <div class="form-overlay">
         <div class="container">
             <span class="close form-overlay-close"><i class="fa fa-close"></i></span>
@@ -311,24 +313,23 @@
                         <input type="hidden" name="ORGID" value="240" />
                         <input type="hidden" name="MailListID" value="240001" />
                         <div class="input-group spacer-top">
-                            <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="FirstName" />
+                            <label class="pull-left" for="formfirstname">First Name: <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname"/>
                         </div>
                         <div class="input-group spacer-top">
-                            <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Lastname" />
+                            <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control pull-right" name="Lastname" id="formlastname" />
                         </div>
                         <div class="input-group spacer-top">
-                            <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Telephone" />
-                        </div>
+                            <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" /></div>
                         <div class="input-group spacer-top">
-                            <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control pull-right" name="Email" />
-                        </div>
+                            <label class="pull-left" for="formemail">Email: <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control pull-right" name="Email" for="formemail" />
+                            </div>
                         <div class="input-group spacer-top">
-                            <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="CampusID" id="applyNowCampusList">
+                            <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right" name="CampusID" id="applyNowCampusList formlocation">
                                 <option value="0">Select</option>
                                 <option value="246">Brampton</option>
                                 <option value="243">Brantford</option>
@@ -339,7 +340,7 @@
                             </select>
                         </div>
                         <div class="input-group spacer-top">
-                            <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                            <label class="pull-left">Program: <span class="text-danger">*</span></label>            
                             <select class="form-control pull-right" name="ProgramID" id="applyNowProgramList">
                                 <option class="0 246 243 242 244 241 240" value="0">Select</option>
                                 <option class="0" value="38882">Anatomy &amp; Physiology</option>
@@ -367,12 +368,197 @@
                                 <option class="0" value="1167">Principles of Nutrition</option>
                                 <option class="0 246 243 242 244 241 240" value="643">PSW Upgrading</option>
                                 <option class="0" value="1171">Thought Patterns</option>
-
-                            </select>
+                            </select>  
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
                             <select class="form-control pull-right" name="MediaGroupID">
+                            <option value="0">Select</option>
+                            <option value="91063">HIGH SCHOOL</option>
+                            <option value="90080">INTERNET</option>
+                            <option value="90081">NEWSPAPER</option>
+                            <option value="91092">OUTREACH</option>
+                            <option value="90213">RADIO</option>
+                            <option value="90083">REFERRAL</option>
+                            <option value="91044">SIGNS</option>
+                            <option value="91241">SUBWAY</option>
+                            <option value="90082">TELEVISION</option>
+                            <option value="90825">TRADE SHOWS</option>
+                            </select>
+                        </div>
+                        <div class="input-group spacer-top">
+                            <label class="pull-left" for="formtexta">Comments: </label>
+                            <textarea class="form-control pull-right" name="Comment2" id="formtexta"></textarea>
+                        </div>
+                        <div class="small-text spacer-top text-center">
+                            <p class="contentp-white">Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.</p>
+                        </div>
+                        <div class="text-center">
+                            <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="requestCatalogueWrapper" class="popup-form-wrapper">
+                <div class="spacer-top text-center">
+                    <label class="popup-form-header">Request Catalogue</label>
+                </div>
+                <div class="popup-form col-lg-6 col-lg-offset-3">
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="rqformfirstname">First Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" id="rqformfirstname"/>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="rqformlastname">Last Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" id="rqformlastname" />
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="rqformtelephone">Telephone: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" id="rqformtelephone"/>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="rqformemail">Email: <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control pull-right" id="rqformemail"/>
+                        </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Location: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right">
+                                <option value="0">Select</option>
+                                <option value="246">Brampton</option>
+                                <option value="243">Brantford</option>
+                                <option value="242">Kitchener</option>
+                                <option value="244">London</option>
+                                <option value="241">Scarborough</option>
+                                <option value="240">Toronto</option>
+                            </select>
+                        </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right">
+                                <option value="0">Select</option>
+                                <option value="38882">Anatomy &amp; Physiology</option>
+                                <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                                <option value="632">Community Service Worker</option>
+                                <option value="39478">CPR &amp; First Aid</option>
+                                <option value="818">Dental Level 2</option>
+                                <option value="38883">Dental Office Procedures (abel dent)</option>
+                                <option value="634">Developmental Service Worker</option>
+                                <option value="38526">Early Childhood Assistant</option>
+                                <option value="642">ECG</option>
+                                <option value="37255">Fitness &amp; Health Promotion</option>
+                                <option value="39162">Intramuscular Injection</option>
+                                <option value="627">Intra-Oral Dental Assistant </option>
+                                <option value="629">Massage Therapy</option>
+                                <option value="633">Medical Laboratory Assistant / Technician</option>
+                                <option value="630">Medical Office Administrator</option>
+                                <option value="1170">Medical Terminology</option>
+                                <option value="38887">Medical Transcription</option>
+                                <option value="39415">Mental Health &amp; Addictions</option>
+                                <option value="1169">OHIP Billing</option>
+                                <option value="631">Personal Support Worker</option>
+                                <option value="628">Pharmacy Assistant</option>
+                                <option value="636">Phlebotomy</option>
+                                <option value="1167">Principles of Nutrition</option>
+                                <option value="643">PSW Upgrading</option>
+                                <option value="1171">Thought Patterns</option>
+                            </select>
+                        </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right">
+                                <option value="0">Select</option>
+                                <option value="91063">HIGH SCHOOL</option>
+                                <option value="90080">INTERNET</option>
+                                <option value="90081">NEWSPAPER</option>
+                                <option value="91092">OUTREACH</option>
+                                <option value="90213">RADIO</option>
+                                <option value="90083">REFERRAL</option>
+                                <option value="91044">SIGNS</option>
+                                <option value="91241">SUBWAY</option>
+                                <option value="90082">TELEVISION</option>
+                                <option value="90825">TRADE SHOWS</option>
+                            </select></div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="rqcomments">Comments: </label>
+                        <textarea class="form-control pull-right" id="rqcomments"></textarea>
+                    </div>
+                    <div class="small-text spacer-top text-center">
+                        <p class="contentp-white">Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.</p>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn popup-form-button spacer-top btn-block">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="askQuestionWrapper" class="popup-form-wrapper">
+                <div class="spacer-top text-center">
+                    <label class="popup-form-header">Ask a Question</label>
+                </div>
+                <div class="popup-form col-lg-6 col-lg-offset-3">
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="aqfirstname">First Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" id="aqfirstname" />
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="aqlastname">Last Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" id="aqlastname"/>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="aqtelephone">Telephone: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" id="aqtelephone" />
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="aqemail">Email: <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control pull-right" id="aqemail"/>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Location: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right">
+                                <option value="0">Select</option>
+                                <option value="246">Brampton</option>
+                                <option value="243">Brantford</option>
+                                <option value="242">Kitchener</option>
+                                <option value="244">London</option>
+                                <option value="241">Scarborough</option>
+                                <option value="240">Toronto</option>
+                            </select>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right">
+                                <option value="0">Select</option>
+                                <option value="38882">Anatomy &amp; Physiology</option>
+                                <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                                <option value="632">Community Service Worker</option>
+                                <option value="39478">CPR &amp; First Aid</option>
+                                <option value="818">Dental Level 2</option>
+                                <option value="38883">Dental Office Procedures (abel dent)</option>
+                                <option value="634">Developmental Service Worker</option>
+                                <option value="38526">Early Childhood Assistant</option>
+                                <option value="642">ECG</option>
+                                <option value="37255">Fitness &amp; Health Promotion</option>
+                                <option value="39162">Intramuscular Injection</option>
+                                <option value="627">Intra-Oral Dental Assistant </option>
+                                <option value="629">Massage Therapy</option>
+                                <option value="633">Medical Laboratory Assistant / Technician</option>
+                                <option value="630">Medical Office Administrator</option>
+                                <option value="1170">Medical Terminology</option>
+                                <option value="38887">Medical Transcription</option>
+                                <option value="39415">Mental Health &amp; Addictions</option>
+                                <option value="1169">OHIP Billing</option>
+                                <option value="631">Personal Support Worker</option>
+                                <option value="628">Pharmacy Assistant</option>
+                                <option value="636">Phlebotomy</option>
+                                <option value="1167">Principles of Nutrition</option>
+                                <option value="643">PSW Upgrading</option>
+                                <option value="1171">Thought Patterns</option>
+                            </select>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right">
                                 <option value="0">Select</option>
                                 <option value="91063">HIGH SCHOOL</option>
                                 <option value="90080">INTERNET</option>
@@ -385,293 +571,109 @@
                                 <option value="90082">TELEVISION</option>
                                 <option value="90825">TRADE SHOWS</option>
                             </select>
-                        </div>
-                        <div class="input-group spacer-top">
-                            <label class="pull-left">Comments: </label>
-                            <textarea class="form-control pull-right" name="Comment2"></textarea>
-                        </div>
-                        <div class="small-text spacer-top text-center">
-                            Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                        </div>
-                        <div class="text-center">
-                            <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="requestCatalogueWrapper" class="popup-form-wrapper">
-                <div class="spacer-top text-center">
-                    <label class="popup-form-header">Request Catalogue</label>
-                </div>
-                <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
                     </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right" />
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="246">Brampton</option>
-                            <option value="243">Brantford</option>
-                            <option value="242">Kitchener</option>
-                            <option value="244">London</option>
-                            <option value="241">Scarborough</option>
-                            <option value="240">Toronto</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="38882">Anatomy &amp; Physiology</option>
-                            <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                            <option value="632">Community Service Worker</option>
-                            <option value="39478">CPR &amp; First Aid</option>
-                            <option value="818">Dental Level 2</option>
-                            <option value="38883">Dental Office Procedures (abel dent)</option>
-                            <option value="634">Developmental Service Worker</option>
-                            <option value="38526">Early Childhood Assistant</option>
-                            <option value="642">ECG</option>
-                            <option value="37255">Fitness &amp; Health Promotion</option>
-                            <option value="39162">Intramuscular Injection</option>
-                            <option value="627">Intra-Oral Dental Assistant </option>
-                            <option value="629">Massage Therapy</option>
-                            <option value="633">Medical Laboratory Assistant / Technician</option>
-                            <option value="630">Medical Office Administrator</option>
-                            <option value="1170">Medical Terminology</option>
-                            <option value="38887">Medical Transcription</option>
-                            <option value="39415">Mental Health &amp; Addictions</option>
-                            <option value="1169">OHIP Billing</option>
-                            <option value="631">Personal Support Worker</option>
-                            <option value="628">Pharmacy Assistant</option>
-                            <option value="636">Phlebotomy</option>
-                            <option value="1167">Principles of Nutrition</option>
-                            <option value="643">PSW Upgrading</option>
-                            <option value="1171">Thought Patterns</option>
 
-                        </select>
-                    </div>
                     <div class="input-group spacer-top">
-                        <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="91063">HIGH SCHOOL</option>
-                            <option value="90080">INTERNET</option>
-                            <option value="90081">NEWSPAPER</option>
-                            <option value="91092">OUTREACH</option>
-                            <option value="90213">RADIO</option>
-                            <option value="90083">REFERRAL</option>
-                            <option value="91044">SIGNS</option>
-                            <option value="91241">SUBWAY</option>
-                            <option value="90082">TELEVISION</option>
-                            <option value="90825">TRADE SHOWS</option>
-                        </select>
+                        <label class="pull-left" for="aqcomments">Comments: </label>
+                        <textarea class="form-control pull-right" id="aqcomments"></textarea>
                     </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Comments: </label>
-                        <textarea class="form-control pull-right"></textarea>
-                    </div>
-                    <div class="small-text spacer-top text-center">
-                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                    </div>
-                    <div class="text-center">
-                        <button class="btn popup-form-button spacer-top btn-block">Submit</button>
-                    </div>
-                </div>
-            </div>
-            <div id="askQuestionWrapper" class="popup-form-wrapper">
-                <div class="spacer-top text-center">
-                    <label class="popup-form-header">Ask a Question</label>
-                </div>
-                <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right" />
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="246">Brampton</option>
-                            <option value="243">Brantford</option>
-                            <option value="242">Kitchener</option>
-                            <option value="244">London</option>
-                            <option value="241">Scarborough</option>
-                            <option value="240">Toronto</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="38882">Anatomy &amp; Physiology</option>
-                            <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                            <option value="632">Community Service Worker</option>
-                            <option value="39478">CPR &amp; First Aid</option>
-                            <option value="818">Dental Level 2</option>
-                            <option value="38883">Dental Office Procedures (abel dent)</option>
-                            <option value="634">Developmental Service Worker</option>
-                            <option value="38526">Early Childhood Assistant</option>
-                            <option value="642">ECG</option>
-                            <option value="37255">Fitness &amp; Health Promotion</option>
-                            <option value="39162">Intramuscular Injection</option>
-                            <option value="627">Intra-Oral Dental Assistant </option>
-                            <option value="629">Massage Therapy</option>
-                            <option value="633">Medical Laboratory Assistant / Technician</option>
-                            <option value="630">Medical Office Administrator</option>
-                            <option value="1170">Medical Terminology</option>
-                            <option value="38887">Medical Transcription</option>
-                            <option value="39415">Mental Health &amp; Addictions</option>
-                            <option value="1169">OHIP Billing</option>
-                            <option value="631">Personal Support Worker</option>
-                            <option value="628">Pharmacy Assistant</option>
-                            <option value="636">Phlebotomy</option>
-                            <option value="1167">Principles of Nutrition</option>
-                            <option value="643">PSW Upgrading</option>
-                            <option value="1171">Thought Patterns</option>
 
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="91063">HIGH SCHOOL</option>
-                            <option value="90080">INTERNET</option>
-                            <option value="90081">NEWSPAPER</option>
-                            <option value="91092">OUTREACH</option>
-                            <option value="90213">RADIO</option>
-                            <option value="90083">REFERRAL</option>
-                            <option value="91044">SIGNS</option>
-                            <option value="91241">SUBWAY</option>
-                            <option value="90082">TELEVISION</option>
-                            <option value="90825">TRADE SHOWS</option>
-                        </select>
-                    </div>
-                    <div class="input-group spacer-top">
-                        <label class="pull-left">Comments: </label>
-                        <textarea class="form-control pull-right"></textarea>
-                    </div>
                     <div class="small-text spacer-top text-center">
-                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                        <p class="contentp-white">Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.</p>
                     </div>
+
                     <div class="text-center">
+
+                       
                         <button class="btn popup-form-button spacer-top btn-block">Submit</button>
+                        
                     </div>
                 </div>
             </div>
+
             <div id="tourCampusWrapper" class="popup-form-wrapper">
                 <div class="spacer-top text-center">
                     <label class="popup-form-header">Tour a Campus</label>
                 </div>
                 <div class="popup-form col-lg-6 col-lg-offset-3">
                     <div class="input-group spacer-top">
-                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
-                    </div>
+                        <label class="pull-left" for="tcfirstname">First Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" id="tcfirstname"/></div>
                     <div class="input-group spacer-top">
-                        <label class="pull-left">Last Name: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
-                    </div>
+                        <label class="pull-left" for="tclastname">Last Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" form="tclastname" /></div>
                     <div class="input-group spacer-top">
-                        <label class="pull-left">Telephone: <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control pull-right" />
-                    </div>
+                        <label class="pull-left" for="tctelephone">Telephone: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" id="tctelephone" /></div>
                     <div class="input-group spacer-top">
-                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control pull-right" />
-                    </div>
+                        <label class="pull-left" for="tcemail">Email: <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control pull-right" id="tcemail"/></div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="246">Brampton</option>
-                            <option value="243">Brantford</option>
-                            <option value="242">Kitchener</option>
-                            <option value="244">London</option>
-                            <option value="241">Scarborough</option>
-                            <option value="240">Toronto</option>
-                        </select>
+                            <select class="form-control pull-right">
+                                <option value="0">Select</option>
+                                <option value="246">Brampton</option>
+                                <option value="243">Brantford</option>
+                                <option value="242">Kitchener</option>
+                                <option value="244">London</option>
+                                <option value="241">Scarborough</option>
+                                <option value="240">Toronto</option>
+                            </select>
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="38882">Anatomy &amp; Physiology</option>
-                            <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                            <option value="632">Community Service Worker</option>
-                            <option value="39478">CPR &amp; First Aid</option>
-                            <option value="818">Dental Level 2</option>
-                            <option value="38883">Dental Office Procedures (abel dent)</option>
-                            <option value="634">Developmental Service Worker</option>
-                            <option value="38526">Early Childhood Assistant</option>
-                            <option value="642">ECG</option>
-                            <option value="37255">Fitness &amp; Health Promotion</option>
-                            <option value="39162">Intramuscular Injection</option>
-                            <option value="627">Intra-Oral Dental Assistant </option>
-                            <option value="629">Massage Therapy</option>
-                            <option value="633">Medical Laboratory Assistant / Technician</option>
-                            <option value="630">Medical Office Administrator</option>
-                            <option value="1170">Medical Terminology</option>
-                            <option value="38887">Medical Transcription</option>
-                            <option value="39415">Mental Health &amp; Addictions</option>
-                            <option value="1169">OHIP Billing</option>
-                            <option value="631">Personal Support Worker</option>
-                            <option value="628">Pharmacy Assistant</option>
-                            <option value="636">Phlebotomy</option>
-                            <option value="1167">Principles of Nutrition</option>
-                            <option value="643">PSW Upgrading</option>
-                            <option value="1171">Thought Patterns</option>
-
-                        </select>
+                            <select class="form-control pull-right">
+                                <option value="0">Select</option>
+                                <option value="38882">Anatomy &amp; Physiology</option>
+                                <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                                <option value="632">Community Service Worker</option>
+                                <option value="39478">CPR &amp; First Aid</option>
+                                <option value="818">Dental Level 2</option>
+                                <option value="38883">Dental Office Procedures (abel dent)</option>
+                                <option value="634">Developmental Service Worker</option>
+                                <option value="38526">Early Childhood Assistant</option>
+                                <option value="642">ECG</option>
+                                <option value="37255">Fitness &amp; Health Promotion</option>
+                                <option value="39162">Intramuscular Injection</option>
+                                <option value="627">Intra-Oral Dental Assistant </option>
+                                <option value="629">Massage Therapy</option>
+                                <option value="633">Medical Laboratory Assistant / Technician</option>
+                                <option value="630">Medical Office Administrator</option>
+                                <option value="1170">Medical Terminology</option>
+                                <option value="38887">Medical Transcription</option>
+                                <option value="39415">Mental Health &amp; Addictions</option>
+                                <option value="1169">OHIP Billing</option>
+                                <option value="631">Personal Support Worker</option>
+                                <option value="628">Pharmacy Assistant</option>
+                                <option value="636">Phlebotomy</option>
+                                <option value="1167">Principles of Nutrition</option>
+                                <option value="643">PSW Upgrading</option>
+                                <option value="1171">Thought Patterns</option>
+                            </select>
                     </div>
                     <div class="input-group spacer-top">
                         <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
-                        <select class="form-control pull-right">
-                            <option value="0">Select</option>
-                            <option value="91063">HIGH SCHOOL</option>
-                            <option value="90080">INTERNET</option>
-                            <option value="90081">NEWSPAPER</option>
-                            <option value="91092">OUTREACH</option>
-                            <option value="90213">RADIO</option>
-                            <option value="90083">REFERRAL</option>
-                            <option value="91044">SIGNS</option>
-                            <option value="91241">SUBWAY</option>
-                            <option value="90082">TELEVISION</option>
-                            <option value="90825">TRADE SHOWS</option>
-                        </select>
+                            <select class="form-control pull-right">
+                                <option value="0">Select</option>
+                                <option value="91063">HIGH SCHOOL</option>
+                                <option value="90080">INTERNET</option>
+                                <option value="90081">NEWSPAPER</option>
+                                <option value="91092">OUTREACH</option>
+                                <option value="90213">RADIO</option>
+                                <option value="90083">REFERRAL</option>
+                                <option value="91044">SIGNS</option>
+                                <option value="91241">SUBWAY</option>
+                                <option value="90082">TELEVISION</option>
+                                <option value="90825">TRADE SHOWS</option>
+                            </select>
                     </div>
+
                     <div class="input-group spacer-top">
-                        <label class="pull-left">Comments: </label>
-                        <textarea class="form-control pull-right"></textarea>
+                        <label class="pull-left" for="tccomments">Comments: </label>
+                        <textarea class="form-control pull-right" id="tccomments"></textarea>
                     </div>
                     <div class="small-text spacer-top text-center">
-                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                        <p class="contentp-white">Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.</p> 
                     </div>
                     <div class="text-center">
                         <button class="btn popup-form-button spacer-top btn-block">Submit</button>
@@ -680,6 +682,7 @@
             </div>
         </div>
     </div>
+
     <footer>
         <div class="container-fluid bottom-nav">
             <br />
@@ -687,8 +690,8 @@
                 <div class="row">
                     <div class="col-md-3">
                         <h2 class="contentH3-blue">ABOUT MEDIX</h2>
-                        <p>For over 40 years Medix College has been providing industry leading Health Care career training for those looking to become medical professionals. Currently Medix College has six campuses across Ontario with each of the featuring state-of-the-art facilities. Medix college believes in helping students to achieve quality education quickly.</p>
-                        <p>Every year hundreds of Medix graduates are added to the Canadian healthcare workforce. Medix is the clear choice for those looking to change their life today.</p>
+                        <p class="contentp">For over 40 years Medix College has been providing industry leading Health Care career training for those looking to become medical professionals. Currently Medix College has six campuses across Ontario with each of the featuring state-of-the-art facilities. Medix college believes in helping students to achieve quality education quickly.</p>
+                        <p class="contentp">Every year hundreds of Medix graduates are added to the Canadian healthcare workforce. Medix is the clear choice for those looking to change their life today.</p>
                     </div>
 
                     <div class="col-md-3">
@@ -751,10 +754,10 @@
                             <li>@Html.ActionLink("Site Map", "SiteMap", "Home")</li>
                             <li>@Html.ActionLink("Privacy Policy", "PrivacyPolicy", "Home")</li>
                             <li>@Html.ActionLink("Accessibility Policy", "AccessibilityPolicy", "Home")</li>
-                            <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "Home")</li>
+                            <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "DiscoverMedix")</li>
                             <li>@Html.ActionLink("Hire a Medix Grad", "HireAMedixGrad", "Home")</li>
                             <li>@Html.ActionLink("Virtual Tours", "VirtualTours", "Home")</li>
-                            <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm')">Medix Store</a></li>
+                            <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm?CD=553')">Online Store</a></li>
                             <li>@Html.ActionLink("Social Media", "SocialMedia", "Home")</li>
                         </ul>
                     </div>
