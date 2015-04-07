@@ -607,12 +607,8 @@ video {
     height: 500px;
 }
 
-.socialWrapper div.twitter {
-    min-width: 180px;
-}
-
-.socialWrapper div.instagram {
-    min-width: 300px;
+iframe.twitter-timeline {
+    width: 100% !important;
 }
 
 .contactUsWrapper {
@@ -643,7 +639,7 @@ video {
 
 .linkOptions i {
     font-size: 60px;
-    width: 110px;
+    width: 90px;
     margin-left: auto;
     margin-right: auto;
     display: block !important;
