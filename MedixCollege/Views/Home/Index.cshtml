@@ -9,8 +9,7 @@
             <button class="btn contentH3-white" id="findPrograms">Find Programs</button>
         </div>
     </div>
-    <video autoplay loop src="https://dl.dropbox.com/s/jz6oup3n69sfwwm/Website%20Backdrop%20Version%203.webmhd.webm?dl=0" height="700" width="1170"></video>
-    @*<video autoplay loop src="~/Content/videos/All%20Programs%20-%20Cinescope%20LONG.mp4.mp4" type="video/mp4" height="700" width="1170"></video>*@
+    <video autoplay loop src="https://dl.dropbox.com/s/jz6oup3n69sfwwm/Website%20Backdrop%20Version%203.webmhd.webm?dl=0"></video>
 </div>
 <div class="videoWrapperProgram visible-xs">
     <iframe width="560"
@@ -49,7 +48,7 @@
                     <label class="contentH3">STUDENT REVIEWS</label>
                     <span class="pull-right"><i class="fa fa-caret-left videoScrollerNav prev"></i><i class="fa fa-caret-right videoScrollerNav next"></i></span>
                 </div>
-                <div class="video">
+                <div class="video clearfix">
                     <iframe class="videoIFrame active" src="https://www.youtube.com/embed/L4_0O3aN3KU?rel=0 " autoplay="false" frameborder="0" allowfullscreen></iframe>
                     <iframe class="videoIFrame" src="https://www.youtube.com/embed/vUeRBchdNP4?rel=0 " autoplay="false" frameborder="0" allowfullscreen></iframe>
                     <iframe class="videoIFrame" src="https://www.youtube.com/embed/vUMLNqH_ANY?rel=0 " autoplay="false" frameborder="0" allowfullscreen></iframe>
@@ -65,7 +64,7 @@
                     <label class="contentH3">EMPLOYER-GRADUATE TESTIMONIALS</label>
                     <span class="pull-right"><i class="fa fa-caret-left videoScrollerNav prev"></i><i class="fa fa-caret-right videoScrollerNav next"></i></span>
                 </div>
-                <div class="video">
+                <div class="video clearfix">
                     <iframe class="videoIFrame active" src="https://www.youtube.com/embed/lK7-VbtSDfA?rel=0 " autoplay="false" frameborder="0" allowfullscreen></iframe>
                     <iframe class="videoIFrame" src="https://www.youtube.com/embed/fvZYRmemeJo?rel=0 " autoplay="false" frameborder="0" allowfullscreen></iframe>
                 </div>
@@ -146,7 +145,10 @@
 <script>
     $(document).ready(function () {
         $('.promoWrapper').parent().removeClass("container").removeClass("body-content");
-        $('video, audio').mediaelementplayer();
+        $('video, audio').mediaelementplayer({
+            videoWidth: '100%',
+            videoHeight: '100%'
+        });
 
         var $vid = $('video');
         var $applyButton = $('#applyOnline');
