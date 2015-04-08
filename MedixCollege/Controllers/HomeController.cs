@@ -250,7 +250,7 @@ namespace MedixCollege.Controllers
                     ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
                 }
 
-                return View();
+                return View("ThankYou");
             }
         }
 
@@ -378,7 +378,7 @@ namespace MedixCollege.Controllers
                     ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
                 }
 
-                return View();
+                return View("ThankYou");
             }
         }
 
@@ -506,7 +506,7 @@ namespace MedixCollege.Controllers
                     ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
                 }
 
-                return View();
+                return View("ThankYou");
             }
         }
 
@@ -634,7 +634,7 @@ namespace MedixCollege.Controllers
                     ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
                 }
 
-                return View();
+                return View("ThankYou");
             }
         }
 
@@ -762,7 +762,7 @@ namespace MedixCollege.Controllers
                     ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
                 }
 
-                return View();
+                return View("ThankYou");
             }
         }
 
@@ -890,7 +890,7 @@ namespace MedixCollege.Controllers
                     ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
                 }
 
-                return View();
+                return View("ThankYou");
             }
         }
     }

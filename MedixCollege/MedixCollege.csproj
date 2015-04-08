@@ -396,7 +396,7 @@
     <Content Include="Views\MedixOnline\ELearning.cshtml" />
     <Content Include="Views\Campuses\Toronto.cshtml" />
     <Content Include="Views\Campuses\Scarborough.cshtml" />
-    <Content Include="Views\Home\ApplyNow.cshtml" />
+    <Content Include="Views\Home\ThankYou.cshtml" />
     <Content Include="Views\Home\Search.cshtml" />
     <Content Include="Views\Home\NewsDirectory.cshtml" />
     <Content Include="Views\Home\NewsArticle.cshtml" />
@@ -416,6 +416,7 @@
     <Content Include="Views\Home\ReferralProgram.cshtml" />
     <Content Include="Views\MedixOnline\ContactMedixOnline.cshtml" />
     <Content Include="Views\Home\_HomeLayout.cshtml" />
+    <Content Include="Views\MedixOnline\ThankYou.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
