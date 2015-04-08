@@ -289,7 +289,7 @@ footer {
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .linkOptions {
         height: 50px !important;
         text-align: left !important;

@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/06/2015 11:20:27</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>04/07/2015 18:12:19</publishTime>
+      <publishTime>04/08/2015 09:50:12</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/06/2015 11:20:27</publishTime>
@@ -796,6 +796,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/SocialMedia.cshtml">
       <publishTime>04/01/2015 09:46:51</publishTime>
     </File>
+    <File Include="Views/Home/ThankYou.cshtml">
+      <publishTime>04/08/2015 09:43:54</publishTime>
+    </File>
     <File Include="Views/Home/VirtualTours.cshtml">
       <publishTime>04/01/2015 09:46:37</publishTime>
     </File>
@@ -817,8 +820,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/MedixOnline/SchedulesAndFees.cshtml">
       <publishTime>04/01/2015 09:21:37</publishTime>
     </File>
+    <File Include="Views/MedixOnline/ThankYou.cshtml">
+      <publishTime>04/08/2015 09:47:39</publishTime>
+    </File>
     <File Include="Views/MedixOnline/_MedixOnlineLayout.cshtml">
-      <publishTime>04/07/2015 18:34:19</publishTime>
+      <publishTime>04/08/2015 09:46:29</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
       <publishTime>04/06/2015 00:07:09</publishTime>
