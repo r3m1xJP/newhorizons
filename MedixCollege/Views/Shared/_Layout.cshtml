@@ -327,7 +327,7 @@
                             </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="CampusID" id="applyNowCampusList formlocation">
+                            <select class="form-control pull-right" name="CampusID" id="applyNowCampusList">
                                 <option value="0">Select</option>
                                 <option value="246">Brampton</option>
                                 <option value="243">Brantford</option>
@@ -423,7 +423,7 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="CampusID" id="applyNowCampusList formlocation">
+                            <select class="form-control pull-right" name="CampusID" id="requestCatalogueCampusList">
                                 <option value="0">Select</option>
                                 <option value="246">Brampton</option>
                                 <option value="243">Brantford</option>
@@ -435,7 +435,7 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="ProgramID" id="applyNowProgramList">
+                            <select class="form-control pull-right" name="ProgramID" id="requestCatalogueProgramList">
                                 <option class="0 246 243 242 244 241 240" value="0">Select</option>
                                 <option class="0" value="38882">Anatomy &amp; Physiology</option>
                                 <option class="0 243 241" value="39877">Child and Youth Care with Addictions Support Worker</option>
@@ -511,7 +511,7 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="CampusID" id="applyNowCampusList formlocation">
+                            <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
                                 <option value="0">Select</option>
                                 <option value="246">Brampton</option>
                                 <option value="243">Brantford</option>
@@ -523,7 +523,7 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="ProgramID" id="applyNowProgramList">
+                            <select class="form-control pull-right" name="ProgramID" id="askQuestionProgramList">
                                 <option class="0 246 243 242 244 241 240" value="0">Select</option>
                                 <option class="0" value="38882">Anatomy &amp; Physiology</option>
                                 <option class="0 243 241" value="39877">Child and Youth Care with Addictions Support Worker</option>
@@ -591,7 +591,7 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="CampusID" id="applyNowCampusList formlocation">
+                            <select class="form-control pull-right" name="CampusID" id="tourCampusCampusList">
                                 <option value="0">Select</option>
                                 <option value="246">Brampton</option>
                                 <option value="243">Brantford</option>
@@ -603,7 +603,7 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                            <select class="form-control pull-right" name="ProgramID" id="applyNowProgramList">
+                            <select class="form-control pull-right" name="ProgramID" id="tourCampusProgramList">
                                 <option class="0 246 243 242 244 241 240" value="0">Select</option>
                                 <option class="0" value="38882">Anatomy &amp; Physiology</option>
                                 <option class="0 243 241" value="39877">Child and Youth Care with Addictions Support Worker</option>
@@ -763,7 +763,7 @@
             $('.form-overlay').slideUp(600);
         });
 
-        $('#applyNowCampusList').change(function () {
+        $('#applyNowCampusList, requestCatalogueCampusList, askQuestionCampusList, tourCampusCampusList').change(function () {
             var campusId = $('#applyNowCampusList option:selected').val();
 
             $.each($("#applyNowProgramList option"), function (index, value) {
@@ -774,6 +774,43 @@
                 }
             });
         });
+
+        $('#requestCatalogueCampusList').change(function () {
+            var campusId = $('#requestCatalogueCampusList option:selected').val();
+
+            $.each($("#requestCatalogueProgramList option"), function (index, value) {
+                if ($(value).hasClass(campusId) !== true) {
+                    $(value).hide();
+                } else {
+                    $(value).show();
+                }
+            });
+        });
+
+        $('#askQuestionCampusList').change(function () {
+            var campusId = $('#askQuestionCampusList option:selected').val();
+
+            $.each($("#askQuestionProgramList option"), function (index, value) {
+                if ($(value).hasClass(campusId) !== true) {
+                    $(value).hide();
+                } else {
+                    $(value).show();
+                }
+            });
+        });
+
+        $('#tourCampusCampusList').change(function () {
+            var campusId = $('#tourCampusCampusList option:selected').val();
+
+            $.each($("#tourCampusProgramList option"), function (index, value) {
+                if ($(value).hasClass(campusId) !== true) {
+                    $(value).hide();
+                } else {
+                    $(value).show();
+                }
+            });
+        });
+
 
         (function () {
             var cx = '001285344238673767645:v6k9euiazcu';
