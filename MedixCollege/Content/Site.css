@@ -1036,11 +1036,15 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
         content: "\002F\00a0";
     }
 
-/* Programs */
-#programsQuestionsForm {
+/* Forms */
+.questionsForm {
     font-size: 11px;
     padding: 10px;
     border: 1px solid lightgray;
+}
+
+.input-group {
+    width: 100%;
 }
 
 /* News Section */

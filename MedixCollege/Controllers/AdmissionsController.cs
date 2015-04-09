@@ -61,5 +61,11 @@ namespace MedixCollege.Controllers
         {
             return View();
         }
+
+        // GET: MonthlyPaymentPlan
+        public ActionResult MonthlyPaymentPlan()
+        {
+            return View();
+        }
     }
 }
