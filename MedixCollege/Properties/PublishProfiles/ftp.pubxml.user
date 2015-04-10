@@ -776,7 +776,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 11:56:58</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>04/08/2015 11:14:20</publishTime>
+      <publishTime>04/09/2015 16:46:01</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>04/07/2015 21:15:16</publishTime>
@@ -884,7 +884,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/09/2015 12:26:18</publishTime>
+      <publishTime>04/09/2015 15:48:57</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
