@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:35:40</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>04/09/2015 11:52:50</publishTime>
+      <publishTime>04/10/2015 00:42:58</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
@@ -267,6 +267,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/facebook.gif">
       <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Content/images/Fran-Women-Of-Excellence.jpg">
+      <publishTime>04/10/2015 00:35:31</publishTime>
     </File>
     <File Include="Content/images/googleplus.gif">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -884,7 +887,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/09/2015 15:48:57</publishTime>
+      <publishTime>04/10/2015 00:42:06</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
