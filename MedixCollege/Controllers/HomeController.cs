@@ -126,6 +126,8 @@ namespace MedixCollege.Controllers
 
         public ActionResult NewsArticle(int id = 0)
         {
+            ViewBag.NewsDate = DateTime.Now;
+
             if (id > 0)
             {
                 var newsArticle = new NewsArticle(id);
