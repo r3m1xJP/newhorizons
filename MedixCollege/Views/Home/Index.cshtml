@@ -5,11 +5,15 @@
     <div class="promoContent">
         <h1 class="mainHEADER hidden-xs">Real People, Real Training, Real Jobs</h1>
         <div class="videoButtons visible-xs visible-sm visible-md visible-lg">
-            <button class="btn contentH3-white" id="askQuestion">Ask A Question</button>
+            <button class="btn contentH3-white" id="askQuestionMain">Ask A Question</button>
             <button class="btn contentH3-white" id="findPrograms">Find Programs</button>
         </div>
     </div>
-    <video autoplay loop src="https://dl.dropbox.com/s/8det77wninlnf0w/40%20Second%20Webbackdrop.webmhd.webm?dl=0"></video>
+    <video autoplay loop>
+        <source src="https://dl.dropboxusercontent.com/s/r7f6q1byzt06tke/Cinescope%20Shorter%20-%20No%20Tattoos.mp4.mp4?dl=0" type="video/mp4" />
+        <source src="https://dl.dropboxusercontent.com/s/nk2tsuaz17vtw9l/Cinescope%20Shorter%20-%20No%20Tattoos.webmhd.webm?dl=0" type="video/webm" />
+        <source src="https://dl.dropboxusercontent.com/s/e0rk9xqcyfdye9g/Cinescope%20Shorter%20-%20No%20Tattoos.oggtheora.ogv?dl=0" type="video/ogg" />
+    </video>
 </div>
 <div class="videoWrapperProgram visible-xs">
     <iframe width="560"
@@ -186,7 +190,7 @@
             $('.form-overlay').slideDown()
         });
 
-        $('#askQuestion').click(function () {
+        $('#askQuestionMain, #askQuestion').click(function () {
             $('.popup-form-wrapper').hide();
             $('#askQuestionWrapper').show();
             $('.form-overlay').slideDown()

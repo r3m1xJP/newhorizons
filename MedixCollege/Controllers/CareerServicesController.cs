@@ -39,5 +39,10 @@ namespace MedixCollege.Controllers
         {
             return View();
         }
+
+        public ActionResult HireAGrad()
+        {
+            return View();
+        } 
     }
 }
