@@ -159,6 +159,7 @@
     <Content Include="Content\images\button-previous.png" />
     <Content Include="Content\images\CCGLogo.png" />
     <Content Include="Content\images\facebook.gif" />
+    <Content Include="Content\images\Fran-Women-Of-Excellence.jpg" />
     <Content Include="Content\images\googleplus.gif" />
     <Content Include="Content\images\graduates\Bayshore.jpg" />
     <Content Include="Content\images\graduates\Canes.jpg" />
@@ -197,6 +198,7 @@
     <Content Include="Content\images\mainBANNER-2-IODA.jpg" />
     <Content Include="Content\images\mainBANNER-3-MLAT.jpg" />
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
+    <Content Include="Content\images\Medix-Weekly-Hired-Logo.jpg" />
     <Content Include="Content\images\medixCollegeHeader.gif" />
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pinterest.gif" />

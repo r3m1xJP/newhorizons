@@ -1,6 +1,6 @@
 ﻿
 body {
-    font-family: "Helvetica Roman";
+    font-family: "Helvetica W01 Roman";
     padding-top: 10px;
 }
 
@@ -28,14 +28,14 @@ textarea {
 .grayColor {
     color: gray !important;
     font-weight: bold;
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #555;
 }
 
 .blueColor {
     color: #061D33 !important;
     font-weight: bold;
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
 }
 
 .btn-brand {
@@ -117,7 +117,7 @@ textarea {
 .navbar {
     margin-bottom: 0px !important;
     min-height: 0px !important;
-    font-family: "Neue Helvetica Condensed Bold";
+    font-family: "HelveticaNeueW01-77BdCn_692722";
 }
 
 .nav li.dropdown a:hover {
@@ -413,7 +413,6 @@ footer {
     }
 
 .formWrapper {
-    margin-top: 100px;
 }
 
 /* Carousel */
@@ -477,7 +476,7 @@ footer {
         font-size: 1em;
         border-top: 1px solid rgba(255,255,255, 0.2);
         border-bottom: 1px solid rgba(255,255,255, 0.2);
-        font-family: "Neue Helvetica Condensed Bold" !important;
+        font-family: "HelveticaNeueW01-77BdCn_692722" !important;
     }
 
     .promoContent .videoButtons {
@@ -521,7 +520,7 @@ footer {
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     border-radius: 3px;
-    font-family: "Neue Helvetica Condensed Bold" !important;
+    font-family: "HelveticaNeueW01-77BdCn_692722" !important;
 }
 
     .videoButtons .btn:hover {
@@ -1130,7 +1129,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 /* Body Content Resets*/
 
 .contentPageH1 {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 26px;
     line-height: 26px;
@@ -1139,7 +1138,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
 .contentBlockquote {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif !important;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif !important;
     color: #313131 !important;
     font-size: 24px !important;
     line-height: 24px !important;
@@ -1147,13 +1146,13 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
 .mainHEADER {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 40px;
 }
 
 .contentH1 {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 20px;
     line-height: 20px;
@@ -1161,7 +1160,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
 .contentH1-main {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 20px;
     line-height: 30px;
@@ -1176,7 +1175,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
 .contentH1-white {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 20px;
     line-height: 20px;
@@ -1186,7 +1185,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
 .contentH2-white-bluebg {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: white;
     background-color: #061d33;
     font-size: 20px;
@@ -1198,7 +1197,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 
 
 .side-menu-h2 {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 14px;
     line-height: 14px;
@@ -1206,7 +1205,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
 .contentH2 {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 16px;
     line-height: 16px;
@@ -1214,7 +1213,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
     .contentH2 a {
-        font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+        font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
         color: #061D33;
         font-size: 16px;
         line-height: 18px;
@@ -1223,7 +1222,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     }
 
         .contentH2 a:hover {
-            font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+            font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
             color: #061D33;
             font-size: 16px;
             line-height: 18px;
@@ -1232,7 +1231,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
         }
 
 .contentH3 {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #555;
     font-size: 16px;
     line-height: 18px;
@@ -1240,7 +1239,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
 .contentH3-white {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 16px;
     line-height: 18px;
@@ -1248,7 +1247,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
 .contentH3-blue {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #061D33;
     font-size: 16px;
     line-height: 18px;
@@ -1256,7 +1255,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
     .contentH3-blue a {
-        font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+        font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
         color: #061D33;
         font-size: 16px;
         line-height: 18px;
@@ -1264,7 +1263,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     }
 
         .contentH3-blue a:hover {
-            font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+            font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
             color: #061D33;
             font-size: 16px;
             line-height: 18px;
@@ -1272,7 +1271,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
         }
 
 .contentH3 a {
-    font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
     color: #555;
     font-size: 16px;
     line-height: 18px;
@@ -1280,7 +1279,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 }
 
     .contentH3 a:hover {
-        font-family: "Neue Helvetica Condensed Bold", Arial, Helvetica, sans-serif;
+        font-family: "HelveticaNeueW01-77BdCn_692722", Arial, Helvetica, sans-serif;
         color: #555;
         font-size: 16px;
         line-height: 18px;
@@ -1288,22 +1287,22 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     }
 
 .contentp {
-    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    font-family: "Helvetica W01 Roman", Arial, Helvetica, sans-serif;
     color: #222222;
 }
 
 .contentp-light {
-    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    font-family: "Helvetica W01 Roman", Arial, Helvetica, sans-serif;
     color: white;
 }
 
 .contentp a {
-    font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+    font-family: "Helvetica W01 Roman", Arial, Helvetica, sans-serif;
     color: #222222;
 }
 
     .contentp a:hover {
-        font-family: "Helvetica Roman", Arial, Helvetica, sans-serif;
+        font-family: "Helvetica W01 Roman", Arial, Helvetica, sans-serif;
         color: #313131;
         text-decoration: underline;
     }
@@ -1321,3 +1320,17 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 .glpgray {
     color: #b5b5b5;
 }
+
+/* CSS Fonts Embed */
+
+
+/* Fonts Name
+
+font-family:'Helvetica W01 Roman';
+font-family:'Helvetica W01 Light';
+font-family:'HelveticaNeueW01-77BdCn_692722';
+font-family:'HelveticaNeueW01-47LtCn_692686';
+font-family:'HelveticaNeueW01-67MdCn_692710';
+
+
+*/
