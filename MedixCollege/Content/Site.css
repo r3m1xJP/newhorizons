@@ -571,14 +571,15 @@ video {
     }
 
 .videoItem {
-    background-color: #eee;
+    background-color: #0F3F6F;
     height: 350px;
     padding: 10px;
+    border: solid;
+    border-color: white;
 }
 
     .videoItem label {
-        color: #0F3F6F;
-        font-weight: bold;
+        color: white;
     }
 
 .graduatesHiredWrapper {
@@ -718,151 +719,6 @@ iframe.twitter-timeline {
         opacity: .9;
     }
 
-
-
-
-/* Font Roboto*/
-
-@font-face {
-    font-family: 'Roboto-Regular-webfont';
-    src: url('fonts/Roboto-Regular-webfont.eot') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: 'Roboto-Regular-webfont';
-    src: url('fonts/Roboto-Regular-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family: 'Roboto-Regular-webfont';
-    src: url('fonts/Roboto-Regular-webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto-Regular-webfont';
-    src: url('fonts/Roboto-Regular-webfont.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'Roboto-Black-webfont';
-    src: url('fonts/Roboto-Black-webfont.eot') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: 'Roboto-Black-webfont';
-    src: url('fonts/Roboto-Black-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family: 'Roboto-Black-webfont';
-    src: url('fonts/Roboto-Black-webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto-Black-webfont';
-    src: url('fonts/Roboto-Black-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Roboto-Thin-webfont';
-    src: url('fonts/Roboto-Thin-webfont.eot') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: 'Roboto-Thin-webfont';
-    src: url('fonts/Roboto-Thin-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family: 'Roboto-Thin-webfont';
-    src: url('fonts/Roboto-Thin-webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto-Thin-webfont';
-    src: url('fonts/Roboto-Thin-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Bold-webfont';
-    src: url('fonts/RobotoCondensed-Bold-webfont.eot') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Bold-webfont';
-    src: url('fonts/RobotoCondensed-Bold-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Bold-webfont';
-    src: url('fonts/RobotoCondensed-Bold-webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Bold-webfont';
-    src: url('fonts/RobotoCondensed-Bold-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Roboto-Medium-webfont';
-    src: url('fonts/Roboto-Medium-webfont.eot') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: 'Roboto-Medium-webfont';
-    src: url('fonts/Roboto-Medium-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family: 'Roboto-Medium-webfont';
-    src: url('fonts/Roboto-Medium-webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto-Medium-webfont';
-    src: url('fonts/Roboto-Medium-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Roboto-Light-webfont';
-    src: url('fonts/Roboto-Light-webfont.eot') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: 'Roboto-Light-webfont';
-    src: url('fonts/Roboto-Light-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family: 'Roboto-Light-webfont';
-    src: url('fonts/Roboto-Light-webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto-Light-webfont';
-    src: url('fonts/Roboto-Light-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Regular-webfont';
-    src: url('fonts/RobotoCondensed-Regular-webfont.eot') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Regular-webfont';
-    src: url('fonts/RobotoCondensed-Regular-webfont.svg') format('svg');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Regular-webfont';
-    src: url('fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Regular-webfont';
-    src: url('fonts/RobotoCondensed-Regular-webfont.woff') format('woff');
-}
 
 /* Video Class for Programs */
 
@@ -1209,7 +1065,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     color: #0F3F6F;
     font-size: 16px;
     line-height: 16px;
-    font-weight: 400;
 }
 
     .contentH2 a {
@@ -1217,7 +1072,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
         color: #0F3F6F;
         font-size: 16px;
         line-height: 18px;
-        font-weight: 400;
         text-decoration: none;
     }
 
@@ -1226,7 +1080,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
             color: #0F3F6F;
             font-size: 16px;
             line-height: 18px;
-            font-weight: 400;
             text-decoration: none;
         }
 
@@ -1235,7 +1088,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     color: #555;
     font-size: 16px;
     line-height: 18px;
-    font-weight: 600;
 }
 
 .contentH3-white {
@@ -1243,7 +1095,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     color: white;
     font-size: 16px;
     line-height: 18px;
-    font-weight: 600;
 }
 
 .contentH3-blue {
@@ -1251,7 +1102,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     color: #0F3F6F;
     font-size: 16px;
     line-height: 18px;
-    font-weight: 600;
 }
 
     .contentH3-blue a {
@@ -1259,7 +1109,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
         color: #0F3F6F;
         font-size: 16px;
         line-height: 18px;
-        font-weight: 600;
     }
 
         .contentH3-blue a:hover {
@@ -1267,7 +1116,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
             color: #0F3F6F;
             font-size: 16px;
             line-height: 18px;
-            font-weight: 600;
         }
 
 .contentH3 a {
@@ -1275,7 +1123,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     color: #555;
     font-size: 16px;
     line-height: 18px;
-    font-weight: 600;
 }
 
     .contentH3 a:hover {
@@ -1283,7 +1130,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
         color: #555;
         font-size: 16px;
         line-height: 18px;
-        font-weight: 600;
     }
 
 .contentp {
@@ -1323,14 +1169,17 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 
 /* CSS Fonts Embed */
 
-
 /* Fonts Name
-
 font-family:'Helvetica W01 Roman';
 font-family:'Helvetica W01 Light';
 font-family:'HelveticaNeueW01-77BdCn_692722';
 font-family:'HelveticaNeueW01-47LtCn_692686';
 font-family:'HelveticaNeueW01-67MdCn_692710';
-
-
 */
+
+.newsContainer {
+border-style: solid;
+border-color: lightgray;
+padding: 8px 8px 8px 8px;
+}
+

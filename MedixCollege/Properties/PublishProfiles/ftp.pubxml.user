@@ -398,10 +398,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 03:21:34</publishTime>
     </File>
     <File Include="Content/images/twitter.gif">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>04/13/2015 04:07:43</publishTime>
     </File>
     <File Include="Content/images/youtube.gif">
-      <publishTime>03/04/2015 18:32:13</publishTime>
+      <publishTime>04/13/2015 04:07:31</publishTime>
     </File>
     <File Include="Content/mediaelementplayer.min.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -785,7 +785,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 11:56:58</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>04/11/2015 00:13:37</publishTime>
+      <publishTime>04/13/2015 04:06:03</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>04/11/2015 00:13:37</publishTime>
@@ -893,7 +893,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/11/2015 00:13:37</publishTime>
+      <publishTime>04/13/2015 04:08:53</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
