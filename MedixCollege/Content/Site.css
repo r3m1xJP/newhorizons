@@ -564,6 +564,7 @@ video {
     background-color: lightgray;
     cursor: pointer;
     font-size: 25px !important;
+    margin: 0px 0px 5px 5px;
 }
 
     .videoScrollerNav:hover {
@@ -572,10 +573,11 @@ video {
 
 .videoItem {
     background-color: #0F3F6F;
-    height: 350px;
+    height: 365px;
     padding: 10px;
     border: solid;
     border-color: white;
+    border-width: 1px;
 }
 
     .videoItem label {
