@@ -6,7 +6,7 @@
     ViewBag.Title = "Admissions";
 }
 
-<div class="leftMenuWrapper col-lg-3 custom-collapse">
+<div class="leftMenuWrapper col-md-3 custom-collapse">
     <button class="btn-brand-white collapse-toggle visible-xs" type="button" data-toggle="collapse" data-parent="custom-collapse" data-target="#side-menu-admissions">
         <span class=""><span class="glyphicon glyphicon-align-justify"></span></span>
         <span class="icon-bar"></span>
@@ -24,23 +24,17 @@
         <li class="item side-menu-h2">@Html.ActionLink("RESP", "RegisteredEducationSavingsPlans", "Admissions")</li>
         <li class="item side-menu-h2">@Html.ActionLink("Employment Ontario", "EmploymentOntario", "Admissions")</li>
         <li class="item side-menu-h2">@Html.ActionLink("Monthly Payment Plan", "MonthlyPaymentPlan", "Admissions")</li>
-   
+
         <li class="item btn btn-brand btn-block spacer-top" id="askQuestion">Ask a Question</li>
         <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Information</li>
         <li class="item btn btn-brand btn-block" id="applyOnline">Apply Online</li>
     </ul>
-    <br />
-
 </div>
-<div class="col-lg-9">
-    
-    <div class="col-lg-8 no-padding">
+<div class="col-md-9 pull-right">
+    <div class="col-md-6 no-padding">
         @RenderBody()
     </div>
-
-
-    <br />
-    <div class="col-lg-4 formWrapper">
+    <div class="col-md-3 col-md-offset-3 formWrapper no-padding">
         <h5 class="text-center"><i class="fa fa-envelope"></i> Ask a Question</h5>
         <form id="admissionsQuestionsForm" name="admissionsQuestionsForm" class="questionsForm" method="post" action="/home/askquestion">
             <input type="hidden" name="ORGID" value="240" />
@@ -111,7 +105,6 @@
     </div>
 </div>
 <div class="clearfix"></div>
-
 <script>
     $(document).ready(function () {
         $('#applyOnline').click(function () {
