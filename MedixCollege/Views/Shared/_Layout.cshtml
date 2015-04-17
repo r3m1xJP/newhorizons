@@ -31,7 +31,14 @@
     <header>
         <div class="container">
             <div class="col-md-4">
-                <a href="/home"><img src="~/Content/images/medixCollegeHeader.gif" class="mainLogo img-responsive" alt="Medix College Logo" /></a>
+                @if (ViewBag.MedixOnline != null && ViewBag.MedixOnline)
+                {
+                    <a href="/home"><img src="~/Content/images/MedixOnlineLogo.png" class="mainLogo img-responsive" alt="Medix College Online Logo" /></a>
+                }
+                else
+                {
+                    <a href="/home"><img src="~/Content/images/medixCollegeHeader.gif" class="mainLogo img-responsive" alt="Medix College Logo" /></a>
+                }
             </div>
             <div class="col-md-8">
                 <div class="pull-right"><span class="grayColor">CALL US:</span> <span class="blueColor">1(866) 962-7685</span></div>
@@ -296,8 +303,6 @@
     <div class="container body-content">
         @RenderBody()
     </div>
-
-
     <div class="form-overlay">
         <div class="container">
             <span class="close form-overlay-close"><i class="fa fa-close"></i></span>
@@ -311,7 +316,7 @@
                         <input type="hidden" name="MailListID" value="240001" />
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formfirstname">First Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname"/>
+                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
@@ -319,11 +324,12 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" /></div>
+                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" />
+                        </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formemail">Email: <span class="text-danger">*</span></label>
                             <input type="email" class="form-control pull-right" name="Email" for="formemail" />
-                            </div>
+                        </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
                             <select class="form-control pull-right" name="CampusID" id="applyNowCampusList">
@@ -337,7 +343,7 @@
                             </select>
                         </div>
                         <div class="input-group spacer-top">
-                            <label class="pull-left">Program: <span class="text-danger">*</span></label>            
+                            <label class="pull-left">Program: <span class="text-danger">*</span></label>
                             <select class="form-control pull-right" name="ProgramID" id="applyNowProgramList">
                                 <option class="0 246 243 242 244 241 240" value="0">Select</option>
                                 <option class="0" value="38882">Anatomy &amp; Physiology</option>
@@ -365,22 +371,22 @@
                                 <option class="0" value="1167">Principles of Nutrition</option>
                                 <option class="0 246 243 242 244 241 240" value="643">PSW Upgrading</option>
                                 <option class="0" value="1171">Thought Patterns</option>
-                            </select>  
+                            </select>
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
                             <select class="form-control pull-right" name="MediaGroupID">
-                            <option value="0">Select</option>
-                            <option value="91063">HIGH SCHOOL</option>
-                            <option value="90080">INTERNET</option>
-                            <option value="90081">NEWSPAPER</option>
-                            <option value="91092">OUTREACH</option>
-                            <option value="90213">RADIO</option>
-                            <option value="90083">REFERRAL</option>
-                            <option value="91044">SIGNS</option>
-                            <option value="91241">SUBWAY</option>
-                            <option value="90082">TELEVISION</option>
-                            <option value="90825">TRADE SHOWS</option>
+                                <option value="0">Select</option>
+                                <option value="91063">HIGH SCHOOL</option>
+                                <option value="90080">INTERNET</option>
+                                <option value="90081">NEWSPAPER</option>
+                                <option value="91092">OUTREACH</option>
+                                <option value="90213">RADIO</option>
+                                <option value="90083">REFERRAL</option>
+                                <option value="91044">SIGNS</option>
+                                <option value="91241">SUBWAY</option>
+                                <option value="90082">TELEVISION</option>
+                                <option value="90825">TRADE SHOWS</option>
                             </select>
                         </div>
                         <div class="input-group spacer-top">
@@ -662,7 +668,6 @@
             </div>
         </div>
     </div>
-
     <footer>
         <div class="container-fluid bottom-nav">
             <br />
@@ -748,7 +753,7 @@
         <div class="footer-banner">
 
             <div class="container">
-                <img class="center-block" src="~/Content/images/CCGLogo.png" alt="The Career College Group logo.">
+                <img class="center-block" src="~/Content/images/CCGLogo.png" alt="The Career College Group logo." />
             </div>
         </div>
     </footer> <!-- /footer -->

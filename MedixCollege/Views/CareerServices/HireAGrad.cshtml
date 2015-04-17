@@ -5,7 +5,9 @@
 <h2>Hire a Medix Graduate</h2>
 <p>Please fill out the form below to contact us about hiring a student or posting a job opportunity.</p>
 <div class="col-lg-6">
-    <form>
+    <form id="hireAGradForm" name="hireAGradForm" method="post" action="/home/hireAGrad">
+        <input type="hidden" name="ORGID" value="240" />
+        <input type="hidden" name="MailListID" value="240011" />
         <div class="input-group spacer-top">
             <label class="pull-left">Contact First Name: <span class="text-danger">*</span></label>
             <input type="text" class="form-control pull-right" name="FirstName">

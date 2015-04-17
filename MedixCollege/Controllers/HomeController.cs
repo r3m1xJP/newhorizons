@@ -895,5 +895,53 @@ namespace MedixCollege.Controllers
                 return View("ThankYou");
             }
         }
+
+        [HttpPost]
+        public async Task<ActionResult> ReferralProgram(FormCollection fc)
+        {
+            var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            using (var client = new HttpClient())
+            {
+                var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    ViewBag.Success = true;
+                }
+                else
+                {
+                    ViewBag.Success = false;
+
+                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                }
+
+                return View("ThankYou");
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> HireAGrad(FormCollection fc)
+        {
+            var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            using (var client = new HttpClient())
+            {
+                var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    ViewBag.Success = true;
+                }
+                else
+                {
+                    ViewBag.Success = false;
+
+                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                }
+
+                return View("ThankYou");
+            }
+        }
     }
 }

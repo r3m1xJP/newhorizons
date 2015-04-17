@@ -1,12 +1,16 @@
 ﻿
 body {
     font-family: "Helvetica W01 Roman";
-    padding-top: 10px;
+    background-color: #EEEEEE;
+}
+
+header {
+    background-color: white;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    margin-top: 25px;
+    margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -286,7 +290,7 @@ footer {
 
 .linkOptionsWrapper {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 @media (max-width: 1024px) {
@@ -545,7 +549,7 @@ video {
 }
 
 .videoWrapper, .socialWrapper {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .videoIFrame {
@@ -582,10 +586,11 @@ video {
     }
 
 .graduatesHiredWrapper {
-    margin-top: 10px;
+    margin-top: 15px;
     border: 1px solid gray;
     padding: 10px;
     text-align: center;
+    background-color: white;
 }
 
     .graduatesHiredWrapper label {
@@ -611,7 +616,7 @@ iframe.twitter-timeline {
 }
 
 .contactUsWrapper {
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: lightgray;
     padding: 10px;
 }
@@ -698,7 +703,11 @@ iframe.twitter-timeline {
         }
 
 .spacer-top {
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.spacer-right {
+    margin-right: 5px;
 }
 
 .small-text {
@@ -1193,6 +1202,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     text-align: center;
     text-align: center;
     border: 1px solid white;
+    margin-top: 0 !important;
 }
 
 

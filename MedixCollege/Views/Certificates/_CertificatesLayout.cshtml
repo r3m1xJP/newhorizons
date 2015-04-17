@@ -41,61 +41,85 @@
 </div>
 
 <div class="col-lg-9">
-
     <div class="contentBody">
-        <div class="col-lg-8 no-padding">
-            @RenderBody()
+        <div class="row">
+            <div class="col-lg-8 no-padding">
+                @RenderBody()
+            </div>
+            <div class="col-lg-4">
+                <h5 class="text-center"><i class="fa fa-envelope"></i> Questions About Certificates?</h5>
+                <form id="programsQuestionsForm" name="programsQuestionsForm" class="questionsForm" method="post" action="/home/askquestioncertificate">
+                    <input type="hidden" name="ORGID" value="240" />
+                    <input type="hidden" name="MailListID" value="240001" />
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" name="FirstName">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control pull-right" name="Email">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Location: <span class="text-danger">*</span></label>
+                        <select class="form-control pull-right" name="CampusID">
+                            <option value="0">Select</option>
+                            <option value="246">Brampton</option>
+                            <option value="243">Brantford</option>
+                            <option value="242">Kitchener</option>
+                            <option value="244">London</option>
+                            <option value="241">Scarborough</option>
+                            <option value="240">Toronto</option>
+                        </select>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                        <select class="form-control pull-right" name="ProgramID">
+                            <option value="0">Select</option>
+                            <option value="39478">CPR &amp; First Aid</option>
+                            <option value="38883">Dental Office Procedures (abel dent)</option>
+                            <option value="39162">Intramuscular Injection</option>
+                            <option value="39415">Mental Health &amp; Addictions</option>
+                            <option value="636">Phlebotomy</option>
+
+                        </select>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Comments: </label>
+                        <textarea class="form-control pull-right" name="Comment2"></textarea>
+                    </div>
+                    <div class="small-text spacer-top text-center grayColor">
+                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                    </div>
+                    <div class="text-center">
+                        <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                    </div>
+                </form>
+            </div>
         </div>
-
-        <br />
-        <div class="col-lg-4">
-            <h5 class="text-center"><i class="fa fa-envelope"></i> Questions About Certificates?</h5>
-            <form id="programsQuestionsForm" name="programsQuestionsForm" class="questionsForm" method="post" action="/home/askquestioncertificate">
-                <input type="hidden" name="ORGID" value="240" />
-                <input type="hidden" name="MailListID" value="240001" />
-                <div class="input-group spacer-top">
-                    <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control pull-right" name="FirstName">
+        <div class="row spacer-top">
+            <div class="linkOptionsWrapper">
+                <div class="linkOptions allPrograms visible-xs" id="allPrograms">
+                    <i class="fa fa-search"></i>
+                    <label class="contentH3-white">FIND PROGRAMS</label>
                 </div>
-                <div class="input-group spacer-top">
-                    <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control pull-right" name="Email">
+                <div class="linkOptions home col-md-3" id="requestCatalogue">
+                    <i class="fa fa-book"></i>
+                    <label class="contentH3-white">REQUEST CATALOGUE</label>
                 </div>
-                <div class="input-group spacer-top">
-                    <label class="pull-left">Location: <span class="text-danger">*</span></label>
-                    <select class="form-control pull-right" name="CampusID">
-                        <option value="0">Select</option>
-                        <option value="246">Brampton</option>
-                        <option value="243">Brantford</option>
-                        <option value="242">Kitchener</option>
-                        <option value="244">London</option>
-                        <option value="241">Scarborough</option>
-                        <option value="240">Toronto</option>
-                    </select>
+                <div class="linkOptions home col-md-3" id="askQuestion">
+                    <i class="fa fa-comment"></i>
+                    <label class="contentH3-white">ASK A QUESTION</label>
                 </div>
-                <div class="input-group spacer-top">
-                    <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                    <select class="form-control pull-right" name="ProgramID">
-                        <option value="0">Select</option>
-                        <option value="39478">CPR &amp; First Aid</option>
-                        <option value="38883">Dental Office Procedures (abel dent)</option>
-                        <option value="39162">Intramuscular Injection</option>
-                        <option value="39415">Mental Health &amp; Addictions</option>
-                        <option value="636">Phlebotomy</option>
-
-                    </select>
+                <div class="linkOptions home col-md-3" id="tourCampus">
+                    <i class="fa fa-home"></i>
+                    <label class="contentH3-white">TOUR A CAMPUS</label>
                 </div>
-                <div class="input-group spacer-top">
-                    <label class="pull-left">Comments: </label>
-                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                <div class="linkOptions home col-md-3" id="apply">
+                    <i class="fa fa-bookmark"></i>
+                    <label class="contentH3-white">APPLY NOW</label>
                 </div>
-                <div class="small-text spacer-top text-center grayColor">
-                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                </div>
-                <div class="text-center">
-                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
-                </div>
-            </form>
+                <div class="clearfix"></div>
+            </div>
         </div>
     </div>
 </div>
