@@ -30,7 +30,7 @@
         <li class="item side-menu-h2">@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
         <li class="item side-menu-h2">@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
         <li class="item side-menu-h2">@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
-
+        <br />
         <li class="item btn btn-brand btn-block" id="askQuestion">Ask a Question</li>
         <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Information</li>
         <li class="item btn btn-brand btn-block" id="applyOnline">Apply Online</li>
@@ -41,10 +41,10 @@
 <div class="col-md-9 pull-right">
     <div class="contentBody">
         <div class="row">
-            <div class="col-md-6 no-padding">
+            <div class="col-md-8 mid-padding">
                 @RenderBody()
             </div>
-            <div class="col-md-3 col-md-offset-3 formWrapper no-padding">
+            <div class="col-md-4 formWrapper no-padding">
                 <h5 class="text-center"><i class="fa fa-envelope"></i> Questions About Programs?</h5>
                 <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
                     <input type="hidden" name="ORGID" value="240" />
