@@ -6,15 +6,14 @@
     ViewBag.Title = "News Directory";
 }
 
-<div class="contentHeader">
-    News Directory
-</div>
 
-<div class="spacer-top">
-    <h2 class="date spacer-top">
-        March 2015
-    </h2>
-    <hr />
+
+    <h1 class="contentPageH1">News Directory</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="active contentp">News Directory</li>
+    </ol>
+
     <ul class="list-unstyled newsList">
         @foreach (var article in Model)
         {
