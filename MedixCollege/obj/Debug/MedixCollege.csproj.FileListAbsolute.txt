@@ -24,7 +24,6 @@ C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\Newtons
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.dll
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.pdb
 C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\bin\MySql.Data.dll
-C:\Development\JP\Consulting\Medix College\MedixCollege\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.dll.config
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.dll
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.pdb
