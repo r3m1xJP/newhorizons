@@ -1209,3 +1209,31 @@ font-family:'HelveticaNeueW01-67MdCn_692710';
 .inline {
     display: inline;
 }
+
+/*Toppy Video*/
+
+.header-unit {
+  height: 150px;
+  border: 2px solid #000;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:0;
+}
+video.fillWidth {
+	width: 100%;
+}
