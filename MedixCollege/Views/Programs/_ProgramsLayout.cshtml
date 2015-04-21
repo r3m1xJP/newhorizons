@@ -17,23 +17,22 @@
     </button>
 
     <ul class="leftMenu list-unstyled collapse" id="side-menu-programs">
-        <li class="item contentH1-white">@Html.ActionLink("All Programs", "AllPrograms", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Child Youth Addictions Worker", "ChildYouthAddictionsWorker", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Community Service Worker", "CommunityServiceWorker", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Early Child Care Assistant", "EarlyChildCareAssistant", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Fitness Health Promotion", "FitnessHealthPromotion", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Intra Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Massage Therapy", "MassageTherapy", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Medical Lab Assistant Technician", "MedicalLabAssistantTechnician", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
-        <li class="item side-menu-h2">@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
+        <li class="item contentH1-white"><span class="glyphicon glyphicon-home goldBorderSM"></span>&nbsp;@Html.ActionLink("All Programs", "AllPrograms", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Child Youth Addictions Worker", "ChildYouthAddictionsWorker", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Community Service Worker", "CommunityServiceWorker", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Early Child Care Assistant", "EarlyChildCareAssistant", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Fitness Health Promotion", "FitnessHealthPromotion", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Intra Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Massage Therapy", "MassageTherapy", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Medical Lab Assistant Technician", "MedicalLabAssistantTechnician", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
+        <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
         <br />
         <li class="item btn btn-brand btn-block" id="askQuestion">Ask a Question</li>
-        <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Information</li>
-        <li class="item btn btn-brand btn-block" id="applyOnline">Apply Online</li>
+        <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Catalogue</li>
     </ul>
     <br />
 </div>
@@ -45,8 +44,11 @@
                 @RenderBody()
             </div>
 
-            <div class="col-sm-4 formWrapper no-padding">
-                <h5 class="text-center"><i class="fa fa-envelope"></i> Questions About Programs?</h5>
+            <div class="col-sm-4 formWrapper overquestionsForm">
+                <br />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment blueGoldBorder"></span>&nbsp; Ask a Question
+                </h1>
                 <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
                     <input type="hidden" name="ORGID" value="240" />
                     <input type="hidden" name="MailListID" value="240001" />
@@ -116,31 +118,7 @@
             </div>
         </div>
 
-        <div class="row spacer-top">
-            <div class="linkOptionsWrapper">
-                <div class="linkOptions allPrograms visible-xs" id="allPrograms">
-                    <i class="fa fa-search"></i>
-                    <label class="contentH3-white">FIND PROGRAMS</label>
-                </div>
-                <div class="linkOptions home col-md-3" id="requestCatalogue">
-                    <i class="fa fa-book"></i>
-                    <label class="contentH3-white">REQUEST CATALOGUE</label>
-                </div>
-                <div class="linkOptions home col-md-3" id="askQuestion">
-                    <i class="fa fa-comment"></i>
-                    <label class="contentH3-white">ASK A QUESTION</label>
-                </div>
-                <div class="linkOptions home col-md-3" id="tourCampus">
-                    <i class="fa fa-home"></i>
-                    <label class="contentH3-white">TOUR A CAMPUS</label>
-                </div>
-                <div class="linkOptions home col-md-3" id="apply">
-                    <i class="fa fa-bookmark"></i>
-                    <label class="contentH3-white">APPLY NOW</label>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+        
     </div>
 </div>
 <div class="clearfix"></div>
