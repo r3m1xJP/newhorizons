@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:35:40</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>04/19/2015 19:40:57</publishTime>
+      <publishTime>04/21/2015 03:18:28</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
@@ -422,7 +422,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>04/20/2015 11:38:49</publishTime>
+      <publishTime>04/21/2015 02:47:39</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -525,6 +525,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/themes/base/tooltip.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Content/videos/Cinescope Shorter - No Tattoos.mp4.mp4">
+      <publishTime>04/20/2015 22:20:05</publishTime>
+    </File>
+    <File Include="Content/videos/Cinescope Shorter - No Tattoos.oggtheora.ogv">
+      <publishTime>04/20/2015 22:20:05</publishTime>
+    </File>
+    <File Include="Content/videos/Cinescope Shorter - No Tattoos.webmhd.webm">
+      <publishTime>04/20/2015 22:20:05</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -776,13 +785,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/20/2015 11:49:20</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
-      <publishTime>04/01/2015 21:28:49</publishTime>
+      <publishTime>04/21/2015 01:03:11</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/History.cshtml">
-      <publishTime>04/17/2015 14:00:55</publishTime>
+      <publishTime>04/20/2015 23:49:23</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/Index.cshtml">
-      <publishTime>03/31/2015 13:19:48</publishTime>
+      <publishTime>04/21/2015 00:46:26</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/LaptopInitiative.cshtml">
       <publishTime>03/31/2015 13:11:59</publishTime>
@@ -791,10 +800,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/17/2015 14:55:52</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/VirtualTour.cshtml">
-      <publishTime>04/10/2015 09:26:27</publishTime>
+      <publishTime>04/21/2015 00:35:47</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/_DiscoverMedixLayout.cshtml">
-      <publishTime>04/20/2015 11:50:21</publishTime>
+      <publishTime>04/21/2015 03:18:05</publishTime>
     </File>
     <File Include="Views/Home/AccessibilityPolicy.cshtml">
       <publishTime>04/01/2015 11:56:57</publishTime>
@@ -806,13 +815,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 11:56:58</publishTime>
     </File>
     <File Include="Views/Home/HireAMedixGrad.cshtml">
-      <publishTime>04/01/2015 11:56:58</publishTime>
+      <publishTime>04/20/2015 22:20:05</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>04/20/2015 11:54:30</publishTime>
+      <publishTime>04/20/2015 22:20:05</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
-      <publishTime>04/20/2015 13:13:24</publishTime>
+      <publishTime>04/20/2015 14:29:06</publishTime>
     </File>
     <File Include="Views/Home/NewsDirectory.cshtml">
       <publishTime>04/20/2015 13:17:49</publishTime>
@@ -821,7 +830,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 14:41:10</publishTime>
     </File>
     <File Include="Views/Home/ReferralProgram.cshtml">
-      <publishTime>04/20/2015 13:37:14</publishTime>
+      <publishTime>04/20/2015 14:31:00</publishTime>
     </File>
     <File Include="Views/Home/Search.cshtml">
       <publishTime>03/26/2015 18:04:31</publishTime>
@@ -863,10 +872,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/19/2015 19:36:41</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>04/08/2015 11:37:10</publishTime>
+      <publishTime>04/21/2015 01:14:41</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
-      <publishTime>04/08/2015 11:25:59</publishTime>
+      <publishTime>04/21/2015 03:17:53</publishTime>
     </File>
     <File Include="Views/Programs/CommunityServiceWorker.cshtml">
       <publishTime>03/31/2015 11:22:27</publishTime>
@@ -911,13 +920,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/31/2015 11:22:23</publishTime>
     </File>
     <File Include="Views/Programs/_ProgramsLayout.cshtml">
-      <publishTime>04/20/2015 13:27:51</publishTime>
+      <publishTime>04/21/2015 03:18:05</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/20/2015 11:29:38</publishTime>
+      <publishTime>04/20/2015 22:33:08</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -926,7 +935,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/19/2015 19:41:09</publishTime>
+      <publishTime>04/21/2015 03:18:39</publishTime>
     </File>
   </ItemGroup>
 </Project>
