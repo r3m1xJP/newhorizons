@@ -291,10 +291,23 @@ footer {
     color: #EDAA0F;
 }
 
+.whiteOuterGlow {
+text-shadow: 1px 1px 1px #FFFFFF;
+}
+
 .CblueGoldBorder {
    color: #0F3F6F;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #EDAA0F;
+}
+
+.whiteBorderSM {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+}
+
+.f70 {
+    font-size: 70px;
 }
 
 .f20 {
