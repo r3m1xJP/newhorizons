@@ -26,23 +26,23 @@
 </div>
 <div class="linkOptionsWrapper">
     <div class="linkOptions allPrograms visible-md visible-sm visible-xs" id="allPrograms">
-        <i class="fa fa-search goldColour whiteBorderSM"></i>
+        <i class="fa fa-search goldColour"></i>
         <label class="contentH3-white">FIND PROGRAMS</label>
     </div>
     <div class="linkOptions home col-md-3" id="requestCatalogue">
-        <i class="fa fa-book goldColour whiteBorderSM"></i>
+        <i class="fa fa-book goldColour"></i>
         <label class="contentH3-white">REQUEST CATALOGUE</label>
     </div>
     <div class="linkOptions home col-md-3" id="askQuestion">
-        <i class="fa fa-comment goldColour whiteBorderSM"></i>
+        <i class="fa fa-comment goldColour"></i>
         <label class="contentH3-white">ASK A QUESTION</label>
     </div>
     <div class="linkOptions home col-md-3" id="tourCampus">
-        <i class="fa fa-home goldColour whiteBorderSM"></i>
+        <i class="fa fa-home goldColour"></i>
         <label class="contentH3-white">TOUR A CAMPUS</label>
     </div>
     <div class="linkOptions home col-md-3" id="apply">
-        <i class="fa fa-bookmark goldColour whiteBorderSM"></i>
+        <i class="fa fa-bookmark goldColour"></i>
         <label class="contentH3-white">APPLY NOW</label>
     </div>
     <div class="clearfix"></div>
@@ -94,7 +94,7 @@
         <ul class="list-unstyled newsList">
             @foreach (MedixCollege.Models.NewsArticleDTO article in ViewBag.NewsArticles)
             {
-                <li class="newsListItem contentp whiteBG-GrayStroke " id="@article.Id">
+                <li class="newsListItem contentp whiteBG-GrayStroke" id="@article.Id">
                     <div class="contentH3-blue"><span class="glyphicon glyphicon-comment spacer-right mBlueColour f20 goldOuterGlow "></span> @article.Title</div>
                     <div class="date">@article.Date.ToString("MMMM d, yyyy")</div>
 
@@ -146,7 +146,7 @@
     <div class="clearfix"></div>
 </div>
 <div class="contactUsWrapper">
-    <span class="pull-right contentH1whitemain"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("CLICK HERE TO HIRE A GRADUATE", "HireAMedixGrad", "Home")</span>
+    <span class="pull-right contentH1whitemain">@Html.ActionLink("CLICK HERE TO HIRE A GRADUATE", "HireAMedixGrad", "Home")</span>
     <div class="clearfix"></div>
 </div>
 <script>
