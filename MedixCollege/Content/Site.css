@@ -291,8 +291,24 @@ footer {
     color: #EDAA0F;
 }
 
+.mBlueColour {
+    color: #0F3F6F;
+}
+
 .whiteOuterGlow {
 text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.goldOuterGlow {
+text-shadow: 1px 1px 1px #EDAA0F;
+}
+
+.goldOuterGlow2 {
+text-shadow: 1px 1px 3px #EDAA0F;
+}
+
+.whiteObject {
+    color: white;
 }
 
 .CblueGoldBorder {
@@ -301,17 +317,41 @@ text-shadow: 1px 1px 1px #FFFFFF;
    -webkit-text-stroke-color: #EDAA0F;
 }
 
+.CgoldBlueBorder {
+   color: #EDAA0F;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #0F3F6F;
+}
+
 .whiteBorderSM {
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
+}
+
+.whiteBG-GrayStroke {
+background-color:white;
+border: solid 1px lightgray;
+margin-top: 2px;
+margin-bottom: 2px;
 }
 
 .f70 {
     font-size: 70px;
 }
 
+.f50 {
+    font-size: 50px;
+}
+.f30 {
+    font-size: 30px;
+}
+
 .f20 {
     font-size: 20px;
+}
+
+.f30 {
+    font-size: 30px;
 }
 
 .f15 {
@@ -631,14 +671,15 @@ video {
 
 .videoScrollerNav {
     padding: 5px 25px 5px 25px;
-    background-color: lightgray;
+    background-color: #EDAA0F;
     cursor: pointer;
     font-size: 25px !important;
     margin: 0px 0px 5px 5px;
 }
 
     .videoScrollerNav:hover {
-        background-color: gray;
+        background-color: #e9ca81;
+        color: #0F3F6F;
     }
 
 .videoItem {
@@ -685,7 +726,7 @@ iframe.twitter-timeline {
 
 .contactUsWrapper {
     margin-top: 15px;
-    background-color: lightgray;
+    background-color: #0F3F6F;
     padding: 10px;
 }
 
@@ -1119,6 +1160,34 @@ blockquote p {
     margin: 0px;
 }
 
+.contentH1whitemain {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0px; 
+    margin: 0px;
+}
+
+.contentH1whitemain a {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0px; 
+    margin: 0px;
+}
+
+.contentH1whitemain a:hover {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0px; 
+    margin: 0px;
+    text-decoration: underline;
+}
+
 .contentH1-main {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: #0F3F6F;
@@ -1331,4 +1400,21 @@ font-size: 9px;
 padding: 5px;
 padding-bottom: 5px;
 
+}
+
+/*Icons Font*/
+@font-face {
+    font-family: 'socicon';
+    src: url('/Content/fonts/socicon-webfont.eot');
+    src: url('/Content/fonts/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Content/fonts/socicon-webfont.woff') format('woff'),
+         url('/Content/fonts/socicon-webfont.ttf') format('truetype'),
+         url('/Content/fonts/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
+.socicon {
+    font-family: 'socicon' !important;
 }
