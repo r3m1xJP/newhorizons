@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:35:40</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>04/19/2015 19:40:57</publishTime>
+      <publishTime>04/22/2015 05:15:06</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
@@ -78,6 +78,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/font-awesome.min.css">
       <publishTime>03/04/2015 18:32:12</publishTime>
+    </File>
+    <File Include="Content/fonts/._socicon-webfont.eot">
+      <publishTime>04/22/2015 03:58:34</publishTime>
+    </File>
+    <File Include="Content/fonts/._socicon-webfont.svg">
+      <publishTime>04/22/2015 03:58:34</publishTime>
+    </File>
+    <File Include="Content/fonts/._socicon-webfont.ttf">
+      <publishTime>04/22/2015 03:58:34</publishTime>
+    </File>
+    <File Include="Content/fonts/._socicon-webfont.woff">
+      <publishTime>04/22/2015 03:58:34</publishTime>
+    </File>
+    <File Include="Content/fonts/._socicon-webfont.woff2">
+      <publishTime>04/22/2015 03:58:34</publishTime>
     </File>
     <File Include="Content/fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff">
       <publishTime>03/31/2015 10:42:47</publishTime>
@@ -228,6 +243,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/fonts/RobotoCondensed-Regular-webfont.woff">
       <publishTime>03/16/2015 16:46:25</publishTime>
+    </File>
+    <File Include="Content/fonts/socicon-webfont.eot">
+      <publishTime>04/22/2015 03:57:06</publishTime>
+    </File>
+    <File Include="Content/fonts/socicon-webfont.svg">
+      <publishTime>04/22/2015 03:57:06</publishTime>
+    </File>
+    <File Include="Content/fonts/socicon-webfont.ttf">
+      <publishTime>04/22/2015 03:57:06</publishTime>
+    </File>
+    <File Include="Content/fonts/socicon-webfont.woff">
+      <publishTime>04/22/2015 03:57:06</publishTime>
+    </File>
+    <File Include="Content/fonts/socicon-webfont.woff2">
+      <publishTime>04/22/2015 03:57:06</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-bold-webfont.eot">
       <publishTime>03/16/2015 11:41:46</publishTime>
@@ -422,7 +452,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>04/20/2015 11:38:49</publishTime>
+      <publishTime>04/22/2015 05:12:02</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -525,6 +555,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/themes/base/tooltip.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
+    </File>
+    <File Include="Content/videos/Cinescope Shorter - No Tattoos.mp4.mp4">
+      <publishTime>04/20/2015 22:20:05</publishTime>
+    </File>
+    <File Include="Content/videos/Cinescope Shorter - No Tattoos.oggtheora.ogv">
+      <publishTime>04/20/2015 22:20:05</publishTime>
+    </File>
+    <File Include="Content/videos/Cinescope Shorter - No Tattoos.webmhd.webm">
+      <publishTime>04/20/2015 22:20:05</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -659,7 +698,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/02/2015 10:50:13</publishTime>
     </File>
     <File Include="Views/Admissions/_AdmissionsLayout.cshtml">
-      <publishTime>04/20/2015 11:46:54</publishTime>
+      <publishTime>04/22/2015 03:46:21</publishTime>
     </File>
     <File Include="Views/Admissions/_MonthlyPaymentPlan.cshtml">
       <publishTime>04/09/2015 11:26:32</publishTime>
@@ -686,7 +725,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/19/2015 11:53:55</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
-      <publishTime>04/20/2015 11:47:49</publishTime>
+      <publishTime>04/22/2015 03:52:17</publishTime>
     </File>
     <File Include="Views/CareerServices/HireAGrad.cshtml">
       <publishTime>04/17/2015 11:47:10</publishTime>
@@ -710,7 +749,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 11:56:57</publishTime>
     </File>
     <File Include="Views/CareerServices/_CareerServicesLayout.cshtml">
-      <publishTime>04/17/2015 12:52:56</publishTime>
+      <publishTime>04/22/2015 03:50:49</publishTime>
     </File>
     <File Include="Views/Certificates/AbelDent.cshtml">
       <publishTime>04/08/2015 11:05:03</publishTime>
@@ -773,16 +812,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/08/2015 11:06:43</publishTime>
     </File>
     <File Include="Views/Certificates/_CertificatesLayout.cshtml">
-      <publishTime>04/20/2015 11:49:20</publishTime>
+      <publishTime>04/22/2015 03:45:52</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
-      <publishTime>04/01/2015 21:28:49</publishTime>
+      <publishTime>04/21/2015 01:03:11</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/History.cshtml">
-      <publishTime>04/17/2015 14:00:55</publishTime>
+      <publishTime>04/20/2015 23:49:23</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/Index.cshtml">
-      <publishTime>03/31/2015 13:19:48</publishTime>
+      <publishTime>04/21/2015 00:46:26</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/LaptopInitiative.cshtml">
       <publishTime>03/31/2015 13:11:59</publishTime>
@@ -791,10 +830,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/17/2015 14:55:52</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/VirtualTour.cshtml">
-      <publishTime>04/10/2015 09:26:27</publishTime>
+      <publishTime>04/21/2015 00:35:47</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/_DiscoverMedixLayout.cshtml">
-      <publishTime>04/20/2015 11:50:21</publishTime>
+      <publishTime>04/21/2015 03:18:05</publishTime>
     </File>
     <File Include="Views/Home/AccessibilityPolicy.cshtml">
       <publishTime>04/01/2015 11:56:57</publishTime>
@@ -806,13 +845,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 11:56:58</publishTime>
     </File>
     <File Include="Views/Home/HireAMedixGrad.cshtml">
-      <publishTime>04/01/2015 11:56:58</publishTime>
+      <publishTime>04/20/2015 22:20:05</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>04/20/2015 11:54:30</publishTime>
+      <publishTime>04/22/2015 05:12:36</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
-      <publishTime>04/20/2015 13:13:24</publishTime>
+      <publishTime>04/20/2015 14:29:06</publishTime>
     </File>
     <File Include="Views/Home/NewsDirectory.cshtml">
       <publishTime>04/20/2015 13:17:49</publishTime>
@@ -821,7 +860,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 14:41:10</publishTime>
     </File>
     <File Include="Views/Home/ReferralProgram.cshtml">
-      <publishTime>04/20/2015 13:37:14</publishTime>
+      <publishTime>04/20/2015 14:31:00</publishTime>
     </File>
     <File Include="Views/Home/Search.cshtml">
       <publishTime>03/26/2015 18:04:31</publishTime>
@@ -842,82 +881,82 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/20/2015 13:27:14</publishTime>
     </File>
     <File Include="Views/MedixOnline/Advantages.cshtml">
-      <publishTime>04/01/2015 02:51:01</publishTime>
+      <publishTime>04/22/2015 04:32:33</publishTime>
     </File>
     <File Include="Views/MedixOnline/ContactMedixOnline.cshtml">
-      <publishTime>04/07/2015 21:15:16</publishTime>
+      <publishTime>04/22/2015 04:41:39</publishTime>
     </File>
     <File Include="Views/MedixOnline/ELearning.cshtml">
-      <publishTime>04/01/2015 02:54:31</publishTime>
+      <publishTime>04/22/2015 04:36:49</publishTime>
     </File>
     <File Include="Views/MedixOnline/Index.cshtml">
-      <publishTime>04/01/2015 02:48:00</publishTime>
+      <publishTime>04/22/2015 04:26:33</publishTime>
     </File>
     <File Include="Views/MedixOnline/SchedulesAndFees.cshtml">
-      <publishTime>04/01/2015 03:08:41</publishTime>
+      <publishTime>04/22/2015 04:29:57</publishTime>
     </File>
     <File Include="Views/MedixOnline/ThankYou.cshtml">
       <publishTime>04/08/2015 10:08:58</publishTime>
     </File>
     <File Include="Views/MedixOnline/_MedixOnlineLayout.cshtml">
-      <publishTime>04/19/2015 19:36:41</publishTime>
+      <publishTime>04/22/2015 03:54:13</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>04/08/2015 11:37:10</publishTime>
+      <publishTime>04/22/2015 04:25:17</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
-      <publishTime>04/08/2015 11:25:59</publishTime>
+      <publishTime>04/21/2015 12:17:39</publishTime>
     </File>
     <File Include="Views/Programs/CommunityServiceWorker.cshtml">
-      <publishTime>03/31/2015 11:22:27</publishTime>
+      <publishTime>04/21/2015 22:20:55</publishTime>
     </File>
     <File Include="Views/Programs/DentalAssistantII.cshtml">
-      <publishTime>03/31/2015 11:19:51</publishTime>
+      <publishTime>04/21/2015 12:17:12</publishTime>
     </File>
     <File Include="Views/Programs/DevelopmentalServiceWorker.cshtml">
-      <publishTime>03/31/2015 11:20:05</publishTime>
+      <publishTime>04/21/2015 13:44:58</publishTime>
     </File>
     <File Include="Views/Programs/EarlyChildCareAssistant.cshtml">
-      <publishTime>04/01/2015 22:14:29</publishTime>
+      <publishTime>04/21/2015 13:25:23</publishTime>
     </File>
     <File Include="Views/Programs/FitnessHealthPromotion.cshtml">
-      <publishTime>03/31/2015 11:20:35</publishTime>
+      <publishTime>04/21/2015 13:44:42</publishTime>
     </File>
     <File Include="Views/Programs/Index.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Programs/IntraOralDentalAssistant.cshtml">
-      <publishTime>03/31/2015 11:22:27</publishTime>
+      <publishTime>04/21/2015 14:26:17</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapy.cshtml">
-      <publishTime>04/08/2015 11:35:45</publishTime>
+      <publishTime>04/21/2015 16:49:54</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapyAdvancedStanding.cshtml">
-      <publishTime>04/08/2015 11:34:51</publishTime>
+      <publishTime>04/21/2015 18:32:06</publishTime>
     </File>
     <File Include="Views/Programs/MedicalLabAssistantTechnician.cshtml">
-      <publishTime>03/31/2015 11:21:54</publishTime>
+      <publishTime>04/21/2015 22:24:24</publishTime>
     </File>
     <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
-      <publishTime>03/31/2015 11:21:51</publishTime>
+      <publishTime>04/22/2015 00:08:38</publishTime>
     </File>
     <File Include="Views/Programs/MedixOnline.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Programs/PersonalSupportWorker.cshtml">
-      <publishTime>03/31/2015 11:22:11</publishTime>
+      <publishTime>04/21/2015 23:09:34</publishTime>
     </File>
     <File Include="Views/Programs/PharmacyAssistant.cshtml">
-      <publishTime>03/31/2015 11:22:23</publishTime>
+      <publishTime>04/22/2015 03:40:28</publishTime>
     </File>
     <File Include="Views/Programs/_ProgramsLayout.cshtml">
-      <publishTime>04/20/2015 13:27:51</publishTime>
+      <publishTime>04/22/2015 03:51:07</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/20/2015 11:29:38</publishTime>
+      <publishTime>04/22/2015 04:13:51</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -926,7 +965,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/19/2015 19:41:09</publishTime>
+      <publishTime>04/21/2015 03:18:39</publishTime>
     </File>
   </ItemGroup>
 </Project>
