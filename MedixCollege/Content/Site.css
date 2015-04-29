@@ -479,6 +479,24 @@ footer {
     border-left: 5px solid white;
 }
 
+.linkOptionsTC:hover {
+    opacity: .8;
+}
+
+.linkOptionsAN {
+    background-color: #0F3F6F;
+    color: white;
+    cursor: pointer;
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+    border-left: 10px solid white;
+}
+
+    .linkOptionsAN:hover {
+        opacity: .8;
+    }
+
 @media (max-width: 768px) {
     .linkOptionsFP {
         border: 0px;
@@ -520,23 +538,9 @@ footer {
     }
 }
 
-.linkOptionsTC:hover {
-    opacity: .8;
-}
 
-.linkOptionsAN {
-    background-color: #0F3F6F;
-    color: white;
-    cursor: pointer;
-    height: 150px;
-    padding: 5px;
-    text-align: center;
-    border-left: 10px solid white;
-}
 
-    .linkOptionsAN:hover {
-        opacity: .8;
-    }
+
 
 @media (min-width: 768px) {
     .leftMenuWrapper {
@@ -842,21 +846,33 @@ video {
 
 @media screen and (min-width: 768px) {
     .socialWrapper div.twitter, .socialWrapper div.facebook, .socialWrapper div.newsUpdates {
-        height: 500px;
     }
 }
 
+
+
+
+
+
+
 .socialWrapper div.twitter {
-    border-left: solid 3px white;
-    border-right: solid 3px white;
+    border-left: solid 2.5px #eeeeee;
+    border-right: solid 2.5px #eeeeee;
 }
 
 .socialWrapper div.facebook {
-    border-right: 5px solid white;
+    border-right: 5px solid #eeeeee;
 }
 
 .socialWrapper div.newsUpdates {
-    border-left: 5px solid white;
+    border-left: 5px solid #eeeeee;
+}
+
+@media (max-width: 768px) {
+    .socialWrapper div.twitter, .socialWrapper div.facebook, .socialWrapper div.newsUpdates  {
+        border: 0px;
+        margin:0px;
+    }
 }
 
 iframe.twitter-timeline {
