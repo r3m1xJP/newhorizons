@@ -840,19 +840,22 @@ video {
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+    .socialWrapper div.twitter, .socialWrapper div.facebook, .socialWrapper div.newsUpdates {
+        height: 500px;
+    }
+}
+
 .socialWrapper div.twitter {
-    height: 500px;
     border-left: solid 3px white;
     border-right: solid 3px white;
 }
 
 .socialWrapper div.facebook {
-    height: 500px;
     border-right: 5px solid white;
 }
 
 .socialWrapper div.newsUpdates {
-    height: 500px;
     border-left: 5px solid white;
 }
 
