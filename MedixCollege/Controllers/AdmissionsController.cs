@@ -14,13 +14,13 @@ namespace MedixCollege.Controllers
             ViewBag.HeroText = "";
             ViewBag.BodyHeaderText = "";
 
-            ViewBag.SideHeader = "";
-            ViewBag.SideSubHeader1 = "";
-            ViewBag.SideSubText1 = "";
-            ViewBag.SideSubHeader2 = "";
-            ViewBag.SideSubText2 = "";
-            ViewBag.SideSubHeader3 = "";
-            ViewBag.SideSubText3 = "";
+            ViewBag.SideHeader = "Links";
+            ViewBag.SideSubHeader1 = "Google";
+            ViewBag.SideSubText1 = "<a href='http://www.google.com'>www.google.com</a>";
+            ViewBag.SideSubHeader2 = "Google Canada";
+            ViewBag.SideSubText2 = "<a href='http://www.google.ca'>www.google.ca</a>";
+            ViewBag.SideSubHeader3 = "NBA";
+            ViewBag.SideSubText3 = "<a href='http://www.nba.com'>www.nba.com</a>";
             return View();
         }
 
