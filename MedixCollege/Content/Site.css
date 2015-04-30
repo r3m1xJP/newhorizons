@@ -479,9 +479,9 @@ footer {
     border-left: 5px solid white;
 }
 
-.linkOptionsTC:hover {
-    opacity: .8;
-}
+    .linkOptionsTC:hover {
+        opacity: .8;
+    }
 
 .linkOptionsAN {
     background-color: #0F3F6F;
@@ -869,9 +869,9 @@ video {
 }
 
 @media (max-width: 768px) {
-    .socialWrapper div.twitter, .socialWrapper div.facebook, .socialWrapper div.newsUpdates  {
+    .socialWrapper div.twitter, .socialWrapper div.facebook, .socialWrapper div.newsUpdates {
         border: 0px;
-        margin:0px;
+        margin: 0px;
     }
 }
 
@@ -1596,3 +1596,11 @@ video {
 /*.sideWrapper {
 display: none;
 }*/
+
+.nav.full-width {
+    width: 100%;
+}
+
+    .nav.full-width li.dropdown {
+        width: 12.5%;
+    }
