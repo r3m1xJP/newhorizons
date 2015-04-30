@@ -1592,3 +1592,7 @@ video {
 .sideSubText {
     font-size: 14px;
 }
+
+.sideWrapper {
+display: none;
+}

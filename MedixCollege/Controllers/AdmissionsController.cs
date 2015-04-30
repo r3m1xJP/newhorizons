@@ -14,14 +14,13 @@ namespace MedixCollege.Controllers
             ViewBag.HeroText = "";
             ViewBag.BodyHeaderText = "";
 
-            ViewBag.SideHeader = "Test";
-            ViewBag.SideSubHeader1 = "Test1";
-            ViewBag.SideSubText1 = "Test2";
-            ViewBag.SideSubHeader2 = "Test3";
-            ViewBag.SideSubText2 = "Test4";
-            ViewBag.SideSubHeader3 = "Test5";
-            ViewBag.SideSubText3 = "Test6";
-
+            ViewBag.SideHeader = "";
+            ViewBag.SideSubHeader1 = "";
+            ViewBag.SideSubText1 = "";
+            ViewBag.SideSubHeader2 = "";
+            ViewBag.SideSubText2 = "";
+            ViewBag.SideSubHeader3 = "";
+            ViewBag.SideSubText3 = "";
             return View();
         }
 
