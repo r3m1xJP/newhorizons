@@ -746,7 +746,7 @@ footer {
 
 @media (min-width: 1500px) {
     .promoContent h1 {
-        font-size: 5em;
+        font-size: 4em;
     }
 }
 
@@ -1304,7 +1304,7 @@ blockquote p {
 .mainHEADER {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .contentH1 {
