@@ -21,23 +21,24 @@
         </button>
 
         <ul class="leftMenu list-unstyled collapse" id="side-menu-certificates">
-            <li class="item contentH1-white"><span class="glyphicon glyphicon-home goldBorderSM"></span>&nbsp;@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("ABELDent", "AbelDent", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Basic Wound Treatment", "BasicWoundTreatment", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Emotional First Aid", "EmotionalFirstAid", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("English Second Language", "EnglishSecondLanguage", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("English Skills - Healthcare Workers", "EnglishSkillsHealthcareWorkers", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("First Aid & CPR", "FirstAidCPR", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Food Handler Safety", "FoodHandlerSafety", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Home Childcare Management", "HomeChildCareManagement", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Intramuscular Injections", "IntramuscularInjections", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Intro - Developmental Disabilities Services", "IntroductionDevelopmentalDisabilitiesServices", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Intro - Swedish Massage", "IntroductionSwedishMassage", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Mental Health Addictions", "MentalHealthAddictions", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</li>
+            <li class="item header">@Html.ActionLink("CERTIFICATES", "AllCertificates", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("ABELDent", "AbelDent", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Basic Wound Treatment", "BasicWoundTreatment", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Emotional First Aid", "EmotionalFirstAid", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("English Second Language", "EnglishSecondLanguage", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("English Skills - Healthcare Workers", "EnglishSkillsHealthcareWorkers", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("First Aid & CPR", "FirstAidCPR", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Food Handler Safety", "FoodHandlerSafety", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Home Childcare Management", "HomeChildCareManagement", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Intramuscular Injections", "IntramuscularInjections", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Intro - Developmental Disabilities Services", "IntroductionDevelopmentalDisabilitiesServices", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Intro - Swedish Massage", "IntroductionSwedishMassage", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Mental Health Addictions", "MentalHealthAddictions", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</li>
 
             <li class="item btn btn-brand btn-block spacer-top" id="askQuestion">Ask a Question</li>
             <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Catalogue</li>
@@ -129,37 +130,8 @@
                             </div>
                         </form>
                     </div>
-                    <div class="row sideWrapper">
-                        <div class="sideHeader">
-                            <h1 class="contentH1-main">@ViewBag.SideHeader</h1>
-                        </div>
-                        <div class="sideBody">
-                            <div class="sideSubWrapper">
-                                <div class="sideSubHeader">
-                                    @ViewBag.SideSubHeader1
-                                </div>
-                                <div class="sideSubText">
-                                    @ViewBag.SideSubText1
-                                </div>
-                            </div>
-                            <div class="sideSubWrapper">
-                                <div class="sideSubHeader">
-                                    @ViewBag.SideSubHeader2
-                                </div>
-                                <div class="sideSubText">
-                                    @ViewBag.SideSubText2
-                                </div>
-                            </div>
-                            <div class="sideSubWrapper">
-                                <div class="sideSubHeader">
-                                    @ViewBag.SideSubHeader3
-                                </div>
-                                <div class="sideSubText">
-                                    @ViewBag.SideSubText3
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                    
                 </div>
             </div>
 

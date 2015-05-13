@@ -20,12 +20,14 @@
             <span class="icon-bar"></span>
         </button>
         <ul class="leftMenu list-unstyled collapse" id="side-menu-medix">
-            <li class="item contentH1-white"><span class="glyphicon glyphicon-home goldBorderSM"></span>&nbsp;@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Medix Online Programs", "Index", "MedixOnline")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Schedules and Fees", "SchedulesAndFees", "MedixOnline")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("E-Learning", "ELearning", "MedixOnline")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Advantages", "Advantages", "MedixOnline")</li>
-            <li class="item side-menu-h2"><span class="glyphicon glyphicon-share-alt goldColour"></span>&nbsp;@Html.ActionLink("Contact Medix Online", "ContactMedixOnline", "MedixOnline")</li>
+            <li class="item header">@Html.ActionLink("MEDIX ONLINE", "Index", "MedixOnline")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Medix Online Programs", "Index", "MedixOnline")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Schedules and Fees", "SchedulesAndFees", "MedixOnline")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("E-Learning", "ELearning", "MedixOnline")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Advantages", "Advantages", "MedixOnline")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Contact Medix Online", "ContactMedixOnline", "MedixOnline")</li>
+            
             <li class="item btn btn-brand btn-block spacer-top" id="askQuestion">Ask a Question</li>
             <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Catalogue</li>
         </ul>
@@ -95,37 +97,8 @@
                             </div>
                         </form>
                     </div>
-                    <div class="row sideWrapper">
-                        <div class="sideHeader">
-                            <h1 class="contentH1-main">@ViewBag.SideHeader</h1>
-                        </div>
-                        <div class="sideBody">
-                            <div class="sideSubWrapper">
-                                <div class="sideSubHeader">
-                                    @ViewBag.SideSubHeader1
-                                </div>
-                                <div class="sideSubText">
-                                    @ViewBag.SideSubText1
-                                </div>
-                            </div>
-                            <div class="sideSubWrapper">
-                                <div class="sideSubHeader">
-                                    @ViewBag.SideSubHeader2
-                                </div>
-                                <div class="sideSubText">
-                                    @ViewBag.SideSubText2
-                                </div>
-                            </div>
-                            <div class="sideSubWrapper">
-                                <div class="sideSubHeader">
-                                    @ViewBag.SideSubHeader3
-                                </div>
-                                <div class="sideSubText">
-                                    @ViewBag.SideSubText3
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                    
                 </div>
             </div>
         </div>
