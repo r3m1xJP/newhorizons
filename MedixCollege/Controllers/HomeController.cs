@@ -153,97 +153,114 @@ namespace MedixCollege.Controllers
 
                 if (response.IsSuccessStatusCode)
                 {
-                ViewBag.Success = true;
+                    ViewBag.Success = true;
 
-                try
-                {
-                    using (var mailClient = new SmtpClient("smtp.gmail.com"))
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+
+                    var lead = new LeadsDTO
                     {
-                        mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Medixcollege1");
-                        mailClient.Port = 587;
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = fc["Telephone"] != null ? Convert.ToInt64(fc["Telephone"]) : 0,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
 
-                        var message = new MailMessage();
+                    var leads = new Leads();
 
-                        message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+                    leads.Insert(lead);
 
-                        message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
-
-                        if (fc["CampusID"].ToString() == "246")
+                    try
+                    {
+                        using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            message.To.Add(new MailAddress("cbrandt@medixcollege.ca"));
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Medixcollege1");
+                            mailClient.Port = 587;
+
+                            var message = new MailMessage();
+
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+
+                            message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
+
+                            if (fc["CampusID"].ToString() == "246")
+                            {
+                                message.To.Add(new MailAddress("cbrandt@medixcollege.ca"));
+                            }
+
+                            if (fc["CampusID"].ToString() == "243")
+                            {
+                                message.To.Add(new MailAddress("jlaird@medixcollege.ca"));
+                                message.To.Add(new MailAddress("kharris@medixcollege.ca"));
+                            }
+
+                            if (fc["CampusID"].ToString() == "242")
+                            {
+                                message.To.Add(new MailAddress("kharris@medixcollege.ca"));
+                            }
+
+                            if (fc["CampusID"].ToString() == "244")
+                            {
+                                message.To.Add(new MailAddress("ngauvin@medixschool.ca"));
+                                message.To.Add(new MailAddress("nicole@medixschool.ca"));
+                            }
+
+                            if (fc["CampusID"].ToString() == "241")
+                            {
+                                message.To.Add(new MailAddress("dickson@medixcollege.ca"));
+                            }
+
+                            if (fc["CampusID"].ToString() == "240")
+                            {
+                                message.To.Add(new MailAddress("chris@medixcollege.ca"));
+                            }
+
+                            message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+                            message.Bcc.Add(new MailAddress("pdykstra@medixcollege.ca"));
+                            message.Bcc.Add(new MailAddress("ralary@natradeschools.ca"));
+
+                            message.Subject = "New Lead - Medix - Apply Now";
+
+                            fc["CampusID"] = campus ?? fc["CampusID"];
+                            fc["ProgramID"] = program ?? fc["ProgramID"];
+                            fc["MediaGroupID"] = mediaSource ?? fc["MediaGroupID"];
+
+                            var stringArray = (from key in fc.AllKeys
+                                               from value in fc.GetValues(key)
+                                               where key != "ORGID" && key != "MailListID"
+                                               select string.Format("{0}: {1}" + Environment.NewLine, HttpUtility.UrlEncode(key), value)).ToArray();
+
+                            var body = "New Lead - Medix" + Environment.NewLine +
+                                       Environment.NewLine;
+
+                            var data = string.Join(",", stringArray).Replace(",", "");
+
+                            data = data.Replace("CampusID", "Location");
+                            data = data.Replace("FirstName", "First Name");
+                            data = data.Replace("Lastname", "Last Name");
+                            data = data.Replace("MediaGroupID", "Media Source");
+                            data = data.Replace("ProgramID", "Program");
+                            data = data.Replace("Comment2", "Comments");
+
+                            message.Body = body + data;
+                            message.IsBodyHtml = false;
+
+                            mailClient.EnableSsl = true;
+                            mailClient.Send(message);
                         }
-
-                        if (fc["CampusID"].ToString() == "243")
-                        {
-                            message.To.Add(new MailAddress("jlaird@medixcollege.ca"));
-                            message.To.Add(new MailAddress("kharris@medixcollege.ca"));
-                        }
-
-                        if (fc["CampusID"].ToString() == "242")
-                        {
-                            message.To.Add(new MailAddress("kharris@medixcollege.ca"));
-                        }
-
-                        if (fc["CampusID"].ToString() == "244")
-                        {
-                            message.To.Add(new MailAddress("ngauvin@medixschool.ca"));
-                            message.To.Add(new MailAddress("nicole@medixschool.ca"));
-                        }
-
-                        if (fc["CampusID"].ToString() == "241")
-                        {
-                            message.To.Add(new MailAddress("dickson@medixcollege.ca"));
-                        }
-
-                        if (fc["CampusID"].ToString() == "240")
-                        {
-                            message.To.Add(new MailAddress("chris@medixcollege.ca"));
-                        }
-
-                        message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
-                        message.Bcc.Add(new MailAddress("pdykstra@medixcollege.ca"));
-                        message.Bcc.Add(new MailAddress("ralary@natradeschools.ca"));
-
-                        message.Subject = "New Lead - Medix - Apply Now";
-
-                        var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
-                        var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
-                        var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
-
-                        fc["CampusID"] = campus ?? fc["CampusID"];
-                        fc["ProgramID"] = program ?? fc["ProgramID"];
-                        fc["MediaGroupID"] = mediaSource ?? fc["MediaGroupID"];
-
-                        var stringArray = (from key in fc.AllKeys
-                                           from value in fc.GetValues(key)
-                                           where key != "ORGID" && key != "MailListID"
-                                           select string.Format("{0}: {1}" + Environment.NewLine, HttpUtility.UrlEncode(key), value)).ToArray();
-
-                        var body = "New Lead - Medix" + Environment.NewLine +
-                                   Environment.NewLine;
-
-                        var data = string.Join(",", stringArray).Replace(",", "");
-
-                        data = data.Replace("CampusID", "Location");
-                        data = data.Replace("FirstName", "First Name");
-                        data = data.Replace("Lastname", "Last Name");
-                        data = data.Replace("MediaGroupID", "Media Source");
-                        data = data.Replace("ProgramID", "Program");
-                        data = data.Replace("Comment2", "Comments");
-
-                        message.Body = body + data;
-                        message.IsBodyHtml = false;
-
-                        mailClient.EnableSsl = true;
-                        mailClient.Send(message);
                     }
-                }
-                catch (Exception ex)
-                {
-                    ViewBag.Success = false;
+                    catch (Exception ex)
+                    {
+                        ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = ex.Message.ToString();
-                }
+                        ViewBag.ErrorMessage = ex.Message.ToString();
+                    }
                 }
                 else
                 {
@@ -268,6 +285,27 @@ namespace MedixCollege.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     ViewBag.Success = true;
+
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+
+                    var lead = new LeadsDTO
+                    {
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = fc["Telephone"] != null ? Convert.ToInt64(fc["Telephone"]) : 0,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
+
+                    var leads = new Leads();
+
+                    leads.Insert(lead);
 
                     try
                     {
@@ -334,10 +372,6 @@ namespace MedixCollege.Controllers
 
                             message.Subject = "New Lead - Medix - Book A Tour";
 
-                            var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
-                            var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
-                            var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
-
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
                             fc["MediaGroupID"] = mediaSource ?? fc["MediaGroupID"];
@@ -396,6 +430,27 @@ namespace MedixCollege.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     ViewBag.Success = true;
+
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+
+                    var lead = new LeadsDTO
+                    {
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = fc["Telephone"] != null ? Convert.ToInt64(fc["Telephone"]) : 0,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
+
+                    var leads = new Leads();
+
+                    leads.Insert(lead);
 
                     try
                     {
@@ -462,10 +517,6 @@ namespace MedixCollege.Controllers
 
                             message.Subject = "New Lead - Medix - Program Question";
 
-                            var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
-                            var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
-                            var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
-
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
                             fc["MediaGroupID"] = mediaSource ?? fc["MediaGroupID"];
@@ -524,6 +575,27 @@ namespace MedixCollege.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     ViewBag.Success = true;
+
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+
+                    var lead = new LeadsDTO
+                    {
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = fc["Telephone"] != null ? Convert.ToInt64(fc["Telephone"]) : 0,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
+
+                    var leads = new Leads();
+
+                    leads.Insert(lead);
 
                     try
                     {
@@ -590,10 +662,6 @@ namespace MedixCollege.Controllers
 
                             message.Subject = "New Lead - Medix - Certificate Question";
 
-                            var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
-                            var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
-                            var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
-
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
                             fc["MediaGroupID"] = mediaSource ?? fc["MediaGroupID"];
@@ -652,6 +720,27 @@ namespace MedixCollege.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     ViewBag.Success = true;
+
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+
+                    var lead = new LeadsDTO
+                    {
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = fc["Telephone"] != null ? Convert.ToInt64(fc["Telephone"]) : 0,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
+
+                    var leads = new Leads();
+
+                    leads.Insert(lead);
 
                     try
                     {
@@ -718,10 +807,6 @@ namespace MedixCollege.Controllers
 
                             message.Subject = "New Lead - Medix - Request Catalogue";
 
-                            var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
-                            var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
-                            var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
-
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
                             fc["MediaGroupID"] = mediaSource ?? fc["MediaGroupID"];
@@ -780,6 +865,27 @@ namespace MedixCollege.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     ViewBag.Success = true;
+
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+
+                    var lead = new LeadsDTO
+                    {
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = fc["Telephone"] != null ? Convert.ToInt64(fc["Telephone"]) : 0,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
+
+                    var leads = new Leads();
+
+                    leads.Insert(lead);
 
                     try
                     {
@@ -845,10 +951,6 @@ namespace MedixCollege.Controllers
                             }
 
                             message.Subject = "New Lead - Medix - Ask a Question";
-
-                            var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
-                            var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
-                            var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];

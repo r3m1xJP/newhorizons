@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MedixCollege.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -124,6 +125,27 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = true;
 
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+
+                    var lead = new LeadsDTO
+                    {
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = fc["Telephone"] != null ? Convert.ToInt64(fc["Telephone"]) : 0,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
+
+                    var leads = new Leads();
+
+                    leads.Insert(lead);
+
                     try
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
@@ -188,10 +210,6 @@ namespace MedixCollege.Controllers
                             }
 
                             message.Subject = "New Lead - Medix Online - Contact Medix Online";
-
-                            var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
-                            var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
-                            var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];

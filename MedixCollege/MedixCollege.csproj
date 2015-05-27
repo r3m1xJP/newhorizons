@@ -121,12 +121,15 @@
     <Compile Include="Controllers\CareerServicesController.cs" />
     <Compile Include="Controllers\CertificatesController.cs" />
     <Compile Include="Controllers\DiscoverMedixController.cs" />
+    <Compile Include="Controllers\ExternalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LeadsController.cs" />
     <Compile Include="Controllers\MedixOnlineController.cs" />
     <Compile Include="Controllers\ProgramsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Leads.cs" />
     <Compile Include="Models\NewsArticle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -445,6 +448,15 @@
     <Content Include="Views\MedixOnline\ThankYou.cshtml" />
     <Content Include="Views\Admissions\_MonthlyPaymentPlan.cshtml" />
     <Content Include="Views\CareerServices\HireAGrad.cshtml" />
+    <Content Include="Views\External\ContactUs.cshtml" />
+    <Content Include="Views\External\ThankYou.cshtml" />
+    <Content Include="Views\Leads\Index.cshtml" />
+    <Content Include="Views\External\PPC.cshtml" />
+    <Content Include="Views\External\PPCNoDropDown.cshtml" />
+    <Content Include="Views\External\ReferAFriend.cshtml" />
+    <Content Include="Views\External\RequestInformation.cshtml" />
+    <Content Include="Views\External\ContactUsMobile.cshtml" />
+    <Content Include="Views\External\QuickContact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
