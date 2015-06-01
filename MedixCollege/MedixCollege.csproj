@@ -139,7 +139,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\creativeButtons.css" />
     <Content Include="Content\controls.svg" />
+    <Content Include="Content\creativeButtonsDefault.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\fonts\._socicon-webfont.svg" />
@@ -147,6 +149,8 @@
     <Content Include="Content\fonts\d17bc040-9e8b-4397-8356-8153f4a64edf.svg" />
     <Content Include="Content\fonts\d90b3358-e1e2-4abb-ba96-356983a54c22.svg" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\icomoon.dev.svg" />
+    <Content Include="Content\fonts\icomoon.svg" />
     <Content Include="Content\fonts\Roboto-Black-webfont.svg" />
     <Content Include="Content\fonts\Roboto-Light-webfont.svg" />
     <Content Include="Content\fonts\Roboto-Medium-webfont.svg" />
@@ -249,8 +253,14 @@
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="Content\videos\Cinescope Shorter - No Tattoos.mp4.mp4" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\codropsicons\codropsicons.svg" />
+    <Content Include="fonts\codropsicons\license.txt" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\icomoon\icomoon.dev.svg" />
+    <Content Include="fonts\icomoon\icomoon.svg" />
+    <Content Include="fonts\icomoon\license.txt" />
+    <Content Include="fonts\icomoon\Read Me.txt" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\fonts\fontawesome-webfont.woff2" />
@@ -319,6 +329,15 @@
     <Content Include="Content\fonts\._socicon-webfont.ttf" />
     <Content Include="Content\fonts\._socicon-webfont.woff" />
     <Content Include="Content\fonts\._socicon-webfont.woff2" />
+    <Content Include="Content\fonts\icomoon.eot" />
+    <Content Include="Content\fonts\icomoon.ttf" />
+    <Content Include="Content\fonts\icomoon.woff" />
+    <Content Include="fonts\codropsicons\codropsicons.eot" />
+    <Content Include="fonts\codropsicons\codropsicons.ttf" />
+    <Content Include="fonts\codropsicons\codropsicons.woff" />
+    <Content Include="fonts\icomoon\icomoon.eot" />
+    <Content Include="fonts\icomoon\icomoon.ttf" />
+    <Content Include="fonts\icomoon\icomoon.woff" />
     <None Include="Properties\PublishProfiles\demo.pubxml" />
     <None Include="Properties\PublishProfiles\ftp.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -457,6 +476,7 @@
     <Content Include="Views\External\RequestInformation.cshtml" />
     <Content Include="Views\External\ContactUsMobile.cshtml" />
     <Content Include="Views\External\QuickContact.cshtml" />
+    <Content Include="Views\Home\Test.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

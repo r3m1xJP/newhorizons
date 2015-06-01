@@ -72,6 +72,11 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult Test()
+        {
+            return View();
+        }
+
         public ActionResult Search()
         {
             return View();

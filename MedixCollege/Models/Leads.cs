@@ -10,7 +10,7 @@ namespace MedixCollege.Models
 {
     public class Leads
     {
-        public LeadsDTO NewsArticleDTO { get; set; }
+        public LeadsDTO LeadsDTO { get; set; }
         private bool _connectionOpen;
         private MySqlConnection _connection;
 
