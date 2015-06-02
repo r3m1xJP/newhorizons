@@ -1,18 +1,20 @@
 ﻿
 body {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom:0px;
 }
 
 header {
     background-color: white;
-    padding-top: 12px;
+    padding-top: 15px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    margin-top: 15px;
-
+    width: 100%;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
