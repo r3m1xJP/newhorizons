@@ -1180,6 +1180,7 @@ iframe.twitter-timeline {
     background: url(images/button-next.png) no-repeat;
 }
 
+
 /* Google Custom Search */
 input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
     box-sizing: content-box;
@@ -1545,7 +1546,7 @@ blockquote p {
 }
 
 .centeralign {
-text-align: center;
+ text-align: center;
 }
 
 
