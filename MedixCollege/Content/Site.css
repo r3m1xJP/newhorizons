@@ -1,10 +1,15 @@
 ﻿
 body {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    font-weight: 400;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
-    padding-bottom:0px;
+}
+
+a {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 header {
@@ -12,9 +17,19 @@ header {
     padding-top: 15px;
 }
 
+
+.container-fluid {
+padding-left:0px;
+padding-right:0px;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     width: 100%;
+
+                font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+                font-weight: 400;
+                    padding-top: 10px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -41,6 +56,18 @@ textarea {
     color: #0F3F6F !important;
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
 }
+
+.btn {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+}
+
+    .btn a {
+    color: #555;
+    }
+
+       .btn a:hover {
+    color: #222222;
+    }
 
 .btn-brand {
     background-color: #0F3F6F;
@@ -1429,6 +1456,20 @@ blockquote p {
     line-height: 30px;
 }
 
+.contentH1-mainW a{
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.contentH1-mainW a:hover{
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: #EDAA0F;
+    font-size: 22px;
+    line-height: 30px;
+}
+
 .contentH1-small {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: #555;
@@ -1503,6 +1544,19 @@ blockquote p {
     font-weight: 400;
 }
 
+.centeralign {
+text-align: center;
+}
+
+
+.contentH4-white {
+    font-family: "HelveticaNeueW01-47LtCn_692686", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
 .contentH3-blue {
         font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
         color: #0F3F6F;
@@ -1540,8 +1594,9 @@ blockquote p {
     }
 
 .contentp {
-        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: #222222;
+        font-weight: 400;
 }
 
 .contentpheight {
