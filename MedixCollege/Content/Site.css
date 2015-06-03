@@ -451,7 +451,7 @@ footer {
         }
 
         .linkOptions.allPrograms {
-            background-color: #555;
+            background-color: #0F3F6F;
         }
 }
 
@@ -470,8 +470,8 @@ footer {
 
 
 .linkOptionsRC {
-    background-color: #0F3F6F;
-    color: white;
+    background-color: white;
+    color: #0F3F6F;
     cursor: pointer;
     height: 150px;
     padding: 5px 5px 5px 0px;
@@ -480,12 +480,12 @@ footer {
 }
 
     .linkOptionsRC:hover {
-        opacity: .8;
+        opacity: .5;
     }
 
 .linkOptionsAQ {
-    background-color: #0F3F6F;
-    color: white;
+    background-color: white;
+    color: #0F3F6F;
     cursor: pointer;
     height: 150px;
     padding: 5px;
@@ -494,12 +494,12 @@ footer {
 }
 
     .linkOptionsAQ:hover {
-        opacity: .8;
+        opacity: .5;
     }
 
 .linkOptionsTC {
-    background-color: #0F3F6F;
-    color: white;
+    background-color: white;
+    color: #0F3F6F;
     cursor: pointer;
     height: 150px;
     padding: 5px;
@@ -508,12 +508,12 @@ footer {
 }
 
     .linkOptionsTC:hover {
-        opacity: .8;
+        opacity: .5;
     }
 
 .linkOptionsAN {
-    background-color: #0F3F6F;
-    color: white;
+    background-color: white;
+    color: #0F3F6F;
     cursor: pointer;
     height: 150px;
     padding: 5px;
@@ -522,7 +522,7 @@ footer {
 }
 
     .linkOptionsAN:hover {
-        opacity: .8;
+        opacity: .5;
     }
 
 @media (max-width: 768px) {
@@ -535,7 +535,7 @@ footer {
 
 @media (max-width: 768px) {
     .linkOptionsTC {
-        border: 0px;
+        border: 1px solid #0F3F6F;
         padding: 10px 10px 10px 10px;
         margin: 5px 0px 5px 0px;
     }
@@ -543,7 +543,7 @@ footer {
 
 @media (max-width: 768px) {
     .linkOptionsAQ {
-        border: 0px;
+        border: 1px solid #0F3F6F;
         padding: 10px 10px 10px 10px;
         margin: 5px 0px 5px 0px;
     }
@@ -552,7 +552,7 @@ footer {
 
 @media (max-width: 768px) {
     .linkOptionsRC {
-        border: 0px;
+        border: 1px solid #0F3F6F;
         padding: 10px 10px 10px 10px;
         margin: 5px 0px 5px 0px;
     }
@@ -560,7 +560,7 @@ footer {
 
 @media (max-width: 768px) {
     .linkOptionsAN {
-        border: 0px;
+        border: 1px solid #0F3F6F;
         padding: 10px 10px 10px 10px;
         margin: 5px 0px 5px 0px;
     }
