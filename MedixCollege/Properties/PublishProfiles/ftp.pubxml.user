@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2015 14:39:55</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>05/27/2015 02:26:05</publishTime>
+      <publishTime>06/01/2015 00:06:59</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>04/23/2015 14:39:56</publishTime>
@@ -72,6 +72,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/controls.svg">
       <publishTime>04/23/2015 14:39:54</publishTime>
+    </File>
+    <File Include="Content/creativeButtons.css">
+      <publishTime>05/31/2015 23:39:54</publishTime>
+    </File>
+    <File Include="Content/creativeButtonsDefault.css">
+      <publishTime>05/31/2015 23:55:22</publishTime>
     </File>
     <File Include="Content/font-awesome.css">
       <publishTime>04/23/2015 14:39:54</publishTime>
@@ -156,6 +162,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/fonts/FontAwesome.otf">
       <publishTime>04/23/2015 14:39:54</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon.dev.svg">
+      <publishTime>05/31/2015 23:15:22</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon.eot">
+      <publishTime>05/31/2015 23:15:22</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon.svg">
+      <publishTime>05/31/2015 23:15:22</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon.ttf">
+      <publishTime>05/31/2015 23:15:22</publishTime>
+    </File>
+    <File Include="Content/fonts/icomoon.woff">
+      <publishTime>05/31/2015 23:15:22</publishTime>
     </File>
     <File Include="Content/fonts/medix-30032015.zip">
       <publishTime>04/23/2015 14:39:54</publishTime>
@@ -452,7 +473,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2015 14:39:54</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>05/31/2015 23:20:36</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>04/23/2015 14:39:54</publishTime>
@@ -568,6 +589,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="favicon.ico">
       <publishTime>04/23/2015 14:39:55</publishTime>
     </File>
+    <File Include="fonts/codropsicons/codropsicons.eot">
+      <publishTime>05/31/2015 23:44:08</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/codropsicons.svg">
+      <publishTime>05/31/2015 23:44:08</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/codropsicons.ttf">
+      <publishTime>05/31/2015 23:44:08</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/codropsicons.woff">
+      <publishTime>05/31/2015 23:44:08</publishTime>
+    </File>
+    <File Include="fonts/codropsicons/license.txt">
+      <publishTime>05/31/2015 23:44:08</publishTime>
+    </File>
     <File Include="fonts/fontawesome-webfont.eot">
       <publishTime>04/23/2015 14:39:55</publishTime>
     </File>
@@ -600,6 +636,27 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff2">
       <publishTime>04/23/2015 14:39:55</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.dev.svg">
+      <publishTime>05/31/2015 23:44:33</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.eot">
+      <publishTime>05/31/2015 23:44:33</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.svg">
+      <publishTime>05/31/2015 23:44:33</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.ttf">
+      <publishTime>05/31/2015 23:44:33</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.woff">
+      <publishTime>05/31/2015 23:44:33</publishTime>
+    </File>
+    <File Include="fonts/icomoon/license.txt">
+      <publishTime>05/31/2015 23:44:33</publishTime>
+    </File>
+    <File Include="fonts/icomoon/Read Me.txt">
+      <publishTime>05/31/2015 23:44:33</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>04/23/2015 14:39:55</publishTime>
@@ -872,7 +929,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/27/2015 02:24:16</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>05/31/2015 23:59:31</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>04/23/2015 14:39:55</publishTime>
@@ -894,6 +951,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Home/SocialMedia.cshtml">
       <publishTime>04/23/2015 14:39:55</publishTime>
+    </File>
+    <File Include="Views/Home/Test.cshtml">
+      <publishTime>05/31/2015 23:50:53</publishTime>
     </File>
     <File Include="Views/Home/ThankYou.cshtml">
       <publishTime>04/23/2015 14:39:55</publishTime>
@@ -983,7 +1043,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2015 14:39:55</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>05/31/2015 23:53:10</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>04/23/2015 14:39:55</publishTime>
