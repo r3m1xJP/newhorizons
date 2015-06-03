@@ -910,7 +910,7 @@ video {
 .graduatesHiredWrapper {
     margin-top: 0px;
     padding: 15px;
-    text-align: center;
+
     background-color: white;
 }
 
@@ -1487,6 +1487,34 @@ blockquote p {
     border-bottom-color: #0F3F6F;
 }
 
+.contentH1-whiteCAMPUS {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    line-height: 17px;
+    border-bottom: solid;
+    border-bottom-color: #0F3F6F;
+}
+
+.contentH1-whiteCAMPUS a {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    line-height: 17px;
+    border-bottom: solid;
+    border-bottom-color: #0F3F6F;
+}
+
+.contentH1-whiteCAMPUS a:hover {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: #EDAA0F;
+    font-size: 17px;
+    line-height: 17px;
+    border-bottom: solid;
+    border-bottom-color: #0F3F6F;
+    text-decoration: underline;
+}
+
 .contentH2-white-bluebg {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: white;
@@ -1750,10 +1778,18 @@ display: none;
     }
 
 .ProgramsHero {
-    margin-top:20px;
+    margin-top: 20px;
     padding-top: 20px;
-        padding-bottom: 20px;
- text-align: center;
+    padding-bottom: 20px;
+    background-color: #0F3F6F;
+}
+
+.divpadding {
+    padding-top: 20px;
+        padding-bottom: 30px;
+
+}
+
 background-color: #0F3F6F;
 color:white;
 font-family: "Helvetica W01 Roman", Arial, Helvetica, sans-serif;
@@ -1811,7 +1847,15 @@ font-family:'HelveticaNeueW01-47LtCn_692686', Arial, Helvetica, sans-serif;
 
 .hrp {
     margin-top:8px;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    height:1px;
+}
+
+.hrpblue {
+    margin-top:8px;
+    margin-bottom: 8px;
+    background-color: #0F3F6F;
+    height:1px;
 }
 
 .ul-none
