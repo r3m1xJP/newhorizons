@@ -473,7 +473,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>06/03/2015 09:35:29</publishTime>
+      <publishTime>06/03/2015 12:08:37</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -929,7 +929,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2015 17:50:27</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>06/03/2015 09:13:24</publishTime>
+      <publishTime>06/03/2015 12:09:50</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>04/23/2015 21:11:59</publishTime>
