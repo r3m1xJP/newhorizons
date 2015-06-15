@@ -19,17 +19,16 @@ header {
 
 
 .container-fluid {
-padding-left:0px;
-padding-right:0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     width: 100%;
-
-                font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-                font-weight: 400;
-                    padding-top: 10px;
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -62,12 +61,12 @@ textarea {
 }
 
     .btn a {
-    color: #555;
+        color: #555;
     }
 
-       .btn a:hover {
-    color: #222222;
-    }
+        .btn a:hover {
+            color: #222222;
+        }
 
 .btn-brand {
     background-color: #0F3F6F;
@@ -579,7 +578,6 @@ footer {
     color: #0F3F6F !important;
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     width: 100%;
-
 }
 
     .leftMenu li a:hover {
@@ -604,22 +602,21 @@ footer {
         background-color: #0F3F6F;
         font-size: 18px;
         padding-left: 0px;
-            padding-left: 10px;
-    border-bottom: solid 3px #EDAA0F;
+        padding-left: 10px;
+        border-bottom: solid 3px #EDAA0F;
     }
 
 .formHeaderSIDE {
     width: 100%;
-            color: white !important;
-        background-color: #0F3F6F;
-        font-size: 18px;
-        padding-top: 10px;
-            padding-bottom: 10px;
+    color: white !important;
+    background-color: #0F3F6F;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: solid 3px #EDAA0F;
-        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-                position: relative;
-        top:0px;
-
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
 }
 
 .leftMenu li.header a {
@@ -627,7 +624,6 @@ footer {
     background-color: #0F3F6F;
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     width: 100%;
-
 }
 
 
@@ -797,7 +793,7 @@ footer {
         font-size: 1em;
         border-top: 1px solid rgba(255,255,255, 0.2);
         border-bottom: 1px solid rgba(255,255,255, 0.2);
-    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     }
 
     .promoContent .videoButtons {
@@ -910,7 +906,6 @@ video {
 .graduatesHiredWrapper {
     margin-top: 0px;
     padding: 15px;
-
     background-color: white;
 }
 
@@ -1118,7 +1113,6 @@ iframe.twitter-timeline {
 .nbs-flexisel-container {
     position: relative;
     max-width: 100%;
-
 }
 
 .nbs-flexisel-ul {
@@ -1134,7 +1128,7 @@ iframe.twitter-timeline {
     overflow: hidden;
     float: left;
     width: 100%;
-    max-height:225px;
+    max-height: 225px;
     background-color: white;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -1147,7 +1141,6 @@ iframe.twitter-timeline {
     cursor: pointer;
     position: relative;
     line-height: 0px;
-
 }
 
     .nbs-flexisel-item img {
@@ -1223,20 +1216,17 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     display: block;
     padding-left: 0px;
     padding-top: 0px;
-        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
 }
 
     .breadcrumb li {
         font-size: 14px;
-            font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-
+        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     }
 
     .breadcrumb a {
         color: #0F3F6F;
-            font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-
+        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     }
 
         .breadcrumb a:hover {
@@ -1445,7 +1435,7 @@ blockquote p {
 
 .contentH1-main2 {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-       color: #0F3F6F;
+    color: #0F3F6F;
     font-size: 22px;
     line-height: 30px;
 }
@@ -1457,19 +1447,19 @@ blockquote p {
     line-height: 30px;
 }
 
-.contentH1-mainW a{
-    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 22px;
-    line-height: 30px;
-}
+    .contentH1-mainW a {
+        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 22px;
+        line-height: 30px;
+    }
 
-.contentH1-mainW a:hover{
-    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-    color: #EDAA0F;
-    font-size: 22px;
-    line-height: 30px;
-}
+        .contentH1-mainW a:hover {
+            font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+            color: #EDAA0F;
+            font-size: 22px;
+            line-height: 30px;
+        }
 
 .contentH1-small {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
@@ -1496,24 +1486,24 @@ blockquote p {
     border-bottom-color: #0F3F6F;
 }
 
-.contentH1-whiteCAMPUS a {
-    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 17px;
-    line-height: 17px;
-    border-bottom: solid;
-    border-bottom-color: #0F3F6F;
-}
+    .contentH1-whiteCAMPUS a {
+        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 17px;
+        line-height: 17px;
+        border-bottom: solid;
+        border-bottom-color: #0F3F6F;
+    }
 
-.contentH1-whiteCAMPUS a:hover {
-    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-    color: #EDAA0F;
-    font-size: 17px;
-    line-height: 17px;
-    border-bottom: solid;
-    border-bottom-color: #0F3F6F;
-    text-decoration: underline;
-}
+        .contentH1-whiteCAMPUS a:hover {
+            font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+            color: #EDAA0F;
+            font-size: 17px;
+            line-height: 17px;
+            border-bottom: solid;
+            border-bottom-color: #0F3F6F;
+            text-decoration: underline;
+        }
 
 .contentH2-white-bluebg {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
@@ -1574,7 +1564,7 @@ blockquote p {
 }
 
 .centeralign {
- text-align: center;
+    text-align: center;
 }
 
 
@@ -1587,21 +1577,21 @@ blockquote p {
 }
 
 .contentH3-blue {
-        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-        color: #0F3F6F;
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: #0F3F6F;
     font-size: 16px;
     line-height: 18px;
 }
 
     .contentH3-blue a {
         font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-            color: #0F3F6F;
+        color: #0F3F6F;
         font-size: 16px;
         line-height: 18px;
     }
 
         .contentH3-blue a:hover {
-        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+            font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
             color: #0F3F6F;
             font-size: 16px;
             line-height: 18px;
@@ -1625,26 +1615,26 @@ blockquote p {
 .contentp {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: #222222;
-        font-weight: 400;
+    font-weight: 400;
 }
 
 .contentpheight {
-        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: #222222;
-    line-height:2em;
+    line-height: 2em;
 }
 
 .bottomb {
-        border-bottom: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
 }
 
 .contentp-light {
-        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: white;
 }
 
 .contentp a {
-        font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: #222222;
 }
 
@@ -1786,80 +1776,75 @@ display: none;
 
 .divpadding {
     padding-top: 20px;
-        padding-bottom: 30px;
-
+    padding-bottom: 30px;
 }
 
-background-color: #0F3F6F;
-color:white;
-font-family: "Helvetica W01 Roman", Arial, Helvetica, sans-serif;
+background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Arial, Helvetica, sans-serif;
 }
 
 .buttonCampus {
-    margin:10px 5px 5px 10px;
+    margin: 10px 5px 5px 10px;
     color: #0F3F6F;
     background-color: white;
     border-radius: 3px;
     width: 160px;
-    max-width:160px;
+    max-width: 160px;
     border-radius: 0px;
-font-family:'HelveticaNeueW01-47LtCn_692686', Arial, Helvetica, sans-serif;
+    font-family: 'HelveticaNeueW01-47LtCn_692686', Arial, Helvetica, sans-serif;
 }
 
     .buttonCampus a {
-    color: #0F3F6F;
-    border-radius: 2px;
+        color: #0F3F6F;
+        border-radius: 2px;
     }
 
-        .buttonCampus a:hover{
+        .buttonCampus a:hover {
             color: #0F3F6F;
+        }
+
+    .buttonCampus:hover {
+        color: #0F3F6F;
+        border-bottom: solid 5px #EDAA0F;
     }
 
-                .buttonCampus:hover{
-            color: #0F3F6F;
-            border-bottom: solid 5px #EDAA0F;
-    }
 
-
-        .buttonHire{
-    margin:10px 5px 5px 10px;
+.buttonHire {
+    margin: 10px 5px 5px 10px;
     color: #0F3F6F;
     background-color: white;
     border-radius: 3px;
     width: 300px;
     max-width: 300px;
     border-radius: 0px;
-font-family:'HelveticaNeueW01-47LtCn_692686', Arial, Helvetica, sans-serif;
+    font-family: 'HelveticaNeueW01-47LtCn_692686', Arial, Helvetica, sans-serif;
 }
 
-            .buttonHire a {
-            color: #0F3F6F;
+    .buttonHire a {
+        color: #0F3F6F;
     }
 
-        .buttonHire a:hover{
+        .buttonHire a:hover {
             color: #0F3F6F;
-    }
+        }
 
-                        .buttonHire:hover{
-            color: #0F3F6F;
-            border-bottom: solid 5px #EDAA0F;
+    .buttonHire:hover {
+        color: #0F3F6F;
+        border-bottom: solid 5px #EDAA0F;
     }
 
 .hrp {
-    margin-top:8px;
+    margin-top: 8px;
     margin-bottom: 8px;
-    height:1px;
+    height: 1px;
 }
 
 .hrpblue {
-    margin-top:8px;
+    margin-top: 8px;
     margin-bottom: 8px;
     background-color: #0F3F6F;
-    height:1px;
+    height: 1px;
 }
 
-.ul-none
-{
-list-style-type: none;
+.ul-none {
+    list-style-type: none;
 }
-

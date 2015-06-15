@@ -79,3 +79,7 @@ D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixColleg
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.dll
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.pdb
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
+D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\PagedList.dll
+D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\PagedList.Mvc.dll
+D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\PagedList.xml
+D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\PagedList.Mvc.xml
