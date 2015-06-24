@@ -27,6 +27,7 @@ namespace MedixCollege
                       "~/Scripts/jquery.mousewheel.min.js",
                       "~/Scripts/jquery.smoothdivscroll-1.3-min.js",
                       "~/Scripts/jquery.flexisel.js",
+                      "~/Scripts/responsiveslides.min.js",
                       "~/Scripts/bootstrap.youtubepopup.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
@@ -34,7 +35,8 @@ namespace MedixCollege
                       "~/Content/site.css",
                       "~/Content/font-awesome.css",
                       "~/Content/mediaelementplayer.min.css",
-                      "~/Content/smoothDivScroll.css"));
+                      "~/Content/smoothDivScroll.css",
+                      "~/Content/responsiveslides.css"));
         }
     }
 }

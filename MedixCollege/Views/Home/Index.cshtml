@@ -371,6 +371,12 @@
         });
 
         $(window).load(function () {
+            $(".rslides").responsiveSlides({
+                pagination: true,
+                nav: true,
+                fade: 500
+            });
+
             $("#graduatesImageScroller").flexisel({
                 autoPlay: false,
                 visibleItems: 5
