@@ -55,7 +55,7 @@ namespace MedixCollege.Controllers
         }
 
         // GET: Leads
-        public ActionResult Index(string dateTimeFilter, string campusFilter, string programFilter, string mediaSourceFilter, bool clearFilter = false, int page = 1, string pageValid = "false")
+        public ActionResult Index(string pageValid, string dateTimeFilter, string campusFilter, string programFilter, string mediaSourceFilter, bool clearFilter = false, int page = 1)
         {
             if (clearFilter)
             {
@@ -69,7 +69,7 @@ namespace MedixCollege.Controllers
             ViewBag.CampusFilterText = campusFilter;
             ViewBag.ProgramFilter = programFilter;
             ViewBag.MediaSourceFilter = mediaSourceFilter;
-            ViewBag.PageValid = pageValid;
+            ViewBag.PageValid = string.IsNullOrEmpty(pageValid) ? "false" : pageValid;
 
             var leads = new Leads();
 
