@@ -28,7 +28,7 @@ header {
     width: 100%;
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     font-weight: 400;
-    padding-top: 10px;
+
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -1443,8 +1443,15 @@ blockquote p {
 .contentH1-mainW {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 1.65em;
+    line-height: 1em;
+}
+
+.contentH1-mainB {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: #0F3F6F;
+    font-size: 1.65em;
+    line-height: 1.65em;
 }
 
     .contentH1-mainW a {
@@ -1847,4 +1854,14 @@ background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Aria
 
 .ul-none {
     list-style-type: none;
+}
+
+.contentH2-white-graybg {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: #0F3F6F;
+    border-bottom: solid 3px #0F3F6F;
+    background-color: white;
+    padding: 18px 12px 12px 0px;
+    text-align: left;
+    margin-top: 0 !important;
 }
