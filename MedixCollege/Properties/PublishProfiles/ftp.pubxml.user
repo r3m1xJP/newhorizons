@@ -842,25 +842,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/09/2015 11:26:32</publishTime>
     </File>
     <File Include="Views/Campuses/Brampton.cshtml">
-      <publishTime>07/07/2015 14:26:09</publishTime>
+      <publishTime>07/07/2015 15:11:01</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
-      <publishTime>04/01/2015 16:50:53</publishTime>
+      <publishTime>07/07/2015 15:12:49</publishTime>
     </File>
     <File Include="Views/Campuses/Index.cshtml">
       <publishTime>05/13/2015 05:36:56</publishTime>
     </File>
     <File Include="Views/Campuses/Kitchener.cshtml">
-      <publishTime>04/01/2015 16:51:41</publishTime>
+      <publishTime>07/07/2015 15:30:20</publishTime>
     </File>
     <File Include="Views/Campuses/London.cshtml">
-      <publishTime>04/02/2015 00:14:22</publishTime>
+      <publishTime>07/07/2015 15:30:59</publishTime>
     </File>
     <File Include="Views/Campuses/Scarborough.cshtml">
-      <publishTime>05/13/2015 05:56:21</publishTime>
+      <publishTime>07/07/2015 15:39:35</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>05/13/2015 06:08:33</publishTime>
+      <publishTime>07/07/2015 15:39:40</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>07/06/2015 22:17:41</publishTime>

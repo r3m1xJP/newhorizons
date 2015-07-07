@@ -1870,6 +1870,7 @@ background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Aria
     background-color: #0F3F6F;
     color:white;
     font-size:1.2em;
+    border-bottom: 2px solid #EDAA0F;
 }
 
 .programtableheader a {
