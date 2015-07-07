@@ -86,3 +86,4 @@ C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\PagedList.dll
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\PagedList.Mvc.dll
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\PagedList.xml
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\PagedList.Mvc.xml
+C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache

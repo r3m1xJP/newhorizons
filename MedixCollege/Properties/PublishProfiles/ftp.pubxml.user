@@ -1019,7 +1019,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 11:56:58</publishTime>
     </File>
     <File Include="Views/Home/_HomeLayout.cshtml">
-      <publishTime>05/13/2015 10:54:48</publishTime>
+      <publishTime>07/07/2015 07:07:00</publishTime>
     </File>
     <File Include="Views/Leads/Index.cshtml">
       <publishTime>07/06/2015 22:18:11</publishTime>
