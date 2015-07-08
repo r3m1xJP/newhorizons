@@ -157,13 +157,13 @@
 .caption {
     position: absolute;
     bottom: 15%;
-    right: 0%;
     display: block;
     padding: 5px;
     text-align: center;
     background: #0F3F6F;
     color: white;
     font-size: 2.5em;
+    width: 97.5%;
 }
 
 .banner-content {
