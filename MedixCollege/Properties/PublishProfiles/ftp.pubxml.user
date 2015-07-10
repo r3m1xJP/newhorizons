@@ -545,7 +545,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/06/2015 19:15:41</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>07/07/2015 13:30:29</publishTime>
+      <publishTime>07/07/2015 17:06:04</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -860,7 +860,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/07/2015 15:39:35</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>07/07/2015 15:39:40</publishTime>
+      <publishTime>07/07/2015 15:48:49</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>07/06/2015 22:17:41</publishTime>
@@ -1010,7 +1010,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2015 17:50:27</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/06/2015 22:11:26</publishTime>
+      <publishTime>07/07/2015 15:57:18</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>04/23/2015 21:11:59</publishTime>
@@ -1052,7 +1052,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/22/2015 04:32:33</publishTime>
     </File>
     <File Include="Views/MedixOnline/ContactMedixOnline.cshtml">
-      <publishTime>04/29/2015 04:31:24</publishTime>
+      <publishTime>07/08/2015 11:49:27</publishTime>
     </File>
     <File Include="Views/MedixOnline/ELearning.cshtml">
       <publishTime>04/22/2015 04:36:49</publishTime>
@@ -1070,7 +1070,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/06/2015 22:18:17</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>07/07/2015 13:49:47</publishTime>
+      <publishTime>07/07/2015 17:24:03</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
       <publishTime>07/07/2015 12:15:54</publishTime>

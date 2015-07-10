@@ -130,14 +130,14 @@ namespace MedixCollege.Controllers
                 }
             }
 
-            int pageSize = 5;
+            int pageSize = 25;
 
             return View(leadsList.ToPagedList(page, pageSize));
         }
 
         public JsonResult CheckLogin(string username, string password)
         {
-            if (username == "pdysktra" && password == "ninjaturtles")
+            if (username == "pdykstra" && password == "ninjaturtles")
             {
                 return Json(new { valid = true }, JsonRequestBehavior.AllowGet);
             }

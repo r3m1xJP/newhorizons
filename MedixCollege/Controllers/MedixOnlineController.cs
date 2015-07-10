@@ -105,6 +105,14 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: Medical Transcription
+        public ActionResult MedicalTranscription()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
         public ActionResult ContactMedixOnline()
         {
             ViewBag.MedixOnline = true;
