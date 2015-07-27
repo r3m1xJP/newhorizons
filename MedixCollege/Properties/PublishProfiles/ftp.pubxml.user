@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:35:40</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>07/07/2015 14:46:01</publishTime>
+      <publishTime>07/10/2015 13:33:08</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
@@ -473,19 +473,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/24/2015 21:05:53</publishTime>
     </File>
     <File Include="Content/images/medix-banner-dental.jpg">
-      <publishTime>06/24/2015 21:05:54</publishTime>
+      <publishTime>07/10/2015 10:01:53</publishTime>
     </File>
     <File Include="Content/images/medix-banner-doa2.jpg">
-      <publishTime>06/24/2015 21:05:54</publishTime>
+      <publishTime>07/10/2015 10:05:47</publishTime>
     </File>
     <File Include="Content/images/medix-banner-mlat.jpg">
-      <publishTime>06/24/2015 21:05:54</publishTime>
+      <publishTime>07/10/2015 10:03:15</publishTime>
     </File>
     <File Include="Content/images/medix-banner-mlat2.jpg">
       <publishTime>06/24/2015 21:05:54</publishTime>
     </File>
+    <File Include="Content/images/medix-banner-mt.jpg">
+      <publishTime>07/10/2015 10:09:18</publishTime>
+    </File>
     <File Include="Content/images/medix-banner-psw.jpg">
-      <publishTime>06/24/2015 21:05:54</publishTime>
+      <publishTime>07/10/2015 10:04:07</publishTime>
     </File>
     <File Include="Content/images/Medix-Weekly-Hired-Logo.jpg">
       <publishTime>04/10/2015 01:01:39</publishTime>
@@ -542,10 +545,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/19/2015 03:22:10</publishTime>
     </File>
     <File Include="Content/responsiveslides.css">
-      <publishTime>07/06/2015 19:15:41</publishTime>
+      <publishTime>07/10/2015 09:50:57</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>07/07/2015 17:06:04</publishTime>
+      <publishTime>07/10/2015 10:06:52</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -1010,7 +1013,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2015 17:50:27</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/07/2015 15:57:18</publishTime>
+      <publishTime>07/10/2015 13:34:03</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>04/23/2015 21:11:59</publishTime>
@@ -1060,6 +1063,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/MedixOnline/Index.cshtml">
       <publishTime>04/22/2015 04:26:33</publishTime>
     </File>
+    <File Include="Views/MedixOnline/MedicalTranscription.cshtml">
+      <publishTime>07/08/2015 21:53:43</publishTime>
+    </File>
     <File Include="Views/MedixOnline/SchedulesAndFees.cshtml">
       <publishTime>04/22/2015 04:29:57</publishTime>
     </File>
@@ -1067,7 +1073,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/08/2015 10:08:58</publishTime>
     </File>
     <File Include="Views/MedixOnline/_MedixOnlineLayout.cshtml">
-      <publishTime>07/06/2015 22:18:17</publishTime>
+      <publishTime>07/08/2015 21:54:42</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
       <publishTime>07/07/2015 17:24:03</publishTime>
@@ -1124,7 +1130,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:32:13</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>06/08/2015 12:20:37</publishTime>
+      <publishTime>07/10/2015 09:49:46</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/04/2015 18:32:13</publishTime>
