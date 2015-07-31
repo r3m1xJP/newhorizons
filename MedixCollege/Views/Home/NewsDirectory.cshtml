@@ -7,25 +7,44 @@
 }
 
 
-<div class="col-sm-8 mid-padding">
-    <h1 class="contentPageH1">News Directory</h1>
+<div class="col-sm-12 mid-padding">
+    <h1 class="contentPageH1">NEWS DIRECTORY</h1>
     <ol class="breadcrumb">
         <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
         <li class="active contentp">News Directory</li>
     </ol>
-
-    <ul class="list-unstyled newsList">
-        @foreach (var article in Model)
-        {
-            <li class="newsListItem contentp whiteBG-GrayStrokeNews" id="@article.Id">
-                <div class="contentH3-blue"><span class="glyphicon glyphicon-comment spacer-right mBlueColour f20 goldOuterGlow "></span> @article.Title</div>
-                <div class="date">@article.Date.ToString("MMMM d, yyyy")</div>
-                <div class="contentp">Summary</div>
-            </li>
-        }
-    </ul>
 </div>
 
+<div class="col-sm-8 mid-padding">
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+            <ul class="list-unstyled newsList">
+                @foreach (var article in Model)
+                {
+                    <li class="newsListItem contentp whiteBG-GrayStrokeNews" id="@article.Id">
+                        <br />
+                        <div class="col-sm-12">
+                            <div class="contentH3-blue">
+                                @article.Title
+                            </div>
+                            <div class="date">
+                                @article.Date.ToString("MMMM d, yyyy")
+                            </div>
+                            <div class="contentp">Summary</div>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+    <br />
+
+</div>
 
 <div class="col-sm-4 pull-right no-padding">
     <div class="col-sm-12 formWrapper overquestionsForm">
@@ -98,7 +117,7 @@
             <div class="text-center">
                 <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
             </div>
-        </form>
+        </form><br />
     </div>
 </div>
 

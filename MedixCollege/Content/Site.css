@@ -264,7 +264,6 @@ textarea {
 }
 
 footer {
-    border-top: solid 1px lightgray;
     background-color: #f4f4f4;
     color: #222222 !important;
     margin-top: 5px !important;
@@ -302,7 +301,7 @@ footer {
 
 .footer-banner {
     background-color: #0F3F6F;
-    border-top: solid 2px #EDAA0F;
+    border-top: solid 3px #EDAA0F;
     overflow: auto;
     padding: 10px;
 }
@@ -365,9 +364,7 @@ footer {
 
 .whiteBG-GrayStrokeNews {
     background-color: white;
-    border: solid 1px lightgray;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
 }
 
 .f70 {
@@ -705,6 +702,25 @@ footer {
     padding-right: 25px;
 }
 
+@media screen and (max-width: 480px) {
+.mid-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+}
+
+.mid-padding2 {
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 480px) {
+.mid-padding2 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+}
+
 .link-unstyled a {
     text-decoration: none;
 }
@@ -771,8 +787,8 @@ footer {
 
 .containervideoItem {
     background-color: #0F3F6F;
-    border-top: solid 2px #EDAA0F;
-    border-bottom: solid 2px #EDAA0F;
+    border-top: solid 3px #EDAA0F;
+    border-bottom: solid 3px #EDAA0F;
 }
 
 
@@ -1267,7 +1283,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 
 /* News Section */
 .newsList li {
-    padding: 10px;
+    padding: 0px;
     cursor: pointer;
 }
 
