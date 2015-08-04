@@ -2,50 +2,195 @@
     Layout = "~/Views/Admissions/_AdmissionsLayout.cshtml";
 }
 
-<h1 class="contentPageH1">STUDENT LINES OF CREDIT</h1>
-<ol class="breadcrumb">
-    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
-    <li class="contentp">@Html.ActionLink("Admissions", "Index", "Admissions")</li>
-    <li class="contentp">@Html.ActionLink("Financial Options", "FinancialOptions", "Admissions")</li>
-    <li class="active contentp">Student Lines of Credit</li>
-</ol>
+@{
+    ViewBag.Title = "Student Lines of Credit - Financial Options - Medix College";
+    ViewBag.PageDescription = "Learn more aboutStudent Lines of Credit as a financial option to attend Medix College";
+}
+
+<div class="col-sm-12">
+    <h1 class="contentPageH1">STUDENT LINES OF CREDIT</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("Admissions", "Index", "Admissions")</li>
+        <li class="contentp">@Html.ActionLink("Financial Options", "FinancialOptions", "Admissions")</li>
+        <li class="active contentp">Student Lines of Credit</li>
+    </ol>
+</div>
 
 
-<p class="contentp">
-    Most major banks and credit unions offer student lines of credit to finance post secondary education.
-
-    Please visit your financial institution to find out more information.
-</p>
-<br />
+<div class="col-sm-8 mid-padding">
 
 
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <p class="contentp">
+                Most major banks and credit unions offer student lines of credit to finance post secondary education.
 
-<h1 class="contentH1">ROYAL BANK</h1>
-<h2 class="contentH2">Student Lines of Credit</h2>
-<p class="contentp">Web: <a href="http://www.rbcroyalbank.com/personal-loans/student-line-of-credit.html">www.rbcroyalbank.com/personal-loans/student-line-of-credit.html</a></p>
-<p class="contentp">Phone: 1-800-769-2511 </p>
-<br />
+                Please visit your financial institution to find out more information.
+            </p>
+        </div>
+    </div>
 
-<h1 class="contentH1">TD BANK</h1>
-<h2 class="contentH2">Student Lines</h2>
-<p class="contentp">Web: <a href="http://www.tdcanadatrust.com/products-services/borrowing/loans-lines-of-credit/student-line.jsp">www.tdcanadatrust.com/products-services/borrowing/loans-lines-of-credit/student-line.jsp</a></p>
-<p class="contentp">Phone: 1 866 222 3456 </p>
-<br />
 
-<h1 class="contentH1">SCOTIA BANK</h1>
-<h2 class="contentH2">Personal Line of Credit for Students</h2>
-<p class="contentp">Web: <a href="http://www.scotiabank.com/ca/en/0,,957,00.html">www.scotiabank.com/ca/en/0,,957,00.html</a></p>
-<p class="contentp">Phone: 1.800.4SCOTIA </p>
-<br />
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">ROYAL BANK</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Lines of Credit</h2>
+            <p class="contentp">Web: <a href="http://www.rbcroyalbank.com/personal-loans/student-line-of-credit.html">www.rbcroyalbank.com/personal-loans/student-line-of-credit.html</a></p>
+            <p class="contentp">Phone: 1-800-769-2511 </p>
+        </div>
+    </div>
 
-<h1 class="contentH1">BANK OF MONTREAL</h1>
-<h2 class="contentH2">Student Line of Credit</h2>
-<p class="contentp">Web: <a href="https://www.bmo.com/home/personal/banking/loans-loc/loc/student-line-of-credit">www.bmo.com/home/personal/banking/loans-loc/loc/student-line-of-credit</a></p>
-<p class="contentp">Phone: 1-877-CALL-BMO </p>
-<br />
 
-<h1 class="contentH1">CIBC</h1>
-<h2 class="contentH2">Education Line of Credit</h2>
-<p class="contentp">Web: <a href="https://www.cibc.com/ca/loans/edu-line-of-credit.html">www.cibc.com/ca/loans/edu-line-of-credit.html</a></p>
-<p class="contentp">Phone: 1-877-CALL-BMO </p>
-<br />
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+            <h1 class="contentH1">TD BANK</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Lines</h2>
+            <p class="contentp">Web: <a href="http://www.tdcanadatrust.com/products-services/borrowing/loans-lines-of-credit/student-line.jsp">www.tdcanadatrust.com/products-services/borrowing/loans-lines-of-credit/student-line.jsp</a></p>
+            <p class="contentp">Phone: 1 866 222 3456 </p>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">SCOTIA BANK</h1><hr class="hrp" />
+            <h2 class="contentH2">Personal Line of Credit for Students</h2>
+            <p class="contentp">Web: <a href="http://www.scotiabank.com/ca/en/0,,957,00.html">www.scotiabank.com/ca/en/0,,957,00.html</a></p>
+            <p class="contentp">Phone: 1.800.4SCOTIA </p>
+        </div>
+    </div>
+
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+            <h1 class="contentH1">BANK OF MONTREAL</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Line of Credit</h2>
+            <p class="contentp">Web: <a href="https://www.bmo.com/home/personal/banking/loans-loc/loc/student-line-of-credit">www.bmo.com/home/personal/banking/loans-loc/loc/student-line-of-credit</a></p>
+            <p class="contentp">Phone: 1-877-CALL-BMO </p>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">CIBC</h1><hr class="hrp" />
+            <h2 class="contentH2">Education Line of Credit</h2>
+            <p class="contentp">Web: <a href="https://www.cibc.com/ca/loans/edu-line-of-credit.html">www.cibc.com/ca/loans/edu-line-of-credit.html</a></p>
+            <p class="contentp">Phone: 1-877-CALL-BMO </p>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+    <br />
+
+
+</div>
+
+
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option value="632">Community Service Worker</option>
+                        <option value="39478">CPR &amp; First Aid</option>
+                        <option value="818">Dental Level 2</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="634">Developmental Service Worker</option>
+                        <option value="38526">Early Childhood Assistant</option>
+                        <option value="642">ECG</option>
+                        <option value="37255">Fitness &amp; Health Promotion</option>
+                        <option value="39162">Intramuscular Injection</option>
+                        <option value="627">Intra-Oral Dental Assistant </option>
+                        <option value="629">Massage Therapy</option>
+                        <option value="633">Medical Laboratory Assistant / Technician</option>
+                        <option value="630">Medical Office Administrator</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="39415">Mental Health &amp; Addictions</option>
+                        <option value="1169">OHIP Billing</option>
+                        <option value="631">Personal Support Worker</option>
+                        <option value="628">Pharmacy Assistant</option>
+                        <option value="636">Phlebotomy</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="643">PSW Upgrading</option>
+                        <option value="1171">Thought Patterns</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body panelBG">
+            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
+            <hr class="hrpblue" />
+            <p class="contentp">
+                @Html.ActionLink("Brampton", "Brampton", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Brantford", "Brantford", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+
+                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("London", "London", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Toronto", "Toronto", "Campuses")
+            </p>
+        </div>
+
+    </div>
+</div>

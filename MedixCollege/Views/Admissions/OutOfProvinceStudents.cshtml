@@ -2,97 +2,248 @@
     Layout = "~/Views/Admissions/_AdmissionsLayout.cshtml";
 }
 
-<h1 class="contentPageH1">OUT OF PROVINCE</h1>
-<ol class="breadcrumb">
-    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
-    <li class="contentp">@Html.ActionLink("Admissions", "Index", "Admissions")</li>
-    <li class="contentp">@Html.ActionLink("Financial Options", "FinancialOptions", "Admissions")</li>
-    <li class="active contentp">Out of Province</li>
-</ol>
+@{
+    ViewBag.Title = "Out of Province Options - Financial Options - Medix College";
+    ViewBag.PageDescription = "Learn more about Out of Province Options to attend Medix College";
+}
+
+<div class="col-sm-12">
+    <h1 class="contentPageH1">OUT OF PROVINCE</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("Admissions", "Index", "Admissions")</li>
+        <li class="contentp">@Html.ActionLink("Financial Options", "FinancialOptions", "Admissions")</li>
+        <li class="active contentp">Out of Province</li>
+    </ol>
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <p class="contentp">
+                Students from provinces outside of Ontario may also qualify for loans, scholarships, bursaries and grants
+
+                administered by their provincial Student Financial Assistance Offices.
+            </p>
+        </div>
+    </div>
 
 
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">ALBERTA</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Aid Alberta</h2>
+            <p class="contentp">Web: <a href="http://studentaid.alberta.ca/">studentaid.alberta.ca</a></p>
+            <p class="contentp">Phone: 1-855-606-2096 (toll free in North America)</p>
+        </div>
+    </div>
 
-<p class="contentp">
-    Students from provinces outside of Ontario may also qualify for loans, scholarships, bursaries and grants
+    <div class="panel panel-default">
+        <div class="panel-body">
 
-    administered by their provincial Student Financial Assistance Offices.
-</p>
+            <h1 class="contentH1">BRITISH COLUMBIA</h1><hr class="hrp" />
+            <h2 class="contentH2">StudentAid BC</h2>
+            <p class="contentp">Web: <a href="https://studentaidbc.ca/">studentaidbc.ca</a></p>
+            <p class="contentp">Phone: 1-800-561-1818 (within Canada/US)</p>
+        </div>
+    </div>
 
-<br />
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">MANITOBA</h1><hr class="hrp" />
+            <h2 class="contentH2">Manitoba Student Aid</h2>
+            <p class="contentp">Web: <a href="http://www.gov.mb.ca/educate/sfa/pages/sfaFrontDoor_en.html?">www.gov.mb.ca/educate/sfa/pages/sfaFrontDoor_en.html</a></p>
+            <p class="contentp">Phone: 1-800-204-1685 (within Canada/US)</p>
+        </div>
+    </div>
 
-<h1 class="contentH1">ALBERTA</h1>
-<h2 class="contentH2">Student Aid Alberta</h2>
-<p class="contentp">Web: <a href="http://studentaid.alberta.ca/">studentaid.alberta.ca</a></p>
-<p class="contentp">Phone: 1-855-606-2096 (toll free in North America)</p>
 
-<br />
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">NEW BRUNSWICK</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Financial Services</h2>
+            <p class="contentp">Web: <a href="http://www2.gnb.ca/content/gnb/en/departments/post-secondary_education_training_and_labour/Skills/content/FinancialSupport/StudentFinancialServices.html">www2.gnb.ca</a></p>
+            <p class="contentp">Phone: 1-800-667-5626</p>
+        </div>
+    </div>
 
-<h1 class="contentH1">BRITISH COLUMBIA</h1>
-<h2 class="contentH2">StudentAid BC</h2>
-<p class="contentp">Web: <a href="https://studentaidbc.ca/">studentaidbc.ca</a></p>
-<p class="contentp">Phone: 1-800-561-1818 (within Canada/US)</p>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">NEWFOUNDLAND & LABRADOR</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Financial Services</h2>
+            <p class="contentp">Web: <a href="http://www.aes.gov.nl.ca/studentaid/">www.aes.gov.nl.ca</a></p>
+            <p class="contentp">Phone: 1-888-657-0800</p>
+        </div>
+    </div>
 
-<br />
 
-<h1 class="contentH1">MANITOBA</h1>
-<h2 class="contentH2">Manitoba Student Aid</h2>
-<p class="contentp">Web: <a href="http://www.gov.mb.ca/educate/sfa/pages/sfaFrontDoor_en.html?">www.gov.mb.ca/educate/sfa/pages/sfaFrontDoor_en.html</a></p>
-<p class="contentp">Phone: 1-800-204-1685 (within Canada/US)</p>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">NORTHWEST TERRITORIES</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Financial Assistance</h2>
+            <p class="contentp">Web: <a href="http://www.aes.gov.nl.ca/studentaid/">www.aes.gov.nl.ca/studentaid/</a></p>
+            <p class="contentp">Phone: 1-800-661-0793</p>
+        </div>
+    </div>
 
-<br />
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">NOVA SCOTIA</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Assistance Office</h2>
+            <p class="contentp">Web: <a href="http://novascotia.ca/studentassistance/">novascotia.ca/studentassistance/</a></p>
+            <p class="contentp">Phone: 1-800-661-0793</p>
+        </div>
+    </div>
 
-<h1 class="contentH1">NEW BRUNSWICK</h1>
-<h2 class="contentH2">Student Financial Services</h2>
-<p class="contentp">Web: <a href="http://www2.gnb.ca/content/gnb/en/departments/post-secondary_education_training_and_labour/Skills/content/FinancialSupport/StudentFinancialServices.html">www2.gnb.ca</a></p>
-<p class="contentp">Phone: 1-800-667-5626</p>
 
-<br />
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">
+                NUNAVUT
+            </h1><hr class="hrp" />
+            <h2 class="contentH2">Department of Family Services</h2>
+            <p class="contentp">Phone: 1-877-860-0680</p>
+        </div>
+    </div>
 
-<h1 class="contentH1">NEWFOUNDLAND & LABRADOR</h1>
-<h2 class="contentH2">Student Financial Services</h2>
-<p class="contentp">Web: <a href="http://www.aes.gov.nl.ca/studentaid/">www.aes.gov.nl.ca</a></p>
-<p class="contentp">Phone: 1-888-657-0800</p>
+    <div class="panel panel-default">
+        <div class="panel-body">
 
-<br />
+            <h1 class="contentH1">ONTARIO</h1><hr class="hrp" />
+            <h2 class="contentH2">Ontario Student Assistance Program</h2>
+            <p class="contentp">Web: <a href="https://osap.gov.on.ca/OSAPPortal">osap.gov.on.ca/OSAPPortal</a></p>
+            <p class="contentp">Phone: 807-343-7260 </p>
+        </div>
+    </div>
 
-<h1 class="contentH1">NORTHWEST TERRITORIES</h1>
-<h2 class="contentH2">Student Financial Assistance</h2>
-<p class="contentp">Web: <a href="http://www.aes.gov.nl.ca/studentaid/">www.aes.gov.nl.ca/studentaid/</a></p>
-<p class="contentp">Phone: 1-800-661-0793</p>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">SASKATCHEWAN</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Financial Services</h2>
+            <p class="contentp">Web: <a href="http://www.saskatchewan.ca/studentloans">www.saskatchewan.ca/studentloans</a></p>
+            <p class="contentp">Phone: 1-800-597-8278</p>
 
-<br />
+        </div>
+    </div>
 
-<h1 class="contentH1">NOVA SCOTIA</h1>
-<h2 class="contentH2">Student Assistance Office</h2>
-<p class="contentp">Web: <a href="http://novascotia.ca/studentassistance/">novascotia.ca/studentassistance/</a></p>
-<p class="contentp">Phone: 1-800-661-0793</p>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">YUKON</h1><hr class="hrp" />
+            <h2 class="contentH2">Student Financial Services</h2>
+            <p class="contentp">Web: <a href="http://www.education.gov.yk.ca/index.html">www.education.gov.yk.ca</a></p>
+            <p class="contentp">Phone: 1-800-661-0408</p>
+        </div>
+    </div>
 
-<br />
-
-<h1 class="contentH1">
-    NUNAVUT</h1>
-    <h2 class="contentH2">Department of Family Services</h2>
-    <p class="contentp">Phone: 1-877-860-0680</p>
-
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
     <br />
 
-    <h1 class="contentH1">ONTARIO</h1>
-    <h2 class="contentH2">Ontario Student Assistance Program</h2>
-    <p class="contentp">Web: <a href="https://osap.gov.on.ca/OSAPPortal">osap.gov.on.ca/OSAPPortal</a></p>
-    <p class="contentp">Phone: 807-343-7260 </p>
+</div>
 
-    <br />
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
 
-    <h1 class="contentH1">SASKATCHEWAN</h1>
-    <h2 class="contentH2">Student Financial Services</h2>
-    <p class="contentp">Web: <a href="http://www.saskatchewan.ca/studentloans">www.saskatchewan.ca/studentloans</a></p>
-    <p class="contentp">Phone: 1-800-597-8278</p>
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option value="632">Community Service Worker</option>
+                        <option value="39478">CPR &amp; First Aid</option>
+                        <option value="818">Dental Level 2</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="634">Developmental Service Worker</option>
+                        <option value="38526">Early Childhood Assistant</option>
+                        <option value="642">ECG</option>
+                        <option value="37255">Fitness &amp; Health Promotion</option>
+                        <option value="39162">Intramuscular Injection</option>
+                        <option value="627">Intra-Oral Dental Assistant </option>
+                        <option value="629">Massage Therapy</option>
+                        <option value="633">Medical Laboratory Assistant / Technician</option>
+                        <option value="630">Medical Office Administrator</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="39415">Mental Health &amp; Addictions</option>
+                        <option value="1169">OHIP Billing</option>
+                        <option value="631">Personal Support Worker</option>
+                        <option value="628">Pharmacy Assistant</option>
+                        <option value="636">Phlebotomy</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="643">PSW Upgrading</option>
+                        <option value="1171">Thought Patterns</option>
 
-    <br />
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
 
-    <h1 class="contentH1">YUKON</h1>
-    <h2 class="contentH2">Student Financial Services</h2>
-    <p class="contentp">Web: <a href="http://www.education.gov.yk.ca/index.html">www.education.gov.yk.ca</a></p>
-    <p class="contentp">Phone: 1-800-661-0408</p>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body panelBG">
+            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
+            <hr class="hrpblue" />
+            <p class="contentp">
+                @Html.ActionLink("Brampton", "Brampton", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Brantford", "Brantford", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
 
-    <br />
+                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("London", "London", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Toronto", "Toronto", "Campuses")
+            </p>
+        </div>
+
+    </div>
+
+</div>

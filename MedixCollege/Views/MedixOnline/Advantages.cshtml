@@ -2,95 +2,161 @@
     Layout = "~/Views/MedixOnline/_MedixOnlineLayout.cshtml";
 }
 
-<h1 class="contentPageH1">ADVANTAGES <small class="contentH1-small">to MEDIX ONLINE</small></h1>
-<ol class="breadcrumb">
-    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
-    <li class="contentp">@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
-    <li class="active contentp">Advantages to Medix Online</li>
-</ol>
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="contentH2">
-            There's something for everyone at Medix Online.
-        </h2>
-    </div>
-    <div class="panel-body">
 
-        <p class="contentp">
-            Medix Online was launched to provide individuals and groups with the ability to advance their
-
-            healthcare education. We offer affordable, in-demand Certificate Programs which you can
-
-            complete from the comfort of your own home.
-        </p>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="contentH2">
-            Update and Refresh your Knowledge on Health Care
-        </h2>
-    </div>
-    <div class="panel-body">
-        <p class="contentp">
-            Medix Online was specifically designed to help people acquire knowledge in the health care
-
-            industry for both personal and professional development. Many people have chosen Medix
-
-            Online Certificates to provide them with the qualifications needed to advance in their current
-
-            healthcare careers.  
-        </p>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="contentH2">Earn Continuing Education Credits (CEC / CEU)</h2>
-
-    </div>
-    <div class="panel-body">
-        <p class="contentp">
-            With Medix Online, healthcare professionals can easily access and complete necessary
-
-            Continuing Education Credits (CEC). These CEC keep healthcare professionals up to date
-
-            with industry advances while allowing them to attain the necessary credits required for their
-
-            professional regulatory bodies.  
-
-        </p>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="contentH2">
-            Medix Online Provides Customized Courses for Health Care Organizations
-        </h2>
-    </div>
-    <div class="panel-body">
-
-        <p class="contentp">
-            Medix Online is interested in helping healthcare organizations keep their staff educated,
-
-            motivated and content by offering customized courses and certificates to help meet
-
-            healthcare organizations needs. To learn how your staff can benefit from Medix Online
-
-            courses, contact us today!  
-        </p>
-
-        <p class="contentp">
-            Medix would like to take this opportunity to thank the health care community in Ontario for their
-
-            continued support in the training of students and hiring of graduates.
-        </p>
-    </div>
+<div class="col-sm-12">
+    <h1 class="contentPageH1">ADVANTAGES <small class="contentH1-small">of MEDIX ONLINE</small></h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
+        <li class="active contentp">Advantages to Medix Online</li>
+    </ol>
 </div>
 
 
 
-<br />
+<div class="col-sm-8 mid-padding">
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <h2 class="contentH2">
+                There's something for everyone at Medix Online.
+            </h2><hr class="hrp" />
+            <p class="contentp">
+                Medix Online was launched to provide individuals and groups with the ability to advance their
+
+                healthcare education. We offer affordable, in-demand Certificate Programs which you can
+
+                complete from the comfort of your own home.
+            </p>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <h2 class="contentH2">
+                Update and Refresh your Knowledge on Health Care
+            </h2><hr class="hrp" />
+            <p class="contentp">
+                Medix Online was specifically designed to help people acquire knowledge in the health care
+
+                industry for both personal and professional development. Many people have chosen Medix
+
+                Online Certificates to provide them with the qualifications needed to advance in their current
+
+                healthcare careers.  
+            </p>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <h2 class="contentH2">Earn Continuing Education Credits (CEC / CEU)</h2>
+<hr class="hrp" />
+            <p class="contentp">
+                With Medix Online, healthcare professionals can easily access and complete necessary
+
+                Continuing Education Credits (CEC). These CEC keep healthcare professionals up to date
+
+                with industry advances while allowing them to attain the necessary credits required for their
+
+                professional regulatory bodies.  
+
+            </p>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <h2 class="contentH2">
+                Medix Online Provides Customized Courses for Health Care Organizations
+            </h2><hr class="hrp" />
+            <p class="contentp">
+                Medix Online is interested in helping healthcare organizations keep their staff educated,
+
+                motivated and content by offering customized courses and certificates to help meet
+
+                healthcare organizations needs. To learn how your staff can benefit from Medix Online
+
+                courses, contact us today!  
+            </p>
+
+            <p class="contentp">
+                Medix would like to take this opportunity to thank the health care community in Ontario for their
+
+                continued support in the training of students and hiring of graduates.
+            </p>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+<div class="col-sm-4 pull-right">
+    <div class="panel panel-default">
+
+        <div class="row formWrapper overquestionsForm">
+
+            <form id="medixOnlineQuestionsForm" name="medixOnlineQuestionsForm" class="questionsForm" method="post" action="/MedixOnline/ContactMedixOnlineForm">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; CONTACT MEDIX ONLINE
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Lastname" id="formlastname" />
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" />
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID" id="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="38885">Dental Assisting Level II Online Ebooks Incld.</option>
+                        <option value="40143">Dental Assisting Level II Online no Ebooks</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="39438">Medical Terminology and OHIP Package</option>
+                        <option value="39439">Medical Terminology and Transcription Package</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="38884">Pre-Science Package (MedTerm, Bio and Chem)</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="1171">Thought Patterns</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+
+
+        </div>
+
+
+    </div>

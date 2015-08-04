@@ -8,33 +8,32 @@
     
 }
 
-<h1 class="contentPageH1">TRANSCRIPT REQUEST</h1>
-<ol class="breadcrumb">
-    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
-    <li class="contentp">@Html.ActionLink("About Medix", "Index", "DiscoverMedix")</li>
-    <li class="active contentp">Transcript Request</li>
-</ol>
-
-
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="contentH2">
-            <span class="glyphicon glyphicon-home"></span>&nbsp;
-            LONDON CAMPUS ONLY
-        </h2>
-    </div>
-
+<div class="col-sm-12">
+    <h1 class="contentPageH1">TRANSCRIPT REQUEST</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("About Medix", "Index", "DiscoverMedix")</li>
+        <li class="active contentp">Transcript Request</li>
+    </ol>
 </div>
 
-
+<div class="col-sm-8 mid-padding">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h2 class="contentH2">
-                The Administration office maintains the permanent academic records for all students.
+                <span class="glyphicon glyphicon-home"></span>&nbsp;
+                LONDON CAMPUS ONLY
             </h2>
         </div>
+
+    </div>
+
+
+    <div class="panel panel-default">
         <div class="panel-body">
+            <h2 class="contentH2">
+                The Administration office maintains the permanent academic records for all students.
+            </h2><hr class="hrp" />
             <p class="contentp">
                 An official transcript is printed on safety paper and carries the registrar's signature certifying its
 
@@ -84,10 +83,9 @@
     <br />
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h2 class="contentH2"> Mail orders should be sent to:</h2>
-        </div>
+
         <div class="panel-body">
+            <h2 class="contentH2"> Mail orders should be sent to:</h2><hr class="hrp" />
 
             <p class="contentp">
                 <strong class="contentp">Medix College </strong>
@@ -102,35 +100,35 @@
         </div>
     </div>
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h1 class="contentH2">Medix College accepts the following forms of payment:</h1>
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <h1 class="contentH2">Medix College accepts the following forms of payment:</h1><hr class="hrp" />
+
+            <ul class="contentp">
+                <li>Visa  </li>
+
+                <li>Master Card  </li>
+
+                <li>Cash  </li>
+
+                <li>Interac  </li>
+            </ul>
+
+            <p class="contentp">
+                If faxing the request, please include the credit card type, the card number and expiration date.  The fax
+
+                number to request transcripts is 519-659-2516.
+            </p>
+            <br />
+
+            <p class="contentp">
+                *Please contact the Administration office at 519-659-4822 if you have special mailing requests such as
+
+                overnight or priority delivery.
+            </p>
+        </div>
     </div>
-    <div class="panel-body">
-        <ul class="contentp">
-            <li>Visa  </li>
-
-            <li>Master Card  </li>
-
-            <li>Cash  </li>
-
-            <li>Interac  </li>
-        </ul>
-
-        <p class="contentp">
-            If faxing the request, please include the credit card type, the card number and expiration date.  The fax
-
-            number to request transcripts is 519-659-2516.
-        </p>
-        <br />
-
-        <p class="contentp">
-            *Please contact the Administration office at 519-659-4822 if you have special mailing requests such as
-
-            overnight or priority delivery.
-        </p>
-    </div>
-</div>
 
 
     <br />
@@ -138,5 +136,109 @@
     <br />
     <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
     <br />
+</div>
 
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
 
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option value="632">Community Service Worker</option>
+                        <option value="39478">CPR &amp; First Aid</option>
+                        <option value="818">Dental Level 2</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="634">Developmental Service Worker</option>
+                        <option value="38526">Early Childhood Assistant</option>
+                        <option value="642">ECG</option>
+                        <option value="37255">Fitness &amp; Health Promotion</option>
+                        <option value="39162">Intramuscular Injection</option>
+                        <option value="627">Intra-Oral Dental Assistant </option>
+                        <option value="629">Massage Therapy</option>
+                        <option value="633">Medical Laboratory Assistant / Technician</option>
+                        <option value="630">Medical Office Administrator</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="39415">Mental Health &amp; Addictions</option>
+                        <option value="1169">OHIP Billing</option>
+                        <option value="631">Personal Support Worker</option>
+                        <option value="628">Pharmacy Assistant</option>
+                        <option value="636">Phlebotomy</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="643">PSW Upgrading</option>
+                        <option value="1171">Thought Patterns</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body panelBG">
+            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
+            <hr class="hrpblue" />
+            <p class="contentp">
+                @Html.ActionLink("Brampton", "Brampton", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Brantford", "Brantford", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+
+                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("London", "London", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Toronto", "Toronto", "Campuses")
+            </p>
+        </div>
+
+    </div>
+</div>

@@ -1,17 +1,11 @@
 ﻿
 @{
-    Layout = null;
+    Layout = "~/Views/MedixOnline/_MedixOnlineLayout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>MedicalTranscription</title>
-</head>
-<body>
-    <div> 
-    </div>
-</body>
-</html>
+<h1 class="contentPageH1">MEDICAL TRANSCRIPTION <small class="contentH1-small">ADVANTAGES</small></h1>
+<ol class="breadcrumb">
+    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+    <li class="contentp">@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
+    <li class="active contentp">Medical Transcription</li>
+</ol>

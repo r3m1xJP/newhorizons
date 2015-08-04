@@ -344,6 +344,8 @@ footer {
     -webkit-text-stroke-color: #EDAA0F;
 }
 
+
+
 .CgoldBlueBorder {
     color: #EDAA0F;
     -webkit-text-stroke-width: 1px;
@@ -415,6 +417,12 @@ footer {
 
 .blueGoldBorder {
     color: #EDAA0F;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0F3F6F;
+}
+
+.blueblueBorder {
+    color: #0F3F6F;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #0F3F6F;
 }
@@ -1907,4 +1915,9 @@ background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Aria
     color:#EDAA0F;
     font-size:1.2em;
     text-decoration:none;
+}
+
+.panelBG {
+background-color:#f8f8f8;
+
 }

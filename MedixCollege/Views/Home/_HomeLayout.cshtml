@@ -24,6 +24,9 @@
             <li class="item side-menu-h2">@Html.ActionLink("News Directory", "NewsDirectory", "Home")</li>
             <li class="item side-menu-h2">@Html.ActionLink("Referral Program", "ReferralProgram", "Home")</li>
             <li class="item side-menu-h2">@Html.ActionLink("Hire a Medix Grad", "HireAMedixGrad", "Home")</li>
+
+            <li class="item btn btn-brand btn-block spacer-top" id="askQuestion">Ask a Question</li>
+            <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Catalogue</li>
         </ul>
         <br />
     </div>
@@ -41,3 +44,25 @@
 
     <div class="clearfix"></div>
 </div>
+
+<script>
+    $(document).ready(function () {
+        $('#applyOnline').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#applyNowWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+
+        $('#requestCatalogue').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#requestCatalogueWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+
+        $('#askQuestion').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#askQuestionWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+    });
+</script>

@@ -548,7 +548,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/30/2015 20:28:05</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>07/30/2015 20:25:33</publishTime>
+      <publishTime>07/30/2015 21:29:02</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -1010,22 +1010,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2015 11:56:58</publishTime>
     </File>
     <File Include="Views/Home/HireAMedixGrad.cshtml">
-      <publishTime>07/30/2015 20:33:42</publishTime>
+      <publishTime>07/30/2015 20:46:10</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>07/30/2015 20:30:33</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
-      <publishTime>04/23/2015 21:11:59</publishTime>
+      <publishTime>07/30/2015 21:08:08</publishTime>
     </File>
     <File Include="Views/Home/NewsDirectory.cshtml">
-      <publishTime>04/29/2015 01:21:11</publishTime>
+      <publishTime>07/30/2015 21:27:31</publishTime>
     </File>
     <File Include="Views/Home/PrivacyPolicy.cshtml">
       <publishTime>04/23/2015 21:47:23</publishTime>
     </File>
     <File Include="Views/Home/ReferralProgram.cshtml">
-      <publishTime>05/13/2015 11:01:22</publishTime>
+      <publishTime>07/30/2015 21:13:41</publishTime>
     </File>
     <File Include="Views/Home/Search.cshtml">
       <publishTime>03/26/2015 18:04:31</publishTime>

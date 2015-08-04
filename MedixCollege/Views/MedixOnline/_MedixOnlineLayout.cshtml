@@ -7,12 +7,13 @@
     ViewBag.PageDescription = "Learn more about the programs available at Medix Online.";
 
 }
+
 <br />
 <div class="container">
     <div class="heroWrapper">
         @ViewBag.HeroText
     </div>
-    <div class="leftMenuWrapper col-md-3 custom-collapse">
+    <div class="leftMenuWrapper col-sm-3 custom-collapse">
         <button class="btn-brand-white collapse-toggle visible-xs visible-sm " type="button" data-toggle="collapse" data-parent="custom-collapse" data-target="#side-menu-medix">
             <span class=""><span class="glyphicon glyphicon-align-justify"></span></span>
             <span class="icon-bar"></span>
@@ -26,85 +27,49 @@
             <li class="item side-menu-h2">@Html.ActionLink("Schedules and Fees", "SchedulesAndFees", "MedixOnline")</li>
             <li class="item side-menu-h2">@Html.ActionLink("E-Learning", "ELearning", "MedixOnline")</li>
             <li class="item side-menu-h2">@Html.ActionLink("Advantages", "Advantages", "MedixOnline")</li>
-            <li class="item side-menu-h2">@Html.ActionLink("Medical Transcription", "MedicalTranscription", "MedixOnline")</li>
 
             <li class="item side-menu-h2">@Html.ActionLink("Contact Medix Online", "ContactMedixOnline", "MedixOnline")</li>
-            
+
             <li class="item btn btn-brand btn-block spacer-top" id="askQuestion">Ask a Question</li>
             <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Catalogue</li>
         </ul>
         <br />
     </div>
-    <div class="col-md-9 pull-right">
+
+
+
+    <div class="col-sm-9 pull-right">
         <div class="contentBody">
             <div class="row bodyHeaderWrapper">
                 @ViewBag.BodyHeaderText
             </div>
             <div class="row">
-                <div class="col-md-8 mid-padding">
-                    @RenderBody()
-                </div>
-                <div class="col-md-4">
-                    <div class="row formWrapper overquestionsForm">
-                        <br />
-                        <h1 class="contentH1 text-center">
-                            <span class="glyphicon glyphicon-comment blueGoldBorder"></span>&nbsp; Contact Medix Online
-                        </h1>
-                        <form id="medixOnlineQuestionsForm" name="medixOnlineQuestionsForm" class="questionsForm" method="post" action="/MedixOnline/ContactMedixOnlineForm">
-                            <input type="hidden" name="ORGID" value="240" />
-                            <input type="hidden" name="MailListID" value="240001" />
-                            <div class="input-group spacer-top">
-                                <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control pull-right" name="FirstName">
-                            </div>
-                            <div class="input-group spacer-top">
-                                <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control pull-right" name="Lastname" id="formlastname" />
-                            </div>
-                            <div class="input-group spacer-top">
-                                <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                                <input type="email" class="form-control pull-right" name="Email">
-                            </div>
-                            <div class="input-group spacer-top">
-                                <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" />
-                            </div>
-                            <div class="input-group spacer-top">
-                                <label class="pull-left">Program: <span class="text-danger">*</span></label>
-                                <select class="form-control pull-right" name="ProgramID" id="ProgramID">
-                                    <option value="0">Select</option>
-                                    <option value="38882">Anatomy &amp; Physiology</option>
-                                    <option value="38885">Dental Assisting Level II Online Ebooks Incld.</option>
-                                    <option value="40143">Dental Assisting Level II Online no Ebooks</option>
-                                    <option value="38883">Dental Office Procedures (abel dent)</option>
-                                    <option value="1170">Medical Terminology</option>
-                                    <option value="39438">Medical Terminology and OHIP Package</option>
-                                    <option value="39439">Medical Terminology and Transcription Package</option>
-                                    <option value="38887">Medical Transcription</option>
-                                    <option value="38884">Pre-Science Package (MedTerm, Bio and Chem)</option>
-                                    <option value="1167">Principles of Nutrition</option>
-                                    <option value="1171">Thought Patterns</option>
-
-                                </select>
-                            </div>
-                            <div class="input-group spacer-top">
-                                <label class="pull-left">Comments: </label>
-                                <textarea class="form-control pull-right" name="Comment2"></textarea>
-                            </div>
-                            <div class="small-text spacer-top text-center grayColor">
-                                Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                            </div>
-                            <div class="text-center">
-                                <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
-                            </div>
-                        </form>
-                    </div>
-
-                    
-                </div>
+                @RenderBody()
             </div>
         </div>
     </div>
+
     <div class="clearfix"></div>
-    <br />
 </div>
+
+<script>
+    $(document).ready(function () {
+        $('#applyOnline').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#applyNowWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+
+        $('#requestCatalogue').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#requestCatalogueWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+
+        $('#askQuestion').click(function () {
+            $('.popup-form-wrapper').hide();
+            $('#askQuestionWrapper').show();
+            $('.form-overlay').slideDown()
+        });
+    });
+</script>
