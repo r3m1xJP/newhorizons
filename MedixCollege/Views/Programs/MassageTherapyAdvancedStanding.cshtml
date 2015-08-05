@@ -8,83 +8,244 @@
 }
 
 
-<h1 class="contentPageH1">MASSAGE THERAPY: ADVANCED STANDING <small class="contentH1-small">PROGRAM</small></h1>
-<ol class="breadcrumb">
-    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
-    <li class ="contentp">@Html.ActionLink("Programs", "AllPrograms", "Programs")</li>
-    <li class="active contentp">Massage Therapy: Advanced Standing</li>
-</ol>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h1 class="contentH1">PROGRAM SUMMARY</h1>
-    </div>
-    <div class="panel-body">
-        <p class="contentp">
-            Medix College recognizes credits that have been completed at the post secondary level. Students who
-
-            have completed a post secondary education in health sciences and have completed courses in Anatomy
-
-            and Physiology or equivalent(s) may qualify for the Advanced Standing Program in Massage Therapy.
-        </p>
-    </div>
+<div class="col-sm-12">
+    <h1 class="contentPageH1">MASSAGE THERAPY: ADVANCED STANDING <small class="contentH1-small">PROGRAM</small></h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("Programs", "AllPrograms", "Programs")</li>
+        <li class="active contentp">Massage Therapy: Advanced Standing</li>
+    </ol>
 </div>
 
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="contentH1">
-            AVAILABILITY
-        </h2>
-    </div>
-    <div class="panel-body">
-        <h2 class="contentH2">Which Campuses Offer This Program?</h2>
-        <p class="contentp">
-            <span class="glyphicon glyphicon-map-marker blueGoldBorderSM f15"></span>&nbsp;Brampton<br />
-            <span class="glyphicon glyphicon-map-marker blueGoldBorderSM f15"></span>&nbsp;Kitchener<br />
-            <span class="glyphicon glyphicon-map-marker blueGoldBorderSM f15"></span>&nbsp;Scarborough<br />
-            <span class="glyphicon glyphicon-map-marker blueGoldBorderSM f15"></span>&nbsp;Toronto<br />
-        </p>
-    </div>
-</div>
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="contentH2">
-            Eligibility Requirements
-        </h2>
-    </div>
-    <div class="panel-body">
-        <h2 class="contentH2">
-            Pre-requisites include:
-            </h2><p class="contentp">
-    <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;A North American degree in Health Sciences: applicants must have graduated within the past five years or pass a comprehensive Anatomy & Physiology (A&P) test.</li>
-    <br />
-    <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;Academic Transcript with a minimum B+ (high 70s) average.</li>
-    <br />
-    <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;An Interview-based with Massage Therapy, Anatomy and Physiology instructors.</li>
-    <br />
-    <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;An interview with an Admissions Representative & AP instructor.</li>
-    <br />
-    <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;A Wonderlic test to determine suitability and potential in this program.</li>
-        </p>
-</div>
-</div>
+<div class="col-sm-8 mid-padding">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1 class="contentH1">PROGRAM SUMMARY</h1>
+        </div>
+        <div class="panel-body">
+            <p class="contentp">
+                Medix College recognizes credits that have been completed at the post secondary level. Students who
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="contentH2">
-            Get More Information Now!
-        </h2>
+                have completed a post secondary education in health sciences and have completed courses in Anatomy
+
+                and Physiology or equivalent(s) may qualify for the Advanced Standing Program in Massage Therapy.
+            </p>
+        </div>
     </div>
-    <div class="panel-body">
+
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="contentH2">
+                Eligibility Requirements
+            </h2>
+        </div>
+        <div class="panel-body">
 <p class="contentp">
-    At Medix, you get more than an education: you get a career!
-    <br /><br />
-    Fill out our form to get more information on our program. Our Admissions and Business Affairs departments are always available to answer any questions on this or any other program, including prerequisites, tuition costs, financial assistance options and more.
-</p>
+                <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;A North American degree in Health Sciences: applicants must have graduated within the past five years or pass a comprehensive Anatomy & Physiology (A&P) test.</li>
+            <hr class="hrp">
+                <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;Academic Transcript with a minimum B+ (high 70s) average.</li>
+                     <hr class="hrp">
+                <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;An Interview-based with Massage Therapy, Anatomy and Physiology instructors.</li>
+                     <hr class="hrp">
+                <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;An interview with an Admissions Representative & AP instructor.</li>
+                     <hr class="hrp">
+                <span class="glyphicon glyphicon-ok blueGoldBorderSM f15"></span>&nbsp;A Wonderlic test to determine suitability and potential in this program.</li>
+            </p>
+        </div>
     </div>
+
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+    <br />
 </div>
 
-<br />
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
 
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option value="632">Community Service Worker</option>
+                        <option value="39478">CPR &amp; First Aid</option>
+                        <option value="818">Dental Level 2</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="634">Developmental Service Worker</option>
+                        <option value="38526">Early Childhood Assistant</option>
+                        <option value="642">ECG</option>
+                        <option value="37255">Fitness &amp; Health Promotion</option>
+                        <option value="39162">Intramuscular Injection</option>
+                        <option value="627">Intra-Oral Dental Assistant </option>
+                        <option value="629">Massage Therapy</option>
+                        <option value="633">Medical Laboratory Assistant / Technician</option>
+                        <option value="630">Medical Office Administrator</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="39415">Mental Health &amp; Addictions</option>
+                        <option value="1169">OHIP Billing</option>
+                        <option value="631">Personal Support Worker</option>
+                        <option value="628">Pharmacy Assistant</option>
+                        <option value="636">Phlebotomy</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="643">PSW Upgrading</option>
+                        <option value="1171">Thought Patterns</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1 class="contentH1"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;AVAILABILITY</h1>
+        </div>
+        <div class="panel-body">
+
+            <p class="contentpheight">
+                <span class="glyphicon glyphicon-map-marker blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Brampton<br /><hr class="hrp">
+                <span class="glyphicon glyphicon-map-marker blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Kitchener<br /><hr class="hrp">
+
+                <span class="glyphicon glyphicon-map-marker blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Scarborough<br /><hr class="hrp">
+                <span class="glyphicon glyphicon-map-marker blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Toronto
+            </p>
+        </div>
+    </div>
+
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading whiteBG">
+                <div class="panel-title">
+                    <a data-toggle="collapse" data-target="#collapseOne" href="#collapseOne" class="contentH2 noDecoration">
+                        ADMISSIONS PROCESS
+                        <span class="glyphicon glyphicon-chevron-down pull-right blueblueBorder"></span>
+
+                    </a>
+                </div>
+            </div>
+
+            <div id="collapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h2 class="contentH2">
+                        The admissions process for the Child and Youth Care with Addictions Support Worker Program is a four part process:
+                    </h2>
+                    <h2 class="contentH2"><span class="glyphicon glyphicon-earphone blueGoldBorderSM f20"></span>&nbsp;Initial Contact</h2>
+                    <p class="contentp">
+                        Contact an admissions representative to schedule an appointment. The admissions representative
+
+                        will be able to answer any questions that you might have regarding the program or general
+
+                        questions about Medix College.
+                    </p>
+
+                    <h2 class="contentH2"><span class="glyphicon glyphicon-info-sign blueGoldBorderSM f20"></span>&nbsp;Confidential Interview</h2>
+                    <p class="contentp">
+                        An interview will be completed in order to determine if students have the right attitude to be
+
+                        successful in the program.
+                    </p>
+
+                    <h2 class="contentH2"><span class="glyphicon glyphicon-briefcase blueGoldBorderSM f20"></span>&nbsp;Business Affairs Assessment</h2>
+                    <p class="contentp">
+                        The business affairs assessment is an appointment to determine if students are eligible for one of
+
+                        the many financial aid options.
+                    </p>
+
+                    <h2 class="contentH2"><span class="glyphicon glyphicon-pencil blueGoldBorderSM f20"></span>&nbsp;Enrollment</h2>
+                    <p class="contentp">
+                        After the financial plan is in place, enrollment is official and students will be able to start classes in
+
+                        order to train for an exciting new career.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading whiteBG">
+                <div class="panel-title">
+                    <a data-toggle="collapse" data-target="#collapseTwo" href="#collapseOne" class="contentH2 noDecoration">
+                        FINANCIAL OPTIONS
+
+                        <span class="glyphicon glyphicon-chevron-down pull-right blueblueBorder"></span>
+
+                    </a>
+                </div>
+            </div>
+
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p class="contentp">
+                        Students looking to start training in the Child and Youth Care with Addictions Support Worker Program have a number of options to finance their education. By exploring these options,
+
+                        students will be able to gain financial assistance and support as they are training for a career. Some
+
+                        financing options available to students include:
+                    </p>
+
+                    <p class="contentpheight">
+                        <hr class="hrp">
+                        <span class="glyphicon glyphicon-briefcase blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Ontario Student Assistance Program (OSAP) (if Applicable)<br /><hr class="hrp">
+                        <span class="glyphicon glyphicon-briefcase blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Ontario Second Career<br /><hr class="hrp">
+                        <span class="glyphicon glyphicon-briefcase blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Out of Province Options<br /><hr class="hrp">
+                        <span class="glyphicon glyphicon-briefcase blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Student Lines of Credit<br /><hr class="hrp">
+                        <span class="glyphicon glyphicon-briefcase blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Lifelone Learning Plan<br /><hr class="hrp">
+                        <span class="glyphicon glyphicon-briefcase blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;RESP<br /><hr class="hrp">
+                        <span class="glyphicon glyphicon-briefcase blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Employment Ontario<br /><hr class="hrp">
+                        <span class="glyphicon glyphicon-briefcase blueGoldBorderSM f15"></span>&nbsp;&nbsp;&nbsp;Monthly Payment Plan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
