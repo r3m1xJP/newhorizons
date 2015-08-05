@@ -196,11 +196,11 @@
                             <table>
                                 <tr>
                                     <td valign="top"><span class="glyphicon glyphicon-comment spacer-right mBlueColour f30 goldOuterGlow "></span></td>
-                                    <td><div class="contentH3-blue">@article.Title</div>
-                                    <div class="date">@article.Date.ToString("MMMM d, yyyy")</div>
+                                    <td><div class="contentH3-blue newsTable">@article.Title</div>
+                                        <div class="date newsTable">@article.Date.ToString("MMMM d, yyyy")</div>
 </td>
                                 </tr>
-                            </table>
+                            </table><hr class="hrp" />
 
 
                             
@@ -209,8 +209,8 @@
                     }
                 </ul>
             </div>
-            <hr />
-            <div class="pull-right link-unstyled">
+            <hr class="hrpNEWS" />
+            <div class="pull-right link-unstyled mainBLUEmoreNews">
                 @Html.ActionLink("More News", "NewsDirectory", "Home")
             </div>
         </div>

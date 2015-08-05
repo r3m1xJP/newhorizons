@@ -19,7 +19,7 @@
     <div class="panel panel-default">
         <div class="panel-body">
 
-            <ul class="list-unstyled newsList">
+            <ul class="list-unstyled newsList newsTable">
                 @foreach (var article in Model)
                 {
                     <li class="newsListItem contentp whiteBG-GrayStrokeNews" id="@article.Id">
@@ -34,7 +34,7 @@
                             </tr>
                         </table>
 
-                    </li>
+                    </li><hr class="hrp" />
                 }
             </ul>
         </div>

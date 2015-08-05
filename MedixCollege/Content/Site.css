@@ -1925,9 +1925,30 @@ background-color:#f8f8f8;
 
 }
 
-.newsTable {
+.newsTable a {
 }
 
-.li table newsTable hover{
+.newsTable li table a:hover{
     text-decoration: underline;
+}
+
+.mainBLUEmoreNews a{
+color:#0F3F6F;
+}
+
+.mainBLUEmoreNews a:hover {
+color:#0F3F6F;
+text-decoration:underline;
+}
+
+.hrpNEWS {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    background-color: #0F3F6F;
+    height: 1px;
+}
+
+.imgPADDINGnews {
+padding:8px;
+
 }
