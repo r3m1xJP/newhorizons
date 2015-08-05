@@ -2,91 +2,203 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
-<h1 class="contentPageH1">ABELDent<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
-<ol class="breadcrumb">
-    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
-    <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
-    <li class="active contentp">Abel-Dent</li>
-</ol>
+<div class="col-sm-12">
+    <h1 class="contentPageH1">ABELDent<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+        <li class="active contentp">Abel-Dent</li>
+    </ol>
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+            <h1 class="contentH1">Course Objective</h1><hr class="hrp" />
+            <p class="contentp">
+                The objective of the Abel Dent course is to gain an understanding of the dental software through
+
+                competencies in setting up offices, scheduling, patient file information, office staff information
+
+                estimates and billing treatment.
+
+            </p>
+            <br />
+
+            <h1 class="contentH1">Course Prerequisite</h1><hr class="hrp" />
+
+            <ul class="contentp">
+                <li>
+                    Current Medix students should be in at least Mod 3 through completion of their current program and be in good standing  
+                </li>
+
+                <li>Medical Terminology</li>
+
+                <li>English Proficiency</li>
+            </ul>
+            <br />
+            <h1 class="contentH1">Course Duration & Schedule</h1><hr class="hrp" />
+
+            <p class="contentp">
+                The Abel-Dent course is approximately 10 hours in length (see hours below)
+            </p>
+            <br />
+
+            <h1 class="contentH1">Course Content</h1><hr class="hrp" />
+            <ul class="contentp">
+                <li>Initial set up of Abel-Dent and entering office staff information</li>
+
+                <li>Completing Patient Files</li>
+
+                <li>Entering Insurance information for patients</li>
+
+                <li>Setting up daily schedules and booking treatment</li>
+
+                <li>Billing patients for services rendered</li>
+            </ul>
+            <br />
+
+            <h1 class="contentH1">Completion Requirements</h1><hr class="hrp" />
+            <ul class="contentp">
+                <li>Minimum of 70% on academic and practical testing</li>
+            </ul>
+            <br />
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h1 class="contentH1">
+                        Tuition
+                    </h1><hr class="hrp" />
+
+                    <p class="contentp">
+                        $250.00 CAD Tuition includes admission fee and lab materials.  
+                    </p>
+
+                </div>
+            </div>
 
 
 
 
-<h1 class="contentH1">Course Objective</h1>
-<p class="contentp">
-    The objective of the Abel Dent course is to gain an understanding of the dental software through
+            <p class="contentp">
+                This program does not require approval under the Private Career Colleges Act, 2005.
 
-    competencies in setting up offices, scheduling, patient file information, office staff information
+            </p>
 
-    estimates and billing treatment.
+        </div>
+    </div>
 
-<br /><br />
-    Students will also gain knowledge of commonly used dental terms.
 
-<br /><br />
-    ** for current students and graduates of the Medical Office Administration program
-</p>
-<br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CERTIFICATES DIRECTORY", "AllCertificates", "Certificates")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
 
-<h1 class="contentH1">Course Prerequisite</h1>
+    <br />
+</div>
 
-<ul class="contentp">
-    <li>
-        Current Medix students should be in at least Mod 3 through completion of their current program and be in good standing  
-    </li>
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
 
-    <li>Medical Terminology</li>
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option value="632">Community Service Worker</option>
+                        <option value="39478">CPR &amp; First Aid</option>
+                        <option value="818">Dental Level 2</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="634">Developmental Service Worker</option>
+                        <option value="38526">Early Childhood Assistant</option>
+                        <option value="642">ECG</option>
+                        <option value="37255">Fitness &amp; Health Promotion</option>
+                        <option value="39162">Intramuscular Injection</option>
+                        <option value="627">Intra-Oral Dental Assistant </option>
+                        <option value="629">Massage Therapy</option>
+                        <option value="633">Medical Laboratory Assistant / Technician</option>
+                        <option value="630">Medical Office Administrator</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="39415">Mental Health &amp; Addictions</option>
+                        <option value="1169">OHIP Billing</option>
+                        <option value="631">Personal Support Worker</option>
+                        <option value="628">Pharmacy Assistant</option>
+                        <option value="636">Phlebotomy</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="643">PSW Upgrading</option>
+                        <option value="1171">Thought Patterns</option>
 
-    <li>English Proficiency</li>
-</ul>
-<br />
-    <h1 class="contentH1">Course Duration & Schedule</h1>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
 
-<p class="contentp">
-    The Abel-Dent course is approximately 10 hours in length (see hours below)
-</p>
-<br />
+    </div>
 
-    <h1 class="contentH1">Course Content</h1>
-<ul class="contentp">
-    <li>Initial set up of Abel-Dent and entering office staff information</li>
+    <div class="panel panel-default">
+        <div class="panel-body panelBG">
+            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
+            <hr class="hrpblue" />
+            <p class="contentp">
+                @Html.ActionLink("Brampton", "Brampton", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Brantford", "Brantford", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
 
-    <li>Completing Patient Files</li>
+                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("London", "London", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Toronto", "Toronto", "Campuses")
+            </p>
+        </div>
 
-    <li>Entering Insurance information for patients</li>
-
-    <li>Setting up daily schedules and booking treatment</li>
-
-    <li>Billing patients for services rendered</li>
-</ul>
-<br />
-
-    <h1 class="contentH1">Completion Requirements</h1>
-<ul class="contentp">
-    <li>Minimum of 70% on academic and practical testing</li>
-</ul>
-<br />
-
-    <h1 class="contentH1">
-    Tuition
-</h1>
-
-<p class="contentp">
-    $250.00 CAD Tuition includes admission fee and lab materials.  
-</p>
-<br />
-
-    <h1 class="contentH1">
-        Start Dates:
-        </h1>
-
-    
-    <p class="contentp"><span class="glyphicon glyphicon-earphone"></span>
-        Call the near Medix College for enrollment information.
-    </p>
-
-<br />
-<p class="contentp">
-    This program does not require approval under the Private Career Colleges Act, 2005.
-
-</p>
+    </div>
+</div>
