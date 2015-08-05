@@ -1949,6 +1949,11 @@ text-decoration:underline;
 }
 
 .imgPADDINGnews {
-padding:8px;
-
+margin-top:9px;
+margin-bottom:9px;
 }
+
+.newsMARGINtop {
+    margin-top:5px;
+}
+

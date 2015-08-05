@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/04/2015 18:35:40</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>07/30/2015 20:34:58</publishTime>
+      <publishTime>08/05/2015 13:23:59</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>03/04/2015 18:35:40</publishTime>
@@ -310,6 +310,117 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/fonts/texgyreheros-regular-webfont.woff">
       <publishTime>03/16/2015 11:41:46</publishTime>
     </File>
+    <File Include="Content/images/150517-Hired-Medix-Brantford.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150517-Hired-Medix-Kitchener.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150517-Hired-Medix-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150517-Hired-Medix-Toronto.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150517-Hired-NATS-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150523-Hired-Medix-Brantford.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150523-Hired-Medix-Kitchener.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150523-Hired-Medix-Toronto.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150606-Hired-Medix-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150606-Hired-Medix-Toronto-1-2.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150606-Hired-Medix-Toronto-2-2.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150606-Hired-NATS-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150616-Hired-Medix-Brampton.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150616-Hired-Medix-Brantford.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150616-Hired-Medix-Kitchener.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150616-Hired-Medix-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150616-Hired-Medix-Scarborough.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150616-Hired-Medix-Toronto.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150616-Hired-NATS-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150620-Hired-Medix-Brampton.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150620-Hired-Medix-Brantford.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150620-Hired-Medix-Kitchener.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150620-Hired-Medix-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150620-Hired-Medix-Scarborough.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150620-Hired-Medix-Toronto.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150620-Hired-NATS-Brampton.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150620-Hired-NATS-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150705-Hired-Medix-Kitchener.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150705-Hired-Medix-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150705-Hired-Medix-Toronto.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150712-Hired-Medix-Brantford.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150712-Hired-Medix-London.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150712-Hired-Medix-Toronto.jpg">
+      <publishTime>08/05/2015 12:24:51</publishTime>
+    </File>
+    <File Include="Content/images/150726-Hired-Medix-Brampton.jpg">
+      <publishTime>08/05/2015 12:24:50</publishTime>
+    </File>
+    <File Include="Content/images/150726-Hired-Medix-Brantford.jpg">
+      <publishTime>08/05/2015 12:24:50</publishTime>
+    </File>
+    <File Include="Content/images/150726-Hired-Medix-Scarborough.jpg">
+      <publishTime>08/05/2015 12:24:50</publishTime>
+    </File>
+    <File Include="Content/images/150726-Hired-Medix-Toronto.jpg">
+      <publishTime>08/05/2015 12:24:50</publishTime>
+    </File>
     <File Include="Content/images/Banner-Certificates-Main.jpg">
       <publishTime>03/18/2015 18:16:40</publishTime>
     </File>
@@ -548,7 +659,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/30/2015 20:28:05</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>08/05/2015 11:46:17</publishTime>
+      <publishTime>08/05/2015 12:56:24</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>03/04/2015 18:32:13</publishTime>
@@ -1013,13 +1124,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/04/2015 01:59:51</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>08/05/2015 11:33:02</publishTime>
+      <publishTime>08/05/2015 12:00:09</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>07/30/2015 21:08:08</publishTime>
     </File>
     <File Include="Views/Home/NewsDirectory.cshtml">
-      <publishTime>08/05/2015 11:45:12</publishTime>
+      <publishTime>08/05/2015 12:46:00</publishTime>
     </File>
     <File Include="Views/Home/PrivacyPolicy.cshtml">
       <publishTime>04/23/2015 21:47:23</publishTime>
@@ -1076,7 +1187,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/04/2015 06:25:32</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>07/07/2015 17:24:03</publishTime>
+      <publishTime>08/05/2015 12:07:05</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
       <publishTime>07/07/2015 12:15:54</publishTime>
