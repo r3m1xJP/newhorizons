@@ -359,13 +359,15 @@ footer {
 
 .whiteBG-GrayStroke {
     background-color: white;
-    border: solid 1px lightgray;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .whiteBG-GrayStrokeNews {
     background-color: white;
+        margin-top: 16px;
+    margin-bottom: 16px;
+
 
 }
 
@@ -1293,10 +1295,11 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 .newsList li {
     padding: 0px;
     cursor: pointer;
+    padding: 5px;
 }
 
     .newsList li:hover {
-        background-color: #F9F6F4;
+        text-decoration: underline;
     }
 
 .date {
@@ -1920,4 +1923,11 @@ background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Aria
 .panelBG {
 background-color:#f8f8f8;
 
+}
+
+.newsTable {
+}
+
+.li table newsTable hover{
+    text-decoration: underline;
 }

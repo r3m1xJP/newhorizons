@@ -23,16 +23,17 @@
                 @foreach (var article in Model)
                 {
                     <li class="newsListItem contentp whiteBG-GrayStrokeNews" id="@article.Id">
-                        <br />
-                        <div class="col-sm-12">
-                            <div class="contentH3-blue">
-                                @article.Title
-                            </div>
-                            <div class="date">
-                                @article.Date.ToString("MMMM d, yyyy")
-                            </div>
-                            <div class="contentp">Summary</div>
-                        </div>
+
+                        <table>
+                            <tr>
+                                <td valign="top"><span class="glyphicon glyphicon-comment spacer-right mBlueColour f30 goldOuterGlow "></span></td>
+                                <td>
+                                    <div class="contentH3-blue newsTable">@article.Title</div>
+                                    <div class="date newsTable">@article.Date.ToString("MMMM d, yyyy")</div>
+                                </td>
+                            </tr>
+                        </table>
+
                     </li>
                 }
             </ul>

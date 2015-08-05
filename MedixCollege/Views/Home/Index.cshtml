@@ -192,8 +192,18 @@
                     @foreach (MedixCollege.Models.NewsArticleDTO article in ViewBag.NewsArticles)
                     {
                         <li class="newsListItem contentp whiteBG-GrayStroke" id="@article.Id">
-                            <div class="contentH3-blue"><span class="glyphicon glyphicon-comment spacer-right mBlueColour f20 goldOuterGlow "></span> @article.Title</div>
-                            <div class="date">@article.Date.ToString("MMMM d, yyyy")</div>
+
+                            <table>
+                                <tr>
+                                    <td valign="top"><span class="glyphicon glyphicon-comment spacer-right mBlueColour f30 goldOuterGlow "></span></td>
+                                    <td><div class="contentH3-blue">@article.Title</div>
+                                    <div class="date">@article.Date.ToString("MMMM d, yyyy")</div>
+</td>
+                                </tr>
+                            </table>
+
+
+                            
 
                         </li>
                     }
@@ -219,7 +229,7 @@
 
 
     <ul id="graduatesImageScroller">
-        <li><img src="~/Content/images/graduates/Canes.jpg" alt="Canes Logo" /></li>
+        <li><img src="~/Content/images/graduates/VON.jpg" alt="Canes Logo" /></li>
         <li><img src="~/Content/images/graduates/Crest.jpg" alt="Crest Health Logo" /></li>
         <li><img src="~/Content/images/graduates/Grand Erie - BRF.jpg" alt="Grand Erie Branford Logo" /></li>
         <li><img src="~/Content/images/graduates/Homeinstead.jpg" alt="Home Instead Logo" /></li>
