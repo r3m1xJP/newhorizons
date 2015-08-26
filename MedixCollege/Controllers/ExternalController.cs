@@ -1,4 +1,5 @@
-﻿using MedixCollege.Models;
+﻿using MedixCollege.Helpers;
+using MedixCollege.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -257,6 +258,8 @@ namespace MedixCollege.Controllers
         {
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            LeadsType leadsType = LeadsType.Leads;
+
             using (var client = new HttpClient())
             {
                 var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
@@ -283,7 +286,16 @@ namespace MedixCollege.Controllers
                         Comments = fc["Comment2"]
                     };
 
-                    var leads = new Leads();
+                    if (campus == "Baltimore")
+                    {
+                        leadsType = LeadsType.LeadsBaltimore;
+                    }
+                    else
+                    {
+                        leadsType = LeadsType.LeadsNewCastle;
+                    }
+
+                    var leads = new Leads(leadsType);
 
                     leads.Insert(lead);
 
@@ -306,6 +318,15 @@ namespace MedixCollege.Controllers
                             //}
 
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+
+                            if (leadsType == LeadsType.LeadsBaltimore)
+                            {
+                                message.Bcc.Add(new MailAddress("mdaly@natradeschools.edu"));
+                            }
+                            else if (leadsType == LeadsType.LeadsNewCastle)
+                            {
+                                message.Bcc.Add(new MailAddress("jblazak@ncstrades.edu"));
+                            }
 
                             message.Subject = "New Lead - External";
 
@@ -336,7 +357,7 @@ namespace MedixCollege.Controllers
                             message.IsBodyHtml = false;
 
                             mailClient.EnableSsl = true;
-                            //mailClient.Send(message);
+                            mailClient.Send(message);
                         }
                     }
                     catch (Exception ex)
