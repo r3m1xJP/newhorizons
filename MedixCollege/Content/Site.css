@@ -94,7 +94,7 @@ textarea {
     }
 
 .mainLogo {
-    width: 100%;
+    height: 100px;
 }
 
 .mainButton {
@@ -1805,7 +1805,7 @@ display: none;
 }
 
     .nav.full-width li.dropdown {
-        width: 12.5%;
+        width: 14%;
     }
 
 .ProgramsHero {

@@ -273,12 +273,17 @@ namespace MedixCollege.Controllers
             return View();
         }
 
-        public ActionResult CareersAtMedix()
+        public ActionResult CareersAtNewHorizons()
         {
             return View();
         }
 
-        public ActionResult HireAMedixGrad()
+        public ActionResult HireANewHorizonsGrad()
+        {
+            return View();
+        }
+
+        public ActionResult StudentReviews()
         {
             return View();
         }
