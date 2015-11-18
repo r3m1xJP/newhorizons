@@ -245,6 +245,8 @@
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
     <Content Include="Content\images\nats-logo-main.png" />
     <Content Include="Content\images\newHorizonsLogo.png" />
+    <Content Include="Content\images\nhit-admissions.jpg" />
+    <Content Include="Content\images\nhit-career-services.jpg" />
     <Content Include="Content\images\nhit-discover.jpg" />
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
