@@ -430,7 +430,7 @@ footer {
 }
 
 .blueGoldBorderSM {
-    color: #b2314d;
+    color: #0F3F6F;;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #0F3F6F;
 }
@@ -1090,6 +1090,7 @@ iframe.twitter-timeline {
 
 .popup-form-button {
     background-color: #b2314d;
+    color: white;
     width: 50%;
     margin-right: auto;
     margin-left: auto;
@@ -1957,3 +1958,14 @@ margin-bottom:9px;
     margin-top:5px;
 }
 
+
+.botMARG {
+ margin-bottom:28px;
+ padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+.botMARG {
+ margin-bottom:15px;
+
+}
