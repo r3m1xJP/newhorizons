@@ -26,7 +26,7 @@ namespace MedixCollege.Controllers
             campuses.Add(244, "London");
             campuses.Add(241, "Scarborough");
             campuses.Add(240, "Toronto");
-            campuses.Add(24005, "Newcastle");
+            campuses.Add(24005, "New Horizons");
 
             programs.Add(38882, "Anatomy & Physiology");
             programs.Add(39877, "Child and Youth Care with Addictions Support Worker");

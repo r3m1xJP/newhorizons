@@ -23,6 +23,7 @@ namespace MedixCollege.Controllers
         {
             campuses.Add(24002, "Baltimore");
             campuses.Add(24003, "Newcastle");
+            campuses.Add(24005, "New Horizons");
 
             programs.Add(39119, "Building Construction Technology");
             programs.Add(39120, "Commercial Truck Driving");
@@ -31,7 +32,12 @@ namespace MedixCollege.Controllers
             programs.Add(30123, "HRVAC Technology");
             programs.Add(39125, "Industrial Maintenance");
             programs.Add(39129, "Combination Welding");
-            programs.Add(40235, "Motorcycle and Power Equipment Technology");
+            programs.Add(40235, "Motorcycle and Power Equipment Technology"); 
+            programs.Add(41050, "IT Enterprise Professional");
+            programs.Add(41049, "IT Help Desk Associate");
+            programs.Add(41048, "IT Office");
+            programs.Add(41040, "IT Server Administrator Professional");
+            programs.Add(41051, "IT Service Technician");
 
             mediaGroups.Add(91063, "HIGH SCHOOL");
             mediaGroups.Add(90080, "INTERNET");
