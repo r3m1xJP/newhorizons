@@ -26,6 +26,7 @@ namespace MedixCollege.Controllers
             campuses.Add(244, "London");
             campuses.Add(241, "Scarborough");
             campuses.Add(240, "Toronto");
+            campuses.Add(24005, "Newcastle");
 
             programs.Add(38882, "Anatomy & Physiology");
             programs.Add(39877, "Child and Youth Care with Addictions Support Worker");
@@ -52,6 +53,11 @@ namespace MedixCollege.Controllers
             programs.Add(1167, "Principles of Nutrition");
             programs.Add(643, "PSW Upgrading");
             programs.Add(1171, "Thought Patterns");
+            programs.Add(41050, "IT Enterprise Professional");
+            programs.Add(41049, "IT Help Desk Associate");
+            programs.Add(41048, "IT Office");
+            programs.Add(41040, "IT Server Administrator Professional");
+            programs.Add(41051, "IT Service Technician");
 
             mediaGroups.Add(91063, "HIGH SCHOOL");
             mediaGroups.Add(90080, "INTERNET");
