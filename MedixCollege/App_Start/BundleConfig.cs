@@ -32,11 +32,11 @@ namespace MedixCollege
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css",
                       "~/Content/font-awesome.css",
                       "~/Content/mediaelementplayer.min.css",
                       "~/Content/smoothDivScroll.css",
-                      "~/Content/responsiveslides.css"));
+                      "~/Content/responsiveslides.css",
+                      "~/Content/site.css"));
         }
     }
 }

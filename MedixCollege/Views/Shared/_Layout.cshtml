@@ -9,11 +9,10 @@
 
     <title>New Horizons - @ViewBag.Title</title>
     @Styles.Render("~/Content/css")
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     @Scripts.Render("~/bundles/modernizr")
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-
     @RenderSection("scripts", required: false)
     <script type="text/javascript">
         function popup(url) {
@@ -1016,9 +1015,10 @@
                 <div class="row">
                     <div class="col-md-3">
                         <h2 class="contentH3-blue">ABOUT NEW HORIZONS</h2>
-                        <p class="contentp">New Horizons Computer Learning Centers Inc. is the world's largest independent IT training company with 300 centers in 70 countries. At New Horizons, we focus on continued worldwide expansion to meet the ever-increasing demands of the
-technology evolution.
-                       </p>
+                        <p class="contentp">
+                            New Horizons Computer Learning Centers Inc. is the world's largest independent IT training company with 300 centers in 70 countries. At New Horizons, we focus on continued worldwide expansion to meet the ever-increasing demands of the
+                            technology evolution.
+                        </p>
                     </div>
 
                     <div class="col-md-3">
@@ -1040,7 +1040,7 @@ technology evolution.
 
                     </div>
 
-                     <div class="col-md-3">
+                    <div class="col-md-3">
 
                         <h2 class="contentH3-blue">QUICK LINKS</h2>
                         <ul>
@@ -1049,7 +1049,7 @@ technology evolution.
                             <li>@Html.ActionLink("Accessibility Policy", "AccessibilityPolicy", "Home")</li>
                             <li>@Html.ActionLink("Careers at New Horizons", "CareersAtNewHorizons", "DiscoverNewHorizons")</li>
                             <li>@Html.ActionLink("Hire a New Horizons Grad", "HireANewHorizonsGrad", "Home")</li>
-                                                        <li>@Html.ActionLink("Social Media", "SocialMedia", "Home")</li>
+                            <li>@Html.ActionLink("Social Media", "SocialMedia", "Home")</li>
                         </ul>
                     </div>
                 </div>
