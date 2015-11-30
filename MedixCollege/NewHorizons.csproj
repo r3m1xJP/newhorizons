@@ -177,6 +177,7 @@
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
     <Content Include="Content\images\CCGLogo.png" />
+    <Content Include="Content\images\corporatetraining.jpg" />
     <Content Include="Content\images\facebook-ic.gif" />
     <Content Include="Content\images\facebook.gif" />
     <Content Include="Content\images\Fran-Women-Of-Excellence.jpg" />
@@ -251,6 +252,10 @@
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
+    <Content Include="Content\images\program-itenterprise.jpg" />
+    <Content Include="Content\images\program-ithelpdesk.jpg" />
+    <Content Include="Content\images\program-itoffice.jpg" />
+    <Content Include="Content\images\program-itservicetechnician.jpg" />
     <Content Include="Content\images\topDIVgold.jpg" />
     <Content Include="Content\images\twitter-ic.gif" />
     <Content Include="Content\images\VendorsV2.jpg" />
