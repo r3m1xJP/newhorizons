@@ -26,7 +26,13 @@ namespace MedixCollege.Controllers
         }
 
         // GET: History
-        public ActionResult History()
+        public ActionResult Vendors()
+        {
+            return View();
+        }
+
+        // GET: History
+        public ActionResult PartnerSchools()
         {
             return View();
         }

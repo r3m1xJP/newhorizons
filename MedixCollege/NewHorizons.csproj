@@ -431,7 +431,7 @@
     <Content Include="Views\Admissions\_AdmissionsLayout.cshtml" />
     <Content Include="Views\CareerServices\_CareerServicesLayout.cshtml" />
     <Content Include="Views\Programs\_ProgramsLayout.cshtml" />
-    <Content Include="Views\DiscoverNewHorizons\History.cshtml" />
+    <Content Include="Views\DiscoverNewHorizons\Vendors.cshtml" />
     <Content Include="Views\DiscoverNewHorizons\Mission.cshtml" />
     <Content Include="Views\DiscoverNewHorizons\Accreditation.cshtml" />
     <Content Include="Views\CareerServices\MedixAdvantage.cshtml" />
@@ -464,7 +464,7 @@
     <Content Include="Views\CareerServices\ResumeTips.cshtml" />
     <Content Include="Views\CareerServices\InterviewTips.cshtml" />
     <Content Include="Views\CareerServices\ProfessionalTips.cshtml" />
-    <Content Include="Views\DiscoverNewHorizons\Associations.cshtml" />
+    <Content Include="Views\DiscoverNewHorizons\PartnerSchools.cshtml" />
     <Content Include="Views\DiscoverNewHorizons\CareersAtNewHorizons.cshtml" />
     <Content Include="Views\Home\ReferralProgram.cshtml" />
     <Content Include="Views\Home\_HomeLayout.cshtml" />
