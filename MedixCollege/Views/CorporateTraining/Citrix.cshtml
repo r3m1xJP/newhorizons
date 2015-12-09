@@ -1,0 +1,140 @@
+﻿@{
+    Layout = "~/Views/CorporateTraining/_CorporateTrainingLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Corporate Promotions";
+    ViewBag.PageDescription = "Employment counselling and job search training is provided for all students during their program by scheduled classroom lectures and ongoing individualized counselling";
+    ViewBag.HeaderTitle = "Corporate Promotions";
+}
+
+<div class="col-sm-12 botMARG">
+    <h1 class="contentPageH1">CITRIX</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="active contentp">Citrix</li>
+    </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/corporatepromotion.jpg" alt="Job interview taking place between a group of people." />
+
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">Corporate Promotions</h1><hr class="hrp" />
+            <p class="contentp">
+                Employment counselling and job search training is provided for all students during their program by
+
+                scheduled classroom lectures and ongoing individualized counselling. The School remains a permanent
+
+                source of employment search assistance for all graduates. The placement department prepares each
+
+                student to:
+            </p>
+            <ul class="contentp">
+                <li>Create cover letter, resume and other effective portfolio material.</li>
+
+                <li>Conduct an employment interview including proper follow-up activities.</li>
+
+                <li>Analyze employment opportunities and market trends.</li>
+
+                <li>Utilize resources for locating prospective employers.</li>
+
+                <li>Analyze employment benefits and career advancement opportunities.</li>
+            </ul>
+            <br />
+
+            <p class="contentp">
+                New Horizons maintains a list of current and past graduates indicating their initial place of employment, along
+
+                with completion and placement percentages. A list of past and current employers is available to all
+
+                prospective students.
+            </p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+    <br />
+</div>
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Telephone">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="24005">New Horizons</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option class="0 24005" value="0">Select</option>
+                        <option class="0 24005" value="41050">IT Enterprise Professional</option>
+                        <option class="0 24005" value="41049">IT Help Desk Associate</option>
+                        <option class="0 24005" value="41048">IT Office</option>
+                        <option class="0 24005" value="41040">IT Server Administrator Professional</option>
+                        <option class="0 24005" value="41051">IT Service Technician</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+

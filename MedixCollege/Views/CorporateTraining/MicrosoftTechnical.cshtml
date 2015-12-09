@@ -1,0 +1,113 @@
+﻿@{
+    Layout = "~/Views/CorporateTraining/_CorporateTrainingLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Corporate Promotions";
+    ViewBag.PageDescription = "Employment counselling and job search training is provided for all students during their program by scheduled classroom lectures and ongoing individualized counselling";
+    ViewBag.HeaderTitle = "Corporate Promotions";
+}
+
+<div class="col-sm-12 botMARG">
+    <h1 class="contentPageH1">MICROSOFT TECHNICAL</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="active contentp">Microsoft Technical</li>
+    </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/corporatepromotion.jpg" alt="Job interview taking place between a group of people." />
+
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">Benefits of Microsoft Technical Training</h1><hr class="hrp" />
+            <p class="contentp">
+                Microsoft technical training grants proficiency in Microsoft products and technology, and allows professionals to get up to speed on the essential tools that many organizations value today.
+                <br/><br/>
+                Microsoft certifications have become the most sought after in the IT industry. Part of this comes from the fact that Microsoft technical certifications reduce downtime and make teams more productive.
+            </p>
+            <br/>
+            <h1 class="contentH1">Microsoft Technical Training at New Horizons Toronto</h1><hr class="hrp" />
+            <p class="contentp">
+                Every Microsoft Technical course from New Horizons Toronto follows Microsoft Official Curriculum (MOC) and is taught by our Microsoft Certified Trainers. You can count on New Horizons Toronto to help you obtain Microsoft certification.
+            </p>
+           
+
+        </div>
+    </div>
+
+
+
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://www.nhtorontocanada.com/training-and-certifications/microsoft-office">Dynamics CRM</a></button>
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://www.nhtorontocanada.com/training-and-certifications/microsoft-office/excel">Exchange Server</a></button>
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://www.nhtorontocanada.com/training-and-certifications/microsoft-office">Lync Server</a></button>
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://www.nhtorontocanada.com/training-and-certifications/microsoft-office/excel">SharePoint Server</a></button>
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://www.nhtorontocanada.com/training-and-certifications/microsoft-office/excel">SQL Server</a></button>
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://www.nhtorontocanada.com/training-and-certifications/microsoft-office">System Center</a></button>
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://www.nhtorontocanada.com/training-and-certifications/microsoft-office/excel">Visual Studio</a></button>
+
+
+</div>
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Telephone">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="24005">New Horizons</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option class="0 24005" value="0">Select</option>
+                        <option class="0 24005" value="41050">IT Enterprise Professional</option>
+                        <option class="0 24005" value="41049">IT Help Desk Associate</option>
+                        <option class="0 24005" value="41048">IT Office</option>
+                        <option class="0 24005" value="41040">IT Server Administrator Professional</option>
+                        <option class="0 24005" value="41051">IT Service Technician</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+

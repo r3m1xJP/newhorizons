@@ -14,10 +14,46 @@ namespace MedixCollege.Controllers
             return View();
         }
 
-        // GET: Brampton
+       
         public ActionResult CorporatePromotions()
         {
             return View();
         }
+
+        public ActionResult MicrosoftTechnical()
+        {
+            return View();
+        }
+
+        public ActionResult MicrosoftApplications()
+        {
+            return View();
+        }
+
+        public ActionResult Cisco()
+        {
+            return View();
+        }
+
+        public ActionResult Citrix()
+        {
+            return View();
+        }
+
+        public ActionResult CompTIA()
+        {
+            return View();
+        }
+
+        public ActionResult VMware()
+        {
+            return View();
+        }
+
+        public ActionResult MoreTraining()
+        {
+            return View();
+        }
+
     }
 }
