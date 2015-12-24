@@ -476,6 +476,13 @@
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Contact\TorontoCampus.cshtml" />
     <Content Include="Views\Contact\_ContactLayout.cshtml" />
+    <Content Include="Views\CorporateTraining\MicrosoftTechnical.cshtml" />
+    <Content Include="Views\CorporateTraining\MicrosoftApplications.cshtml" />
+    <Content Include="Views\CorporateTraining\Cisco.cshtml" />
+    <Content Include="Views\CorporateTraining\CompTIA.cshtml" />
+    <Content Include="Views\CorporateTraining\Citrix.cshtml" />
+    <Content Include="Views\CorporateTraining\VMware.cshtml" />
+    <Content Include="Views\CorporateTraining\MoreTraining.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

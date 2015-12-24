@@ -23,10 +23,22 @@
             <li class="item header">@Html.ActionLink("CORPORATE TRAINING", "Index", "CorporateTraining")</li>
             <li class="item side-menu-h2">@Html.ActionLink("Corporate Training Home", "Index", "CorporateTraining")</li>
             <li class="item side-menu-h2">@Html.ActionLink("Corporate Promotions", "CorporatePromotions", "CorporateTraining")</li>
-
+            <li class="item side-menu-h2">@Html.ActionLink("Microsoft Technical", "MicrosoftTechnical", "CorporateTraining")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Microsoft Applications", "MicrosoftApplications", "CorporateTraining")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Cisco", "Cisco", "CorporateTraining")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("Citrix", "Citrix", "CorporateTraining")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("CompTIA", "CompTIA", "CorporateTraining")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("VMware", "VMware", "CorporateTraining")</li>
+            <li class="item side-menu-h2">@Html.ActionLink("More Training", "MoreTraining", "CorporateTraining")</li>
 
             <li class="item btn btn-brand btn-block spacer-top" id="askQuestion">Ask a Question</li>
             <li class="item btn btn-brand btn-block" id="requestCatalogue">Request Catalogue</li>
+            <br />
+
+            <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+
+            <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+
         </ul>
         <br />
     </div>
