@@ -424,8 +424,7 @@ namespace MedixCollege.Controllers
                             }
 
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
-                            message.Bcc.Add(new MailAddress("pdykstra@medixcollege.ca"));
-                            message.Bcc.Add(new MailAddress("ralary@natradeschools.ca"));
+                            message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
                             message.Subject = "New Lead - Medix - Apply Now";
 
@@ -584,6 +583,9 @@ namespace MedixCollege.Controllers
                                 message.To.Add(new MailAddress("chris@medixcollege.ca"));
                             }
 
+                            message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+                            message.Bcc.Add(new MailAddress("info@nhit.ca"));
+
                             message.Subject = "New Lead - Medix - Book A Tour";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
@@ -740,6 +742,9 @@ namespace MedixCollege.Controllers
                                 message.To.Add(new MailAddress("ralary@natradeschools.ca"));
                                 message.To.Add(new MailAddress("chris@medixcollege.ca"));
                             }
+
+                            message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+                            message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
                             message.Subject = "New Lead - Medix - Program Question";
 
@@ -898,6 +903,9 @@ namespace MedixCollege.Controllers
                                 message.To.Add(new MailAddress("chris@medixcollege.ca"));
                             }
 
+                            message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+                            message.Bcc.Add(new MailAddress("info@nhit.ca"));
+
                             message.Subject = "New Lead - Medix - Certificate Question";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
@@ -1055,6 +1063,9 @@ namespace MedixCollege.Controllers
                                 message.To.Add(new MailAddress("chris@medixcollege.ca"));
                             }
 
+                            message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+                            message.Bcc.Add(new MailAddress("info@nhit.ca"));
+
                             message.Subject = "New Lead - Medix - Request Catalogue";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
@@ -1211,6 +1222,9 @@ namespace MedixCollege.Controllers
                                 message.To.Add(new MailAddress("ralary@natradeschools.ca"));
                                 message.To.Add(new MailAddress("chris@medixcollege.ca"));
                             }
+
+                            message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+                            message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
                             message.Subject = "New Lead - Medix - Ask a Question";
 
