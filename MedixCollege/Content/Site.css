@@ -28,7 +28,6 @@ header {
     width: 100%;
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     font-weight: 400;
-
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -346,7 +345,6 @@ footer {
 
 .blueGoldBorder12 {
     color: #0F3F6F;
-
 }
 
 
@@ -370,10 +368,8 @@ footer {
 
 .whiteBG-GrayStrokeNews {
     background-color: white;
-        margin-top: 16px;
+    margin-top: 16px;
     margin-bottom: 16px;
-
-
 }
 
 .f70 {
@@ -435,7 +431,8 @@ footer {
 }
 
 .blueGoldBorderSM {
-    color: #0F3F6F;;
+    color: #0F3F6F;
+    ;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #0F3F6F;
 }
@@ -718,10 +715,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-.mid-padding {
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    .mid-padding {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .mid-padding2 {
@@ -730,10 +727,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-.mid-padding2 {
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    .mid-padding2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .link-unstyled a {
@@ -1494,19 +1491,19 @@ blockquote p {
     line-height: 1.65em;
 }
 
-    .contentH1-mainW a {
+.contentH1-mainW a {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+    .contentH1-mainW a:hover {
         font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-        color: white;
+        color: #b2314d;
         font-size: 22px;
         line-height: 30px;
     }
-
-        .contentH1-mainW a:hover {
-            font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-            color: #b2314d;
-            font-size: 22px;
-            line-height: 30px;
-        }
 
 .contentH1-small {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
@@ -1908,44 +1905,43 @@ display: none;
 
 .programtableheader {
     background-color: #0F3F6F;
-    color:white;
-    font-size:1.2em;
+    color: white;
+    font-size: 1.2em;
     border-bottom: 2px solid #b2314d;
 }
 
-.programtableheader a {
-    background-color: #0F3F6F;
-    color:white;
-    font-size:1.2em;
-}
+    .programtableheader a {
+        background-color: #0F3F6F;
+        color: white;
+        font-size: 1.2em;
+    }
 
-.programtableheader a:hover {
-    background-color: #0F3F6F;
-    color:#b2314d;
-    font-size:1.2em;
-    text-decoration:none;
-}
+        .programtableheader a:hover {
+            background-color: #0F3F6F;
+            color: #b2314d;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
 
 .panelBG {
-background-color:#f8f8f8;
-
+    background-color: #f8f8f8;
 }
 
 .newsTable a {
 }
 
-.newsTable li table a:hover{
+.newsTable li table a:hover {
     text-decoration: underline;
 }
 
-.mainBLUEmoreNews a{
-color:#0F3F6F;
+.mainBLUEmoreNews a {
+    color: #0F3F6F;
 }
 
-.mainBLUEmoreNews a:hover {
-color:#0F3F6F;
-text-decoration:underline;
-}
+    .mainBLUEmoreNews a:hover {
+        color: #0F3F6F;
+        text-decoration: underline;
+    }
 
 .hrpNEWS {
     margin-top: 1px;
@@ -1955,22 +1951,44 @@ text-decoration:underline;
 }
 
 .imgPADDINGnews {
-margin-top:9px;
-margin-bottom:9px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .newsMARGINtop {
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 
 .botMARG {
- margin-bottom:28px;
- padding: 0px;
+    margin-bottom: 28px;
+    padding: 0px;
 }
 
 @media screen and (max-width: 480px) {
-.botMARG {
- margin-bottom:15px;
+    .botMARG {
+        margin-bottom: 15px;
+    }
+}
 
+/* Parsley */
+input.parsley-error, select.parsley-error, textarea.parsley-error {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border: 1px solid #EED3D7;
+}
+
+.bs-callout-warning {
+    background-color: #fcf8f2;
+    border-color: #f0ad4e;
+}
+
+.bs-callout {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+
+.bs-callout-warning h4 {
+    color: #f0ad4e;
 }
