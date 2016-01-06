@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>01/05/2016 22:22:15</publishTime>
+      <publishTime>01/06/2016 04:27:07</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>11/10/2015 23:24:49</publishTime>
@@ -511,6 +511,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/Banner-Programs-Pharmacy-Assistant.jpg">
       <publishTime>04/23/2015 14:39:54</publishTime>
     </File>
+    <File Include="Content/images/banner-solar.jpg">
+      <publishTime>01/06/2016 04:18:24</publishTime>
+    </File>
     <File Include="Content/images/button-next.png">
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
@@ -768,6 +771,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/pinterest.gif">
       <publishTime>11/10/2015 23:24:48</publishTime>
+    </File>
+    <File Include="Content/images/program-ioda.jpg">
+      <publishTime>01/06/2016 04:15:29</publishTime>
     </File>
     <File Include="Content/images/program-itenterprise.jpg">
       <publishTime>11/30/2015 12:18:46</publishTime>
@@ -1226,22 +1232,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/30/2015 12:19:11</publishTime>
     </File>
     <File Include="Views/Contact/TorontoCampus.cshtml">
-      <publishTime>12/09/2015 02:00:41</publishTime>
+      <publishTime>01/06/2016 04:32:16</publishTime>
     </File>
     <File Include="Views/Contact/_ContactLayout.cshtml">
       <publishTime>12/09/2015 01:58:16</publishTime>
     </File>
     <File Include="Views/CorporateTraining/Cisco.cshtml">
-      <publishTime>12/09/2015 01:00:00</publishTime>
+      <publishTime>01/06/2016 04:02:29</publishTime>
     </File>
     <File Include="Views/CorporateTraining/Citrix.cshtml">
-      <publishTime>12/09/2015 01:00:00</publishTime>
+      <publishTime>01/06/2016 04:02:16</publishTime>
     </File>
     <File Include="Views/CorporateTraining/CompTIA.cshtml">
-      <publishTime>12/09/2015 01:00:00</publishTime>
+      <publishTime>01/06/2016 04:07:58</publishTime>
     </File>
     <File Include="Views/CorporateTraining/CorporatePromotions.cshtml">
-      <publishTime>11/30/2015 12:19:11</publishTime>
+      <publishTime>01/06/2016 04:07:21</publishTime>
     </File>
     <File Include="Views/CorporateTraining/Index.cshtml">
       <publishTime>11/30/2015 12:18:46</publishTime>
@@ -1256,7 +1262,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/09/2015 01:00:00</publishTime>
     </File>
     <File Include="Views/CorporateTraining/VMware.cshtml">
-      <publishTime>12/09/2015 01:00:00</publishTime>
+      <publishTime>01/06/2016 04:10:59</publishTime>
     </File>
     <File Include="Views/CorporateTraining/_CorporateTrainingLayout.cshtml">
       <publishTime>12/09/2015 01:00:00</publishTime>
@@ -1301,7 +1307,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2015 14:45:06</publishTime>
     </File>
     <File Include="Views/DiscoverNewHorizons/PartnerSchools.cshtml">
-      <publishTime>11/30/2015 12:19:11</publishTime>
+      <publishTime>01/06/2016 04:24:12</publishTime>
     </File>
     <File Include="Views/DiscoverNewHorizons/Vendors.cshtml">
       <publishTime>01/06/2016 02:30:19</publishTime>
@@ -1499,7 +1505,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/06/2016 02:41:18</publishTime>
+      <publishTime>01/06/2016 04:12:06</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/10/2015 23:24:48</publishTime>
