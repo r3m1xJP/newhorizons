@@ -170,6 +170,7 @@
     <Content Include="Content\fonts\texgyreheros-bold-webfont.svg" />
     <Content Include="Content\fonts\texgyreheros-regular-webfont.svg" />
     <Content Include="Content\images\all-programs.jpg" />
+    <Content Include="Content\images\banner-solar.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
     <Content Include="Content\images\CCGLogo.png" />
@@ -236,6 +237,7 @@
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
+    <Content Include="Content\images\program-ioda.jpg" />
     <Content Include="Content\images\program-itenterprise.jpg" />
     <Content Include="Content\images\program-ithelpdesk.jpg" />
     <Content Include="Content\images\program-itoffice.jpg" />
