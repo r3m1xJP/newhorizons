@@ -243,6 +243,7 @@
     <Content Include="Content\images\topDIVgold.jpg" />
     <Content Include="Content\images\twitter-ic.gif" />
     <Content Include="Content\images\VendorsV2.jpg" />
+    <Content Include="Content\images\VendorsV3.jpg" />
     <Content Include="Content\images\youtube-ic.gif" />
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\responsiveslides.css" />

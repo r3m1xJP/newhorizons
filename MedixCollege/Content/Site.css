@@ -804,9 +804,8 @@ footer {
 }
 
 .containervideoItem2 {
-    background-color: #0F3F6F;
-    border-top: solid 3px #b2314d;
-    border-bottom: solid 3px #b2314d;
+    background-color: #686868;
+
 }
 
 .containervideoItem3 {
@@ -945,6 +944,11 @@ video {
     background-color: #0F3F6F;
     height: 375px;
     padding: 0px 0px 0px 5px;
+}
+
+.videoItem3 {
+    height: 375px;
+    padding: 0px 5px 0px 0px;
 }
 
 
