@@ -803,6 +803,17 @@ footer {
     border-bottom: solid 3px #b2314d;
 }
 
+.containervideoItem2 {
+    background-color: #0F3F6F;
+    border-top: solid 3px #b2314d;
+    border-bottom: solid 3px #b2314d;
+}
+
+.containervideoItem3 {
+    background-color: #b2314d;
+    padding-bottom:12px;
+}
+
 
 /* HOME */
 .promoWrapper {
