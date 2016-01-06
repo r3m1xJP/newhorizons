@@ -2,7 +2,7 @@
 @{
     ViewBag.Title = "Site Map";
 }
-
+<br/>
 <div class="container">
     <div class="col-sm-12">
         <h1 class="contentPageH1">SITE MAP</h1>
@@ -20,55 +20,46 @@
             </ul>
             <br />
             <ul class="contentp ul-none">
-                <li>@Html.ActionLink("DISCOVER MEDIX", "Index", "DiscoverMedix")</li>
-                <li>@Html.ActionLink("Medix History", "History", "DiscoverMedix")</li>
-                <li>@Html.ActionLink("Virtual Tour", "VirtualTour", "DiscoverMedix")</li>
-                <li>@Html.ActionLink("Laptop Initiative", "LaptopInitiative", "DiscoverMedix")</li>
-                <li>@Html.ActionLink("Transcript Request", "TranscriptRequest", "DiscoverMedix")</li>
-                <li>@Html.ActionLink("Careers at Medix", "CareersAtMedix", "DiscoverMedix")</li>
-                <li><a href="javascript: void(0)" onclick="popup('http://careercollegegroup.canpromo.com/Products.htm?CD=553')">Online Store</a></li>
-            </ul>
-        </div>
-
-
-        <div class="col-sm-3">
-            <ul class="contentp ul-none">
                 <li>@Html.ActionLink("ALL PROGRAMS", "AllPrograms", "Programs")</li>
-                <li>@Html.ActionLink("Child & Youth Addictions", "ChildYouthAddictionsWorker", "Programs")</li>
-                <li>@Html.ActionLink("Community Service Worker", "CommunityServiceWorker", "Programs")</li>
-                <li>@Html.ActionLink("Developmental Service Worker", "DevelopmentalServiceWorker", "Programs")</li>
-                <li>@Html.ActionLink("Early Childcare Assistant", "EarlyChildCareAssistant", "Programs")</li>
-                <li>@Html.ActionLink("Intra-Oral Dental Assistant", "IntraOralDentalAssistant", "Programs")</li>
-                <li>@Html.ActionLink("Massage Therapy", "MassageTherapy", "Programs")</li>
-                <li>@Html.ActionLink("Massage Therapy Advanced Standing", "MassageTherapyAdvancedStanding", "Programs")</li>
-                <li>@Html.ActionLink("Medical Lab Assitant/Tech", "MedicalLabAssistantTechnician", "Programs")</li>
-                <li>@Html.ActionLink("Medical Office Administrator", "MedicalOfficeAdministrator", "Programs")</li>
-                <li>@Html.ActionLink("Personal Support Worker", "PersonalSupportWorker", "Programs")</li>
-                <li>@Html.ActionLink("Pharmacy Assistant", "PharmacyAssistant", "Programs")</li>
-                <li>@Html.ActionLink("Fitness and Health Promotion", "FitnessHealthPromotion", "Programs")</li>
+                <li>@Html.ActionLink("IT Office", "ITOffice", "Programs")</li>
+                <li>@Html.ActionLink("IT Help Desk Associate", "ITHelpDeskAssociate", "Programs")</li>
+                <li>@Html.ActionLink("IT Service Technician", "ITServiceTechnician", "Programs")</li>
+                <li>@Html.ActionLink("IT Service Administrator", "ITServiceAdministrator", "Programs")</li>
+                <li>@Html.ActionLink("IT Enterprise Professional", "ITEnterpriseProfessional", "Programs")</li>
+            </ul>
+        </div>
+
+
+        <div class="col-sm-3">
+            <ul class="contentp ul-none">
+                <li>@Html.ActionLink("CORPORATE TRAINING", "Index", "CorporateTraining")</li>
+                <li>@Html.ActionLink("Corporate Promotions", "CorporatePromotions", "CorporateTraining")</li>
+                <li>@Html.ActionLink("Microsoft Technical", "MicrosoftTechnical", "CorporateTraining")</li>
+                <li>@Html.ActionLink("Microsoft Application", "MicrosoftApplication", "CorporateTraining")</li>
+                <li>@Html.ActionLink("Cisco", "Cisco", "CorporateTraining")</li>
+                <li>@Html.ActionLink("Citrix", "Citrix", "CorporateTraining")</li>
+                <li>@Html.ActionLink("CompTIA", "CompTIA", "CorporateTraining")</li>
+                <li>@Html.ActionLink("VMware", "VMware", "CorporateTraining")</li>
+                <li>@Html.ActionLink("More Training", "MoreTraining", "CorporateTraining")</li>
             </ul>
         </div>
         <div class="col-sm-3">
 
             <ul class="contentp ul-none">
-                <li>@Html.ActionLink("ALL CERTIFICATES", "AllCertificates", "Certificates")</li>
-                <li>@Html.ActionLink("ABELDent", "AbelDent", "Certificates")</li>
-                <li>@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</li>
-                <li>@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</li>
-                <li>@Html.ActionLink("Electrocardiogram", "Electrocardiogram", "Certificates")</li>
-                <li>@Html.ActionLink("Emotional First Aid", "EmotionalFirstAid", "Certificates")</li>
-                <li>@Html.ActionLink("English as a Second Language", "EnglishSecondLanguage", "Certificates")</li>
-                <li>@Html.ActionLink("English Skills for Healthcare Workers", "EnglishSkillsHealthcareWorkers", "Certificates")</li>
-
-                <li>@Html.ActionLink("First Aid and CPR", "FirstAidCPR", "Certificates")</li>
-                <li>@Html.ActionLink("Food Handler Safety", "FoodHandlerSafety", "Certificates")</li>
-                <li>@Html.ActionLink("Home Child Care Management", "HomeChildCareManagement", "Certificates")</li>
-                <li>@Html.ActionLink("Intramuscular Injections", "IntramuscularInjections", "Certificates")</li>
-                <li>@Html.ActionLink("Developmental Disabilities & Services", "IntroductionDevelopmentalDisabilitiesServices", "Certificates")</li>
-                <li>@Html.ActionLink("Intro to Swedish Massage", "IntroductionSwedishMassage", "Certificates")</li>
-                <li>@Html.ActionLink("Phlebotomy", "Phlebotomy", "Certificates")</li>
-                <li>@Html.ActionLink("Soft Tissue Back Injury Prevention", "SoftTissueBackInjuryPrevention", "Certificates")</li>
-                <li>@Html.ActionLink("Urinalysis", "Urinalysis", "Certificates")</li>
+                <li>@Html.ActionLink("Site Map", "SiteMap", "Home")</li>
+                <li>@Html.ActionLink("Privacy Policy", "PrivacyPolicy", "Home")</li>
+                <li>@Html.ActionLink("Accessibility Policy", "AccessibilityPolicy", "Home")</li>
+                <li>@Html.ActionLink("Careers at New Horizons", "CareersAtNewHorizons", "DiscoverNewHorizons")</li>
+                <li>@Html.ActionLink("Hire a New Horizons Grad", "HireANewHorizonsGrad", "Home")</li>
+                <li>@Html.ActionLink("Social Media", "SocialMedia", "Home")</li>
+            </ul>
+            <ul class="contentp ul-none">
+                <li>@Html.ActionLink("CAREER SERVICES", "Index", "CareerServices")</li>
+                <li>@Html.ActionLink("Medix Advantage", "MedixAdvantage", "CareerServices")</li>
+                <li>@Html.ActionLink("Job Search Tips", "JobSearchTips", "CareerServices")</li>
+                <li>@Html.ActionLink("Resume Tips", "ResumeTips", "CareerServices")</li>
+                <li>@Html.ActionLink("Interview Tips", "InterviewTips", "CareerServices")</li>
+                <li>@Html.ActionLink("Professional Tips", "ProfessionalTips", "CareerServices")</li>
             </ul>
         </div>
 
@@ -87,26 +78,16 @@
                 <li>@Html.ActionLink("Monthly Payment Plan", "MonthlyPaymentPlan", "Admissions")</li>
             </ul>
             <br />
-            <ul class="contentp ul-none">
-                <li>@Html.ActionLink("CAREER SERVICES", "Index", "CareerServices")</li>
-                <li>@Html.ActionLink("Medix Advantage", "MedixAdvantage", "CareerServices")</li>
-                <li>@Html.ActionLink("Job Search Tips", "JobSearchTips", "CareerServices")</li>
-                <li>@Html.ActionLink("Resume Tips", "ResumeTips", "CareerServices")</li>
-                <li>@Html.ActionLink("Interview Tips", "InterviewTips", "CareerServices")</li>
-                <li>@Html.ActionLink("Professional Tips", "ProfessionalTips", "CareerServices")</li>
-            </ul>
-            <br />
+
             <ul class="contentp ul-none">
                 <li>@Html.ActionLink("CAMPUSES", "Index", "Campuses")</li>
-                <li>@Html.ActionLink("Brampton", "Brampton", "Campuses")</li>
-                <li>@Html.ActionLink("Brantford", "Brantford", "Campuses")</li>
-                <li>@Html.ActionLink("Kitchener", "Kitchener", "Campuses")</li>
-                <li>@Html.ActionLink("London", "London", "Campuses")</li>
-                <li>@Html.ActionLink("Scarborough", "Scarborough", "Campuses")</li>
                 <li>@Html.ActionLink("Toronto", "Toronto", "Campuses")</li>
             </ul>
+            <br />
+
         </div>
 
 
     </div>
 </div>
+<br />
