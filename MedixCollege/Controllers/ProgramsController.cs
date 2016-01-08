@@ -35,7 +35,7 @@ namespace MedixCollege.Controllers
             return View();
         }
 
-        public ActionResult ITServiceAdministrator()
+        public ActionResult ITServerAdministrator()
         {
             return View();
         }

@@ -430,7 +430,7 @@
     <Content Include="Views\CareerServices\MedixAdvantage.cshtml" />
     <Content Include="Views\Programs\ITOffice.cshtml" />
     <Content Include="Views\Programs\ITServiceTechnician.cshtml" />
-    <Content Include="Views\Programs\ITServiceAdministrator.cshtml" />
+    <Content Include="Views\Programs\ITServerAdministrator.cshtml" />
     <Content Include="Views\Programs\ITEnterpriseProfessional.cshtml" />
     <Content Include="Views\Programs\ITHelpDeskAssociate.cshtml" />
     <Content Include="Views\Programs\AllPrograms.cshtml" />
