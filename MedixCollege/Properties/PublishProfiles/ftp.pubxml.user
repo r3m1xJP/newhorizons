@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>01/08/2016 01:07:39</publishTime>
+      <publishTime>01/10/2016 22:34:57</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>11/10/2015 23:24:49</publishTime>
@@ -1295,7 +1295,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 11:09:48</publishTime>
     </File>
     <File Include="Views/DiscoverNewHorizons/CareersAtNewHorizons.cshtml">
-      <publishTime>01/06/2016 02:29:27</publishTime>
+      <publishTime>01/10/2016 22:32:51</publishTime>
     </File>
     <File Include="Views/DiscoverNewHorizons/History.cshtml">
       <publishTime>11/10/2015 11:09:48</publishTime>
@@ -1508,7 +1508,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/08/2016 01:05:14</publishTime>
+      <publishTime>01/10/2016 22:43:20</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/10/2015 23:24:48</publishTime>
