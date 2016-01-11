@@ -1027,7 +1027,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <h2 class="contentH3-blue">ABOUT NEW HORIZONS</h2>
+                        <h2 class="contentH3-blue">ABOUT NEW HORIZONS</h2><hr class="hrp11" />
                         <p class="contentp">
                             New Horizons Computer Learning Centers Inc. is the world's largest independent IT training company with 300 centers in 70 countries. At New Horizons, we focus on continued worldwide expansion to meet the ever-increasing demands of the
                             technology evolution.
@@ -1035,7 +1035,7 @@
                     </div>
 
                     <div class="col-md-3">
-                        <h2 class="contentH3-blue">PROGRAMS</h2>
+                        <h2 class="contentH3-blue">PROGRAMS</h2><hr class="hrp11" />
                         <ul>
                             <li>@Html.ActionLink("IT Office", "ITOffice", "Programs")</li>
                             <li>@Html.ActionLink("IT Help Desk Associate", "ITHelpDeskAssociate", "Programs")</li>
@@ -1046,7 +1046,7 @@
                     </div>
 
                     <div class="col-md-3">
-                        <h2 class="contentH3-blue">LOCATIONS</h2>
+                        <h2 class="contentH3-blue">LOCATIONS</h2><hr class="hrp11" />
                         <ul>
                             <li>@Html.ActionLink("Toronto Campus", "Index", "Contact")</li>
                         </ul>
@@ -1055,7 +1055,7 @@
 
                     <div class="col-md-3">
 
-                        <h2 class="contentH3-blue">QUICK LINKS</h2>
+                        <h2 class="contentH3-blue">QUICK LINKS</h2><hr class="hrp11" />
                         <ul>
                             <li>@Html.ActionLink("Site Map", "SiteMap", "Home")</li>
                             <li>@Html.ActionLink("Privacy Policy", "PrivacyPolicy", "Home")</li>
@@ -1201,3 +1201,28 @@
         $(".youtube").YouTubeModal({ autoplay: 0, width: 1000, height: 750 });
     });
 </script>
+
+
+<style>
+    input.parsley-error, select.parsley-error, textarea.parsley-error {
+        color: #B94A48;
+        background-color: #F2DEDE;
+        border: 1px solid #EED3D7;
+    }
+
+    .bs-callout-warning {
+        background-color: #fcf8f2;
+        border-color: #f0ad4e;
+    }
+
+    .bs-callout {
+        margin: 20px 0;
+        padding: 20px;
+        border-left: 3px solid #eee;
+    }
+
+    .bs-callout-warning h4 {
+        color: #f0ad4e;
+    }
+</style>
+<script src="~/Scripts/parsley.min.js"></script>
