@@ -387,7 +387,7 @@ namespace MedixCollege.Controllers
 
                             var message = new MailMessage();
 
-                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "NHOntario.CA");
 
                             message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
 
@@ -426,7 +426,7 @@ namespace MedixCollege.Controllers
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
-                            message.Subject = "New Lead - Medix - Apply Now";
+                            message.Subject = "New Lead - NHC - Apply Now";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
@@ -438,7 +438,7 @@ namespace MedixCollege.Controllers
                                                where key != "ORGID" && key != "MailListID"
                                                select string.Format("{0}: {1}" + Environment.NewLine, HttpUtility.UrlEncode(key), value)).ToArray();
 
-                            var body = "New Lead - Medix" + Environment.NewLine +
+                            var body = "New Lead - New Horizons" + Environment.NewLine +
                                        Environment.NewLine;
 
                             var data = string.Join(",", stringArray).Replace(",", "");
@@ -529,7 +529,7 @@ namespace MedixCollege.Controllers
 
                             var message = new MailMessage();
 
-                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "NHOntario.CA");
 
                             message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
 
@@ -586,7 +586,7 @@ namespace MedixCollege.Controllers
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
-                            message.Subject = "New Lead - Medix - Book A Tour";
+                            message.Subject = "New Lead - NHC - Book A Tour";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
@@ -689,7 +689,7 @@ namespace MedixCollege.Controllers
 
                             var message = new MailMessage();
 
-                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "NHOntario.CA");
 
                             message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
 
@@ -746,7 +746,7 @@ namespace MedixCollege.Controllers
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
-                            message.Subject = "New Lead - Medix - Program Question";
+                            message.Subject = "New Lead - NHC - Program Question";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
@@ -849,7 +849,7 @@ namespace MedixCollege.Controllers
 
                             var message = new MailMessage();
 
-                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "NHOntario.CA");
 
                             message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
 
@@ -906,7 +906,7 @@ namespace MedixCollege.Controllers
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
-                            message.Subject = "New Lead - Medix - Certificate Question";
+                            message.Subject = "New Lead - NHC - Certificate Question";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
@@ -1009,7 +1009,7 @@ namespace MedixCollege.Controllers
 
                             var message = new MailMessage();
 
-                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "NHOntario.CA");
 
                             message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
 
@@ -1066,7 +1066,7 @@ namespace MedixCollege.Controllers
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
-                            message.Subject = "New Lead - Medix - Request Catalogue";
+                            message.Subject = "New Lead - NHC - Request Catalogue";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
@@ -1169,7 +1169,7 @@ namespace MedixCollege.Controllers
 
                             var message = new MailMessage();
 
-                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "NHOntario.CA");
 
                             message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
 
@@ -1226,7 +1226,7 @@ namespace MedixCollege.Controllers
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
                             message.Bcc.Add(new MailAddress("info@nhit.ca"));
 
-                            message.Subject = "New Lead - Medix - Ask a Question";
+                            message.Subject = "New Lead - NHC - Ask a Question";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];
