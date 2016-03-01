@@ -128,6 +128,7 @@
     <Compile Include="Controllers\CorporateTrainingController.cs" />
     <Compile Include="Controllers\CareerServicesController.cs" />
     <Compile Include="Controllers\CertificatesController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\DiscoverNewHorizonsController.cs" />
     <Compile Include="Controllers\ExternalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -491,6 +492,7 @@
     <Content Include="Views\External\GoogleAdwordsPPCThankYou.cshtml" />
     <Content Include="Views\External\FacebookPPC.cshtml" />
     <Content Include="Views\External\FacebookPPCThankYou.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
