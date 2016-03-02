@@ -1307,7 +1307,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2015 14:45:06</publishTime>
     </File>
     <File Include="Views/DiscoverNewHorizons/PartnerSchools.cshtml">
-      <publishTime>01/11/2016 02:25:05</publishTime>
+      <publishTime>02/11/2016 09:41:01</publishTime>
     </File>
     <File Include="Views/DiscoverNewHorizons/Vendors.cshtml">
       <publishTime>01/11/2016 02:24:50</publishTime>
@@ -1463,22 +1463,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2015 14:47:36</publishTime>
     </File>
     <File Include="Views/Programs/ITEnterpriseProfessional.cshtml">
-      <publishTime>01/11/2016 02:22:16</publishTime>
+      <publishTime>01/27/2016 14:15:43</publishTime>
     </File>
     <File Include="Views/Programs/ITHelpDeskAssociate.cshtml">
-      <publishTime>01/11/2016 02:22:31</publishTime>
+      <publishTime>01/27/2016 14:15:04</publishTime>
     </File>
     <File Include="Views/Programs/ITOffice.cshtml">
-      <publishTime>01/11/2016 02:22:53</publishTime>
+      <publishTime>01/27/2016 14:09:19</publishTime>
     </File>
     <File Include="Views/Programs/ITServerAdministrator.cshtml">
-      <publishTime>01/11/2016 02:21:29</publishTime>
+      <publishTime>01/27/2016 14:09:37</publishTime>
     </File>
     <File Include="Views/Programs/ITServiceAdministrator.cshtml">
       <publishTime>11/30/2015 12:17:16</publishTime>
     </File>
     <File Include="Views/Programs/ITServiceTechnician.cshtml">
-      <publishTime>01/11/2016 02:23:11</publishTime>
+      <publishTime>01/27/2016 14:12:52</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapy.cshtml">
       <publishTime>11/02/2015 14:47:32</publishTime>
@@ -1508,7 +1508,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/13/2016 14:19:55</publishTime>
+      <publishTime>01/27/2016 12:01:34</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/10/2015 23:24:48</publishTime>
