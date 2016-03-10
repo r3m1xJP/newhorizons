@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>01/10/2016 22:34:57</publishTime>
+      <publishTime>03/08/2016 16:31:53</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>11/10/2015 23:24:49</publishTime>
@@ -1088,7 +1088,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2016 02:27:42</publishTime>
     </File>
     <File Include="Views/Admissions/FinancialOptions.cshtml">
-      <publishTime>01/11/2016 02:27:51</publishTime>
+      <publishTime>03/08/2016 16:31:50</publishTime>
     </File>
     <File Include="Views/Admissions/Index.cshtml">
       <publishTime>01/05/2016 12:21:26</publishTime>
@@ -1097,7 +1097,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2016 02:27:59</publishTime>
     </File>
     <File Include="Views/Admissions/OSAP.cshtml">
-      <publishTime>01/11/2016 02:28:11</publishTime>
+      <publishTime>03/08/2016 16:31:50</publishTime>
     </File>
     <File Include="Views/Admissions/OutOfProvinceStudents.cshtml">
       <publishTime>01/11/2016 02:28:46</publishTime>
@@ -1267,6 +1267,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/CorporateTraining/_CorporateTrainingLayout.cshtml">
       <publishTime>12/09/2015 01:00:00</publishTime>
     </File>
+    <File Include="Views/Courses/Index.cshtml">
+      <publishTime>03/08/2016 16:31:48</publishTime>
+    </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
       <publishTime>08/05/2015 17:38:14</publishTime>
     </File>
@@ -1307,7 +1310,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2015 14:45:06</publishTime>
     </File>
     <File Include="Views/DiscoverNewHorizons/PartnerSchools.cshtml">
-      <publishTime>01/11/2016 02:25:05</publishTime>
+      <publishTime>03/08/2016 23:44:35</publishTime>
     </File>
     <File Include="Views/DiscoverNewHorizons/Vendors.cshtml">
       <publishTime>01/11/2016 02:24:50</publishTime>
@@ -1352,7 +1355,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
     <File Include="Views/Home/AccessibilityPolicy.cshtml">
-      <publishTime>01/06/2016 02:34:57</publishTime>
+      <publishTime>03/08/2016 16:31:49</publishTime>
     </File>
     <File Include="Views/Home/ApplyNow.cshtml">
       <publishTime>03/09/2015 19:04:40</publishTime>
@@ -1370,10 +1373,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2015 14:45:06</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/07/2016 11:27:20</publishTime>
+      <publishTime>03/08/2016 16:31:49</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
-      <publishTime>11/10/2015 23:24:48</publishTime>
+      <publishTime>02/11/2016 12:42:51</publishTime>
     </File>
     <File Include="Views/Home/NewsDirectory.cshtml">
       <publishTime>11/10/2015 23:24:48</publishTime>
@@ -1463,22 +1466,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2015 14:47:36</publishTime>
     </File>
     <File Include="Views/Programs/ITEnterpriseProfessional.cshtml">
-      <publishTime>01/11/2016 02:22:16</publishTime>
+      <publishTime>03/08/2016 16:31:50</publishTime>
     </File>
     <File Include="Views/Programs/ITHelpDeskAssociate.cshtml">
-      <publishTime>01/11/2016 02:22:31</publishTime>
+      <publishTime>03/08/2016 16:31:50</publishTime>
     </File>
     <File Include="Views/Programs/ITOffice.cshtml">
-      <publishTime>01/11/2016 02:22:53</publishTime>
+      <publishTime>03/08/2016 16:31:50</publishTime>
     </File>
     <File Include="Views/Programs/ITServerAdministrator.cshtml">
-      <publishTime>01/11/2016 02:21:29</publishTime>
+      <publishTime>03/08/2016 16:31:50</publishTime>
     </File>
     <File Include="Views/Programs/ITServiceAdministrator.cshtml">
       <publishTime>11/30/2015 12:17:16</publishTime>
     </File>
     <File Include="Views/Programs/ITServiceTechnician.cshtml">
-      <publishTime>01/11/2016 02:23:11</publishTime>
+      <publishTime>03/08/2016 16:31:50</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapy.cshtml">
       <publishTime>11/02/2015 14:47:32</publishTime>
@@ -1508,7 +1511,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/13/2016 14:19:55</publishTime>
+      <publishTime>03/08/2016 16:31:49</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/10/2015 23:24:48</publishTime>
