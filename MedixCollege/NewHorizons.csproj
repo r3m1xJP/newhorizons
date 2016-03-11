@@ -231,6 +231,7 @@
     <Content Include="Content\images\main-banner-4.jpg" />
     <Content Include="Content\images\main-banner-5.jpg" />
     <Content Include="Content\images\nats-logo-main.png" />
+    <Content Include="Content\images\nauimg.jpg" />
     <Content Include="Content\images\newHorizonsLogo.png" />
     <Content Include="Content\images\nhit-admissions.jpg" />
     <Content Include="Content\images\nhit-career-services.jpg" />
