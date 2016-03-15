@@ -431,7 +431,6 @@
     <Content Include="Views\DiscoverNewHorizons\Vendors.cshtml" />
     <Content Include="Views\DiscoverNewHorizons\Mission.cshtml" />
     <Content Include="Views\DiscoverNewHorizons\Accreditation.cshtml" />
-    <Content Include="Views\CareerServices\MedixAdvantage.cshtml" />
     <Content Include="Views\Programs\ITOffice.cshtml" />
     <Content Include="Views\Programs\ITServiceTechnician.cshtml" />
     <Content Include="Views\Programs\ITServerAdministrator.cshtml" />
@@ -453,10 +452,8 @@
     <Content Include="Views\Home\SiteMap.cshtml" />
     <Content Include="Views\Home\PrivacyPolicy.cshtml" />
     <Content Include="Views\Home\AccessibilityPolicy.cshtml" />
-    <Content Include="Views\Home\CareersAtNewHorizons.cshtml" />
     <Content Include="Views\Home\HireANewHorizonsGrad.cshtml" />
     <Content Include="Views\Home\VirtualTours.cshtml" />
-    <Content Include="Views\Home\SocialMedia.cshtml" />
     <Content Include="Views\CareerServices\JobSearchTips.cshtml" />
     <Content Include="Views\CareerServices\ResumeTips.cshtml" />
     <Content Include="Views\CareerServices\InterviewTips.cshtml" />
@@ -465,7 +462,7 @@
     <Content Include="Views\DiscoverNewHorizons\CareersAtNewHorizons.cshtml" />
     <Content Include="Views\Home\ReferralProgram.cshtml" />
     <Content Include="Views\Home\_HomeLayout.cshtml" />
-    <Content Include="Views\Admissions\_MonthlyPaymentPlan.cshtml" />
+    <Content Include="Views\Admissions\MonthlyPaymentPlan.cshtml" />
     <Content Include="Views\CareerServices\HireAGrad.cshtml" />
     <Content Include="Views\External\ContactUs.cshtml" />
     <Content Include="Views\External\ThankYou.cshtml" />
@@ -476,7 +473,6 @@
     <Content Include="Views\External\RequestInformation.cshtml" />
     <Content Include="Views\External\ContactUsMobile.cshtml" />
     <Content Include="Views\External\QuickContact.cshtml" />
-    <Content Include="Views\Home\Test.cshtml" />
     <Content Include="Views\Home\StudentReviews.cshtml" />
     <Content Include="Views\CorporateTraining\Index.cshtml" />
     <Content Include="Views\CorporateTraining\CorporatePromotions.cshtml" />
