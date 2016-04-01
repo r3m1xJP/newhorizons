@@ -1115,6 +1115,12 @@
             $('.form-overlay').slideUp(600);
         });
 
+        $('.popup-form-button').click(function (e) {
+            $.blockUI({ overlayCSS: { backgroundColor: '#0F3F6F' } });
+
+            setTimeout($.unblockUI, 5000);
+        });
+
         $('#applyNowCampusList, requestCatalogueCampusList, askQuestionCampusList, tourCampusCampusList').change(function () {
             var campusId = $('#applyNowCampusList option:selected').val();
 
