@@ -21,22 +21,22 @@
             params += ', height=' + screen.height;
             params += ', top=0, left=0'
             params += ', fullscreen=yes';
-                        newwin = window.open(url, 'Medix Store', params);
+            newwin = window.open(url, 'Medix Store', params);
             if (window.focus) { newwin.focus() }
             return false;
         }
     </script>
 
     <script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-68837523-3', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-68837523-3', 'auto');
+        ga('send', 'pageview');
 
     </script>
 
@@ -1076,7 +1076,7 @@
                             <li>@Html.ActionLink("Privacy Policy", "PrivacyPolicy", "Home")</li>
                             <li>@Html.ActionLink("Accessibility Policy", "AccessibilityPolicy", "Home")</li>
                             <li>@Html.ActionLink("Careers at New Horizons", "CareersAtNewHorizons", "DiscoverNewHorizons")</li>
-                         
+
                         </ul>
                     </div>
                 </div>
@@ -1115,8 +1115,8 @@
             $('.form-overlay').slideUp(600);
         });
 
-        $('.popup-form-button').click(function (e) {
-            $.blockUI({ overlayCSS: { backgroundColor: '#0F3F6F' } });
+        $('.popup-form-button').on("click", function (e) {
+            $.blockUI({ overlayCSS: { backgroundColor: '#0F3F6F' }, message: 'Your Information Has Been Submitted, Please Wait While We Redirect You' });
 
             setTimeout($.unblockUI, 5000);
         });
