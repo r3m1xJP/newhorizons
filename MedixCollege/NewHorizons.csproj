@@ -221,6 +221,8 @@
     <Content Include="Content\images\graduates\UT - Scar.jpg" />
     <Content Include="Content\images\graduates\VHA Home Healthcare.jpg" />
     <Content Include="Content\images\graduates\VON.jpg" />
+    <Content Include="Content\images\infoseminar.jpg" />
+    <Content Include="Content\images\infoseminarbanner.jpg" />
     <Content Include="Content\images\instagram-ic.gif" />
     <Content Include="Content\images\instagram.gif" />
     <Content Include="Content\images\it-sap-program.jpg" />
