@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>04/01/2016 16:29:45</publishTime>
+      <publishTime>04/11/2016 13:01:34</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>11/10/2015 23:24:49</publishTime>
@@ -660,6 +660,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/graduates/VON.jpg">
       <publishTime>11/10/2015 23:24:48</publishTime>
+    </File>
+    <File Include="Content/images/infoseminar.jpg">
+      <publishTime>04/11/2016 13:00:15</publishTime>
+    </File>
+    <File Include="Content/images/infoseminarbanner.jpg">
+      <publishTime>04/11/2016 13:00:15</publishTime>
     </File>
     <File Include="Content/images/instagram-ic.gif">
       <publishTime>11/10/2015 23:24:48</publishTime>
@@ -1385,7 +1391,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2015 14:45:06</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>04/06/2016 11:31:04</publishTime>
+      <publishTime>04/11/2016 13:00:15</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>02/11/2016 12:42:51</publishTime>
@@ -1523,7 +1529,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/06/2016 12:47:12</publishTime>
+      <publishTime>04/11/2016 13:00:13</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/10/2015 23:24:48</publishTime>
