@@ -175,6 +175,7 @@
     <Content Include="Content\images\banner-solar.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
+    <Content Include="Content\images\canadajobgrant.jpg" />
     <Content Include="Content\images\CCGLogo.png" />
     <Content Include="Content\images\contactus.jpg" />
     <Content Include="Content\images\corporatepromotion.jpg" />
@@ -494,6 +495,8 @@
     <Content Include="Views\External\FacebookPPC.cshtml" />
     <Content Include="Views\External\FacebookPPCThankYou.cshtml" />
     <Content Include="Views\Courses\Index.cshtml" />
+    <Content Include="Views\CareerServices\CanadaJobGrant.cshtml" />
+    <Content Include="Views\CareerServices\KPIandDefault.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
