@@ -72,6 +72,11 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult CanadaJobGrant()
+        {
+            return View();
+        } 
+
         // GET: MonthlyPaymentPlan
         public ActionResult MonthlyPaymentPlan()
         {
