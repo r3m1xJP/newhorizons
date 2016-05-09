@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>05/01/2016 23:56:18</publishTime>
+      <publishTime>05/03/2016 00:18:58</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>11/10/2015 23:24:49</publishTime>
@@ -521,7 +521,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
     <File Include="Content/images/canadajobgrant.jpg">
-      <publishTime>05/01/2016 20:48:45</publishTime>
+      <publishTime>05/02/2016 00:53:05</publishTime>
     </File>
     <File Include="Content/images/CCGLogo.png">
       <publishTime>11/10/2015 23:24:48</publishTime>
@@ -1133,7 +1133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/15/2016 01:56:32</publishTime>
     </File>
     <File Include="Views/Admissions/_AdmissionsLayout.cshtml">
-      <publishTime>03/15/2016 01:50:12</publishTime>
+      <publishTime>05/02/2016 23:51:52</publishTime>
     </File>
     <File Include="Views/Admissions/_MonthlyPaymentPlan.cshtml">
       <publishTime>11/10/2015 23:24:48</publishTime>
@@ -1163,10 +1163,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2015 17:38:14</publishTime>
     </File>
     <File Include="Views/CareerServices/CanadaJobGrant.cshtml">
-      <publishTime>05/01/2016 23:52:18</publishTime>
+      <publishTime>05/02/2016 00:53:05</publishTime>
     </File>
     <File Include="Views/CareerServices/HireAGrad.cshtml">
-      <publishTime>11/10/2015 23:24:48</publishTime>
+      <publishTime>05/02/2016 00:53:00</publishTime>
     </File>
     <File Include="Views/CareerServices/Index.cshtml">
       <publishTime>03/14/2016 12:23:58</publishTime>
@@ -1178,7 +1178,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/15/2016 02:13:13</publishTime>
     </File>
     <File Include="Views/CareerServices/KPIandDefault.cshtml">
-      <publishTime>05/01/2016 23:51:47</publishTime>
+      <publishTime>05/02/2016 23:56:46</publishTime>
     </File>
     <File Include="Views/CareerServices/MedixAdvantage.cshtml">
       <publishTime>11/10/2015 23:24:48</publishTime>
@@ -1190,7 +1190,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/15/2016 02:13:02</publishTime>
     </File>
     <File Include="Views/CareerServices/_CareerServicesLayout.cshtml">
-      <publishTime>05/01/2016 23:48:02</publishTime>
+      <publishTime>05/02/2016 23:55:12</publishTime>
     </File>
     <File Include="Views/Certificates/AbelDent.cshtml">
       <publishTime>08/05/2015 17:38:14</publishTime>
@@ -1400,7 +1400,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2015 14:45:06</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>04/20/2016 11:33:17</publishTime>
+      <publishTime>05/02/2016 00:53:05</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>02/11/2016 12:42:51</publishTime>
@@ -1538,7 +1538,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/10/2015 23:24:48</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>05/01/2016 23:49:12</publishTime>
+      <publishTime>05/02/2016 23:55:35</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/10/2015 23:24:48</publishTime>
