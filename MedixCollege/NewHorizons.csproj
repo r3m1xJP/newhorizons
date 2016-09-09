@@ -171,6 +171,7 @@
     <Content Include="Content\fonts\socicon-webfont.svg" />
     <Content Include="Content\fonts\texgyreheros-bold-webfont.svg" />
     <Content Include="Content\fonts\texgyreheros-regular-webfont.svg" />
+    <Content Include="Content\images\190909-nhontario-website-banner.jpg" />
     <Content Include="Content\images\all-programs.jpg" />
     <Content Include="Content\images\banner-solar.jpg" />
     <Content Include="Content\images\button-next.png" />
