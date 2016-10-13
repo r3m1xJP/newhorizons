@@ -23,8 +23,18 @@ namespace MedixCollege.Controllers
             return View();
         }
 
-        // GET: Schedules And Fees
+        // GET: Pages
         public ActionResult TorontoCampus()
+        {
+            return View();
+        }
+
+        public ActionResult BramptonCampus()
+        {
+            return View();
+        }
+
+        public ActionResult ScarboroughCampus()
         {
             return View();
         }

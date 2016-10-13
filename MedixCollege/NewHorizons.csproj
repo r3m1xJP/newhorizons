@@ -496,6 +496,8 @@
     <Content Include="Views\CareerServices\KPIandDefault.cshtml" />
     <Content Include="Views\Programs\NetworkAdministrator.cshtml" />
     <Content Include="Views\Programs\NetworkTechnician.cshtml" />
+    <Content Include="Views\Contact\BramptonCampus.cshtml" />
+    <Content Include="Views\Contact\ScarboroughCampus.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
