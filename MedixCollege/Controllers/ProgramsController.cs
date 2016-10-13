@@ -40,6 +40,16 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult NetworkAdministrator()
+        {
+            return View();
+        }
+
+        public ActionResult NetworkTechnician()
+        {
+            return View();
+        }
+
         public ActionResult ITHelpDeskAssociate()
         {
             return View();
