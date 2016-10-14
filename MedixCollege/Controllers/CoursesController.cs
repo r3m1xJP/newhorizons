@@ -13,5 +13,12 @@ namespace MedixCollege.Controllers
         {
             return View();
         }
+
+        // GET: Courses
+        public ActionResult NetworkAdministrator()
+        {
+            return View();
+        }
     }
 }
+

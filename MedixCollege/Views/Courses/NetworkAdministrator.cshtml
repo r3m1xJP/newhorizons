@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "IT Server Administrator Professional Program - New Horizons IT Learning";
+    ViewBag.PageDescription = "Learn more about the IT Server Administrator Professional Program at New Horizons IT Learning.";
+}
+
+<div class="container-fluid">
+
+    <img class="img-responsive" width="100%" src="/Content/images/it-sap-program.jpg" alt="IT server admin professional" />
+    &nbsp;
+</div>
+
+    <div class="container">
+
+        <div class="col-sm-8 mid-padding">
+
+            <h1 class="contentH1">Looking to advance in the IT field?</h1>
+            <p>The Network Administrator Diploma Program will empower you with skills and knowledge to increase your workplace competence and professional advantage.</p>
+            &nbsp;
+            <h1 class="contentH1">Program Summary</h1>
+            <p>The Network Admin Diploma Program is designed to empower students with skills and knowledge to increase their workplace competence and professional advantage. A balanced learning approach provides students with an appropriate skill set for their field of study while preparing them for the daily activities and duties to work as an IT Professional. </p>
+            <p>This in-class, full time program will prepare students for a New Horizons Diploma. Professional IT certifications are the third party validation showing employers that our students have what it takes to succeed in the Information Technology industry.</p>
+            &nbsp;
+            <h1 class="contentH1">What career opportunities are available to graduates from the IT Service Technician program?</h1>
+            <ul>
+                <li>Information Technology Specialist</li>
+                <li>IT Support Specialist</li>
+                <li>Computer Technician</li>
+                <li>Computer Support Specialist</li>
+                <li>Help Desk Analyst</li>
+                <li>Technical Support Specialist</li>
+            </ul>
+            &nbsp;
+            <h1 class="contentH1">
+                Students will be prepared for the following certifications:
+            </h1>
+                <ul>
+                    <li>CompTIA A+</li>
+                    <li>CompTIA Network +</li>
+                    <li>CompTIA Security +</li>
+                    <li>Microsoft Certified Solutions Associate: MCSA Windows</li>
+                    <li>Microsoft Certified Solutions Associate: MCSA Server</li>
+                    <li>Cisco Certified Entry Networking Technician (CCENT)</li>
+                    <li>Cisco Certified Network Associate (CCNA)</li>
+                </ul>
+
+</div>
+
+        <div class="col-sm-4 pull-right no-padding">
+            <div class="panel panel-default bluePANEL">
+
+                <div class="panel-body">
+                    <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
+                        <input type="hidden" name="ORGID" value="240" />
+                        <input type="hidden" name="MailListID" value="240001" />
+                        <h1 class="contentH1 text-center">
+                            <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                        </h1><hr class="hrp11" />
+                        <div class="input-group spacer-top">
+                            <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control pull-right" name="FirstName" required="">
+                        </div>
+                        <div class="input-group spacer-top">
+                            <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control pull-right" name="Email" required="">
+                        </div>
+                        <div class="input-group spacer-top">
+                            <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control pull-right" name="Telephone" required="">
+                        </div>
+                        <div class="input-group spacer-top">
+                            <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right" name="CampusID">
+                                <option value="0">Select</option>
+                                <option value="24005">New Horizons Toronto</option>
+
+                            </select>
+                        </div>
+                        <div class="input-group spacer-top">
+                            <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                            <select class="form-control pull-right" name="ProgramID">
+                                <option value="0">Select</option>
+                               
+                                <option class="0 24005" value="41040">Network Administrator</option>
+                                
+
+                            </select>
+                        </div>
+                        <div class="input-group spacer-top">
+                            <label class="pull-left contentp">Comments: </label>
+                            <textarea class="form-control pull-right" name="Comment2"></textarea>
+                        </div>
+                        <div class="small-text spacer-top text-center grayColor">
+                            Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                        </div>
+                        <div class="text-center">
+                            <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" onclick="ga('send', 'event', 'Lead Form', 'submit', 'IT Server Administrator');" />
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>

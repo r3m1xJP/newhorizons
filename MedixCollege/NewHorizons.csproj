@@ -498,6 +498,7 @@
     <Content Include="Views\Programs\NetworkTechnician.cshtml" />
     <Content Include="Views\Contact\BramptonCampus.cshtml" />
     <Content Include="Views\Contact\ScarboroughCampus.cshtml" />
+    <Content Include="Views\Courses\NetworkAdministrator.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
